@@ -1,6 +1,6 @@
 import { NavDropdown } from "react-bootstrap";
 import { Link, useNavigate } from "react-router-dom";
-import logo from "../../assets/images/logo/Untitled Project.png";
+import logo from "../../assets/images/logo/Untitled-Project.png";
 import { useState } from 'react';
 
 export const Navbar = () => {
