@@ -1,0 +1,17 @@
+
+
+// Global Settings
+@import './bases/bases';
+@import './bases/settings';
+
+// Components
+@import './components/landing';
+@import './components/video';
+@import './components/navbar';
+@import './components/home';
+@import './components/footer';
+@import './components/contact';
+@import './components/buttons';
+
+// React Bootstrap 
+@import "~bootstrap/scss/bootstrap";

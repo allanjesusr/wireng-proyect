@@ -1,12 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+
+import { WirengApp } from './WelcApp';
+import './styles/styles.scss';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <WirengApp />
   </React.StrictMode>,
   document.getElementById('root')
 );
