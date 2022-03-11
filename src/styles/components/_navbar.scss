@@ -36,6 +36,7 @@
         display: flex;
         justify-content: center;
         height: 9rem;
+        filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7));
     }
 
     @media (min-width: 768px) {
@@ -86,7 +87,7 @@
     
     @media (min-width: 768px) {
         &:hover {
-            color: darken($color: $silver, $amount: 20) !important;
+            color: darken($color: $silver, $amount: 10) !important;
         } 
     }
 }
@@ -106,6 +107,6 @@
     transition: color 0.3s ease;
 
     &:hover {
-        color: darken($color: $silver, $amount: 20);
+        color: darken($color: $silver, $amount: 10);
     }
 }

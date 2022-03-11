@@ -1,9 +1,9 @@
-import { Navbar } from "../ui/Navbar"
+import { NavbarComponent } from "../ui/Navbar"
 
 export const AboutScreen = () => {
     return (
       <div>
-        <Navbar />
+        <NavbarComponent />
         <h1> About Us Screen </h1>
       </div>
     )

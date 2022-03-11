@@ -19,15 +19,13 @@
     .home__text-content {
         background-color: rgba(0,0,0,0.8);
         filter:brightness(0.4);
-        margin: 0 5rem 0 2rem;
+        
         padding: 7px;
 
         @media (min-width: 768px) {
             padding: 3rem;
-            width: 60%;
-            height: auto;
             margin-right: 9rem;
-            margin-left: 50rem;
+            max-width: 100%;
         }
 
         span {
@@ -36,6 +34,7 @@
             font-size: 0.8rem;
             @media (min-width: 768px) {
                 font-size: 20px;
+                width: 35rem;
             }
         }
     }
@@ -51,7 +50,7 @@
 
 
 
-.home__text-content {
+.home__grid-header-content {
     display: flex;
     margin-top: 2rem;
     padding: 1rem 0 3rem 0;
@@ -61,6 +60,10 @@
         font-size: 2rem;
         font-weight: bold;
     }
+}
+
+.home__grid-text-content {
+    margin-top: 1rem;
 }
 
 .home__principal-grid-content {

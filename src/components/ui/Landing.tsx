@@ -3,7 +3,7 @@ import ReactPlayer from 'react-player';
 
 import { Footer } from './Footer';
 
-import logo from '../../assets/images/logo/Untitled-Project.png';
+import logo from '../../assets/images/logo/wireng-cromo_01.png';
 import video from "../../assets/videos/WideAnt2-Plus-5G.mp4";
 
 export const Landing = () => {
@@ -16,33 +16,32 @@ export const Landing = () => {
 
     return (
         <div className="landing__container">
-            <div>
             <div 
                 onClick={ handleHomeClick }
-                className="video__container pointer">
-            <div className="video__overlay" >
-                <div className="video__logo pointer">
+                className="landing__video-container pointer"
+            >
+                <div className="landing__overlay" >
                     <img 
                         src={ logo } 
                         alt="WirEng Logo" 
-                        className="logo"
+                        className="landing__logo"
+                    />
+                </div>
+
+                <div className="landing__video-wrapper">
+                    <ReactPlayer 
+                        url={ video }
+                        controls={ false }
+                        className="landing__react-player"
+                        playing 
+                        muted
+                        loop
+                        width='100%'
+                        height='100%'
                     />
                 </div>
             </div>
-            <div className="video__video-wrapper">
-                <ReactPlayer 
-                    url={ video }
-                    controls={ false }
-                    className="video__react-player"
-                    playing 
-                    muted
-                    loop
-                    width='100%'
-                    height='100%'
-                />
-            </div>
-        </div>
-            </div>
+
             <Footer />
         </div>
     )

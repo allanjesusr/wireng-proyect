@@ -1,10 +1,10 @@
 import { Footer } from '../ui/Footer';
-import { Navbar } from '../ui/Navbar';
+import { NavbarComponent } from '../ui/Navbar';
 
 export const Newsletter = () => {
     return (
         <div>
-            <Navbar />
+            <NavbarComponent />
             <h1>NewsLetter</h1>
             <Footer />
         </div>

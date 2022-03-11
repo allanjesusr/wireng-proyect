@@ -1,11 +1,14 @@
-import { NavDropdown } from "react-bootstrap";
-import { Link, useNavigate } from "react-router-dom";
-import logo from "../../assets/images/logo/Untitled-Project.png";
 import { useState } from 'react';
+import { Link, useNavigate } from "react-router-dom";
+import { Button, Form, FormControl, Nav, NavDropdown, Offcanvas } from "react-bootstrap";
+import Navbar from 'react-bootstrap/Navbar';
 
-export const Navbar = () => {
+import logo from "../../assets/images/logo/wireng-cromo_01.png";
+
+export const NavbarComponent = () => {
 
     const navigate = useNavigate();
+    
     const [show, setShow] = useState(false);
     const [show2, setShow2] = useState(false);
     const [show3, setShow3] = useState(false);
@@ -13,6 +16,11 @@ export const Navbar = () => {
     const [show5, setShow5] = useState(false);
     const [show6, setShow6] = useState(false);
     const [show7, setShow7] = useState(false);
+    const [show8, setShow8] = useState(false);
+    const [show9, setShow9] = useState(false);
+    const [show10, setShow10] = useState(false);
+    const [show11, setShow11] = useState(false);
+    const [show12, setShow12] = useState(false);
 
     const handleHome = () => {
         navigate('/home')
@@ -31,15 +39,26 @@ export const Navbar = () => {
                 </div>
 
                 <div className="navbar__navbar-links">
+                    <Form className="d-flex">
+                        <FormControl
+                        type="search"
+                        placeholder="Search"
+                        className="me-2"
+                        aria-label="Search"
+                        />
+
+                        <Button variant="outline-success">Search</Button>
+                    </Form>
+
                     <NavDropdown title="Products" id="nav-dropdown">
                         <NavDropdown 
-                            title="Direccional Ultra Wide Band Antennas" 
+                            title="Directional Ultra Wide Band Antennas" 
                             show={ show }
                             onMouseEnter={ () => setShow(true) }
                             onMouseLeave={ () => setShow(false) }
                         >
                             <NavDropdown 
-                                title="DESKTOP/PORTABLE ANTENNAS" 
+                                title="Antenna Selection Wizard" 
                                 show={ show3 }
                                 onMouseEnter={ () => setShow3(true) }
                                 onMouseLeave={ () => setShow3(false) }
@@ -49,195 +68,148 @@ export const Navbar = () => {
                                     AeriaDesk™ by WirEng®
                                     </Link>
                                 </NavDropdown.Item>
-                                <NavDropdown.Item eventKey="4.1"><Link to="/aeriaflex/" className="link">
-                                    AeriaFlex™ by WirEng®
-                                    </Link>
-                                </NavDropdown.Item>
-                                <NavDropdown.Item eventKey="4.1"><Link to="/deskant/" className="link">
-                                    DeskAnt™ by WirEng®
-                                    </Link>
-                                </NavDropdown.Item>
-                                <NavDropdown.Item eventKey="4.1"><Link to="/domeant/" className="link">
-                                    Domeant™ by WirEng®
-                                    </Link>
-                                </NavDropdown.Item>
-                                    <NavDropdown.Item eventKey="4.1"><Link to="/flexant/" className="link">
-                                    Flexant™ by WirEng®
-                                    </Link>
-                                </NavDropdown.Item>
-                                    <NavDropdown.Item eventKey="4.1"><Link to="/omniant/" className="link">
-                                    Omniant™ by WirEng®
-                                    </Link>
-                                </NavDropdown.Item>
-                                    <NavDropdown.Item eventKey="4.1"><Link to="/omniwide/" className="link">
-                                    Onniwide™ by WirEng®
-                                    </Link>
-                                </NavDropdown.Item>
-                                    <NavDropdown.Item eventKey="4.1"><Link to="/sleekant/" className="link">
-                                    SleekAnt™ by WirEng®
-                                    </Link>
-                                </NavDropdown.Item>
                             </NavDropdown>
                         
                             <NavDropdown 
-                                title="CONCEALED/WALL/DOME ANTENNAS" 
+                                title="Single Directional Antennas" 
                                 show={ show4 }
                                 onMouseEnter={ () => setShow4(true) }
                                 onMouseLeave={ () => setShow4(false) }
                             >
                                 <NavDropdown.Item eventKey="4.1">
-                                    <Link to="/domeant-alpha/" className="link">
-                                        DomeAnt-Alpha™
+                                    <Link to="/wideant-5g/" className="link">
+                                        WideAnt-5G™
                                     </Link>
                                 </NavDropdown.Item>
 
                                 <NavDropdown.Item eventKey="4.1">
-                                    <Link to="/domeant-delta/" className="link">
-                                        DomeAnt-Delta™
+                                    <Link to="/wideant-plus-5g/" className="link">
+                                        WideAnt-Plus-5G™
                                     </Link>
                                 </NavDropdown.Item>
 
                                 <NavDropdown.Item eventKey="4.1">
-                                    <Link to="/domeant-gamma/" className="link">
-                                        DomeAnt-Gamma™
-                                    </Link>
-                                </NavDropdown.Item>
-
-                                <NavDropdown.Item eventKey="4.1">
-                                    <Link to="/domeaerial/" className="link">
-                                        DomeAerial™
-                                    </Link>
-                                </NavDropdown.Item>
-
-                                <NavDropdown.Item eventKey="4.1">
-                                    <Link to="/cubeant/" className="link">
-                                        CubeAnt™
-                                    </Link>
-                                </NavDropdown.Item>
-
-                                <NavDropdown.Item eventKey="4.1">
-                                    <Link to="/panelant/" className="link">
-                                        PanAnt™ by WirEng®
-                                    </Link>
-                                </NavDropdown.Item>
-
-                                <NavDropdown.Item eventKey="4.1">
-                                    <Link to="/wallant/" className="link">
-                                        WallAnt™
+                                    <Link to="/giant-5g/" className="link">
+                                        GiAnt-5G™
                                     </Link>
                                 </NavDropdown.Item>
                             </NavDropdown>
 
                             <NavDropdown 
-                                title="ON-WINDOW ANTENNAS" 
+                                title="MIMO 2x2 Directional Antennas" 
                                 show={ show5 }
                                 onMouseEnter={ () => setShow5(true) }
                                 onMouseLeave={ () => setShow5(false) }
                             >
                                 <NavDropdown.Item eventKey="4.1">
-                                    <Link to="/empatch-v/" className="link">
-                                        EMPatch-V™
+                                    <Link to="/wideant2-5g/" className="link">
+                                        WideAnt2-5G™
                                     </Link>
                                 </NavDropdown.Item>
 
                                 <NavDropdown.Item eventKey="4.1">
-                                    <Link to="/maxwimax/" className="link">
-                                        MaxWiMAX™
+                                    <Link to="/wideant2-plus-5g/" className="link">
+                                        WideAnt2-Plus-5G™
                                     </Link>
                                 </NavDropdown.Item>
 
                                 <NavDropdown.Item eventKey="4.1">
-                                    <Link to="/winaerial/" className="link">
-                                        WinAerial™
-                                    </Link>
-                                </NavDropdown.Item>
-
-                                <NavDropdown.Item eventKey="4.1">
-                                    <Link to="/winaerial2/" className="link">
-                                        WinAerial2™
+                                    <Link to="/wideant2-plus-5g-ref/" className="link">
+                                        WideAnt2-Plus-5G-Ref™
                                     </Link>
                                 </NavDropdown.Item>
                             </NavDropdown>
 
                             <NavDropdown 
-                                title="POLE/MAST MOUNT ANTENNAS" 
+                                title="MIMO 4x2 Directional Antennas" 
                                 show={ show6 }
                                 onMouseEnter={ () => setShow6(true) }
                                 onMouseLeave={ () => setShow6(false) }
                             >
                                 <NavDropdown.Item eventKey="4.1">
-                                    <Link to="/aerialight/" className="link">
-                                        AeriaLight™ by WirEng®
+                                    <Link to="/wideant4-5g-4x2/" className="link">
+                                        WideAnt4-5G-4x2™
                                     </Link>
                                 </NavDropdown.Item>
                                 <NavDropdown.Item eventKey="4.1">
-                                    <Link to="/aerialight2/" className="link">
-                                        AeriaLight2™ by WirEng®
+                                    <Link to="/wideant4-plus-5g-4x2/" className="link">
+                                        WideAnt4-Plus-5G-4x2™
                                     </Link>
                                 </NavDropdown.Item>
+                            </NavDropdown>
+
+                            <NavDropdown 
+                                title="MIMO 4x4 Directional Antennas" 
+                                show={ show7 }
+                                onMouseEnter={ () => setShow7(true) }
+                                onMouseLeave={ () => setShow7(false) }
+                            >
                                 <NavDropdown.Item eventKey="4.1">
-                                    <Link to="/aerialight-plus/" className="link">
-                                        AeriaLight-Plus™ by WirEng®
+                                    <Link to="/wideant4-5g-4x4/" className="link">
+                                        WideAnt4-5G-4x4™
                                     </Link>
                                 </NavDropdown.Item>
+
                                 <NavDropdown.Item eventKey="4.1">
-                                    <Link to="/aerialight2-plus/" className="link">
-                                        AeriaLight2-Plus™ by WirEng®
+                                    <Link to="/wideant4-plus-5g-4x4/" className="link">
+                                        WideAnt4-Plus-5G-4x4™
                                     </Link>
                                 </NavDropdown.Item>
+                            </NavDropdown>
+
+                            <NavDropdown 
+                                title="MIMO 8x2 Directional Antennas" 
+                                show={ show8 }
+                                onMouseEnter={ () => setShow8(true) }
+                                onMouseLeave={ () => setShow8(false) }
+                            >
                                 <NavDropdown.Item eventKey="4.1">
-                                    <Link to="/aerialight-mini/" className="link">
-                                        AeriaLight-Mini™ by WirEng®
+                                    <Link to="/wideant8-5g-8x2/" className="link">
+                                        WideAnt8-5G-8x2™
                                     </Link>
                                 </NavDropdown.Item>
+
                                 <NavDropdown.Item eventKey="4.1">
-                                    <Link to="/aerialog/" className="link">
-                                        AeriaLog™ by WirEng®
+                                    <Link to="/wideant8-plus-5g-8x2/" className="link">
+                                        WideAnt8-Plus-5G-8x2™
                                     </Link>
                                 </NavDropdown.Item>
+                            </NavDropdown>
+
+                            <NavDropdown 
+                                title="MIMO 8x4 Directional Antennas" 
+                                show={ show9 }
+                                onMouseEnter={ () => setShow9(true) }
+                                onMouseLeave={ () => setShow9(false) }
+                            >
                                 <NavDropdown.Item eventKey="4.1">
-                                    <Link to="/aerialog-lite/" className="link">
-                                        AeriaLog-Lite™
+                                    <Link to="/wideant8-5g-8x4/" className="link">
+                                        WideAnt8-5G-8x4™
                                     </Link>
                                 </NavDropdown.Item>
+
                                 <NavDropdown.Item eventKey="4.1">
-                                    <Link to="/aeriawide75/" className="link">
-                                        Aeriawide75™
+                                    <Link to="/wideant8-plus-5g-8x4/" className="link">
+                                        WideAnt8-Plus-5G-8x4™
                                     </Link>
                                 </NavDropdown.Item>
+                            </NavDropdown>
+
+                            <NavDropdown 
+                                title="MIMO 8x8 Directional Antennas" 
+                                show={ show10 }
+                                onMouseEnter={ () => setShow10(true) }
+                                onMouseLeave={ () => setShow10(false) }
+                            >
                                 <NavDropdown.Item eventKey="4.1">
-                                    <Link to="/giant/" className="link">
-                                        GiAnt™
+                                    <Link to="/wideant8-5g-8x8/" className="link">
+                                        WideAnt8-5G-8x8™
                                     </Link>
                                 </NavDropdown.Item>
+
                                 <NavDropdown.Item eventKey="4.1">
-                                    <Link to="/wideant/" className="link">
-                                        WideAnt™
-                                    </Link>
-                                </NavDropdown.Item>
-                                <NavDropdown.Item eventKey="4.1">
-                                    <Link to="/wideant-light/" className="link">
-                                        WideAnt-Lite™ by WirEng®
-                                    </Link>
-                                </NavDropdown.Item>
-                                <NavDropdown.Item eventKey="4.1">
-                                    <Link to="/yagiref-qlp/" className="link">
-                                        YagiRef-QLP™
-                                    </Link>
-                                </NavDropdown.Item>
-                                <NavDropdown.Item eventKey="4.1">
-                                    <Link to="/yagimax/" className="link">
-                                        YagiMAX™
-                                    </Link>
-                                </NavDropdown.Item>
-                                <NavDropdown.Item eventKey="4.1">
-                                    <Link to="/yagiref-plus/" className="link">
-                                        YagiRef-Plus™
-                                    </Link>
-                                </NavDropdown.Item>
-                                <NavDropdown.Item eventKey="4.1">
-                                    <Link to="/yagiref-lite/" className="link">
-                                        YagiRef-Lite™
+                                    <Link to="/wideant8-plus-5g-8x8/" className="link">
+                                        WideAnt8-Plus-5G-8x8™
                                     </Link>
                                 </NavDropdown.Item>
                             </NavDropdown>
@@ -245,64 +217,313 @@ export const Navbar = () => {
                             </NavDropdown>
 
                             <NavDropdown.Divider />
+
                             <NavDropdown 
-                                title="Legacy Antennas" 
+                                title="Omnidirectional Ultra Wide Band Antennas" 
+                                show={ show11 }
+                                onMouseEnter={ () => setShow11(true) }
+                                onMouseLeave={ () => setShow11(false) }
+                            >
+                                <NavDropdown 
+                                title="MIMO 2x2 Omni Antennas" 
+                                show={ show3 }
+                                onMouseEnter={ () => setShow3(true) }
+                                onMouseLeave={ () => setShow3(false) }
+                                >
+                                    <NavDropdown.Item eventKey="4.1">
+                                        <Link to="/omnirial2-5g/" className="link">
+                                            Omnirial2-5G™
+                                        </Link>
+                                    </NavDropdown.Item>
+
+                                    <NavDropdown.Item eventKey="4.1">
+                                        <Link to="/omnirial2-plus-5g/" className="link">
+                                            Omnirial2-Plus-5G™
+                                        </Link>
+                                    </NavDropdown.Item>
+
+                                    <NavDropdown.Item eventKey="4.1">
+                                        <Link to="/gigamimo-plus-5g/" className="link">
+                                            GigaMIMO-Plus-5G™
+                                        </Link>
+                                    </NavDropdown.Item>
+
+                                    <NavDropdown.Item eventKey="4.1">
+                                        <Link to="/gigamimo16-plus-5g-2x2/" className="link">
+                                            GigaMIMO16-Plus-5G-2x2™
+                                        </Link>
+                                    </NavDropdown.Item>
+                                </NavDropdown>
+                        
+                                <NavDropdown 
+                                    title="MIMO 4x2 Omni Antennas" 
+                                    show={ show4 }
+                                    onMouseEnter={ () => setShow4(true) }
+                                    onMouseLeave={ () => setShow4(false) }
+                                >
+                                    <NavDropdown.Item eventKey="4.1">
+                                        <Link to="/omnirial4-5g-4x2/" className="link">
+                                            Omnirial4-5G-4x2™
+                                        </Link>
+                                    </NavDropdown.Item>
+
+                                    <NavDropdown.Item eventKey="4.1">
+                                        <Link to="/omnirial4-plus-5g-4x2/" className="link">
+                                            Omnirial4-Plus-5G-4x2™
+                                        </Link>
+                                    </NavDropdown.Item>
+
+                                    <NavDropdown.Item eventKey="4.1">
+                                        <Link to="/gigamimo16-plus-5g-4x2/" className="link">
+                                            GigaMIMO16-Plus-5G-4x2™
+                                        </Link>
+                                    </NavDropdown.Item>
+                                </NavDropdown>
+
+                                <NavDropdown 
+                                    title="MIMO 4x4 Omni Antennas" 
+                                    show={ show5 }
+                                    onMouseEnter={ () => setShow5(true) }
+                                    onMouseLeave={ () => setShow5(false) }
+                                >
+                                    <NavDropdown.Item eventKey="4.1">
+                                        <Link to="/omnirial4-5g-4x4/" className="link">
+                                            Omnirial4-5G-4x4™
+                                        </Link>
+                                    </NavDropdown.Item>
+
+                                    <NavDropdown.Item eventKey="4.1">
+                                        <Link to="/omnirial4-plus-5g-4x4/" className="link">
+                                            Omnirial4-Plus-5G-4x4™
+                                        </Link>
+                                    </NavDropdown.Item>
+
+                                    <NavDropdown.Item eventKey="4.1">
+                                        <Link to="/gigamimo16-plus-5g-4x4/" className="link">
+                                            GigaMIMO16-Plus-5G-4x4™
+                                        </Link>
+                                    </NavDropdown.Item>
+                                </NavDropdown>
+
+                                <NavDropdown 
+                                    title="MIMO 8x2 Omni Antennas" 
+                                    show={ show6 }
+                                    onMouseEnter={ () => setShow6(true) }
+                                    onMouseLeave={ () => setShow6(false) }
+                                >
+                                    <NavDropdown.Item eventKey="4.1">
+                                        <Link to="/omnirial8-5g-8x2/" className="link">
+                                            Omnirial8-5G-8x2™
+                                        </Link>
+                                    </NavDropdown.Item>
+                                    <NavDropdown.Item eventKey="4.1">
+                                        <Link to="/omnirial8-plus-5g-8x2/" className="link">
+                                            Omnirial8-Plus-5G-8x2™
+                                        </Link>
+                                    </NavDropdown.Item>
+                                </NavDropdown>
+
+                                <NavDropdown 
+                                    title="MIMO 8x4 Omni Antennas" 
+                                    show={ show7 }
+                                    onMouseEnter={ () => setShow7(true) }
+                                    onMouseLeave={ () => setShow7(false) }
+                                >
+                                    <NavDropdown.Item eventKey="4.1">
+                                        <Link to="/omnirial8-5g-8x4/" className="link">
+                                            Omnirial8-5G-8x4™
+                                        </Link>
+                                    </NavDropdown.Item>
+
+                                    <NavDropdown.Item eventKey="4.1">
+                                        <Link to="/omnirial8-5g-8x8/" className="link">
+                                            Omnirial8-Plus-5G-8x4™
+                                        </Link>
+                                    </NavDropdown.Item>
+                                </NavDropdown>
+
+                                <NavDropdown 
+                                    title="MIMO 8x8 Omni Antennas" 
+                                    show={ show8 }
+                                    onMouseEnter={ () => setShow8(true) }
+                                    onMouseLeave={ () => setShow8(false) }
+                                >
+                                    <NavDropdown.Item eventKey="4.1">
+                                        <Link to="/omnirial8-plus-5g-8x8/" className="link">
+                                            Omnirial8-5G-8x8™
+                                        </Link>
+                                    </NavDropdown.Item>
+
+                                    <NavDropdown.Item eventKey="4.1">
+                                        <Link to="/omnirial8-plus-5g-8x8/" className="link">
+                                            Omnirial8-Plus-5G-8x8™
+                                        </Link>
+                                    </NavDropdown.Item>
+
+                                    <NavDropdown.Item eventKey="4.1">
+                                        <Link to="/octant-5g/" className="link">
+                                            OctAnt-5G™
+                                        </Link>
+                                    </NavDropdown.Item>
+                                </NavDropdown>
+
+                                </NavDropdown>
+
+                            <NavDropdown.Divider />
+
+                            <NavDropdown 
+                                title="Drone Antennas" 
                                 show={ show2 }
                                 onMouseEnter={ () => setShow2(true) }
                                 onMouseLeave={ () => setShow2(false) }
                             >
                             <NavDropdown.Item eventKey="4.1">
-                                <Link to="/empatch-v/" className="link">
-                                    EMPatch-V™
+                                <Link to="/droneant/" className="link">
+                                    DroneAnt™
                                 </Link>
-                            </NavDropdown.Item>
-                            <NavDropdown.Item eventKey="4.1">
-                                <Link to="/micropatch/" className="link">
-                                    MicroPatch™
+                                <Link to="/droneant-plus/" className="link">
+                                    DroneAnt-Plus™
                                 </Link>
-                            </NavDropdown.Item>
-                            <NavDropdown.Item eventKey="4.1">
-                                <Link to="/maxwimax/" className="link">
-                                    MaxWiMAX™
+                                <Link to="/droneant16/" className="link">
+                                    DroneAnt16™
                                 </Link>
-                            </NavDropdown.Item>
-                            <NavDropdown.Item eventKey="4.1">
-                                <Link to="/omnimax/" className="link">
-                                    OmniMAX™
-                                </Link>
-                            </NavDropdown.Item>
-                                <NavDropdown.Item eventKey="4.1">
-                                <Link to="/winmax/" className="link">
-                                    WinMAX™
-                                </Link>
-                            </NavDropdown.Item>
-                        </NavDropdown>
-                        <NavDropdown.Divider />
-                        <NavDropdown 
-                                title="Accesories" 
-                                show={ show7 }
-                                onMouseEnter={ () => setShow7(true) }
-                                onMouseLeave={ () => setShow7(false) }
-                            >
-                            <NavDropdown.Item eventKey="4.1">
-                                <Link to="/empatch-v/" className="link">
-                                    UWB Combiners
-                                </Link>
-                                <Link to="/empatch-v/" className="link">
-                                    UWB Lighting-Strike Arresters
-                                </Link>
-                                <Link to="/empatch-v/" className="link">
-                                    UWB Coaxial Cables Assemblies
-                                </Link>
-                                <Link to="/empatch-v/" className="link">
-                                    MIMO Brackets
-                                </Link>
-                                <Link to="/empatch-v/" className="link">
-                                    Everything Else
+                                <Link to="/droneant16-plus/" className="link">
+                                    DroneAnt16-Plus™
                                 </Link>
                             </NavDropdown.Item>
                             </NavDropdown>
-                    </NavDropdown>
+
+                            <NavDropdown.Divider />
+
+                            <NavDropdown 
+                                title="Accesories" 
+                                show={ show12 }
+                                onMouseEnter={ () => setShow12(true) }
+                                onMouseLeave={ () => setShow12(false) }
+                            >
+                                <NavDropdown 
+                                    title="UWB Combiners" 
+                                    show={ show3 }
+                                    onMouseEnter={ () => setShow3(true) }
+                                    onMouseLeave={ () => setShow3(false) }
+                                >
+                                    <NavDropdown.Item eventKey="4.1">
+                                        <Link to="/comb2-5g/" className="link">
+                                            Comb2-5G™
+                                        </Link>
+                                    </NavDropdown.Item>
+
+                                    <NavDropdown.Item eventKey="4.1">
+                                        <Link to="/comb3-5g/" className="link">
+                                            Comb3-5G™
+                                        </Link>
+                                    </NavDropdown.Item>
+
+                                    <NavDropdown.Item eventKey="4.1">
+                                        <Link to="/comb4-5g/" className="link">
+                                            Comb4-5G™
+                                        </Link>
+                                    </NavDropdown.Item>
+
+                                </NavDropdown>
+                        
+                                <NavDropdown 
+                                    title="UWB Lightning-Strike Arresters" 
+                                    show={ show4 }
+                                    onMouseEnter={ () => setShow4(true) }
+                                    onMouseLeave={ () => setShow4(false) }
+                                >
+                                    <NavDropdown.Item eventKey="4.1">
+                                        <Link to="/lightning-pro-5g-sma/" className="link">
+                                            Lightning-Pro-5G-SMA™
+                                        </Link>
+                                    </NavDropdown.Item>
+
+                                </NavDropdown>
+
+                                <NavDropdown 
+                                    title="UWB Coaxial Cables Assemblies" 
+                                    show={ show5 }
+                                    onMouseEnter={ () => setShow5(true) }
+                                    onMouseLeave={ () => setShow5(false) }
+                                >
+                                    <NavDropdown.Item eventKey="4.1">
+                                        <Link to="/wrg400-smam-nm-10m-au/" className="link">
+                                            WRG400-SMAM-NM-10M-AU™
+                                        </Link>
+                                    </NavDropdown.Item>
+
+                                    <NavDropdown.Item eventKey="4.1">
+                                        <Link to="/wrg400-smam-nm-20m-au/" className="link">
+                                            WRG400-SMAM-NM-20M-AU™
+                                        </Link>
+                                    </NavDropdown.Item>
+
+                                    <NavDropdown.Item eventKey="4.1">
+                                        <Link to="/wrg400-smam-ra-nm-10m-au/" className="link">
+                                            WRG400-SMAM-RA-NM-10M-AU™
+                                        </Link>
+                                    </NavDropdown.Item>
+
+                                    <NavDropdown.Item eventKey="4.1">
+                                        <Link to="/wrg400-smam-ra-nm-20m-au/" className="link">
+                                            WRG400-SMAM-RA-NM-20M-AU	™
+                                        </Link>
+                                    </NavDropdown.Item>
+
+                                </NavDropdown>
+
+                                <NavDropdown 
+                                    title="MIMO Brackets" 
+                                    show={ show6 }
+                                    onMouseEnter={ () => setShow6(true) }
+                                    onMouseLeave={ () => setShow6(false) }
+                                >
+                                    <NavDropdown.Item eventKey="4.1">
+                                        <Link to="/mimomount2x2/" className="link">
+                                            MIMOMount-2x2™
+                                        </Link>
+                                    </NavDropdown.Item>
+
+                                    <NavDropdown.Item eventKey="4.1">
+                                        <Link to="/mimomount4x4/" className="link">
+                                            MIMOMount-4x4™
+                                        </Link>
+                                    </NavDropdown.Item>
+
+                                    <NavDropdown.Item eventKey="4.1">
+                                        <Link to="/mimomount8x8/" className="link">
+                                            MIMOMount-8x8™
+                                        </Link>
+                                    </NavDropdown.Item>
+                                </NavDropdown>
+
+                                <NavDropdown 
+                                    title="Everything Else" 
+                                    show={ show7 }
+                                    onMouseEnter={ () => setShow7(true) }
+                                    onMouseLeave={ () => setShow7(false) }
+                                >
+                                    <NavDropdown.Item eventKey="4.1">
+                                        <Link to="/extant-smaf-smam/" className="link">
+                                            EXTANT-SMAF-SMAM™
+                                        </Link>
+                                    </NavDropdown.Item>
+
+                                    <NavDropdown.Item eventKey="4.1">
+                                        <Link to="/extant-smaf-tncm/" className="link">
+                                            EXTANT-SMAF-TNCM™
+                                        </Link>
+                                    </NavDropdown.Item>
+
+                                    <NavDropdown.Item eventKey="4.1">
+                                        <Link to="/extant-smaf-ts9/" className="link">
+                                            EXTANT-SMAF-TS9™
+                                        </Link>
+                                    </NavDropdown.Item>
+                                </NavDropdown>
+                            </NavDropdown>
+                        </NavDropdown>
 
                     <NavDropdown title="Services" id="nav-dropdown">
                         <NavDropdown.Item eventKey="4.1">Action</NavDropdown.Item>
@@ -312,7 +533,7 @@ export const Navbar = () => {
                         <NavDropdown.Item eventKey="4.4">Separated link</NavDropdown.Item>
                     </NavDropdown>
 
-                    <NavDropdown title="Customer services" id="nav-dropdown">
+                    <NavDropdown title="Contact Us" id="nav-dropdown">
                         
                         <NavDropdown 
                             title="Support" 
@@ -357,6 +578,46 @@ export const Navbar = () => {
                             </NavDropdown.Item>
                         </NavDropdown>
                     </NavDropdown>
+
+                    <NavDropdown title="About Wireng" id="nav-dropdown">
+                        <NavDropdown.Divider />
+                        <NavDropdown.Item eventKey="4.4">About Us</NavDropdown.Item>
+                    </NavDropdown>
+
+                    {/* <Navbar.Toggle aria-controls="offcanvasNavbar" />
+                        <Navbar.Offcanvas
+                        id="offcanvasNavbar"
+                        aria-labelledby="offcanvasNavbarLabel"
+                        placement="end"
+                        >
+                        <Offcanvas.Header closeButton>
+                            <Offcanvas.Title id="offcanvasNavbarLabel">Offcanvas</Offcanvas.Title>
+                        </Offcanvas.Header>
+                        <Offcanvas.Body>
+                            <Nav className="justify-content-end flex-grow-1 pe-3">
+                            <Nav.Link href="#action1">Home</Nav.Link>
+                            <Nav.Link href="#action2">Link</Nav.Link>
+                            <NavDropdown title="Dropdown" id="offcanvasNavbarDropdown">
+                                <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
+                                <NavDropdown.Item href="#action4">Another action</NavDropdown.Item>
+                                <NavDropdown.Divider />
+                                <NavDropdown.Item href="#action5">
+                                Something else here
+                                </NavDropdown.Item>
+                            </NavDropdown>
+                            </Nav>
+                            <Form className="d-flex">
+                            <FormControl
+                                type="search"
+                                placeholder="Search"
+                                className="me-2"
+                                aria-label="Search"
+                            />
+                            <Button variant="outline-success">Search</Button>
+                            </Form>
+                        </Offcanvas.Body>
+                        </Navbar.Offcanvas> */}
+                
                 </div>
             </nav>
         </div>

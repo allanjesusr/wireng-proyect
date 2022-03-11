@@ -1,4 +1,4 @@
-import { Navbar } from './ui/Navbar';
+import { NavbarComponent } from './ui/Navbar';
 import { Footer } from './ui/Footer';
 
 import imgscreen from '../assets/images/wideant2-plus-5g_by_wireng_004.jpg';
@@ -10,7 +10,7 @@ import imgGrid3 from '../assets/images/grid-images/wideant2-plus-5g_by_wireng_07
 export const HomeScreen = () => {
     return (
       <>
-        <Navbar />
+        <NavbarComponent />
       
         <div className="home__container">
           <div className="home__overlay">
@@ -23,24 +23,34 @@ export const HomeScreen = () => {
           </div>
         </div>
 
-        <div className="home__text-content">
+        <div className="home__grid-header-content">
           <h1>Images Grid Content</h1>
         </div>
+
         <div className="home__principal-grid-content">
 
           <article className="home__first-grid-content">
             <img src={ imgGrid1 } alt="ImagenGrid1" />
-            <p>Texto de ejemplo</p>
+            <div className="home__grid-text-content">
+              <h4>Titulo de imagen</h4>
+              <p>Texto de ejemplo</p>
+            </div>
           </article>
           
           <article className="home__second-grid-content">
             <img src={ imgGrid2 } alt="ImagenGrid2" />
-            <p>Texto de ejemplo</p>
+            <div className="home__grid-text-content">
+              <h4>Titulo de imagen</h4>
+              <p>Texto de ejemplo</p>
+            </div>
           </article>
 
           <article className="home__thirst-grid-content">
             <img src={ imgGrid3 } alt="ImagenGrid3" />
-            <p>Texto de ejemplo</p>
+            <div className="home__grid-text-content"> 
+              <h4>Titulo de imagen</h4>
+              <p>Texto de ejemplo</p>
+            </div>
           </article>
         </div>
             <Footer />
