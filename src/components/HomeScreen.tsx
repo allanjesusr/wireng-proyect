@@ -1,4 +1,4 @@
-import { NavbarComponent } from './ui/Navbar';
+import { NavbarComponent } from './ui/NavbarComponent';
 import { Footer } from './ui/Footer';
 
 import imgscreen from '../assets/images/wideant2-plus-5g_by_wireng_004.jpg';

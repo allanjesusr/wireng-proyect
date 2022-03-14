@@ -4,7 +4,7 @@ import emailjs from '@emailjs/browser';
 import Swal from 'sweetalert2';
 
 import { Footer } from '../ui/Footer';
-import { NavbarComponent } from '../ui/Navbar';
+import { NavbarComponent } from '../ui/NavbarComponent';
 
 export const ContactScreen = () => {
 

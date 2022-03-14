@@ -1,6 +1,6 @@
 
 import { Footer } from '../../../ui/Footer'
-import { NavbarComponent } from '../../../ui/Navbar'
+import { NavbarComponent } from '../../../ui/NavbarComponent'
 
 export const DomeAntAlpha = () => {
     return (

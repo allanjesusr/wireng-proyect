@@ -1,4 +1,4 @@
-import { NavbarComponent } from '../../../ui/Navbar';
+import { NavbarComponent } from '../../../ui/NavbarComponent';
 import { Footer } from '../../../ui/Footer';
 
 
