@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Link, useNavigate } from "react-router-dom";
-import { Button, Container, Form, FormControl, Nav, NavDropdown } from "react-bootstrap";
+import { Button, Container, Form, FormControl, Nav, NavDropdown} from "react-bootstrap";
 import Navbar from 'react-bootstrap/Navbar';
 
 import logo from "../../assets/images/logo/wireng-cromo_01.png";
@@ -23,11 +23,11 @@ export const NavbarComponent = () => {
     const [show12, setShow12] = useState(false);
 
     const handleHome = () => {
-        navigate('/home')
+        navigate('/home');
     }
 
     return (
-        <div className="page-container">
+        <div>
             <Navbar className="navbar__container" expand="sm" >
                 <Container fluid>
                     <Navbar.Brand href="#">
@@ -43,15 +43,16 @@ export const NavbarComponent = () => {
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
-                        <Form className="d-flex">
-                            <FormControl
-                            type="search"
-                            placeholder="Search"
-                            className="me-2"
-                            aria-label="Search"
-                            />
-                            <Button variant="outline-secondary">Search</Button>
-                        </Form>
+                                <Form className="d-flex">
+                                    <FormControl
+                                    type="search"
+                                    placeholder="Search"
+                                    className="me-2"
+                                    aria-label="Search"
+                                    />
+                                        <Button variant="outline-secondary">Search</Button>
+                                </Form>
+                        
                     <Nav>
                         <div className="navbar__navbar-links">
                             <NavDropdown title="Products" id="nav-dropdown">
@@ -66,6 +67,8 @@ export const NavbarComponent = () => {
                                     show={ show3 }
                                     onMouseEnter={ () => setShow3(true) }
                                     onMouseLeave={ () => setShow3(false) }
+                                    drop="end"
+                                    id="nav-dropdown"
                                 >
                                     <NavDropdown.Item eventKey="4.1">
                                         <Link to="/aeriadesk/" className="link">
@@ -80,6 +83,7 @@ export const NavbarComponent = () => {
                                     onMouseEnter={ () => setShow4(true) }
                                     onMouseLeave={ () => setShow4(false) }
                                     drop="end"
+                                    id="nav-dropdown"
                                 >
                                     <NavDropdown.Item eventKey="4.1">
                                         <Link to="/wideant-5g/" className="link">
@@ -105,6 +109,8 @@ export const NavbarComponent = () => {
                                     show={ show5 }
                                     onMouseEnter={ () => setShow5(true) }
                                     onMouseLeave={ () => setShow5(false) }
+                                    drop="end"
+                                    id="nav-dropdown"
                                 >
                                     <NavDropdown.Item eventKey="4.1">
                                         <Link to="/wideant2-5g/" className="link">
@@ -130,6 +136,8 @@ export const NavbarComponent = () => {
                                     show={ show6 }
                                     onMouseEnter={ () => setShow6(true) }
                                     onMouseLeave={ () => setShow6(false) }
+                                    drop="end"
+                                    id="nav-dropdown"
                                 >
                                     <NavDropdown.Item eventKey="4.1">
                                         <Link to="/wideant4-5g-4x2/" className="link">
@@ -148,6 +156,8 @@ export const NavbarComponent = () => {
                                     show={ show7 }
                                     onMouseEnter={ () => setShow7(true) }
                                     onMouseLeave={ () => setShow7(false) }
+                                    drop="end"
+                                    id="nav-dropdown"
                                 >
                                     <NavDropdown.Item eventKey="4.1">
                                         <Link to="/wideant4-5g-4x4/" className="link">
@@ -167,6 +177,8 @@ export const NavbarComponent = () => {
                                     show={ show8 }
                                     onMouseEnter={ () => setShow8(true) }
                                     onMouseLeave={ () => setShow8(false) }
+                                    drop="end"
+                                    id="nav-dropdown"
                                 >
                                     <NavDropdown.Item eventKey="4.1">
                                         <Link to="/wideant8-5g-8x2/" className="link">
@@ -186,6 +198,8 @@ export const NavbarComponent = () => {
                                     show={ show9 }
                                     onMouseEnter={ () => setShow9(true) }
                                     onMouseLeave={ () => setShow9(false) }
+                                    drop="end"
+                                    id="nav-dropdown"
                                 >
                                     <NavDropdown.Item eventKey="4.1">
                                         <Link to="/wideant8-5g-8x4/" className="link">
@@ -205,6 +219,8 @@ export const NavbarComponent = () => {
                                     show={ show10 }
                                     onMouseEnter={ () => setShow10(true) }
                                     onMouseLeave={ () => setShow10(false) }
+                                    drop="end"
+                                    id="nav-dropdown"
                                 >
                                     <NavDropdown.Item eventKey="4.1">
                                         <Link to="/wideant8-5g-8x8/" className="link">
@@ -234,6 +250,8 @@ export const NavbarComponent = () => {
                                     show={ show3 }
                                     onMouseEnter={ () => setShow3(true) }
                                     onMouseLeave={ () => setShow3(false) }
+                                    drop="end"
+                                    id="nav-dropdown"
                                     >
                                         <NavDropdown.Item eventKey="4.1">
                                             <Link to="/omnirial2-5g/" className="link">
@@ -265,6 +283,8 @@ export const NavbarComponent = () => {
                                         show={ show4 }
                                         onMouseEnter={ () => setShow4(true) }
                                         onMouseLeave={ () => setShow4(false) }
+                                        drop="end"
+                                        id="nav-dropdown"
                                     >
                                         <NavDropdown.Item eventKey="4.1">
                                             <Link to="/omnirial4-5g-4x2/" className="link">
@@ -290,6 +310,8 @@ export const NavbarComponent = () => {
                                         show={ show5 }
                                         onMouseEnter={ () => setShow5(true) }
                                         onMouseLeave={ () => setShow5(false) }
+                                        drop="end"
+                                        id="nav-dropdown"
                                     >
                                         <NavDropdown.Item eventKey="4.1">
                                             <Link to="/omnirial4-5g-4x4/" className="link">
@@ -315,6 +337,8 @@ export const NavbarComponent = () => {
                                         show={ show6 }
                                         onMouseEnter={ () => setShow6(true) }
                                         onMouseLeave={ () => setShow6(false) }
+                                        drop="end"
+                                        id="nav-dropdown"
                                     >
                                         <NavDropdown.Item eventKey="4.1">
                                             <Link to="/omnirial8-5g-8x2/" className="link">
@@ -333,6 +357,8 @@ export const NavbarComponent = () => {
                                         show={ show7 }
                                         onMouseEnter={ () => setShow7(true) }
                                         onMouseLeave={ () => setShow7(false) }
+                                        drop="end"
+                                        id="nav-dropdown"
                                     >
                                         <NavDropdown.Item eventKey="4.1">
                                             <Link to="/omnirial8-5g-8x4/" className="link">
@@ -352,6 +378,8 @@ export const NavbarComponent = () => {
                                         show={ show8 }
                                         onMouseEnter={ () => setShow8(true) }
                                         onMouseLeave={ () => setShow8(false) }
+                                        drop="end"
+                                        id="nav-dropdown"
                                     >
                                         <NavDropdown.Item eventKey="4.1">
                                             <Link to="/omnirial8-plus-5g-8x8/" className="link">
@@ -411,6 +439,8 @@ export const NavbarComponent = () => {
                                         show={ show3 }
                                         onMouseEnter={ () => setShow3(true) }
                                         onMouseLeave={ () => setShow3(false) }
+                                        drop="end"
+                                        id="nav-dropdown"
                                     >
                                         <NavDropdown.Item eventKey="4.1">
                                             <Link to="/comb2-5g/" className="link">
@@ -437,6 +467,8 @@ export const NavbarComponent = () => {
                                         show={ show4 }
                                         onMouseEnter={ () => setShow4(true) }
                                         onMouseLeave={ () => setShow4(false) }
+                                        drop="end"
+                                        id="nav-dropdown"
                                     >
                                         <NavDropdown.Item eventKey="4.1">
                                             <Link to="/lightning-pro-5g-sma/" className="link">
@@ -451,6 +483,8 @@ export const NavbarComponent = () => {
                                         show={ show5 }
                                         onMouseEnter={ () => setShow5(true) }
                                         onMouseLeave={ () => setShow5(false) }
+                                        drop="end"
+                                        id="nav-dropdown"
                                     >
                                         <NavDropdown.Item eventKey="4.1">
                                             <Link to="/wrg400-smam-nm-10m-au/" className="link">
@@ -483,6 +517,8 @@ export const NavbarComponent = () => {
                                         show={ show6 }
                                         onMouseEnter={ () => setShow6(true) }
                                         onMouseLeave={ () => setShow6(false) }
+                                        drop="end"
+                                        id="nav-dropdown"
                                     >
                                         <NavDropdown.Item eventKey="4.1">
                                             <Link to="/mimomount2x2/" className="link">
@@ -508,6 +544,8 @@ export const NavbarComponent = () => {
                                         show={ show7 }
                                         onMouseEnter={ () => setShow7(true) }
                                         onMouseLeave={ () => setShow7(false) }
+                                        drop="end"
+                                        id="nav-dropdown"
                                     >
                                         <NavDropdown.Item eventKey="4.1">
                                             <Link to="/extant-smaf-smam/" className="link">
@@ -580,6 +618,8 @@ export const NavbarComponent = () => {
                                 show={ show3 }
                                 onMouseEnter={ () => setShow3(true) }
                                 onMouseLeave={ () => setShow3(false) }
+                                drop="end"
+                                id="nav-dropdown"
                             >
                                 <NavDropdown.Item eventKey="4.4">
                                     <Link to="/get-in-touch/" className="link">

@@ -24,19 +24,41 @@
     }
 }
 
+.container-fluid {
+    @media (min-width: 768px) {
+        margin: 0 4rem !important;
+    }
+}
+
+.form-control {
+    @media (min-width: 900px) {
+        width: 350px !important;
+    }
+}
+
 .navbar-collapse {
-    justify-content: space-evenly !important;
+    justify-content: space-between !important;
 }
 
 .navbar__logo-container  {
-    height: 8rem;
+    height: 6rem;
     display: flex;
+    align-items: center;
+    @media (min-width: 768px) {
+        width: 20rem;
+    }
 
     .navbar__logo {
         max-width: 100%;
         @media (min-width: 768px) {
-            width: 20rem;
+            width: 16rem;
         }
+    }
+}
+
+.navbar__searchicon-container {
+    @media (min-width: 800px) {
+        margin-left: 5rem;
     }
 }
 
@@ -52,6 +74,7 @@
         width: 100%;
         padding: 0;
         margin-top: 0;
+        margin-right: 10rem;
     }
 }
 

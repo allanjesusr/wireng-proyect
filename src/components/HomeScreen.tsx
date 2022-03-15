@@ -1,10 +1,16 @@
+import { Carousel } from 'react-bootstrap';
 import { NavbarComponent } from './ui/NavbarComponent';
+
 import { Footer } from './ui/Footer';
 
 import imgscreen from '../assets/images/wideant2-plus-5g_by_wireng_004.jpg';
 import imgGrid1 from '../assets/images/grid-images/DroneAnt16-plus_05.png';
 import imgGrid2 from '../assets/images/grid-images/wideant-plus-5g_08.png';
 import imgGrid3 from '../assets/images/grid-images/wideant2-plus-5g_by_wireng_07.jpg';
+import imgCarousel1 from '../assets/images/wideant2-plus-5g_by_wireng_09.jpg';
+import imgCarousel2 from '../assets/images/wideant2-plus-5g_by_wireng_10.jpg';
+import imgCarousel3 from '../assets/images/wideant2-plus-5g_by_wireng_13.jpg';
+
 
 
 export const HomeScreen = () => {
@@ -24,7 +30,7 @@ export const HomeScreen = () => {
         </div>
 
         <div className="home__grid-header-content">
-          <h1>Images Grid Content</h1>
+          <h1>Discover WirEng®</h1>
         </div>
 
         <div className="home__principal-grid-content">
@@ -53,6 +59,44 @@ export const HomeScreen = () => {
             </div>
           </article>
         </div>
+
+        <Carousel fade>
+          <Carousel.Item>
+            <img
+              className="d-block w-100"
+              src={ imgCarousel1 }
+              alt="First slide"
+            />
+            <Carousel.Caption>
+              <h3>First slide label</h3>
+              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            </Carousel.Caption>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-100"
+              src={ imgCarousel2 }
+              alt="Second slide"
+            />
+
+            <Carousel.Caption>
+              <h3>Second slide label</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </Carousel.Caption>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-100"
+              src={ imgCarousel3 }
+              alt="Third slide"
+            />
+
+            <Carousel.Caption>
+              <h3>Third slide label</h3>
+              <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+            </Carousel.Caption>
+          </Carousel.Item>
+        </Carousel>
             <Footer />
       </>
 

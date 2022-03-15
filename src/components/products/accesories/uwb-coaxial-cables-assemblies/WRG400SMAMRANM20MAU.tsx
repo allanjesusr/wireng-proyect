@@ -1,7 +1,12 @@
-import React from 'react'
+import { NavbarComponent } from '../../../ui/NavbarComponent';
+import { Footer } from '../../../ui/Footer';
 
 export const WRG400SMAMRANM20MAU = () => {
-  return (
-    <div>WRG400SMAMRANM20MAU</div>
-  )
+    return (
+        <div>
+          <NavbarComponent />
+          <h1>WRG400SMAMRANM20MAU</h1>
+          <Footer />
+        </div>
+    )
 }

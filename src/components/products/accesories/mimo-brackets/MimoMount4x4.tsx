@@ -1,7 +1,12 @@
-import React from 'react'
+import { NavbarComponent } from '../../../ui/NavbarComponent';
+import { Footer } from '../../../ui/Footer';
 
 export const MimoMount4x4 = () => {
-  return (
-    <div>MimoMount4x4</div>
-  )
+    return (
+      <div>
+        <NavbarComponent />
+        <h1>MimoMount4x4</h1>
+        <Footer />
+      </div>
+    )
 }

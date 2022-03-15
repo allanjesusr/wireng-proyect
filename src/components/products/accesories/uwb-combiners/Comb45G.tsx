@@ -1,7 +1,12 @@
-import React from 'react'
+import { NavbarComponent } from '../../../ui/NavbarComponent';
+import { Footer } from '../../../ui/Footer';
 
 export const Comb45G = () => {
-  return (
-    <div>Comb45G</div>
-  )
+    return (
+        <div>
+          <NavbarComponent />
+          <h1>Comb45G</h1>
+          <Footer />
+        </div>
+    )
 }

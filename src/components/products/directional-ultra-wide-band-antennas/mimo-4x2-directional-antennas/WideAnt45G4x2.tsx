@@ -1,7 +1,12 @@
-import React from 'react'
+import { NavbarComponent } from '../../../ui/NavbarComponent';
+import { Footer } from '../../../ui/Footer';
 
 export const WideAnt45G4x2 = () => {
-  return (
-    <div>WideAnt45G4x2</div>
-  )
+    return (
+      <div>
+        <NavbarComponent />
+        <h1>WideAnt45G4x2</h1>
+        <Footer />
+      </div>
+    )
 }

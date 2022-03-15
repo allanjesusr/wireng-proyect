@@ -1,7 +1,13 @@
-import React from 'react'
+import { Footer } from '../../../ui/Footer';
+import { NavbarComponent } from '../../../ui/NavbarComponent';
+
 
 export const ExtantSmafSnam = () => {
-  return (
-    <div>ExtantSmafSnam</div>
-  )
+    return (
+      <div>
+        <NavbarComponent />
+        <h1>ExtantSmafSnam</h1>
+        <Footer />
+      </div>
+    )
 }

@@ -1,7 +1,13 @@
-import React from 'react'
+import { NavbarComponent } from '../../../ui/NavbarComponent';
+import { Footer } from '../../../ui/Footer';
+
 
 export const MimoMount8x8 = () => {
-  return (
-    <div>MimoMount8x8</div>
-  )
+    return (
+      <div>
+        <NavbarComponent />
+        <h1>MimoMount8x8</h1>
+        <Footer />
+      </div>
+    )
 }
