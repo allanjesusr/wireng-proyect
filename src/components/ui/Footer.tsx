@@ -2,7 +2,8 @@ import { Form, Button } from 'react-bootstrap';
 
 export const Footer = () => {
     return (
-        <div className="footer__container">
+        <>
+        <div className="footer__container mobileFooterContainer" id="navFooter">
             <a href="#nav-top">
                 <div className="footer__back-top pointer">
                     <h2>Back to top</h2>
@@ -241,5 +242,32 @@ export const Footer = () => {
                 <p>Copyright © WirEng®. All rights reserved.</p>
             </div>
         </div>
+        <footer className="navFooterMobile">
+        <div id="nav-footer" className="footer__navFooterGateway">
+            <a id="mblFooter-gototop" className="navFooter-topPage" href="#nav-top">
+                <i className="fa-solid fa-caret-up navIcon"></i>
+                <b className="nav-b">Top of Page</b>
+            </a>
+            <ul>
+                <li>Rural Solutions</li>
+                <li>Home Solutions</li>
+                <li>Mobile Solutions</li>
+                <li>Marine Solutions</li>
+                <li>Drones Solutions</li>
+                <li>Custom Solutions</li>
+            </ul>
+            <ul>
+                <li>Become a WirEng® System Installer</li>
+                <li>Become a WirEng® Representative</li>
+                <li>Become a WirEng® Reseller</li>
+                <li>Become a WirEng® Distributor</li>
+            </ul>
+            <div></div>
+            <div className="footer__rights-container">
+                <p>Copyright © WirEng®. All rights reserved.</p>
+            </div>
+        </div>
+        </footer>
+        </>
     )
 }

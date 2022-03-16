@@ -1,5 +1,14 @@
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .footer__container { display: block !important; }  /* show it on big screens */
+}
+
+@media screen and (min-width: 0px) and (max-width: 768px) {
+    .footer__container { display: none !important; }   /* hide it elsewhere */
+}
 
 .footer__container {
+    position: relative;
+    min-width: 1000px;
     background-color: darken($color: $silver, $amount: 20);
     color: white;
 
@@ -7,6 +16,15 @@
         text-decoration: none;
     }
 }
+
+#navFooter {
+    margin-top: 0;
+}
+
+// #navFooter {
+//     margin: 30px 0 8px 0;
+//     padding: 0 0 7px 0;
+// }
 
 .footer__back-top {
     font-weight: bold;
@@ -139,4 +157,64 @@
     p {
         margin: 0px;
     }
+}
+
+
+// Responsive Footer Config
+
+@media screen and (min-width: 0px) and (max-width: 768px) {
+    .navFooterMobile { display: block; }  /* show it on small screens */
+}
+    
+@media screen and (min-width: 768px) and (max-width: 9000px) {
+    .navFooterMobile { display: none; }   /* hide it elsewhere */
+}
+
+#nav-footer {
+    position: relative;
+    width: 100%;
+    min-width: 200px;
+    font-family: inherit;
+    font-size: 12px;
+    line-height: 1em;
+}
+
+.footer__navFooterGateway {
+    
+}
+#mblFooter-gototop {
+    padding-top: 5px;
+    display: block;
+    text-align: center;
+    height: 50px;
+
+    .navIcon {
+        display: inline-block;
+        border-style: solid;
+        border-width: 5px;
+        border-color: transparent;
+        border-top-width: 0;
+        border-bottom: 5px solid #ccc;
+        width: 0;
+        height: 0;
+        font-size: 0;
+        line-height: 0;
+    }
+
+    .nav-b {
+        display: block;
+        color: white;
+        font-size: 11px;
+        font-weight: 400;
+        line-height: 30px;
+        text-transform: uppercase;
+    }
+}
+
+.navFooter-topPage {
+    padding-top: 5px;
+    position: relative;
+    background-color: darken($color: $silver, $amount: 20);
+    color: white;
+    text-decoration: none;
 }
