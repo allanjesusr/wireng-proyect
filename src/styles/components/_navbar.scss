@@ -1,7 +1,8 @@
 
 .navbar__container {
-    background: rgb(108,95,95);
-    background: linear-gradient(340deg, rgba(108,95,95,1) 0%, rgba(52,52,48,1) 100%);
+    background: #292B2F;
+    // background: rgb(108,95,95);
+    // background: linear-gradient(340deg, rgba(108,95,95,1) 0%, rgba(52,52,48,1) 100%);
     -webkit-box-shadow: 0px 10px 13px -7px #000000, 0px 3px 30px -4px rgba(0,0,0,0); 
     box-shadow: 0px 10px 13px -7px #000000, 0px 3px 30px -4px rgba(0,0,0,0);
     width: 100%;
@@ -24,14 +25,25 @@
     }
 }
 
+.d-flex {
+    @media (min-width: 1000px) {
+        margin-right: 1rem !important;
+    }
+}
+
 .container-fluid {
     @media (min-width: 768px) {
         margin: 0 4rem !important;
     }
 }
 
+.navbar-toggler {
+    background-color: #565D6A !important;
+    color: #8C94A4 !important;
+}
+
 .form-control {
-    @media (min-width: 900px) {
+    @media (min-width: 1600px) {
         width: 350px !important;
     }
 }
@@ -46,7 +58,7 @@
     display: flex;
     align-items: center;
     @media (min-width: 768px) {
-        width: 20rem;
+        width: 16rem;
     }
 
     .navbar__logo {
@@ -75,7 +87,6 @@
         width: 100%;
         padding: 0;
         margin-top: 0;
-        margin-right: 10rem;
     }
 }
 

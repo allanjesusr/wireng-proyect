@@ -67,6 +67,7 @@
 }
 
 .home__principal-grid-content {
+    padding: 1rem;
     @media (min-width: 768px) {
         display: grid;
         grid-template-columns: 35% 30% 5% 30%;
