@@ -27,8 +27,8 @@ export const NavbarComponent = () => {
     }
 
     return (
-        <div>
-            <Navbar className="navbar__container" expand="sm" >
+        <div className="navbar__container">
+            <Navbar expand="sm" >
                 <Container fluid>
                     <Navbar.Brand href="#">
                     <div className="navbar__logo-container">
@@ -43,15 +43,15 @@ export const NavbarComponent = () => {
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
-                                <Form className="d-flex">
-                                    <FormControl
-                                    type="search"
-                                    placeholder="Search"
-                                    className="me-2"
-                                    aria-label="Search"
-                                    />
-                                        <Button variant="outline-secondary">Search</Button>
-                                </Form>
+                        {/* <Form className="d-flex">
+                            <FormControl
+                            type="search"
+                            placeholder="Search"
+                            className="me-2"
+                            aria-label="Search"
+                            />
+                                <Button variant="outline-secondary">Search</Button>
+                        </Form> */}
                         
                     <Nav>
                         <div className="navbar__navbar-links">

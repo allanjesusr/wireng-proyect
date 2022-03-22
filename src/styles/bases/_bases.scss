@@ -1,23 +1,24 @@
+@import './settings';
+
+html { 
+    box-sizing: border-box;
+}
+
 * {
-    font-family: 'Roboto', sans-serif;
+    
     margin: 0px;
 }
 
-.mt-1 {
-    margin-top: 5px;
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
 }
 
-.mt-5 { 
-    margin-top: 20px;
+body {
+    font-family: $principal_font;
 }
 
-.mb-1 {
-    margin-bottom: 5px;
-}
-
-.mb-5 {
-    margin-bottom: 20px;
-}
 
 .pointer {
     cursor: pointer;
