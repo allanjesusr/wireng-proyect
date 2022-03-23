@@ -1,32 +1,30 @@
-import { Carousel } from 'react-bootstrap';
-import { NavbarComponent } from './ui/NavbarComponent';
+import { useState } from 'react';
 
+import { Carousel } from 'react-bootstrap';
+
+import { NavbarComponent } from './ui/NavbarComponent';
 import { Footer } from './ui/Footer';
 
 import imgscreen from '../assets/images/HOME-JPEG.jpg';
 
-import imgGrid1 from '../assets/images/grid-images/WIRENG WEB-05.png';
-import imgGrid2 from '../assets/images/grid-images/WIRENG WEB-03.png';
-import imgGrid3 from '../assets/images/grid-images/WIRENG WEB-04.png';
+import imgGrid1 from '../assets/images/grid-images/1.jpeg';
+import imgGrid2 from '../assets/images/grid-images/2.jpeg';
+import imgGrid3 from '../assets/images/grid-images/3.jpeg';
+import imgGrid4 from '../assets/images/grid-images/12.jpeg';
 
-import imgCarousel1 from '../assets/images/wideant2-plus-5g_by_wireng_09.jpg';
-import imgCarousel2 from '../assets/images/wideant2-plus-5g_by_wireng_10.jpg';
-import imgCarousel3 from '../assets/images/wideant2-plus-5g_by_wireng_13.jpg';
+
+import imgCarousel1 from '../assets/images/grid-images/5.jpeg';
+import imgCarousel2 from '../assets/images/grid-images/6.jpeg';
+import imgCarousel3 from '../assets/images/grid-images/7.jpeg';
+import imgCarousel4 from '../assets/images/grid-images/8.jpeg';
+import imgCarousel5 from '../assets/images/grid-images/9.jpeg';
+import imgCarousel7 from '../assets/images/grid-images/11.jpeg';
+
+
 
 
 
 export const HomeScreen = () => {
-
-  // const handleImage = () => {
-
-  //     React.createElement('IMG', { loading: "lazy", src: {imgGrid1}, alt: "imagen", className: "imageSize" }, null);
-
-  //     const overlay = React.createElement('DIV', { className: "imageOverlay" }, null );
-
-  //     const main = document.querySelector('#root');
-  //     main?.appendChild(overlay);
-
-  // }
 
     return (
       <>
@@ -49,21 +47,18 @@ export const HomeScreen = () => {
 
         <div className="home__discover-container">
           <div className="home__principal-flex-content">
-            <div>
-              <div className="leftContent">
-                <div className="leftImage">
-                  <img src={ imgGrid1 } alt="ImagenGrid1"/>
-                </div>
-                <div className="textContent">
+
+            <div className="leftContent">
+              <div className="boxContainer">
+                <img src={ imgGrid1 } alt="ImagenGrid1"/>
+                <div className="textDescription-content">
                     <h4>Titulo de imagen</h4>
                     <p>Texto de ejemplo</p>
                 </div>
               </div>
 
-              <div className="leftContent">
-                <div className="leftImage">
-                  <img src={ imgGrid1 } alt="ImagenGrid1" />
-                </div>
+              <div className="boxContainer">
+                <img src={ imgGrid4 } alt="ImagenGrid4" />
                 <div>
                     <h4>Titulo de imagen</h4>
                     <p>Texto de ejemplo</p>
@@ -72,29 +67,26 @@ export const HomeScreen = () => {
 
             </div>
 
-            <div>
-              
-              <div>
-                <article className="home__second-grid-content">
-                  <img src={ imgGrid2 } alt="ImagenGrid2" />
-                  <div className="home__grid-text-content">
-                    <h4>Titulo de imagen</h4>
-                    <p>Texto de ejemplo</p>
-                  </div>
-                </article>
+            <div className="rightContent">
+
+              <div className="boxContainer">
+                <img src={ imgGrid2 } alt="ImagenGrid2" />
+                <div className="home__grid-text-content">
+                  <h4>Titulo de imagen</h4>
+                  <p>Texto de ejemplo</p>
+                </div>
               </div>
 
-              <div className="third-grid">
-                <article className="home__third-grid-content">
-                  <img src={ imgGrid3 } alt="ImagenGrid3" />
-                  <div className="home__grid-text-content"> 
-                    <h4>Titulo de imagen</h4>
-                    <p>Texto de ejemplo</p>
-                  </div>
-                </article>
+              <div className="boxContainer">
+                <img src={ imgGrid3 } alt="ImagenGrid3" />
+                <div className="home__grid-text-content"> 
+                  <h4>Titulo de imagen</h4>
+                  <p>Texto de ejemplo</p>
+                </div>
               </div>
 
             </div>
+
           </div>
         </div>
 
@@ -168,43 +160,59 @@ export const HomeScreen = () => {
           </section>
         </div> */}
 
-        <Carousel fade>
-          <Carousel.Item>
-            <img
-              className="d-block w-100"
-              src={ imgCarousel1 }
-              alt="First slide"
-            />
-            {/* <Carousel.Caption>
-              <h3>First slide label</h3>
-              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-            </Carousel.Caption> */}
-          </Carousel.Item>
-          <Carousel.Item>
-            <img
-              className="d-block w-100"
-              src={ imgCarousel2 }
-              alt="Second slide"
-            />
+            <Carousel fade>
+              <Carousel.Item>
+                <img
+                  className="d-block w-100"
+                  src={ imgCarousel4 }
+                  alt="First slide"
+                />
+              </Carousel.Item>
 
-            {/* <Carousel.Caption>
-              <h3>Second slide label</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            </Carousel.Caption> */}
-          </Carousel.Item>
-          <Carousel.Item>
-            <img
-              className="d-block w-100"
-              src={ imgCarousel3 }
-              alt="Third slide"
-            />
+              <Carousel.Item>
+                <img
+                  className="d-block w-100"
+                  src={ imgCarousel5 }
+                  alt="First slide"
+                />
+              </Carousel.Item>
 
-            {/* <Carousel.Caption>
-              <h3>Third slide label</h3>
-              <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-            </Carousel.Caption> */}
-          </Carousel.Item>
-        </Carousel>
+              <Carousel.Item>
+                <img
+                  className="d-block w-100"
+                  src={ imgCarousel7 }
+                  alt="First slide"
+                />
+              </Carousel.Item>
+
+              <Carousel.Item>
+                <img
+                  className="d-block w-100"
+                  src={ imgCarousel1 }
+                  alt="First slide"
+                />
+              </Carousel.Item>
+
+              <Carousel.Item>
+                <img
+                  className="d-block w-100"
+                  src={ imgCarousel2 }
+                  alt="Second slide"
+                />
+              </Carousel.Item>
+
+              <Carousel.Item>
+                <img
+                  className="d-block w-100"
+                  src={ imgCarousel3 }
+                  alt="Third slide"
+                />
+                {/* <Carousel.Caption>
+                  <h3>Third slide label</h3>
+                  <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                </Carousel.Caption> */}
+              </Carousel.Item>
+            </Carousel>
             <Footer />
       </>
 

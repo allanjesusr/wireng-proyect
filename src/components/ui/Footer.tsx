@@ -242,6 +242,9 @@ export const Footer = () => {
                 <p>Copyright © WirEng®. All rights reserved.</p>
             </div>
         </div>
+
+        {/* Footer Responsive */}
+        
         <footer className="navFooterMobile">
         <div id="nav-footer" className="footer__navFooterGateway">
             <a id="mblFooter-gototop" className="navFooter-topPage" href="#nav-top">

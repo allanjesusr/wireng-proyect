@@ -1,0 +1,194 @@
+
+.product__container {
+    width: 100%;
+    height: 100%;
+    
+}
+
+.product__mainFtbg {
+    background-image: url('../../../assets/images/backgrounds/bg-product1.png');
+    background-size: 100% 100%;
+}
+
+.product__header{
+    padding: 2rem;
+    width: 100%;
+    
+    .product__headerTitle {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .product__headerDescription {
+        margin: 0 20rem;
+        font-size: 22px;
+        padding: 2rem 0 1rem 0;
+    }
+}
+
+
+.product__content { 
+    width: 100%;
+
+    .product__contentHeader {
+        display: flex;
+        justify-content: center;
+        margin: 1rem 0 3rem 0;
+    }
+
+}
+
+.product__mainFt-content {
+    display: flex;
+    width: 100%;
+}
+
+
+.product__listFt-left {
+    width: 100%;
+    display: flex;
+    height: 100%;
+    flex-direction: row-reverse;
+
+    .product__listLeft {
+
+    }
+
+    ul {
+        list-style: none;
+        padding-left: 5rem;
+    }
+
+    li {
+        margin-bottom: 2rem;
+    }
+}
+
+.product__listFt-right { 
+    width: 100%;
+    height: 100%;
+    
+    ul {
+        list-style: none;
+    }
+
+    li {
+        margin-bottom: 2rem;
+    }
+}
+
+.product__techHeader {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0 3rem 0;
+    width: 100%;
+}
+
+.product__techSpcf-table {
+    display: table;
+    margin: 0 auto;
+    max-width: 1000px;
+    width: 100%;
+}
+
+.product__tableRow {
+    display: table-row;
+    width: 100%;
+}
+
+.product__techSpcf-cell {
+    display: table-cell;
+    text-decoration: none;
+
+    .product__titleCell {
+        display: flex;
+        font-weight: 700;
+        margin: 1rem 0 2rem 0;
+        background-color: lighten($color: $silver, $amount: 20);
+        padding: 1rem;
+        justify-content: center;
+        border-radius: 5px;
+    }
+
+    .techCol-bg {
+        background-color: lighten($color: $silver, $amount: 20);  
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+        width: 100%;
+        align-items: center; 
+    }
+    
+    
+    ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    li { 
+        margin: 0 0 10px;
+        width: 8rem;
+    }
+}
+
+.product__spaceColInner {
+    display: table-cell;
+    padding: 0 10px;
+    width: 10%;
+}
+
+.product__containerCrsl {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+    .product__imageCrsl {
+        width: 100%;
+        padding: 1rem;
+    }
+}
+
+.product__mechaSpcf-container {
+    width: 100%;
+    height: 100%;
+    background-image: url('../../../assets/images/backgrounds/mechanical-bg/bg-wideant4x4.jpg');
+    background-size: 100% 100%;
+
+    .product__mechaHeader {
+        display: flex;
+        justify-content: center;
+        margin: 2rem 0 3rem 0;
+        width: 100%;
+        
+        h1 {
+            margin-top: 1.5rem;
+        }
+    }
+
+    .product__mechaDescription {
+        padding: 0 2rem 2rem 2rem;
+        span {
+            margin-bottom: 2rem;
+        }
+    }
+}
+
+.product__mechaImage-container {
+    width: 100%;
+    height: 100%;
+    padding: 2rem;
+    display: flex;
+
+    .product__mechaImage-col {
+        img {
+            width: 100%;
+            padding: 4rem;
+        }
+    }
+}
+
+.carousel-indicators [data-bs-target] {
+    background-color: black !important;
+}
