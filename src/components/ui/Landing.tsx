@@ -3,7 +3,7 @@ import ReactPlayer from 'react-player';
 
 import { Footer } from './Footer';
 
-import logo from '../../assets/images/logo/wireng-cromo_01.png';
+import logo from '../../assets/images/logo/LOGO-VERSION.png';
 import video from "../../assets/videos/WideAnt2-Plus-5G.mp4";
 
 export const Landing = () => {

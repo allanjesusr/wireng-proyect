@@ -1,4 +1,3 @@
-// import { useForm } from '../../hooks/useForm';
 import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import Swal from 'sweetalert2';
@@ -20,16 +19,6 @@ export const ContactScreen = () => {
       toast.addEventListener('mouseleave', Swal.resumeTimer)
     }
   })
-  
-
-  // const [ formValues, handleInputChange ] = useForm({
-  //   name: 'Allan',
-  //   email: 'allan@email.com',
-  //   subject: 'Subject form',
-  //   message: 'This is a message'
-  // });
-
-  // const { name, email, subject, message }:ValuesProps = formValues;
 
   const handleSubmit = (e:any) => {
       e.preventDefault();
@@ -52,50 +41,83 @@ export const ContactScreen = () => {
       <NavbarComponent />
         <div className="contact__web-container">
           <div className="contact__container">
-            <h1> Get In Touch </h1>
-            <p>To get in touch with a WirEng team member, please complete the form below ( * indicates a required filed) </p>
-          </div>
 
-            <form ref={form} onSubmit={ handleSubmit } >
-              <div className="contact__form-container">
-                <h3> Your Name *</h3>
-                <input
-                  type="text"
-                  name="name"
-                  placeholder="Your Name"
-                  autoComplete="off"
-                  className="contact__input mt-5"
-                  
-                />
-                <h3> Your Email *</h3>
-                <input
-                  type="email"
-                  name="email" 
-                  placeholder="Email"
-                  autoComplete="off"
-                  className="contact__input mt-5"
-                />
-                <h3>Subject *</h3>
-                <input
-                  type="text"
-                  name="subject" 
-                  placeholder="Subject"
-                  autoComplete="off"
-                  className="contact__input mt-5"
-                />
-                <h3>Your Message *</h3>
-                <textarea 
-                  name='message'
-                  className="contact__textarea mt-5"
-                ></textarea>
+            <div className="contact__flexContent">
+              <div className="contact__getIn-container">
+                <div className="contact__contactHeader">
+                  <h1> Get In Touch </h1>
+                  <p>To get in touch with a WirEng team member, please complete the form below ( * indicates a required filed) </p>
+                </div>
+
+                <form ref={ form } onSubmit={ handleSubmit } >
+                  <div className="contact__form-container">
+
+                    <input
+                      type="text"
+                      name="name"
+                      placeholder="Your Name"
+                      autoComplete="off"
+                      className="contact__input mt-5"
+                      
+                    />
+
+                    <input
+                      type="email"
+                      name="email" 
+                      placeholder="Email"
+                      autoComplete="off"
+                      className="contact__input mt-5"
+                    />
+
+                    <input
+                      type="text"
+                      name="subject" 
+                      placeholder="Subject"
+                      autoComplete="off"
+                      className="contact__input mt-5"
+                    />
+                    
+                    <textarea 
+                      name='message'
+                      className="contact__textarea mt-5"
+                      placeholder="Your Message"
+                    ></textarea>
+                  </div>
+                  <button
+                    type='submit'
+                    className="button button-block mt-5"
+                  >
+                    Send
+                  </button>
+                </form>
               </div>
-              <button
-                type='submit'
-                className="button button-block mt-5"
-              >
-                Send
-              </button>
-            </form>
+
+              <div className="contact__infoContainer">
+                <div className="contact__infoContent">
+                  <div className="contact__infoHeader">
+                    <h1>Contact Info</h1>
+                  </div>
+                  <div className="contact__infoList-elements">
+                    <ul className="infoList">
+                      <li className="infoList-items"><i className="fa-solid fa-location-dot"></i> To get in touch with a WirEng team member, please complete the form below </li>
+                      <li className="infoList-items"><i className="fa-solid fa-envelope"></i> wireng@gmail.com</li>
+                      <li className="infoList-items"><i className="fa-solid fa-phone"></i> 0230-1212-2132</li>
+                    </ul>
+                  </div>
+
+                  <div className="contact__info-socialMedias">
+                    <ul className="contact__socialMedias-container">
+                      <li className="contact__socialMedias-items"><i className="fa-brands fa-whatsapp"></i></li>
+                      <li className="contact__socialMedias-items"><i className="fa-solid fa-envelope"></i></li>
+                      <li className="contact__socialMedias-items"><i className="fa-brands fa-instagram"></i></li>
+                      <li className="contact__socialMedias-items"><i className="fa-brands fa-facebook"></i></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+          </div>
         </div>
       <Footer />
     </>

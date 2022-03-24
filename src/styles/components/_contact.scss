@@ -1,41 +1,105 @@
 
+.contact__web-container {
+    width: 100%;
+    height: 100%;
+    @media (min-width: 880px) {
+        padding: 2rem;
+        height: 100%;
+        background: linear-gradient(90deg, #2B2B2B 50%, #D3D3D3 50%);
+    }
+    
+}
 
 .contact__container { 
     padding: 2rem;
+    background-color: #fff;
+    box-shadow: 0 0 5px 5px black;
+    width: 80%;
+    margin: auto;
 
-    h1 {
-        color: $dark-grey;
-        margin-bottom: 2rem;
+    .contact__flexContent {
+        display: flex;
+        width: 100%;
+        gap: 2rem;
+    }
+
+    .contact__contactHeader {
+        h1 {
+            color: $dark-grey;
+            margin-bottom: 2rem;
+            font-size: 3rem;
+            font-weight: 400;
+
+            @media (min-width: 768px) {
+                margin-bottom: 3rem;
+            }
+        }
+    
+        p {
+            font-size: 1.3rem;
+    
+            @media (min-width: 768px) {
+                font-size: 1.5rem;
+                margin-bottom: 4rem;
+            }
+        }
+    }
+}
+
+.contact__getIn-container {
+    width: 50%;
+}
+
+
+.contact__infoContainer { 
+    margin: 7rem 0 0 0;
+    color: white;
+    width: 50%;
+    background-color: #2B2B2B;
+    padding: 2rem;
+    height: 100%;
+}
+
+.contact__infoHeader {
+    display: flex;
+    justify-content: center;
+    margin: 3rem 0;
+}
+
+.contact__infoList-elements {
+    
+
+    .infoList {
+        list-style: none;
+        font-size: 19px;
+
+        .infoList-items {
+            padding: 1rem;
+        }
+    }
+
+}
+
+.contact__info-socialMedias {
+    width: 100%;
+    
+    .contact__socialMedias-container {
+        display: flex;
+        list-style: none;
         font-size: 3rem;
-        font-weight: 400;
-        @media (min-width: 768px) {
-            font-size: 4rem;
-            margin-bottom: 3rem;
+        justify-content: space-evenly;
+
+        .contact__socialMedias-items {
+            padding: 1rem;
         }
     }
-
-    p {
-        font-size: 1.3rem;
-        font-weight: bold;
-        margin-right: 1rem;
-
-        @media (min-width: 768px) {
-            font-size: 1.5rem;
-            margin-bottom: 4rem;
-        }
-    }
-
 }
 
-.contact__web-container {
-    @media (min-width: 768px) {
-        padding: 2rem;
-        margin-left: 3rem;
-    }
-}
+
 
 .contact__form-container {
-    align-items: center;
+    display: flex;
+    flex-direction: column;
     margin-left: 2rem;
     h3 {
         font-weight: bold;
@@ -81,3 +145,5 @@
     flex: 1 1 auto;
     resize: none;
 }
+
+

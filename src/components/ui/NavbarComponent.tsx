@@ -1,9 +1,9 @@
 import { useState } from 'react';
 import { Link, useNavigate } from "react-router-dom";
-import { Container, Form, FormControl, Nav, NavDropdown} from "react-bootstrap";
+import { Container, Nav, NavDropdown} from "react-bootstrap";
 import Navbar from 'react-bootstrap/Navbar';
 
-import logo from "../../assets/images/logo/wireng-cromo_01.png";
+import logo from "../../assets/images/logo/LOGO-VERSION.png";
 
 export const NavbarComponent = () => {
 
