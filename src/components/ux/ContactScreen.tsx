@@ -1,5 +1,7 @@
 import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import { useFormik } from 'formik';
+import * as Yup from 'yup';
 import Swal from 'sweetalert2';
 
 import { Footer } from '../ui/Footer';
@@ -8,6 +10,41 @@ import { NavbarComponent } from '../ui/NavbarComponent';
 export const ContactScreen = () => {
 
   const form = useRef<any>();
+
+  const { handleSubmit, errors, touched, getFieldProps } = useFormik({
+    initialValues: {
+      Name: '',
+      email: '',
+      subject: ''
+    },
+    onSubmit: values => {
+      console.log(values);
+      emailjs.sendForm('service_85jhcih', 'template_ac26942', form.current, 'juEPiuXfYAhu5N7V4')
+            .then( (res) => {
+              console.log(res.text);
+              Toast.fire({
+                icon: 'success',
+                title: 'Form sent successfully'
+              })
+            })
+            .catch( (err) => {
+              console.log(err)
+            })
+    },
+    validationSchema: Yup.object({
+      Name: Yup.string()
+        .max(15, 'Must be 15 characters or less')
+        .required('Required'),
+      email: Yup.string()
+        .email('Invalid email address')
+        .required('Required'),
+      subject: Yup.string()
+        .max(15, 'Must be 15 characters or less')
+        .required('Required')
+    })
+  });
+          
+  
 
   const Toast = Swal.mixin({
     toast: true,
@@ -19,22 +56,6 @@ export const ContactScreen = () => {
       toast.addEventListener('mouseleave', Swal.resumeTimer)
     }
   })
-
-  const handleSubmit = (e:any) => {
-      e.preventDefault();
-      emailjs.sendForm('service_85jhcih', 'template_ac26942', form.current, 'juEPiuXfYAhu5N7V4')
-              .then( (res) => {
-                console.log(res.text);
-                Toast.fire({
-                  icon: 'success',
-                  title: 'Form sent successfully'
-                })
-              })
-              .catch( (err) => {
-                console.log(err)
-              })
-  }
-
   return (
 
     <>
@@ -46,42 +67,48 @@ export const ContactScreen = () => {
               <div className="contact__getIn-container">
                 <div className="contact__contactHeader">
                   <h1> Get In Touch </h1>
-                  <p>To get in touch with a WirEng team member, please complete the form below ( * indicates a required filed) </p>
+                  <p>To get in touch with a WirEng team member, please complete the form below </p>
                 </div>
 
-                <form ref={ form } onSubmit={ handleSubmit } >
+                <form ref={ form } onSubmit={ handleSubmit }>
                   <div className="contact__form-container">
 
                     <input
                       type="text"
-                      name="name"
                       placeholder="Your Name"
+                      { ...getFieldProps('Name') } 
                       autoComplete="off"
-                      className="contact__input mt-5"
-                      
+                      className='contact__input mt-5' 
                     />
+
+                    { touched.Name && errors.Name && <p className="contact__error"> { errors.Name } </p>}
 
                     <input
                       type="email"
-                      name="email" 
+                      { ...getFieldProps('email') } 
                       placeholder="Email"
                       autoComplete="off"
-                      className="contact__input mt-5"
+                      className='contact__input mt-5'
                     />
+                    
+                    { touched.email && errors.email && <p className="contact__error"> { errors.email } </p> }
 
                     <input
                       type="text"
-                      name="subject" 
+                      { ...getFieldProps('subject') } 
                       placeholder="Subject"
                       autoComplete="off"
-                      className="contact__input mt-5"
+                      className='contact__input mt-5'
                     />
                     
+                    { touched.subject && errors.subject && <p className="contact__error"> { errors.subject } </p> }
+
                     <textarea 
                       name='message'
                       className="contact__textarea mt-5"
                       placeholder="Your Message"
                     ></textarea>
+                    
                   </div>
                   <button
                     type='submit'
@@ -107,10 +134,15 @@ export const ContactScreen = () => {
 
                   <div className="contact__info-socialMedias">
                     <ul className="contact__socialMedias-container">
-                      <li className="contact__socialMedias-items"><i className="fa-brands fa-whatsapp"></i></li>
-                      <li className="contact__socialMedias-items"><i className="fa-solid fa-envelope"></i></li>
-                      <li className="contact__socialMedias-items"><i className="fa-brands fa-instagram"></i></li>
-                      <li className="contact__socialMedias-items"><i className="fa-brands fa-facebook"></i></li>
+                      <div>
+                        <li className="contact__socialMedias-items"><i className="fa-brands fa-whatsapp"></i></li>
+                        <li className="contact__socialMedias-items"><i className="fa-solid fa-envelope"></i></li>
+                      </div>
+                      
+                      <div>
+                        <li className="contact__socialMedias-items"><i className="fa-brands fa-instagram"></i></li>
+                        <li className="contact__socialMedias-items"><i className="fa-brands fa-facebook"></i></li>
+                      </div>
                     </ul>
                   </div>
                 </div>

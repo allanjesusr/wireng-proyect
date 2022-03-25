@@ -631,7 +631,7 @@ export const NavbarComponent = () => {
 
                         <NavDropdown title="About Wireng" id="nav-dropdown">
                             <NavDropdown.Item eventKey="4.4">
-                                <Link to="/subscribe-to-newsletter/" className="link">
+                                <Link to="/about-wireng/" className="link">
                                     About WirEng®
                                 </Link> 
                             </NavDropdown.Item>

@@ -175,7 +175,7 @@ export const AppRouter = () => {
 
           {/* CONTACT US */}
           <Route path="/get-in-touch/" element={ <ContactScreen /> }/>
-          <Route path="/support/*" element={ <AboutScreen /> }/>
+          <Route path="/about-wireng/" element={ <AboutScreen /> }/>
           <Route path="/subscribe-to-newsletter/" element={ <Newsletter /> }/>
 
           {/* OLD PRODUCTS */}
