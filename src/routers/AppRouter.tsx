@@ -98,6 +98,7 @@ import { MimoMount8x8 } from "../components/products/accesories/mimo-brackets/Mi
 import { ExtantSmafSnam } from '../components/products/accesories/everything-else/ExtantSmafSnam';
 import { ExtantSmafTncm } from '../components/products/accesories/everything-else/ExtantSmafTncm';
 import { ExtantSmafTs9 } from '../components/products/accesories/everything-else/ExtantSmafTs9';
+import { Omnirial8Plus5G8x4 } from "../components/products/omnidirectional-ultrawide-band-antennas/mimo-8x4-omni-antennas/Omnirial8Plus5G8x4";
 
 
 export const AppRouter = () => {
@@ -139,7 +140,8 @@ export const AppRouter = () => {
           <Route path="/omnirial8-5g-8x2/" element={ <Omnirial85G8x2 /> } />
           <Route path="/omnirial8-plus-5g-8x2/" element={ <Omnirial8Plus5G8x2 /> } />
           <Route path="/omnirial8-5g-8x4/" element={ <Omnirial85G8x4 /> } />
-          <Route path="/omnirial8-5g-8x8/" element={ <Omnirial85G8x8 /> } />
+          <Route path="/omnirial8-5g-plus-8x4/" element={ <Omnirial8Plus5G8x4 /> } />
+          <Route path="/omnirial8-plus-5g-8x8/" element={ <Omnirial85G8x8 /> } />
           <Route path="/omnirial8-plus-5g-8x8/" element={ <Omnirial8Plus5G8x8 /> } />
           <Route path="/octant-5g/" element={ <Octant5G /> } />
 

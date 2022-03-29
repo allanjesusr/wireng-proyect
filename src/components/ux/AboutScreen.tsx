@@ -42,23 +42,60 @@ export const AboutScreen = () => {
 
             <div className="about__servicesFlex">
               <div className="about__servicesContent">
-                <img />
-                <p></p>
+                <div className="about__servicesImageContent">
+
+                </div>
+                <p> Custom Product request </p>
               </div>
               <div className="about__servicesContent">
-                <img />
-                <p></p>
+                <div className="about__servicesImageContent">
+
+                </div>
+                <p>Goverment/military relationships</p>
               </div>
               <div className="about__servicesContent">
-                <img />
-                <p></p>
+                <div className="about__servicesImageContent">
+
+                </div>
+                <p>B2B/OEM relations</p>
               </div>
               <div className="about__servicesContent">
-                <img />
-                <p></p>
+                <div className="about__servicesImageContent">
+
+                </div>
+                <p>B2B Partnerships</p>
               </div>
             </div>
+          </div>
+
+          <div className="about__lastContainer">
+            <div className="about__lastHeader">
+              <h1>Latest New</h1>
+            </div>
             
+            <div className="about__lastFlexContainer">
+              <div className="about__last-imageContainer"></div>
+              <div className="about__last-textContainer">
+                <h3>Coming Models</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus ipsa quasi nostrum quibusdam, eos consequuntur, sapiente neque tempora beatae sit molestiae!</p>
+              </div>
+
+              <div className="about__last-imageContainer"></div>
+              <div className="about__last-textContainer">
+                <h3>Coming Models</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus ipsa quasi nostrum quibusdam, eos consequuntur, sapiente neque tempora beatae sit molestiae!</p>
+              </div>
+              <div className="about__last-imageContainer"></div>
+              <div className="about__last-textContainer">
+                <h3>Coming Models</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus ipsa quasi nostrum quibusdam, eos consequuntur, sapiente neque tempora beatae sit molestiae!</p>
+              </div>
+              <div className="about__last-imageContainer"></div>
+              <div className="about__last-textContainer">
+                <h3>Coming Models</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus ipsa quasi nostrum quibusdam, eos consequuntur, sapiente neque tempora beatae sit molestiae!</p>
+              </div>
+            </div>
           </div>
         </div>
         <Footer />

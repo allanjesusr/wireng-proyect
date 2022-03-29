@@ -23,6 +23,12 @@
     }
 }
 
+.navbar-nav {
+    @media (min-width: 880px) {
+        flex: 1 !important; 
+    }
+}
+
 .d-flex {
     @media (min-width: 1000px) {
         margin-right: 1rem !important;
