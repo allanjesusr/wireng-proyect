@@ -1,116 +1,249 @@
 
 .home__container {
-    position: relative;
     height: 100%;
     width: 100%;
 
-    .home__overlay {
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        text-align: left;
+    .home__home-bg {
+        background-image: url('../../assets/images/backgrounds/WIRENG-WEB-12-12.png');
+        background-size: 100% 100%;
+    }
+
+    .home__headerContainer {
+        background-position: top;
         display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        justify-content: flex-end;
+        flex-direction: column;
         align-items: center;
-    }
+        width: 100%;
 
-    .home__text-content {
-        background-color: rgba(0,0,0,0.8);
-        filter:brightness(0.4);
-        
-        padding: 7px;
-
-        @media (min-width: 768px) {
-            padding: 3rem;
-            margin-right: 9rem;
-            max-width: 100%;
+        img {
+            width: 40%;
+            height: auto;
         }
 
-        span {
+        p {
             color: white;
-            width: 20rem;
-            font-size: 0.8rem;
-            @media (min-width: 768px) {
-                font-size: 20px;
-                width: 35rem;
-            }
         }
     }
 }
 
-.home__image-container {
-    img {
-        width: 100%;
-        height: 100%;
-        display: block;
+.home__products-container {
+    width: 100%;
+    height: 100%;
+
+    .home__products-firstBg {
+        background-image: url('../../assets/images/backgrounds/WIRENG-WEB-15.png');
+        background-size: 100% 100%;
     }
 }
 
-.home__grid-header-content {
-    background-color: $silver;
+.home__productsHeader {
     display: flex;
-    justify-content: center;
-    padding: 1rem 0 2rem 0;
-    @media (min-width: 768px) {
-        padding: 1rem 0 3rem 0;
-        h1{
-            font-size: 2rem;
-            font-weight: bold;
-        }
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 2rem 0;
+}
+
+.home__description-content {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 5rem;
+
+    p {
+        width: 50%;
     }
 }
 
-.home__discover-container {
+.home__Flex-image {
+    display: flex;
+    justify-content: space-between;
     width: 100%;
+    margin: 0 0 6rem 0;
+
+    img {
+        width: 33%;
+    }
 }
 
-.home__principal-flex-content {
-    display: block;
-    width: 100%;
-    @media (min-width: 768px) {
+// .home__secondFlex {
+    
+// }
+
+// .home__secondFlex-firstImage {
+//     display: flex;
+//     height: auto;
+//     width: 100%;
+//     justify-content: center;
+
+//     img {
+//         width: 50%;
+//     }
+// }
+
+// .home__secondFlex-secondImage {
+//     display: flex;
+//     height: auto;
+//     width: 100%;
+
+//     img {
+//         width: 50%;
+        
+//     }
+// }
+
+.home__products-secondBg {
+    background-image: url('../../assets/images/backgrounds/WIRENG-WEB-15.png');
+    background-size: 100% 100%;
+
+    .home__mDescription-container {
+        width: 100%;
         display: flex;
-        width: 100%;
-        padding: 1rem;
-        height: 100%;
-
-        .leftContent {
-            width: 100px;
-            padding: 1rem;
-            align-items: center;
-            @media (min-width: 768px) {
-                width: 50%;
-                img {
-                    max-width: 100%;
-                }
-            }
-        }
-
-        .rightContent {
-            padding: 1rem;
-            @media (min-width: 768px) {
-                width: 50%;
-                img {
-                    max-width: 100%;
-                }
-            }
+        align-items: center;
+        flex-direction: column;
+        padding: 5rem; 
+        
+        p {
+            width: 50%;
         }
     }
 }
 
-.boxContainer {
-    img {
-        width: 100%;
-        height: 300px;
-        padding: 1rem;
-    }
-}
 
-.textDescription-content {
-    display: flex;
+// .home__op-flex {
+//     width: 100%;
+//     padding: 1rem;
+    
+//     .home__op-container {
+//         display: flex;
+//         margin-top: 7rem;
+//         justify-content: space-between;
+//     }
+
+//     .home__fImage-container {
+//         width: 40%;
+//         height: auto;
+
+//         img {
+//             width: 100%;
+//         }
+//     }
+
+    
+// }
+
+// .home__op-secondFlex{
+
+
+//     .home__sImage-container{
+//         display: flex;
+//         height: auto;
+//         width: 100%;
+//         justify-content: center;
+
+//         img {
+//             width: 50%;
+//         }
+//     }
+    
+//     .home__tImage-container{
+//         display: flex;
+//         height: auto;
+//         width: 100%;
+//         justify-content: flex-end;
+
+//         img {
+//             width: 40%;
+            
+//         }
+//     }
+// }
+
+.home__products-btn {
+    color: white;
     padding: 1rem;
+    background-color: #2B2B2B;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 1px;
 }
+
+
+
+
+// .home__image-container {
+//     img {
+//         width: 100%;
+//         height: 100%;
+//         display: block;
+//     }
+// }
+
+// .home__grid-header-content {
+//     background-color: $silver;
+//     display: flex;
+//     justify-content: center;
+//     padding: 1rem 0 2rem 0;
+//     @media (min-width: 768px) {
+//         padding: 1rem 0 3rem 0;
+//         h1{
+//             font-size: 2rem;
+//             font-weight: bold;
+//         }
+//     }
+// }
+
+// .home__discover-container {
+//     width: 100%;
+// }
+
+// .home__principal-flex-content {
+//     display: block;
+//     width: 100%;
+//     @media (min-width: 768px) {
+//         display: flex;
+//         width: 100%;
+//         padding: 1rem;
+//         height: 100%;
+
+//         .leftContent {
+//             width: 100px;
+//             padding: 1rem;
+//             align-items: center;
+//             @media (min-width: 768px) {
+//                 width: 50%;
+//                 img {
+//                     max-width: 100%;
+//                 }
+//             }
+//         }
+
+//         .rightContent {
+//             padding: 1rem;
+//             @media (min-width: 768px) {
+//                 width: 50%;
+//                 img {
+//                     max-width: 100%;
+//                 }
+//             }
+//         }
+//     }
+// }
+
+// .boxContainer {
+//     img {
+//         width: 100%;
+//         height: 300px;
+//         padding: 1rem;
+//     }
+// }
+
+// .textDescription-content {
+//     display: flex;
+//     padding: 1rem;
+// }
     
 //         .home__second-grid-content {
 

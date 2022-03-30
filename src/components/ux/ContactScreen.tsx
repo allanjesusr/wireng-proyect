@@ -4,8 +4,8 @@ import { useFormik } from 'formik';
 import * as Yup from 'yup';
 import Swal from 'sweetalert2';
 
-import { Footer } from '../ui/Footer';
 import { NavbarComponent } from '../ui/NavbarComponent';
+import { Footer } from '../ui/Footer';
 
 export const ContactScreen = () => {
 
@@ -53,7 +53,8 @@ export const ContactScreen = () => {
       toast.addEventListener('mouseenter', Swal.stopTimer)
       toast.addEventListener('mouseleave', Swal.resumeTimer)
     }
-  })
+  });
+  
   return (
 
     <>

@@ -43,16 +43,6 @@ export const NavbarComponent = () => {
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
-                        {/* <Form className="d-flex">
-                            <FormControl
-                            type="search"
-                            placeholder="Search"
-                            className="me-2"
-                            aria-label="Search"
-                            />
-                                <Button variant="outline-secondary">Search</Button>
-                        </Form> */}
-                        
                     <Nav>
                         <div className="navbar__navbar-links">
                             <NavDropdown title="Products" id="nav-dropdown">

@@ -207,10 +207,58 @@ export const Footer = () => {
                 </div>
             </div>
 
-            <hr />
-
             <div className="footer__newsAndSocial-container">
-                <div>
+                <div className="footer__container">
+                    <div className="footer__flexcontainer">
+                        <div className="contact__news-container">
+                            <div className="contact__contactHeader">
+                                <h1>Subscribe to WirEng Newsletter</h1>
+                                <span>To get in touch with a WirEng team member, please complete the form below (* indicates a required filed)</span>
+                            </div>
+
+                            <div className="footer__news-form">
+                                <form>
+                                    <input 
+                                        placeholder="Email"
+                                        autoComplete="off"
+                                        className='contact__input mt-5'
+                                    />
+                                    <button
+                                        type='submit'
+                                        className="button button-block mt-5"
+                                    >
+                                        Subscribe
+                                    </button>
+                                </form>
+                            </div>
+                        </div>
+
+                        <div className="footer__infoContainer">
+                            <div className="footer__infoHeader">
+                                <h1>Contact Info</h1>
+                            </div>
+
+                            <div className="footer__infoList-elements">
+                                <ul className="infoList">
+                                    <li className="infoList-items"><i className="fa-solid fa-envelope"></i> wireng@gmail.com</li>
+                                </ul>
+                            </div>
+
+                            <div className="footer__info-socialMedias">
+                                <ul >
+                                    <div className="footer__socialMedias-container">
+                                        <li className="footer__socialMedias-items"><i className="fa-brands fa-whatsapp"></i></li>
+                                        <li className="footer__socialMedias-items"><i className="fa-brands fa-instagram"></i></li>
+                                        <li className="footer__socialMedias-items"><i className="fa-brands fa-facebook"></i></li>
+                                    </div>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                {/* <div>
                     <Form>
                         <div className="footer__newsletterTitle">
                             <h1>Subscribe to WirEng® Newsletter</h1>
@@ -235,10 +283,8 @@ export const Footer = () => {
                         <i className="fa-brands fa-youtube footer__icon"></i>
                     </div>
                 </div>
-            
+             */}
             </div>
-
-            <hr />
 
             <div className="footer__rights-container">
                 <p>Copyright © WirEng®. All rights reserved.</p>
