@@ -41,24 +41,14 @@
     }
 }
 
-// @media (min-width: 770px) {
-//     .navbar-expand-sm .navbar-toggler {
-//         display: block !important;
-//     }
-// }
-
-
+.dropdown-toggle::after {
+    display: none !important;
+}
 
 .navbar-toggler {
     background-color: #565D6A !important;
     color: #8C94A4 !important;
 }
-
-// .form-control {
-//     @media (min-width: 1600px) {
-//         width: 350px !important;
-//     }
-// }
 
 .navbar-collapse {
     justify-content: space-between !important;
@@ -132,7 +122,6 @@
     text-decoration: none;
     @media (min-width: 768px) {
         margin: 0;
-        text-align: center;
     }
 
     transition: color 0.3s ease;

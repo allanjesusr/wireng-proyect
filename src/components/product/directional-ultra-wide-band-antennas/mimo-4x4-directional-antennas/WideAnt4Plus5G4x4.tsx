@@ -1,6 +1,5 @@
 import { Carousel } from 'react-bootstrap';
 
-import { NavbarComponent } from '../../../ui/NavbarComponent';
 import { Footer } from '../../../ui/Footer';
 
 import img1 from '../../../../assets/images/products-img/wideant4x4/1.png';
@@ -13,21 +12,25 @@ import mech1 from '../../../../assets/images/products-img/wideant4x4/mech-images
 import mech2 from '../../../../assets/images/products-img/wideant4x4/mech-images/WideAnt4-Plus-5G-4x4-02.png';
 import mech3 from '../../../../assets/images/products-img/wideant4x4/mech-images/WideAnt4-Plus-5G-4x4-03.png';
 import mech4 from '../../../../assets/images/products-img/wideant4x4/mech-images/WideAnt4-Plus-5G-4x4-04.png';
+import { useContext } from 'react';
+import { DataContext } from '../../../../context/DataContext';
 
 export const WideAnt4Plus5G4x4 = () => {
+
+  const { products } = useContext(DataContext);
+
+  let product = products[0];
+
     return (
       <div>
-        <NavbarComponent />
         <div className="product__container">
           <div className="product__mainFtbg">
             <div className="product__header">
               <div className="product__headerTitle">
-                <h1>
-                  WideAnt4-Plus-5G-4x4™
-                </h1>
+                <h1> {product.name} </h1>
                 <p>Ultra-Wide Extended Band, High Gain, Directional</p>
                 <div className="product__headerDescription">
-                  <p>The WideAnt4-Plus-5G™ by WirEng® is a 5G and 4G true ±45° MIMO (45° clockwise and 45° counter-clockwise wave polarizations), fully en-closed, all-weather, ultra-linear, larger Quad Antenna for outdoor/pole/mast installations. The WideAnt4-5G™ represents a true technological breakthrough as one of the widest-band antennas in the world as of today. The WideAnt4-Plus-5G™ can be used with a variety of 5G, 4G, 3G, and 2G radio equipment systems, including MIMO modems</p>
+                  <p>{product.description}</p>
                 </div>
               </div>
             </div>

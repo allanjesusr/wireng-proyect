@@ -1,10 +1,11 @@
 import { useNavigate } from 'react-router-dom';
 import ReactPlayer from 'react-player';
 
-import { Footer } from './Footer';
+// import { Footer } from './Footer';
 
 import logo from '../../assets/images/logo/LOGO-VERSION.png';
 import video from "../../assets/videos/WideAnt2-Plus-5G.mp4";
+import { NewsAndSocialFooter } from './NewsAndSocialFooter';
 
 export const Landing = () => {
 
@@ -42,7 +43,9 @@ export const Landing = () => {
                 </div>
             </div>
 
-            <Footer />
+            
+
+            {/* <Footer /> */}
         </div>
     )
 }

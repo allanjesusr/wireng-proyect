@@ -1,0 +1,33 @@
+import { FC, useMemo } from 'react';
+import { Row } from 'react-bootstrap';
+
+import { getProductsByCategory } from '../../selectors/getProductsByCategory';
+import { ProductCard } from './ProductCard';
+
+interface Props {
+    category?: string;
+}
+
+export const ProductsList: FC<Props> = ({ category = 'Antennas' }) => {
+
+    const products = useMemo(() => getProductsByCategory(category), [category]);
+
+    return (
+            <Row xs={1} md={2} lg={6} xl={8} xxl={10} className="g-4">
+
+                {
+                    products.map( ({id, name, description, image}) => (
+                        <ProductCard 
+                            key={id}
+                            id={id}
+                            name={name}
+                            description={description}
+                            image={image}
+                        /> 
+                    ))
+                }
+
+            </Row>
+
+    )
+}

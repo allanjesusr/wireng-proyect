@@ -1,0 +1,6 @@
+.layout__container {
+    margin: 1rem 1rem;
+    @media (min-width: 768px) {
+        margin: 2rem 3rem;
+    }
+}

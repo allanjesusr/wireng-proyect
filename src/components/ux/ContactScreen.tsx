@@ -1,10 +1,10 @@
 import { useRef } from 'react';
-import emailjs from '@emailjs/browser';
 import { useFormik } from 'formik';
 import * as Yup from 'yup';
+
+import emailjs from '@emailjs/browser';
 import Swal from 'sweetalert2';
 
-import { NavbarComponent } from '../ui/NavbarComponent';
 import { Footer } from '../ui/Footer';
 
 export const ContactScreen = () => {
@@ -58,7 +58,6 @@ export const ContactScreen = () => {
   return (
 
     <>
-      <NavbarComponent />
         <div className="contact__web-container">
           <div className="contact__container">
 

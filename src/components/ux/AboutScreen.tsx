@@ -1,5 +1,4 @@
 import { Footer } from "../ui/Footer";
-import { NavbarComponent } from "../ui/NavbarComponent";
 
 import img1 from '../../assets/images/about/wideant-5g-fba_by_wireng_06.jpg';
 import img2 from '../../assets/images/about/mimomount_by_wireng_06.jpg';
@@ -9,7 +8,6 @@ import img3 from '../../assets/images/about/WRG400-SMAM-NM-20M-AU-90Degrade.png'
 export const AboutScreen = () => {
     return (
       <div>
-        <NavbarComponent />
         <div className="about__container">
           <div className="about__content">
             <div className="about__header">

@@ -1,8 +1,9 @@
 import { Link } from 'react-router-dom';
 
-import { Form, Button } from 'react-bootstrap';
+import { NewsAndSocialFooter } from './NewsAndSocialFooter';
 
 export const Footer = () => {
+
     return (
         <>
         <div className="footer__container mobileFooterContainer" id="navFooter">
@@ -106,7 +107,7 @@ export const Footer = () => {
                     <div className="footer__nav-footer-column">
                         <div className="footer__nav-footer-colhead">DroneAnt™ Series</div>
                         <ul>
-                            <li><Link to='/droneant/' className="footer__link">DroneAnt™</Link></li>
+                            <li><Link to='/product/droneant'  className="footer__link">DroneAnt™</Link></li>
                             <li><Link to='/droneant-plus/' className="footer__link">DroneAnt-Plus™</Link></li>
                             <li><Link to='/droneant16/' className="footer__link">DroneAnt16™</Link></li>
                             <li><Link to='/droneant16-plus/' className="footer__link">DroneAnt16-Plus™</Link></li>
@@ -207,84 +208,7 @@ export const Footer = () => {
                 </div>
             </div>
 
-            <div className="footer__newsAndSocial-container">
-                <div className="footer__container">
-                    <div className="footer__flexcontainer">
-                        <div className="contact__news-container">
-                            <div className="contact__contactHeader">
-                                <h1>Subscribe to WirEng Newsletter</h1>
-                                <span>To get in touch with a WirEng team member, please complete the form below (* indicates a required filed)</span>
-                            </div>
-
-                            <div className="footer__news-form">
-                                <form>
-                                    <input 
-                                        placeholder="Email"
-                                        autoComplete="off"
-                                        className='contact__input mt-5'
-                                    />
-                                    <button
-                                        type='submit'
-                                        className="button button-block mt-5"
-                                    >
-                                        Subscribe
-                                    </button>
-                                </form>
-                            </div>
-                        </div>
-
-                        <div className="footer__infoContainer">
-                            <div className="footer__infoHeader">
-                                <h1>Contact Info</h1>
-                            </div>
-
-                            <div className="footer__infoList-elements">
-                                <ul className="infoList">
-                                    <li className="infoList-items"><i className="fa-solid fa-envelope"></i> wireng@gmail.com</li>
-                                </ul>
-                            </div>
-
-                            <div className="footer__info-socialMedias">
-                                <ul >
-                                    <div className="footer__socialMedias-container">
-                                        <li className="footer__socialMedias-items"><i className="fa-brands fa-whatsapp"></i></li>
-                                        <li className="footer__socialMedias-items"><i className="fa-brands fa-instagram"></i></li>
-                                        <li className="footer__socialMedias-items"><i className="fa-brands fa-facebook"></i></li>
-                                    </div>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-
-                {/* <div>
-                    <Form>
-                        <div className="footer__newsletterTitle">
-                            <h1>Subscribe to WirEng® Newsletter</h1>
-                        </div>
-                        <Form.Control
-                            type="text"
-                            placeholder="email"
-                            className="contact__input"
-                            aria-label="Search"
-                        />
-                        <Button className="button">Subscribe</Button>
-                    </Form>
-                </div>
-                <div className="footer__social-container">
-                    <div className="footer__socialTitle">
-                        <h1>Social Medias</h1>
-                    </div>
-                    <div className="footer__icons-social-container">
-                        <i className="fa-brands fa-facebook footer__icon"></i>
-                        <i className="fa-brands fa-twitter footer__icon"></i>
-                        <i className="fa-brands fa-instagram footer__icon"></i>
-                        <i className="fa-brands fa-youtube footer__icon"></i>
-                    </div>
-                </div>
-             */}
-            </div>
+            <NewsAndSocialFooter />
 
             <div className="footer__rights-container">
                 <p>Copyright © WirEng®. All rights reserved.</p>
@@ -470,9 +394,60 @@ export const Footer = () => {
                     </ul>
                 </div>
             </div>
-                <div className="footer__mobilerights-container">
-                    <p>Copyright © WirEng®. All rights reserved.</p>
+
+            <div className="footer__newsAndSocial-container">
+                <div className="footer__box-container">
+                    <div className="contact__news-container">
+                        <div className="contact__contactHeader">
+                            <h1>Subscribe to WirEng Newsletter</h1>
+                            <span>To get in touch with a WirEng team member, please complete the form below (* indicates a required filed)</span>
+                        </div>
+
+                        <div className="footer__news-form">
+                            <form>
+                                <input 
+                                    placeholder="Email"
+                                    autoComplete="off"
+                                    className='contact__input mt-5'
+                                />
+                                <button
+                                    type='submit'
+                                    className="button button-block mt-5"
+                                >
+                                    Subscribe
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+
+                    <div className="footer__infoContainer">
+                        <div className="footer__infoHeader">
+                            <h1>Contact Info</h1>
+                        </div>
+
+                        <div className="footer__infoList-elements">
+                            <ul className="infoList">
+                                <li className="infoList-items"><i className="fa-solid fa-envelope"></i> wireng@gmail.com</li>
+                            </ul>
+                        </div>
+
+                        <div className="footer__info-socialMedias">
+                            <ul >
+                                <div className="footer__socialMedias-container">
+                                    <li className="footer__socialMedias-items"><i className="fa-brands fa-whatsapp"></i></li>
+                                    <li className="footer__socialMedias-items"><i className="fa-brands fa-instagram"></i></li>
+                                    <li className="footer__socialMedias-items"><i className="fa-brands fa-facebook"></i></li>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
+                
+            </div>
+
+            <div className="footer__mobilerights-container">
+                <p>Copyright © WirEng®. All rights reserved.</p>
+            </div>
         </div>
         </footer>
         </>
