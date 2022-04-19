@@ -7,6 +7,7 @@ import { Button, Col, Container, Form, Row } from 'react-bootstrap';
 import { useForm } from '../../hooks/useForm';
 import { getProductsByName } from '../../selectors/getProductsByName';
 import { ProductCard } from '../products/ProductCard';
+import { AboutScreen } from '../ux/AboutScreen';
 
 
 
@@ -34,25 +35,38 @@ export const SearchScreen = () => {
     return (
         <Container className="layout__container">
 
-            <h1>Search a WirEng® Product</h1>
+            <div className="mt-5 mb-5 d-flex justify-content-center">
+                <h1>Search a WirEng® Product</h1>
+            </div>
 
             <Row>
 
                 <Row>
                     <Form onSubmit={handleSearch}>
-                        <Form.Control
-                            size="lg"
-                            type="text"
-                            name="searchText"
-                            autoComplete="off"
-                            placeholder="Search a Product..."
-                            value={searchText as any}
-                            onChange={onChange}
-                        />
+                        <Row xs={1} md={3}>
+                            <Col></Col>
+                            <Col>
+                                <Form.Control
+                                    size="lg"
+                                    type="text"
+                                    name="searchText"
+                                    autoComplete="off"
+                                    placeholder="Search a Product..."
+                                    className="mb-3 d-flex justify-content-center"
+                                    value={searchText as any}
+                                    onChange={onChange}
+                                />
+                                    <Button 
+                                        variant="secondary" 
+                                        type="submit"
+                                        className="mb-3 "
+                                    >
+                                        Submit
+                                    </Button>
+                            </Col>
+                            <Col></Col>
+                        </Row>
 
-                        <Button variant="primary" type="submit">
-                            Submit
-                        </Button>
 
                     </Form>
                 </Row>

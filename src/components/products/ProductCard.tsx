@@ -1,5 +1,7 @@
-import { Col, Card } from 'react-bootstrap'
-import { Link } from 'react-router-dom'
+import { FC } from 'react';
+import { Link } from 'react-router-dom';
+
+import { Col, Card, Button } from 'react-bootstrap';
 
 interface Props {
     id: string;
@@ -8,7 +10,7 @@ interface Props {
     image: string;
 }
 
-export const ProductCard = ({ id, name, description, image}: Props ) => {
+export const ProductCard: FC<Props> = ({ id, name, description, image} ) => {
     return (
         <Col sm key={id}>
             <Card>
@@ -16,10 +18,20 @@ export const ProductCard = ({ id, name, description, image}: Props ) => {
                 <Card.Body>
                     <Card.Title> {name}</Card.Title>
                     <Card.Text> {description} </Card.Text>
-                    <Link to={`/product/${id}`}>
-                        {name}
-                    </Link>
                 </Card.Body>
+                    <Button variant="secondary" size="lg">
+                        <Link 
+                            to={`/product/${id}`} 
+                            style={{ 
+                                textDecoration: 'none', 
+                                color: 'white',
+                                fontWeight: 'bold',
+                                justifyContent: 'center'
+                            }}
+                        >
+                            {name}
+                        </Link>
+                    </Button>
             </Card>
 
         </Col>

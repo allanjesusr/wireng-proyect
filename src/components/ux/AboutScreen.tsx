@@ -1,4 +1,5 @@
-import { Footer } from "../ui/Footer";
+
+import { Container } from "react-bootstrap";
 
 import img1 from '../../assets/images/about/wideant-5g-fba_by_wireng_06.jpg';
 import img2 from '../../assets/images/about/mimomount_by_wireng_06.jpg';
@@ -7,7 +8,7 @@ import img3 from '../../assets/images/about/WRG400-SMAM-NM-20M-AU-90Degrade.png'
 
 export const AboutScreen = () => {
     return (
-      <div>
+      <Container>
         <div className="about__container">
           <div className="about__content">
             <div className="about__header">
@@ -33,7 +34,7 @@ export const AboutScreen = () => {
             </div>
           </div>
         </div>
-        <Footer />
-      </div>
+        
+      </Container>
     )
 }

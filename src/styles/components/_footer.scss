@@ -267,7 +267,8 @@
 // Responsive Footer Config
 
 @media screen and (min-width: 0px) and (max-width: 770px) {
-    .navFooterMobile { display: block; }  /* show it on small screens */
+    .navFooterMobile { display: block; background-color: darken($color: $silver, $amount: 20);}  /* show it on small screens */
+    
 }
     
 @media screen and (min-width: 770px) and (max-width: 9000px) {
@@ -325,7 +326,6 @@
 
 .footer__mobileContent {
     color: white;
-    background: darken($color: $silver, $amount: 20);
     width: 100%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);

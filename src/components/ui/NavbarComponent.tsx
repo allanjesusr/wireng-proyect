@@ -1,7 +1,7 @@
-import { useState } from 'react';
 import { Link, useNavigate } from "react-router-dom";
 
 import { Container, Nav, NavDropdown } from "react-bootstrap";
+
 import Navbar from 'react-bootstrap/Navbar';
 
 import logo from "../../assets/images/logo/LOGO-VERSION.png";
@@ -10,17 +10,13 @@ export const NavbarComponent = () => {
 
     const navigate = useNavigate();
 
-    const [show, setShow] = useState(false);
-    const [show3, setShow3] = useState(false);
-
     const handleHome = () => {
         navigate('/home');
     }
 
     return (
-        <div className="navbar__container">
-
-            <Navbar expand="sm" >
+        <>
+            <Navbar expand="lg" bg="dark">
 
                 <Container fluid>
                     <Navbar.Brand>
@@ -38,134 +34,123 @@ export const NavbarComponent = () => {
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
 
                     <Navbar.Collapse id="responsive-navbar-nav">
-                        <Nav>
+                        <Nav className="justify-content-evenly text-uppercase">
+                            <NavDropdown title="Products" id="nav-dropdown">
+                                <Link to="/products/antennas" className="link p-2">
+                                    Antennas by WirEng®
+                                </Link>
 
-                            <div className="navbar__navbar-links">
-                                <NavDropdown title="Products" id="nav-dropdown">
+                                <NavDropdown.Divider />
 
-                                    <NavDropdown.Item eventKey="4.1">
-                                        <Link to="/products/antennas" className="link">
-                                            Antennas by WirEng®
-                                        </Link>
-                                    </NavDropdown.Item>
+                                <Link to="/products/antennas-accesories" className="link p-2">
+                                    Antenna Accesories by WirEng®
+                                </Link>
+                                
+                                <NavDropdown.Divider />
 
-                                    <NavDropdown.Divider />
+                                <Link to="/search" className="link p-2">
+                                    Search a WirEng® Product
+                                </Link>
 
-                                    <NavDropdown.Item eventKey="4.1">
-                                        <Link to="/products/antennas-accesories" className="link">
-                                            Antenna Accesories by WirEng®
-                                        </Link>
-                                    </NavDropdown.Item>
+                            </NavDropdown>
 
-                                    <NavDropdown.Divider />
+                            <NavDropdown title="Services" id="nav-dropdown">
+                                <NavDropdown.Item eventKey="4.4">
+                                    <Link to="/subscribe-to-newsletter/" style={{ color: "white", fontWeight: "bold" }} className="text-decoration-none">
+                                        Custom Product Request
+                                    </Link>
+                                </NavDropdown.Item>
 
-                                    <NavDropdown.Item eventKey="4.1">
-                                        <Link to="/search" className="link">
-                                            Search a WirEng® Product
-                                        </Link>
-                                    </NavDropdown.Item>
+                                <NavDropdown.Divider />
 
-                                </NavDropdown>
+                                <NavDropdown.Item eventKey="4.4">
+                                    <Link to="/subscribe-to-newsletter/" style={{ color: "white", fontWeight: "bold" }} className="text-decoration-none">
+                                        Government/Military Relations
+                                    </Link>
+                                </NavDropdown.Item>
 
-                                <NavDropdown title="Services" id="nav-dropdown">
-                                    <NavDropdown.Item eventKey="4.4">
-                                        <Link to="/subscribe-to-newsletter/" className="link">
-                                            Custom Product Request
-                                        </Link>
-                                    </NavDropdown.Item>
+                                <NavDropdown.Divider />
 
-                                    <NavDropdown.Divider />
+                                <NavDropdown.Item eventKey="4.4">
+                                    <Link to="/subscribe-to-newsletter/" style={{ color: "white", fontWeight: "bold" }} className="text-decoration-none">
+                                        B2B/OEM Relations
+                                    </Link>
+                                </NavDropdown.Item>
 
-                                    <NavDropdown.Item eventKey="4.4">
-                                        <Link to="/subscribe-to-newsletter/" className="link">
-                                            Government/Military Relations
-                                        </Link>
-                                    </NavDropdown.Item>
+                                <NavDropdown.Divider />
 
-                                    <NavDropdown.Divider />
+                                <NavDropdown.Item eventKey="4.4">
+                                    <Link to="/subscribe-to-newsletter/" style={{ color: "white", fontWeight: "bold" }} className="text-decoration-none">
+                                        B2B Partnerships
+                                    </Link>
+                                </NavDropdown.Item>
+                            </NavDropdown>
 
-                                    <NavDropdown.Item eventKey="4.4">
-                                        <Link to="/subscribe-to-newsletter/" className="link">
-                                            B2B/OEM Relations
-                                        </Link>
-                                    </NavDropdown.Item>
+                            <NavDropdown title="Contact Us" id="nav-dropdown">
 
-                                    <NavDropdown.Divider />
+                                <NavDropdown.Item eventKey="4.4">
+                                    <Link to="/get-in-touch/" style={{ color: "white", fontWeight: "bold" }} className="text-decoration-none">
+                                        Get in Touch
+                                    </Link>
+                                </NavDropdown.Item>
 
-                                    <NavDropdown.Item eventKey="4.4">
-                                        <Link to="/subscribe-to-newsletter/" className="link">
-                                            B2B Partnerships
-                                        </Link>
-                                    </NavDropdown.Item>
-                                </NavDropdown>
+                                <NavDropdown.Divider />
 
-                                <NavDropdown title="Contact Us" id="nav-dropdown">
+                                <NavDropdown.Item eventKey="4.4">
+                                    <Link to="/get-in-touch/" style={{ color: "white", fontWeight: "bold" }} className="text-decoration-none">
+                                        Support
+                                    </Link>
+                                </NavDropdown.Item>
 
-                                    <NavDropdown.Item eventKey="4.4">
-                                            <Link to="/get-in-touch/" className="link">
-                                                Get in Touch
-                                            </Link>
-                                    </NavDropdown.Item>
 
-                                    <NavDropdown.Divider />
+                            </NavDropdown>
 
-                                    <NavDropdown.Item eventKey="4.4">
-                                            <Link to="/get-in-touch/" className="link">
-                                                Support
-                                            </Link>
-                                    </NavDropdown.Item>
+                            <NavDropdown title="About Wireng" id="nav-dropdown">
+                                <NavDropdown.Item eventKey="4.4">
+                                    <Link to="/about-wireng/" style={{ color: "white", fontWeight: "bold" }} className="text-decoration-none">
+                                        About WirEng®
+                                    </Link>
+                                </NavDropdown.Item>
+                            </NavDropdown>
 
-                                    
-                                </NavDropdown>
+                            {/* <NavDropdown title="WirEng® Dealer Locator" id="nav-dropdown">
+                                <NavDropdown.Item eventKey="4.4">
+                                    <Link to="/subscribe-to-newsletter/" style={{ color: "white", fontWeight: "bold" }} className="text-decoration-none">
+                                        WirEng® Asia
+                                    </Link>
+                                </NavDropdown.Item>
 
-                                <NavDropdown title="About Wireng" id="nav-dropdown">
-                                    <NavDropdown.Item eventKey="4.4">
-                                        <Link to="/about-wireng/" className="link">
-                                            About WirEng®
-                                        </Link>
-                                    </NavDropdown.Item>
-                                </NavDropdown>
+                                <NavDropdown.Divider />
 
-                                <NavDropdown title="WirEng® Dealer Locator" id="nav-dropdown">
-                                    <NavDropdown.Item eventKey="4.4">
-                                        <Link to="/subscribe-to-newsletter/" className="link">
-                                            WirEng® Asia
-                                        </Link>
-                                    </NavDropdown.Item>
+                                <NavDropdown.Item eventKey="4.4">
+                                    <Link to="/subscribe-to-newsletter/" style={{ color: "white", fontWeight: "bold" }} className="text-decoration-none">
+                                        WirEng® Europe
+                                    </Link>
+                                </NavDropdown.Item>
 
-                                    <NavDropdown.Divider />
+                                <NavDropdown.Divider />
 
-                                    <NavDropdown.Item eventKey="4.4">
-                                        <Link to="/subscribe-to-newsletter/" className="link">
-                                            WirEng® Europe
-                                        </Link>
-                                    </NavDropdown.Item>
+                                <NavDropdown.Item eventKey="4.4">
+                                    <Link to="/subscribe-to-newsletter/" style={{ color: "white", fontWeight: "bold" }} className="text-decoration-none">
+                                        WirEng® North America
+                                    </Link>
+                                </NavDropdown.Item>
 
-                                    <NavDropdown.Divider />
+                                <NavDropdown.Divider />
 
-                                    <NavDropdown.Item eventKey="4.4">
-                                        <Link to="/subscribe-to-newsletter/" className="link">
-                                            WirEng® North America
-                                        </Link>
-                                    </NavDropdown.Item>
+                                <NavDropdown.Item eventKey="4.4">
+                                    <Link to="/subscribe-to-newsletter/" style={{ color: "white", fontWeight: "bold" }} className="text-decoration-none">
+                                        WirEng® Latin America
+                                    </Link>
+                                </NavDropdown.Item>
+                            </NavDropdown> */}
 
-                                    <NavDropdown.Divider />
-
-                                    <NavDropdown.Item eventKey="4.4">
-                                        <Link to="/subscribe-to-newsletter/" className="link">
-                                            WirEng® Latin America
-                                        </Link>
-                                    </NavDropdown.Item>
-                                </NavDropdown>
-                            </div>
-                            
                         </Nav>
                     </Navbar.Collapse>
 
                 </Container>
 
             </Navbar>
-
-        </div>
+        </>
     )
 }

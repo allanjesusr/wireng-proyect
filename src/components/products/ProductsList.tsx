@@ -1,4 +1,5 @@
 import { FC, useMemo } from 'react';
+
 import { Row } from 'react-bootstrap';
 
 import { getProductsByCategory } from '../../selectors/getProductsByCategory';
@@ -13,7 +14,7 @@ export const ProductsList: FC<Props> = ({ category = 'Antennas' }) => {
     const products = useMemo(() => getProductsByCategory(category), [category]);
 
     return (
-            <Row xs={1} md={2} lg={6} xl={8} xxl={10} className="g-4">
+            <Row xs={1} md={4} xl={6} xxl={8} className="g-4">
 
                 {
                     products.map( ({id, name, description, image}) => (

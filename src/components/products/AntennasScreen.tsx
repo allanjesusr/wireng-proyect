@@ -4,8 +4,12 @@ import { ProductsList } from './ProductsList';
 export const AntennasScreen = () => {
     return (
         <div className="layout__container">
-            <h1>Antennas Screen</h1>
-            <ProductsList category="Antennas"/>
+            <div className="d-flex justify-content-center mt-5 mb-5">
+
+                <h1>Antennas by WirEng®</h1>
+
+            </div>
+            <ProductsList category="Antennas" />
         </div>
     )
 }
