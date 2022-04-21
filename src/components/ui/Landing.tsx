@@ -17,24 +17,24 @@ export const Landing = () => {
 
     return (
         <div className="landing__container">
-            <div 
-                onClick={ handleHomeClick }
+            <div
+                onClick={handleHomeClick}
                 className="landing__video-container pointer"
             >
                 <div className="landing__overlay" >
-                    <img 
-                        src={ logo } 
-                        alt="WirEng Logo" 
+                    <img
+                        src={logo}
+                        alt="WirEng Logo"
                         className="landing__logo"
                     />
                 </div>
 
                 <div className="landing__video-wrapper">
-                    <ReactPlayer 
-                        url={ video }
-                        controls={ false }
+                    <ReactPlayer
+                        url={video}
+                        controls={false}
                         className="landing__react-player"
-                        playing 
+                        playing
                         muted
                         loop
                         width='100%'
@@ -42,8 +42,6 @@ export const Landing = () => {
                     />
                 </div>
             </div>
-
-            
 
             {/* <Footer /> */}
         </div>

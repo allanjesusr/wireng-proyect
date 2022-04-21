@@ -6,7 +6,7 @@
             "category": "Antennas",
             "sub-category": "Directional",
             "description": "To Increase Transmit and Receive RF Signal Strengths for Single-Connector RF Devices in Stationary/Fixed Locations",
-            "image": "https://wirengimages.s3.amazonaws.com/images/seriewideant-5g/wideant-5g/wideant-5g-fba_by_wireng_02.jpg"
+            "image": "https://wirengimages.s3.amazonaws.com/images/test/1920x1920.jpg"
         },
         {
             "id": "wideant2-5g",
@@ -14,7 +14,7 @@
             "category": "Antennas",
             "sub-category": "Directional",
             "description": "To Increase Download and Upload Data Speeds for Dual-Connector MIMO/Aux/Diversity RF Devices (MIMO 2x2 Technology) in Stationary/Fixed Locations",
-            "image": "https://wirengimages.s3.amazonaws.com/images/seriewideant-5g/wideant2-5g/Wideant2-5g.jpg"
+            "image": "https://wirengimages.s3.amazonaws.com/images/test/500x500.jpg"
         },
         {
             "id": "wideant4-5g-4x2",
@@ -22,7 +22,7 @@
             "category": "Antennas",
             "sub-category": "Directional",
             "description": "To Increase Download and Upload Data Speeds for Dual-Connector MIMO/Aux/Diversity RF Devices (compatible with MIMO 4x2 and 2x2 Technologies) in Stationary/Fixed Locations",
-            "image": "http://dummyimage.com/200x200.png/dddddd/000000"
+            "image": "https://wirengimages.s3.amazonaws.com/images/test/250x250.jpg"
         },
         {
             "id": "wideant4-5g-4x4",

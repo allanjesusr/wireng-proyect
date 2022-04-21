@@ -2,6 +2,8 @@ import dataList from '../data/data.json';
 
 export const getProductsByCategory = ( category: any ) => {
 
+    console.log('getProductsByCategory Called');
+
     const validCategory = ['Antennas', 'Antenna Accesories'];
 
     if ( !validCategory.includes(category) ) {

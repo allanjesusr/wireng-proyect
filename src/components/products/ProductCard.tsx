@@ -1,7 +1,7 @@
 import { FC } from 'react';
-import { Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
-import { Col, Card, Button } from 'react-bootstrap';
+import { Col, Card } from 'react-bootstrap';
 
 interface Props {
     id: string;
@@ -11,15 +11,22 @@ interface Props {
 }
 
 export const ProductCard: FC<Props> = ({ id, name, description, image} ) => {
+
+    const navigate = useNavigate();
+
+    const onClickCard = () => {
+        navigate(`/product/${id}`);
+    }
+
     return (
-        <Col sm key={id}>
-            <Card>
+        <Col sm key={id} className="pe-5 pb-5">
+            <Card onClick={onClickCard} className="pointer">
                 <Card.Img variant="top" src={image} alt={name}/>
                 <Card.Body>
                     <Card.Title> {name}</Card.Title>
                     <Card.Text> {description} </Card.Text>
                 </Card.Body>
-                    <Button variant="secondary" size="lg">
+                    {/* <Button variant="secondary" size="lg">
                         <Link 
                             to={`/product/${id}`} 
                             style={{ 
@@ -31,7 +38,7 @@ export const ProductCard: FC<Props> = ({ id, name, description, image} ) => {
                         >
                             {name}
                         </Link>
-                    </Button>
+                    </Button> */}
             </Card>
 
         </Col>
