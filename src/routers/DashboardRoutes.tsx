@@ -1,8 +1,8 @@
 import { Route, Routes } from 'react-router-dom';
 
 import { ProductRoutes } from './ProductRoutes';
-import { HomeScreen } from '../components/HomeScreen';
 
+import { HomeScreen } from '../components/HomeScreen';
 import { CubeAnt } from '../components/old-products/concealed-wall-dome-antennas/CubeAnt';
 import { DomeAerial } from '../components/old-products/concealed-wall-dome-antennas/DomeAerial';
 import { DomeAntAlpha } from '../components/old-products/concealed-wall-dome-antennas/DomeAntAlpha';
@@ -44,8 +44,8 @@ import { ProductScreen } from '../components/products/ProductScreen';
 import { SearchScreen } from '../components/search/SearchScreen';
 import { Footer } from '../components/ui/Footer';
 import { NavbarComponent } from '../components/ui/NavbarComponent';
-import { AboutScreen } from '../components/ux/AboutScreen';
-import { ContactScreen } from '../components/ux/ContactScreen';
+import { AboutScreen } from '../components/about/AboutScreen';
+import { ContactScreen } from '../components/contact/ContactScreen';
 import { Newsletter } from '../components/ux/Newsletter';
 
 export const DashboardRoutes = () => {

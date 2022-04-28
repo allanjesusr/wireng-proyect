@@ -1,17 +1,33 @@
 
+import { Helmet } from 'react-helmet';
+import { useSEO } from '../../hooks/useSEO';
 import { ProductsList } from './ProductsList';
 
 export const AccesoriesScreen = () => {
+
+    // const title = 'Antennas Accesories by WirEng®';
+    // useSEO({ title });
+
     return (
-        <div className="layout__container">
-            
-            <div className="d-flex justify-content-center mt-5 mb-5">
+        <>
+            <Helmet>
+                <title>Antennas Accesories by WirEng® | WirEng®</title>
+                <meta name="description" content="WirEng® is the worldwide leader in ultra wide band, ultra high gain antennas" />
+                <meta name="keywords" content="WirEng®, antennas, atennas accesories" />
 
-                <h1>Antenna Accesories by WirEng®</h1>
+                <meta property="og:title" content="Antennas Accesories by WirEng® | WirEng®"/>
+                <meta property="og:description" content="WirEng® is the worldwide leader in ultra wide band, ultra high gain antennas" />
+            </Helmet>
+            <div className="layout__container">
 
+                <div className="d-flex justify-content-center mt-5 mb-5">
+
+                    <h1>Antenna Accesories by WirEng®</h1>
+
+                </div>
+
+                <ProductsList category="Antenna Accesories" />
             </div>
-
-            <ProductsList category="Antenna Accesories"/>
-        </div>
+        </>
     )
 }

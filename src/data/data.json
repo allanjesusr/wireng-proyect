@@ -5,7 +5,25 @@
             "name": "WideAnt-5G™",
             "category": "Antennas",
             "sub-category": "Directional",
+            "features1": [
+                "Fully enclosed, robust, and durable, under any weather condition, with 100% stanelss-steel metal parts",
+                "Unparalleled worldwide cellular bands compatibility for countless applications, including cellular legacy, cellular data, 5G, 4G, LTE, xLTE, WiMAX, Wi-Fi, etc.",
+                "Pre-determined, optimized horixontal antenna separation for best SINR/CINR and maximum download and upload data speeds",
+                "Sealed and splash-proof (also suitable for marine environments)",
+                "100% stainless steel metal parts, and stanless steel back shields for better gain and mechanical strength",
+                "High input power (up to 2 x 250 Watts continuos power) with 24K gold-plated connectors on radomes"
+            ],
+            "features2": [
+                "Extended operating temperature range of -25° to +85° C",
+                "On-radome 24K gold plated N-type connector for maximum reliability, power tranfer, durability, and mechanical strength",
+                "Ultra-low VSWR throughout the whole 450 MHz to 6000 MHz frequency range",
+                "IP67 rating (protected against dust, strong water jets, and waves)",
+                "UL94 V-0 flammability rating",
+                "USA and international trademark current",
+                "USA and international patents pending"
+            ],
             "description": "To Increase Transmit and Receive RF Signal Strengths for Single-Connector RF Devices in Stationary/Fixed Locations",
+            "warranty": "2 Years",
             "image": "https://wirengimages.s3.amazonaws.com/images/test/1920x1920.jpg"
         },
         {
@@ -13,7 +31,25 @@
             "name": "WideAnt2-5G™",
             "category": "Antennas",
             "sub-category": "Directional",
+            "features1": [
+                "Fully enclosed, robust, and durable, under any weather condition, with 100% stanelss-steel metal parts",
+                "Unparalleled worldwide cellular bands compatibility for countless applications, including cellular legacy, cellular data, 5G, 4G, LTE, xLTE, WiMAX, Wi-Fi, etc.",
+                "Pre-determined, optimized horixontal antenna separation for best SINR/CINR and maximum download and upload data speeds",
+                "Sealed and splash-proof (also suitable for marine environments)",
+                "100% stainless steel metal parts, and stanless steel back shields for better gain and mechanical strength",
+                "High input power (up to 2 x 250 Watts continuos power) with 24K gold-plated connectors on radomes"
+            ],
+            "features2": [
+                "Extended operating temperature range of -25° to +85° C",
+                "On-radome 24K gold plated N-type connector for maximum reliability, power tranfer, durability, and mechanical strength",
+                "Ultra-low VSWR throughout the whole 450 MHz to 6000 MHz frequency range",
+                "IP67 rating (protected against dust, strong water jets, and waves)",
+                "UL94 V-0 flammability rating",
+                "USA and international trademark current",
+                "USA and international patents pending"
+            ],
             "description": "To Increase Download and Upload Data Speeds for Dual-Connector MIMO/Aux/Diversity RF Devices (MIMO 2x2 Technology) in Stationary/Fixed Locations",
+            "warranty": "2 Years",
             "image": "https://wirengimages.s3.amazonaws.com/images/test/500x500.jpg"
         },
         {
@@ -21,7 +57,25 @@
             "name": "WideAnt4-5G-4x2™",
             "category": "Antennas",
             "sub-category": "Directional",
+            "features1": [
+                "Fully enclosed, robust, and durable, under any weather condition, with 100% stanelss-steel metal parts",
+                "Unparalleled worldwide cellular bands compatibility for countless applications, including cellular legacy, cellular data, 5G, 4G, LTE, xLTE, WiMAX, Wi-Fi, etc.",
+                "Pre-determined, optimized horixontal antenna separation for best SINR/CINR and maximum download and upload data speeds",
+                "Sealed and splash-proof (also suitable for marine environments)",
+                "100% stainless steel metal parts, and stanless steel back shields for better gain and mechanical strength",
+                "High input power (up to 2 x 250 Watts continuos power) with 24K gold-plated connectors on radomes"
+            ],
+            "features2": [
+                "Extended operating temperature range of -25° to +85° C",
+                "On-radome 24K gold plated N-type connector for maximum reliability, power tranfer, durability, and mechanical strength",
+                "Ultra-low VSWR throughout the whole 450 MHz to 6000 MHz frequency range",
+                "IP67 rating (protected against dust, strong water jets, and waves)",
+                "UL94 V-0 flammability rating",
+                "USA and international trademark current",
+                "USA and international patents pending"
+            ],
             "description": "To Increase Download and Upload Data Speeds for Dual-Connector MIMO/Aux/Diversity RF Devices (compatible with MIMO 4x2 and 2x2 Technologies) in Stationary/Fixed Locations",
+            "warranty": "2 Years",
             "image": "https://wirengimages.s3.amazonaws.com/images/test/250x250.jpg"
         },
         {
@@ -30,6 +84,24 @@
             "category": "Antennas",
             "sub-category": "Directional",
             "description": "To Increase Download and Upload Data Speeds for Quad-Connector MIMO 4x4 RF Devices (MIMO 4x4 Technology) in Stationary/Fixed Locations",
+            "features1": [
+                "Fully enclosed, robust, and durable, under any weather condition, with 100% stanelss-steel metal parts",
+                "Unparalleled worldwide cellular bands compatibility for countless applications, including cellular legacy, cellular data, 5G, 4G, LTE, xLTE, WiMAX, Wi-Fi, etc.",
+                "Pre-determined, optimized horixontal antenna separation for best SINR/CINR and maximum download and upload data speeds",
+                "Sealed and splash-proof (also suitable for marine environments)",
+                "100% stainless steel metal parts, and stanless steel back shields for better gain and mechanical strength",
+                "High input power (up to 2 x 250 Watts continuos power) with 24K gold-plated connectors on radomes"
+            ],
+            "features2": [
+                "Extended operating temperature range of -25° to +85° C",
+                "On-radome 24K gold plated N-type connector for maximum reliability, power tranfer, durability, and mechanical strength",
+                "Ultra-low VSWR throughout the whole 450 MHz to 6000 MHz frequency range",
+                "IP67 rating (protected against dust, strong water jets, and waves)",
+                "UL94 V-0 flammability rating",
+                "USA and international trademark current",
+                "USA and international patents pending"
+            ],
+            "warranty": "2 Years",
             "image": "https://wirengimages.s3.amazonaws.com/images/seriewideant-5g/wideant4-5g-4x4/wideant4-5g-4x4_03.png"
         },
         {
@@ -37,7 +109,25 @@
             "name": "WideAnt8-5G-8x2™",
             "category": "Antennas",
             "sub-category": "Directional",
+            "features1": [
+                "Fully enclosed, robust, and durable, under any weather condition, with 100% stanelss-steel metal parts",
+                "Unparalleled worldwide cellular bands compatibility for countless applications, including cellular legacy, cellular data, 5G, 4G, LTE, xLTE, WiMAX, Wi-Fi, etc.",
+                "Pre-determined, optimized horixontal antenna separation for best SINR/CINR and maximum download and upload data speeds",
+                "Sealed and splash-proof (also suitable for marine environments)",
+                "100% stainless steel metal parts, and stanless steel back shields for better gain and mechanical strength",
+                "High input power (up to 2 x 250 Watts continuos power) with 24K gold-plated connectors on radomes"
+            ],
+            "features2": [
+                "Extended operating temperature range of -25° to +85° C",
+                "On-radome 24K gold plated N-type connector for maximum reliability, power tranfer, durability, and mechanical strength",
+                "Ultra-low VSWR throughout the whole 450 MHz to 6000 MHz frequency range",
+                "IP67 rating (protected against dust, strong water jets, and waves)",
+                "UL94 V-0 flammability rating",
+                "USA and international trademark current",
+                "USA and international patents pending"
+            ],
             "description": "To Increase Download and Upload Data Speeds for Dual-Connector MIMO/Aux/Diversity RF Devices (compatible with MIMO 8x2, 4x2, and 2x2 Technologies) in Stationary/Fixed Locations",
+            "warranty": "2 Years",
             "image": "http://dummyimage.com/200x200.png/dddddd/000000"
         },
         {
@@ -45,7 +135,25 @@
             "name": "WideAnt8-5G-8x4™",
             "category": "Antennas",
             "sub-category": "Directional",
+            "features1": [
+                "Fully enclosed, robust, and durable, under any weather condition, with 100% stanelss-steel metal parts",
+                "Unparalleled worldwide cellular bands compatibility for countless applications, including cellular legacy, cellular data, 5G, 4G, LTE, xLTE, WiMAX, Wi-Fi, etc.",
+                "Pre-determined, optimized horixontal antenna separation for best SINR/CINR and maximum download and upload data speeds",
+                "Sealed and splash-proof (also suitable for marine environments)",
+                "100% stainless steel metal parts, and stanless steel back shields for better gain and mechanical strength",
+                "High input power (up to 2 x 250 Watts continuos power) with 24K gold-plated connectors on radomes"
+            ],
+            "features2": [
+                "Extended operating temperature range of -25° to +85° C",
+                "On-radome 24K gold plated N-type connector for maximum reliability, power tranfer, durability, and mechanical strength",
+                "Ultra-low VSWR throughout the whole 450 MHz to 6000 MHz frequency range",
+                "IP67 rating (protected against dust, strong water jets, and waves)",
+                "UL94 V-0 flammability rating",
+                "USA and international trademark current",
+                "USA and international patents pending"
+            ],
             "description": "To Increase Download and Upload Data Speeds for Quad-Connector MIMO/Aux/Diversity RF Devices (compatible with MIMO 8x4 and 4x4 Technologies) in Stationary/Fixed Locations",
+            "warranty": "2 Years",
             "image": "http://dummyimage.com/200x200.png/dddddd/000000"
         },
         {
@@ -53,7 +161,25 @@
             "name": "WideAnt8-5G-8x8™",
             "category": "Antennas",
             "sub-category": "Directional",
+            "features1": [
+                "Fully enclosed, robust, and durable, under any weather condition, with 100% stanelss-steel metal parts",
+                "Unparalleled worldwide cellular bands compatibility for countless applications, including cellular legacy, cellular data, 5G, 4G, LTE, xLTE, WiMAX, Wi-Fi, etc.",
+                "Pre-determined, optimized horixontal antenna separation for best SINR/CINR and maximum download and upload data speeds",
+                "Sealed and splash-proof (also suitable for marine environments)",
+                "100% stainless steel metal parts, and stanless steel back shields for better gain and mechanical strength",
+                "High input power (up to 2 x 250 Watts continuos power) with 24K gold-plated connectors on radomes"
+            ],
+            "features2": [
+                "Extended operating temperature range of -25° to +85° C",
+                "On-radome 24K gold plated N-type connector for maximum reliability, power tranfer, durability, and mechanical strength",
+                "Ultra-low VSWR throughout the whole 450 MHz to 6000 MHz frequency range",
+                "IP67 rating (protected against dust, strong water jets, and waves)",
+                "UL94 V-0 flammability rating",
+                "USA and international trademark current",
+                "USA and international patents pending"
+            ],
             "description": "To Increase Download and Upload Data Speeds for Octa-Connector MIMO/Aux/Diversity RF Devices (MIMO 8x8 Technology) in Stationary/Fixed Locations",
+            "warranty": "2 Years",
             "image": "http://dummyimage.com/200x200.png/dddddd/000000"
         },
         {
@@ -61,7 +187,25 @@
             "name": "WideAnt-Plus-5G™",
             "category": "Antennas",
             "sub-category": "Directional",
+            "features1": [
+                "Fully enclosed, robust, and durable, under any weather condition, with 100% stanelss-steel metal parts",
+                "Unparalleled worldwide cellular bands compatibility for countless applications, including cellular legacy, cellular data, 5G, 4G, LTE, xLTE, WiMAX, Wi-Fi, etc.",
+                "Pre-determined, optimized horixontal antenna separation for best SINR/CINR and maximum download and upload data speeds",
+                "Sealed and splash-proof (also suitable for marine environments)",
+                "100% stainless steel metal parts, and stanless steel back shields for better gain and mechanical strength",
+                "High input power (up to 2 x 250 Watts continuos power) with 24K gold-plated connectors on radomes"
+            ],
+            "features2": [
+                "Extended operating temperature range of -25° to +85° C",
+                "On-radome 24K gold plated N-type connector for maximum reliability, power tranfer, durability, and mechanical strength",
+                "Ultra-low VSWR throughout the whole 450 MHz to 6000 MHz frequency range",
+                "IP67 rating (protected against dust, strong water jets, and waves)",
+                "UL94 V-0 flammability rating",
+                "USA and international trademark current",
+                "USA and international patents pending"
+            ],
             "description": "To Increase Transmit and Receive RF Signal Strengths for Single-Connector RF Devices in Stationary/Fixed Locations",
+            "warranty": "2 Years",
             "image": "https://wirengimages.s3.amazonaws.com/images/seriewideant-plus-5g/wideant-plus-5g/wideant-plus-5g_16.png"
         },
         {
@@ -69,7 +213,25 @@
             "name": "WideAnt2-Plus-5G™",
             "category": "Antennas",
             "sub-category": "Directional",
+            "features1": [
+                "Fully enclosed, robust, and durable, under any weather condition, with 100% stanelss-steel metal parts",
+                "Unparalleled worldwide cellular bands compatibility for countless applications, including cellular legacy, cellular data, 5G, 4G, LTE, xLTE, WiMAX, Wi-Fi, etc.",
+                "Pre-determined, optimized horixontal antenna separation for best SINR/CINR and maximum download and upload data speeds",
+                "Sealed and splash-proof (also suitable for marine environments)",
+                "100% stainless steel metal parts, and stanless steel back shields for better gain and mechanical strength",
+                "High input power (up to 2 x 250 Watts continuos power) with 24K gold-plated connectors on radomes"
+            ],
+            "features2": [
+                "Extended operating temperature range of -25° to +85° C",
+                "On-radome 24K gold plated N-type connector for maximum reliability, power tranfer, durability, and mechanical strength",
+                "Ultra-low VSWR throughout the whole 450 MHz to 6000 MHz frequency range",
+                "IP67 rating (protected against dust, strong water jets, and waves)",
+                "UL94 V-0 flammability rating",
+                "USA and international trademark current",
+                "USA and international patents pending"
+            ],
             "description": "To Increase Download and Upload Data Speeds for Dual-Connector MIMO/Aux/Diversity RF Devices (MIMO 2x2 Technology) in Stationary/Fixed Locations",
+            "warranty": "2 Years",
             "image": "https://wirengimages.s3.amazonaws.com/images/seriewideant-plus-5g/wideant2-plus-5g/wideant2-plus-5g_02.png"
         },
         {
@@ -77,7 +239,25 @@
             "name": "WideAnt4-Plus-5G-4x2™",
             "category": "Antennas",
             "sub-category": "Directional",
+            "features1": [
+                "Fully enclosed, robust, and durable, under any weather condition, with 100% stanelss-steel metal parts",
+                "Unparalleled worldwide cellular bands compatibility for countless applications, including cellular legacy, cellular data, 5G, 4G, LTE, xLTE, WiMAX, Wi-Fi, etc.",
+                "Pre-determined, optimized horixontal antenna separation for best SINR/CINR and maximum download and upload data speeds",
+                "Sealed and splash-proof (also suitable for marine environments)",
+                "100% stainless steel metal parts, and stanless steel back shields for better gain and mechanical strength",
+                "High input power (up to 2 x 250 Watts continuos power) with 24K gold-plated connectors on radomes"
+            ],
+            "features2": [
+                "Extended operating temperature range of -25° to +85° C",
+                "On-radome 24K gold plated N-type connector for maximum reliability, power tranfer, durability, and mechanical strength",
+                "Ultra-low VSWR throughout the whole 450 MHz to 6000 MHz frequency range",
+                "IP67 rating (protected against dust, strong water jets, and waves)",
+                "UL94 V-0 flammability rating",
+                "USA and international trademark current",
+                "USA and international patents pending"
+            ],
             "description": "To Increase Download and Upload Data Speeds for Dual-Connector MIMO/Aux/Diversity RF Devices (compatible with MIMO 4x2 and 2x2 Technologies) in Stationary/Fixed Locations",
+            "warranty": "2 Years",
             "image": "https://wirengimages.s3.amazonaws.com/images/seriewideant-plus-5g/wideant4-plus-4x2/WideAnt4-Plus-5G-2x2_06.png"
         },
         {
@@ -85,7 +265,25 @@
             "name": "WideAnt4-Plus-5G-4x4™",
             "category": "Antennas",
             "sub-category": "Directional",
+            "features1": [
+                "Fully enclosed, robust, and durable, under any weather condition, with 100% stanelss-steel metal parts",
+                "Unparalleled worldwide cellular bands compatibility for countless applications, including cellular legacy, cellular data, 5G, 4G, LTE, xLTE, WiMAX, Wi-Fi, etc.",
+                "Pre-determined, optimized horixontal antenna separation for best SINR/CINR and maximum download and upload data speeds",
+                "Sealed and splash-proof (also suitable for marine environments)",
+                "100% stainless steel metal parts, and stanless steel back shields for better gain and mechanical strength",
+                "High input power (up to 2 x 250 Watts continuos power) with 24K gold-plated connectors on radomes"
+            ],
+            "features2": [
+                "Extended operating temperature range of -25° to +85° C",
+                "On-radome 24K gold plated N-type connector for maximum reliability, power tranfer, durability, and mechanical strength",
+                "Ultra-low VSWR throughout the whole 450 MHz to 6000 MHz frequency range",
+                "IP67 rating (protected against dust, strong water jets, and waves)",
+                "UL94 V-0 flammability rating",
+                "USA and international trademark current",
+                "USA and international patents pending"
+            ],
             "description": "To Increase Download and Upload Data Speeds for Quad-Connector MIMO 4x4 RF Devices (MIMO 4x4 Technology) in Stationary/Fixed Locations",
+            "warranty": "2 Years",
             "image": "https://wirengimages.s3.amazonaws.com/images/seriewideant-plus-5g/wideant4-plus-4x2/WideAnt4-Plus-5G-2x2_06.png"
         },
         {
@@ -93,7 +291,25 @@
             "name": "WideAnt8-Plus-5G-8x2™",
             "category": "Antennas",
             "sub-category": "Directional",
+            "features1": [
+                "Fully enclosed, robust, and durable, under any weather condition, with 100% stanelss-steel metal parts",
+                "Unparalleled worldwide cellular bands compatibility for countless applications, including cellular legacy, cellular data, 5G, 4G, LTE, xLTE, WiMAX, Wi-Fi, etc.",
+                "Pre-determined, optimized horixontal antenna separation for best SINR/CINR and maximum download and upload data speeds",
+                "Sealed and splash-proof (also suitable for marine environments)",
+                "100% stainless steel metal parts, and stanless steel back shields for better gain and mechanical strength",
+                "High input power (up to 2 x 250 Watts continuos power) with 24K gold-plated connectors on radomes"
+            ],
+            "features2": [
+                "Extended operating temperature range of -25° to +85° C",
+                "On-radome 24K gold plated N-type connector for maximum reliability, power tranfer, durability, and mechanical strength",
+                "Ultra-low VSWR throughout the whole 450 MHz to 6000 MHz frequency range",
+                "IP67 rating (protected against dust, strong water jets, and waves)",
+                "UL94 V-0 flammability rating",
+                "USA and international trademark current",
+                "USA and international patents pending"
+            ],
             "description": "To Increase Download and Upload Data Speeds for Dual-Connector MIMO/Aux/Diversity RF Devices (compatible with MIMO 8x2, 4x2, and 2x2 Technologies) in Stationary/Fixed Locations",
+            "warranty": "2 Years",
             "image": "http://dummyimage.com/200x200.png/dddddd/000000"
         },
         {
@@ -101,7 +317,25 @@
             "name": "WideAnt8-Plus-5G-8x4™",
             "category": "Antennas",
             "sub-category": "Directional",
+            "features1": [
+                "Fully enclosed, robust, and durable, under any weather condition, with 100% stanelss-steel metal parts",
+                "Unparalleled worldwide cellular bands compatibility for countless applications, including cellular legacy, cellular data, 5G, 4G, LTE, xLTE, WiMAX, Wi-Fi, etc.",
+                "Pre-determined, optimized horixontal antenna separation for best SINR/CINR and maximum download and upload data speeds",
+                "Sealed and splash-proof (also suitable for marine environments)",
+                "100% stainless steel metal parts, and stanless steel back shields for better gain and mechanical strength",
+                "High input power (up to 2 x 250 Watts continuos power) with 24K gold-plated connectors on radomes"
+            ],
+            "features2": [
+                "Extended operating temperature range of -25° to +85° C",
+                "On-radome 24K gold plated N-type connector for maximum reliability, power tranfer, durability, and mechanical strength",
+                "Ultra-low VSWR throughout the whole 450 MHz to 6000 MHz frequency range",
+                "IP67 rating (protected against dust, strong water jets, and waves)",
+                "UL94 V-0 flammability rating",
+                "USA and international trademark current",
+                "USA and international patents pending"
+            ],
             "description": "To Increase Download and Upload Data Speeds for Quad-Connector MIMO/Aux/Diversity RF Devices (compatible with MIMO 8x4 and 4x4 Technologies) in Stationary/Fixed Locations",
+            "warranty": "2 Years",
             "image": "http://dummyimage.com/200x200.png/dddddd/000000"
         },
         {
@@ -109,7 +343,25 @@
             "name": "WideAnt8-Plus-5G-8x8™",
             "category": "Antennas",
             "sub-category": "Directional",
+            "features1": [
+                "Fully enclosed, robust, and durable, under any weather condition, with 100% stanelss-steel metal parts",
+                "Unparalleled worldwide cellular bands compatibility for countless applications, including cellular legacy, cellular data, 5G, 4G, LTE, xLTE, WiMAX, Wi-Fi, etc.",
+                "Pre-determined, optimized horixontal antenna separation for best SINR/CINR and maximum download and upload data speeds",
+                "Sealed and splash-proof (also suitable for marine environments)",
+                "100% stainless steel metal parts, and stanless steel back shields for better gain and mechanical strength",
+                "High input power (up to 2 x 250 Watts continuos power) with 24K gold-plated connectors on radomes"
+            ],
+            "features2": [
+                "Extended operating temperature range of -25° to +85° C",
+                "On-radome 24K gold plated N-type connector for maximum reliability, power tranfer, durability, and mechanical strength",
+                "Ultra-low VSWR throughout the whole 450 MHz to 6000 MHz frequency range",
+                "IP67 rating (protected against dust, strong water jets, and waves)",
+                "UL94 V-0 flammability rating",
+                "USA and international trademark current",
+                "USA and international patents pending"
+            ],
             "description": "To Increase Download and Upload Data Speeds for Octa-Connector MIMO/Aux/Diversity RF Devices (MIMO 8x8 Technology) in Stationary/Fixed Locations",
+            "warranty": "2 Years",
             "image": "http://dummyimage.com/200x200.png/dddddd/000000"
         },
         {
@@ -117,7 +369,25 @@
             "name": "DroneAnt™",
             "category": "Antennas",
             "sub-category": "Omnidirectional",
+            "features1": [
+                "Fully enclosed, robust, and durable, under any weather condition, with 100% stanelss-steel metal parts",
+                "Unparalleled worldwide cellular bands compatibility for countless applications, including cellular legacy, cellular data, 5G, 4G, LTE, xLTE, WiMAX, Wi-Fi, etc.",
+                "Pre-determined, optimized horixontal antenna separation for best SINR/CINR and maximum download and upload data speeds",
+                "Sealed and splash-proof (also suitable for marine environments)",
+                "100% stainless steel metal parts, and stanless steel back shields for better gain and mechanical strength",
+                "High input power (up to 2 x 250 Watts continuos power) with 24K gold-plated connectors on radomes"
+            ],
+            "features2": [
+                "Extended operating temperature range of -25° to +85° C",
+                "On-radome 24K gold plated N-type connector for maximum reliability, power tranfer, durability, and mechanical strength",
+                "Ultra-low VSWR throughout the whole 450 MHz to 6000 MHz frequency range",
+                "IP67 rating (protected against dust, strong water jets, and waves)",
+                "UL94 V-0 flammability rating",
+                "USA and international trademark current",
+                "USA and international patents pending"
+            ],
             "description": "To Increase Drone's Range in Stationary or Moving Locations",
+            "warranty": "2 Years",
             "image": "https://wirengimages.s3.amazonaws.com/images/serie-droneant/droneant/DroneAnt_by_WirEng_4.png"
         },
         {
@@ -125,7 +395,25 @@
             "name": "DroneAnt16™",
             "category": "Antennas",
             "sub-category": "Omnidirectional",
+            "features1": [
+                "Fully enclosed, robust, and durable, under any weather condition, with 100% stanelss-steel metal parts",
+                "Unparalleled worldwide cellular bands compatibility for countless applications, including cellular legacy, cellular data, 5G, 4G, LTE, xLTE, WiMAX, Wi-Fi, etc.",
+                "Pre-determined, optimized horixontal antenna separation for best SINR/CINR and maximum download and upload data speeds",
+                "Sealed and splash-proof (also suitable for marine environments)",
+                "100% stainless steel metal parts, and stanless steel back shields for better gain and mechanical strength",
+                "High input power (up to 2 x 250 Watts continuos power) with 24K gold-plated connectors on radomes"
+            ],
+            "features2": [
+                "Extended operating temperature range of -25° to +85° C",
+                "On-radome 24K gold plated N-type connector for maximum reliability, power tranfer, durability, and mechanical strength",
+                "Ultra-low VSWR throughout the whole 450 MHz to 6000 MHz frequency range",
+                "IP67 rating (protected against dust, strong water jets, and waves)",
+                "UL94 V-0 flammability rating",
+                "USA and international trademark current",
+                "USA and international patents pending"
+            ],
             "description": "To Increase Drone's Range in Stationary or Moving Locations",
+            "warranty": "2 Years",
             "image": "https://wirengimages.s3.amazonaws.com/images/serie-droneant/droneant16/gigamimo16-drone_04.png"
         },
         {
@@ -133,7 +421,25 @@
             "name": "DroneAnt-Plus™",
             "category": "Antennas",
             "sub-category": "Omnidirectional",
+            "features1": [
+                "Fully enclosed, robust, and durable, under any weather condition, with 100% stanelss-steel metal parts",
+                "Unparalleled worldwide cellular bands compatibility for countless applications, including cellular legacy, cellular data, 5G, 4G, LTE, xLTE, WiMAX, Wi-Fi, etc.",
+                "Pre-determined, optimized horixontal antenna separation for best SINR/CINR and maximum download and upload data speeds",
+                "Sealed and splash-proof (also suitable for marine environments)",
+                "100% stainless steel metal parts, and stanless steel back shields for better gain and mechanical strength",
+                "High input power (up to 2 x 250 Watts continuos power) with 24K gold-plated connectors on radomes"
+            ],
+            "features2": [
+                "Extended operating temperature range of -25° to +85° C",
+                "On-radome 24K gold plated N-type connector for maximum reliability, power tranfer, durability, and mechanical strength",
+                "Ultra-low VSWR throughout the whole 450 MHz to 6000 MHz frequency range",
+                "IP67 rating (protected against dust, strong water jets, and waves)",
+                "UL94 V-0 flammability rating",
+                "USA and international trademark current",
+                "USA and international patents pending"
+            ],
             "description": "To Increase Drone's Range in Stationary or Moving Locations",
+            "warranty": "2 Years",
             "image": "http://dummyimage.com/200x200.png/dddddd/000000"
         },
         {
@@ -141,7 +447,25 @@
             "name": "DroneAnt16-Plus™",
             "category": "Antennas",
             "sub-category": "Omnidirectional",
+            "features1": [
+                "Fully enclosed, robust, and durable, under any weather condition, with 100% stanelss-steel metal parts",
+                "Unparalleled worldwide cellular bands compatibility for countless applications, including cellular legacy, cellular data, 5G, 4G, LTE, xLTE, WiMAX, Wi-Fi, etc.",
+                "Pre-determined, optimized horixontal antenna separation for best SINR/CINR and maximum download and upload data speeds",
+                "Sealed and splash-proof (also suitable for marine environments)",
+                "100% stainless steel metal parts, and stanless steel back shields for better gain and mechanical strength",
+                "High input power (up to 2 x 250 Watts continuos power) with 24K gold-plated connectors on radomes"
+            ],
+            "features2": [
+                "Extended operating temperature range of -25° to +85° C",
+                "On-radome 24K gold plated N-type connector for maximum reliability, power tranfer, durability, and mechanical strength",
+                "Ultra-low VSWR throughout the whole 450 MHz to 6000 MHz frequency range",
+                "IP67 rating (protected against dust, strong water jets, and waves)",
+                "UL94 V-0 flammability rating",
+                "USA and international trademark current",
+                "USA and international patents pending"
+            ],
             "description": "To Increase Drone's Range in Stationary or Moving Locations",
+            "warranty": "2 Years",
             "image": "https://wirengimages.s3.amazonaws.com/images/serie-droneant/droneant16-plus/DroneAnt16-plus_03.png"
         },
         {
@@ -149,7 +473,25 @@
             "name": "GiAnt-5G™",
             "category": "Antennas",
             "sub-category": "Directional",
+            "features1": [
+                "Fully enclosed, robust, and durable, under any weather condition, with 100% stanelss-steel metal parts",
+                "Unparalleled worldwide cellular bands compatibility for countless applications, including cellular legacy, cellular data, 5G, 4G, LTE, xLTE, WiMAX, Wi-Fi, etc.",
+                "Pre-determined, optimized horixontal antenna separation for best SINR/CINR and maximum download and upload data speeds",
+                "Sealed and splash-proof (also suitable for marine environments)",
+                "100% stainless steel metal parts, and stanless steel back shields for better gain and mechanical strength",
+                "High input power (up to 2 x 250 Watts continuos power) with 24K gold-plated connectors on radomes"
+            ],
+            "features2": [
+                "Extended operating temperature range of -25° to +85° C",
+                "On-radome 24K gold plated N-type connector for maximum reliability, power tranfer, durability, and mechanical strength",
+                "Ultra-low VSWR throughout the whole 450 MHz to 6000 MHz frequency range",
+                "IP67 rating (protected against dust, strong water jets, and waves)",
+                "UL94 V-0 flammability rating",
+                "USA and international trademark current",
+                "USA and international patents pending"
+            ],
             "description": "To Increase Transmit and Receive RF Signal Strengths for Single-Connector RF Devices in Stationary/Fixed Locations",
+            "warranty": "2 Years",
             "image": "http://dummyimage.com/200x200.png/dddddd/000000"
         },
         {
@@ -157,7 +499,25 @@
             "name": "GiAnt2-5G™",
             "category": "Antennas",
             "sub-category": "Directional",
+            "features1": [
+                "Fully enclosed, robust, and durable, under any weather condition, with 100% stanelss-steel metal parts",
+                "Unparalleled worldwide cellular bands compatibility for countless applications, including cellular legacy, cellular data, 5G, 4G, LTE, xLTE, WiMAX, Wi-Fi, etc.",
+                "Pre-determined, optimized horixontal antenna separation for best SINR/CINR and maximum download and upload data speeds",
+                "Sealed and splash-proof (also suitable for marine environments)",
+                "100% stainless steel metal parts, and stanless steel back shields for better gain and mechanical strength",
+                "High input power (up to 2 x 250 Watts continuos power) with 24K gold-plated connectors on radomes"
+            ],
+            "features2": [
+                "Extended operating temperature range of -25° to +85° C",
+                "On-radome 24K gold plated N-type connector for maximum reliability, power tranfer, durability, and mechanical strength",
+                "Ultra-low VSWR throughout the whole 450 MHz to 6000 MHz frequency range",
+                "IP67 rating (protected against dust, strong water jets, and waves)",
+                "UL94 V-0 flammability rating",
+                "USA and international trademark current",
+                "USA and international patents pending"
+            ],
             "description": "To Increase Download and Upload Data Speeds for Dual-Connector MIMO/Aux/Diversity RF Devices (MIMO 2x2 Technology) in Stationary/Fixed Locations",
+            "warranty": "2 Years",
             "image": "http://dummyimage.com/200x200.png/dddddd/000000"
         },
         {
@@ -165,7 +525,25 @@
             "name": "GigaMIMO-5G™",
             "category": "Antennas",
             "sub-category": "Omnidirectional",
+            "features1": [
+                "Fully enclosed, robust, and durable, under any weather condition, with 100% stanelss-steel metal parts",
+                "Unparalleled worldwide cellular bands compatibility for countless applications, including cellular legacy, cellular data, 5G, 4G, LTE, xLTE, WiMAX, Wi-Fi, etc.",
+                "Pre-determined, optimized horixontal antenna separation for best SINR/CINR and maximum download and upload data speeds",
+                "Sealed and splash-proof (also suitable for marine environments)",
+                "100% stainless steel metal parts, and stanless steel back shields for better gain and mechanical strength",
+                "High input power (up to 2 x 250 Watts continuos power) with 24K gold-plated connectors on radomes"
+            ],
+            "features2": [
+                "Extended operating temperature range of -25° to +85° C",
+                "On-radome 24K gold plated N-type connector for maximum reliability, power tranfer, durability, and mechanical strength",
+                "Ultra-low VSWR throughout the whole 450 MHz to 6000 MHz frequency range",
+                "IP67 rating (protected against dust, strong water jets, and waves)",
+                "UL94 V-0 flammability rating",
+                "USA and international trademark current",
+                "USA and international patents pending"
+            ],
             "description": "To Increase Download and Upload Data Speeds for Dual-Connector MIMO/Aux/Diversity RF Devices (MIMO 2x2 Technology) in Stationary or Moving Locations",
+            "warranty": "2 Years",
             "image": "http://dummyimage.com/200x200.png/dddddd/000000"
         },
         {
@@ -173,7 +551,25 @@
             "name": "GigaMIMO16-5G-2x2™",
             "category": "Antennas",
             "sub-category": "Omnidirectional",
+            "features1": [
+                "Fully enclosed, robust, and durable, under any weather condition, with 100% stanelss-steel metal parts",
+                "Unparalleled worldwide cellular bands compatibility for countless applications, including cellular legacy, cellular data, 5G, 4G, LTE, xLTE, WiMAX, Wi-Fi, etc.",
+                "Pre-determined, optimized horixontal antenna separation for best SINR/CINR and maximum download and upload data speeds",
+                "Sealed and splash-proof (also suitable for marine environments)",
+                "100% stainless steel metal parts, and stanless steel back shields for better gain and mechanical strength",
+                "High input power (up to 2 x 250 Watts continuos power) with 24K gold-plated connectors on radomes"
+            ],
+            "features2": [
+                "Extended operating temperature range of -25° to +85° C",
+                "On-radome 24K gold plated N-type connector for maximum reliability, power tranfer, durability, and mechanical strength",
+                "Ultra-low VSWR throughout the whole 450 MHz to 6000 MHz frequency range",
+                "IP67 rating (protected against dust, strong water jets, and waves)",
+                "UL94 V-0 flammability rating",
+                "USA and international trademark current",
+                "USA and international patents pending"
+            ],
             "description": "To Increase Download and Upload Data Speeds for Dual-Connector MIMO/Aux/Diversity RF Devices (compatible with MIMO 2x2 Technology) in Stationary or Moving Locations",
+            "warranty": "2 Years",
             "image": "http://dummyimage.com/200x200.png/dddddd/000000"
         },
         {
@@ -181,7 +577,25 @@
             "name": "GigaMIMO16-5G-4x2™",
             "category": "Antennas",
             "sub-category": "Omnidirectional",
+            "features1": [
+                "Fully enclosed, robust, and durable, under any weather condition, with 100% stanelss-steel metal parts",
+                "Unparalleled worldwide cellular bands compatibility for countless applications, including cellular legacy, cellular data, 5G, 4G, LTE, xLTE, WiMAX, Wi-Fi, etc.",
+                "Pre-determined, optimized horixontal antenna separation for best SINR/CINR and maximum download and upload data speeds",
+                "Sealed and splash-proof (also suitable for marine environments)",
+                "100% stainless steel metal parts, and stanless steel back shields for better gain and mechanical strength",
+                "High input power (up to 2 x 250 Watts continuos power) with 24K gold-plated connectors on radomes"
+            ],
+            "features2": [
+                "Extended operating temperature range of -25° to +85° C",
+                "On-radome 24K gold plated N-type connector for maximum reliability, power tranfer, durability, and mechanical strength",
+                "Ultra-low VSWR throughout the whole 450 MHz to 6000 MHz frequency range",
+                "IP67 rating (protected against dust, strong water jets, and waves)",
+                "UL94 V-0 flammability rating",
+                "USA and international trademark current",
+                "USA and international patents pending"
+            ],
             "description": "To Increase Download and Upload Data Speeds for Dual-Connector MIMO/Aux/Diversity RF Devices (compatible with MIMO 4x2 Technology) in Stationary or Moving Locations",
+            "warranty": "2 Years",
             "image": "http://dummyimage.com/200x200.png/dddddd/000000"
         },
         {
@@ -189,7 +603,25 @@
             "name": "GigaMIMO16-5G-4x4™",
             "category": "Antennas",
             "sub-category": "Omnidirectional",
+            "features1": [
+                "Fully enclosed, robust, and durable, under any weather condition, with 100% stanelss-steel metal parts",
+                "Unparalleled worldwide cellular bands compatibility for countless applications, including cellular legacy, cellular data, 5G, 4G, LTE, xLTE, WiMAX, Wi-Fi, etc.",
+                "Pre-determined, optimized horixontal antenna separation for best SINR/CINR and maximum download and upload data speeds",
+                "Sealed and splash-proof (also suitable for marine environments)",
+                "100% stainless steel metal parts, and stanless steel back shields for better gain and mechanical strength",
+                "High input power (up to 2 x 250 Watts continuos power) with 24K gold-plated connectors on radomes"
+            ],
+            "features2": [
+                "Extended operating temperature range of -25° to +85° C",
+                "On-radome 24K gold plated N-type connector for maximum reliability, power tranfer, durability, and mechanical strength",
+                "Ultra-low VSWR throughout the whole 450 MHz to 6000 MHz frequency range",
+                "IP67 rating (protected against dust, strong water jets, and waves)",
+                "UL94 V-0 flammability rating",
+                "USA and international trademark current",
+                "USA and international patents pending"
+            ],
             "description": "To Increase Download and Upload Data Speeds for Dual-Connector MIMO/Aux/Diversity RF Devices (compatible with MIMO 4x4 Technology) in Stationary or Moving Locations",
+            "warranty": "2 Years",
             "image": "http://dummyimage.com/200x200.png/dddddd/000000"
         },
         {
@@ -197,7 +629,25 @@
             "name": "GigaMIMO-Plus-5G™",
             "category": "Antennas",
             "sub-category": "Omnidirectional",
+            "features1": [
+                "Fully enclosed, robust, and durable, under any weather condition, with 100% stanelss-steel metal parts",
+                "Unparalleled worldwide cellular bands compatibility for countless applications, including cellular legacy, cellular data, 5G, 4G, LTE, xLTE, WiMAX, Wi-Fi, etc.",
+                "Pre-determined, optimized horixontal antenna separation for best SINR/CINR and maximum download and upload data speeds",
+                "Sealed and splash-proof (also suitable for marine environments)",
+                "100% stainless steel metal parts, and stanless steel back shields for better gain and mechanical strength",
+                "High input power (up to 2 x 250 Watts continuos power) with 24K gold-plated connectors on radomes"
+            ],
+            "features2": [
+                "Extended operating temperature range of -25° to +85° C",
+                "On-radome 24K gold plated N-type connector for maximum reliability, power tranfer, durability, and mechanical strength",
+                "Ultra-low VSWR throughout the whole 450 MHz to 6000 MHz frequency range",
+                "IP67 rating (protected against dust, strong water jets, and waves)",
+                "UL94 V-0 flammability rating",
+                "USA and international trademark current",
+                "USA and international patents pending"
+            ],
             "description": "To Increase Download and Upload Data Speeds for Dual-Connector MIMO/Aux/Diversity RF Devices (compatible with MIMO 4x4 Technology) in Stationary or Moving Locations",
+            "warranty": "2 Years",
             "image": "https://wirengimages.s3.amazonaws.com/images/seriegigamimo-plus-5g/gigamimo-plus-5g/gigamimo-plus-5g+8.png"
         },
         {
@@ -205,7 +655,25 @@
             "name": "GigaMIMO16-Plus-5G-2x2™",
             "category": "Antennas",
             "sub-category": "Omnidirectional",
+            "features1": [
+                "Fully enclosed, robust, and durable, under any weather condition, with 100% stanelss-steel metal parts",
+                "Unparalleled worldwide cellular bands compatibility for countless applications, including cellular legacy, cellular data, 5G, 4G, LTE, xLTE, WiMAX, Wi-Fi, etc.",
+                "Pre-determined, optimized horixontal antenna separation for best SINR/CINR and maximum download and upload data speeds",
+                "Sealed and splash-proof (also suitable for marine environments)",
+                "100% stainless steel metal parts, and stanless steel back shields for better gain and mechanical strength",
+                "High input power (up to 2 x 250 Watts continuos power) with 24K gold-plated connectors on radomes"
+            ],
+            "features2": [
+                "Extended operating temperature range of -25° to +85° C",
+                "On-radome 24K gold plated N-type connector for maximum reliability, power tranfer, durability, and mechanical strength",
+                "Ultra-low VSWR throughout the whole 450 MHz to 6000 MHz frequency range",
+                "IP67 rating (protected against dust, strong water jets, and waves)",
+                "UL94 V-0 flammability rating",
+                "USA and international trademark current",
+                "USA and international patents pending"
+            ],
             "description": "To Increase Download and Upload Data Speeds for Dual-Connector MIMO/Aux/Diversity RF Devices (compatible with MIMO 4x4 Technology) in Stationary or Moving Locations",
+            "warranty": "2 Years",
             "image": "http://dummyimage.com/200x200.png/dddddd/000000"
         },
         {
@@ -213,7 +681,25 @@
             "name": "GigaMIMO16-Plus-5G-4x2™",
             "category": "Antennas",
             "sub-category": "Omnidirectional",
+            "features1": [
+                "Fully enclosed, robust, and durable, under any weather condition, with 100% stanelss-steel metal parts",
+                "Unparalleled worldwide cellular bands compatibility for countless applications, including cellular legacy, cellular data, 5G, 4G, LTE, xLTE, WiMAX, Wi-Fi, etc.",
+                "Pre-determined, optimized horixontal antenna separation for best SINR/CINR and maximum download and upload data speeds",
+                "Sealed and splash-proof (also suitable for marine environments)",
+                "100% stainless steel metal parts, and stanless steel back shields for better gain and mechanical strength",
+                "High input power (up to 2 x 250 Watts continuos power) with 24K gold-plated connectors on radomes"
+            ],
+            "features2": [
+                "Extended operating temperature range of -25° to +85° C",
+                "On-radome 24K gold plated N-type connector for maximum reliability, power tranfer, durability, and mechanical strength",
+                "Ultra-low VSWR throughout the whole 450 MHz to 6000 MHz frequency range",
+                "IP67 rating (protected against dust, strong water jets, and waves)",
+                "UL94 V-0 flammability rating",
+                "USA and international trademark current",
+                "USA and international patents pending"
+            ],
             "description": "To Increase Download and Upload Data Speeds for Dual-Connector MIMO/Aux/Diversity RF Devices (compatible with MIMO 4x4 Technology) in Stationary or Moving Locations",
+            "warranty": "2 Years",
             "image": "http://dummyimage.com/200x200.png/dddddd/000000"
         },
         {
@@ -221,7 +707,25 @@
             "name": "GigaMIMO16-Plus-5G-4x4™",
             "category": "Antennas",
             "sub-category": "Omnidirectional",
+            "features1": [
+                "Fully enclosed, robust, and durable, under any weather condition, with 100% stanelss-steel metal parts",
+                "Unparalleled worldwide cellular bands compatibility for countless applications, including cellular legacy, cellular data, 5G, 4G, LTE, xLTE, WiMAX, Wi-Fi, etc.",
+                "Pre-determined, optimized horixontal antenna separation for best SINR/CINR and maximum download and upload data speeds",
+                "Sealed and splash-proof (also suitable for marine environments)",
+                "100% stainless steel metal parts, and stanless steel back shields for better gain and mechanical strength",
+                "High input power (up to 2 x 250 Watts continuos power) with 24K gold-plated connectors on radomes"
+            ],
+            "features2": [
+                "Extended operating temperature range of -25° to +85° C",
+                "On-radome 24K gold plated N-type connector for maximum reliability, power tranfer, durability, and mechanical strength",
+                "Ultra-low VSWR throughout the whole 450 MHz to 6000 MHz frequency range",
+                "IP67 rating (protected against dust, strong water jets, and waves)",
+                "UL94 V-0 flammability rating",
+                "USA and international trademark current",
+                "USA and international patents pending"
+            ],
             "description": "To Increase Download and Upload Data Speeds for Dual-Connector MIMO/Aux/Diversity RF Devices (compatible with MIMO 4x4 Technology) in Stationary or Moving Locations",
+            "warranty": "2 Years",
             "image": "http://dummyimage.com/200x200.png/dddddd/000000"
         },
         {
@@ -229,7 +733,25 @@
             "name": "OctAnt-5G™",
             "category": "Antennas",
             "sub-category": "Omnidirectional",
+            "features1": [
+                "Fully enclosed, robust, and durable, under any weather condition, with 100% stanelss-steel metal parts",
+                "Unparalleled worldwide cellular bands compatibility for countless applications, including cellular legacy, cellular data, 5G, 4G, LTE, xLTE, WiMAX, Wi-Fi, etc.",
+                "Pre-determined, optimized horixontal antenna separation for best SINR/CINR and maximum download and upload data speeds",
+                "Sealed and splash-proof (also suitable for marine environments)",
+                "100% stainless steel metal parts, and stanless steel back shields for better gain and mechanical strength",
+                "High input power (up to 2 x 250 Watts continuos power) with 24K gold-plated connectors on radomes"
+            ],
+            "features2": [
+                "Extended operating temperature range of -25° to +85° C",
+                "On-radome 24K gold plated N-type connector for maximum reliability, power tranfer, durability, and mechanical strength",
+                "Ultra-low VSWR throughout the whole 450 MHz to 6000 MHz frequency range",
+                "IP67 rating (protected against dust, strong water jets, and waves)",
+                "UL94 V-0 flammability rating",
+                "USA and international trademark current",
+                "USA and international patents pending"
+            ],
             "description": "To Increase Download and Upload Data Speeds for Octa-Connector MIMO/Aux/Diversity RF Devices (compatible with MIMO 8X8 Technologies) in Stationary or Moving Locations",
+            "warranty": "2 Years",
             "image": "https://wirengimages.s3.amazonaws.com/images/serieoctant-5g/octant-5g/OctAnt-5g_02.png"
         },
         {
@@ -237,7 +759,25 @@
             "name": "TransAnt-5G™",
             "category": "Antennas",
             "sub-category": "Omnidirectional",
+            "features1": [
+                "Fully enclosed, robust, and durable, under any weather condition, with 100% stanelss-steel metal parts",
+                "Unparalleled worldwide cellular bands compatibility for countless applications, including cellular legacy, cellular data, 5G, 4G, LTE, xLTE, WiMAX, Wi-Fi, etc.",
+                "Pre-determined, optimized horixontal antenna separation for best SINR/CINR and maximum download and upload data speeds",
+                "Sealed and splash-proof (also suitable for marine environments)",
+                "100% stainless steel metal parts, and stanless steel back shields for better gain and mechanical strength",
+                "High input power (up to 2 x 250 Watts continuos power) with 24K gold-plated connectors on radomes"
+            ],
+            "features2": [
+                "Extended operating temperature range of -25° to +85° C",
+                "On-radome 24K gold plated N-type connector for maximum reliability, power tranfer, durability, and mechanical strength",
+                "Ultra-low VSWR throughout the whole 450 MHz to 6000 MHz frequency range",
+                "IP67 rating (protected against dust, strong water jets, and waves)",
+                "UL94 V-0 flammability rating",
+                "USA and international trademark current",
+                "USA and international patents pending"
+            ],
             "description": "To Increase Download and Upload Data Speeds for Quad-Connector MIMO 4x4 RF Devices (MIMO 4x4 Technology) in Stationary/Fixed Locations",
+            "warranty": "2 Years",
             "image": "http://dummyimage.com/200x200.png/dddddd/000000"
         },
         {
@@ -245,7 +785,25 @@
             "name": "Omnirial2-5G-Win™",
             "category": "Antennas",
             "sub-category": "Omnidirectional",
+            "features1": [
+                "Fully enclosed, robust, and durable, under any weather condition, with 100% stanelss-steel metal parts",
+                "Unparalleled worldwide cellular bands compatibility for countless applications, including cellular legacy, cellular data, 5G, 4G, LTE, xLTE, WiMAX, Wi-Fi, etc.",
+                "Pre-determined, optimized horixontal antenna separation for best SINR/CINR and maximum download and upload data speeds",
+                "Sealed and splash-proof (also suitable for marine environments)",
+                "100% stainless steel metal parts, and stanless steel back shields for better gain and mechanical strength",
+                "High input power (up to 2 x 250 Watts continuos power) with 24K gold-plated connectors on radomes"
+            ],
+            "features2": [
+                "Extended operating temperature range of -25° to +85° C",
+                "On-radome 24K gold plated N-type connector for maximum reliability, power tranfer, durability, and mechanical strength",
+                "Ultra-low VSWR throughout the whole 450 MHz to 6000 MHz frequency range",
+                "IP67 rating (protected against dust, strong water jets, and waves)",
+                "UL94 V-0 flammability rating",
+                "USA and international trademark current",
+                "USA and international patents pending"
+            ],
             "description": "Fully Portable Solution To Increase Download and Upload Data Speeds Inside Vehicles, Hotels, Camping Spots, RV's, for Dual-Connector MIMO/Aux/Diversity RF Devices (MIMO 2x2 Technology) in Stationary or Moving Locations.",
+            "warranty": "2 Years",
             "image": "http://dummyimage.com/200x200.png/dddddd/000000"
         },
         {
@@ -253,7 +811,25 @@
             "name": "Omnirial2-5G™",
             "category": "Antennas",
             "sub-category": "Omnidirectional",
+            "features1": [
+                "Fully enclosed, robust, and durable, under any weather condition, with 100% stanelss-steel metal parts",
+                "Unparalleled worldwide cellular bands compatibility for countless applications, including cellular legacy, cellular data, 5G, 4G, LTE, xLTE, WiMAX, Wi-Fi, etc.",
+                "Pre-determined, optimized horixontal antenna separation for best SINR/CINR and maximum download and upload data speeds",
+                "Sealed and splash-proof (also suitable for marine environments)",
+                "100% stainless steel metal parts, and stanless steel back shields for better gain and mechanical strength",
+                "High input power (up to 2 x 250 Watts continuos power) with 24K gold-plated connectors on radomes"
+            ],
+            "features2": [
+                "Extended operating temperature range of -25° to +85° C",
+                "On-radome 24K gold plated N-type connector for maximum reliability, power tranfer, durability, and mechanical strength",
+                "Ultra-low VSWR throughout the whole 450 MHz to 6000 MHz frequency range",
+                "IP67 rating (protected against dust, strong water jets, and waves)",
+                "UL94 V-0 flammability rating",
+                "USA and international trademark current",
+                "USA and international patents pending"
+            ],
             "description": "To Increase Download and Upload Data Speeds for Dual-Connector MIMO/Aux/Diversity RF Devices (MIMO 2x2 Technology) in Stationary or Moving Locations",
+            "warranty": "2 Years",
             "image": "https://wirengimages.s3.amazonaws.com/images/serieomnirial-5g/omnirial2-5g/omnirial2-5g_03.png"
         },
         {
@@ -261,7 +837,25 @@
             "name": "Omnirial4-5G-4x2™",
             "category": "Antennas",
             "sub-category": "Omnidirectional",
+            "features1": [
+                "Fully enclosed, robust, and durable, under any weather condition, with 100% stanelss-steel metal parts",
+                "Unparalleled worldwide cellular bands compatibility for countless applications, including cellular legacy, cellular data, 5G, 4G, LTE, xLTE, WiMAX, Wi-Fi, etc.",
+                "Pre-determined, optimized horixontal antenna separation for best SINR/CINR and maximum download and upload data speeds",
+                "Sealed and splash-proof (also suitable for marine environments)",
+                "100% stainless steel metal parts, and stanless steel back shields for better gain and mechanical strength",
+                "High input power (up to 2 x 250 Watts continuos power) with 24K gold-plated connectors on radomes"
+            ],
+            "features2": [
+                "Extended operating temperature range of -25° to +85° C",
+                "On-radome 24K gold plated N-type connector for maximum reliability, power tranfer, durability, and mechanical strength",
+                "Ultra-low VSWR throughout the whole 450 MHz to 6000 MHz frequency range",
+                "IP67 rating (protected against dust, strong water jets, and waves)",
+                "UL94 V-0 flammability rating",
+                "USA and international trademark current",
+                "USA and international patents pending"
+            ],
             "description": "To Increase Download and Upload Data Speeds for Dual-Connector MIMO/Aux/Diversity RF Devices (MIMO 4x2 and 2x2 Technologies) in Stationary or Moving Locations",
+            "warranty": "2 Years",
             "image": "https://wirengimages.s3.amazonaws.com/images/serieomnirial-5g/omnirial4-5g-4x2/Omnirial4-5G-4X2_06.png"
         },
         {
@@ -269,7 +863,25 @@
             "name": "Omnirial4-5G-4x4™",
             "category": "Antennas",
             "sub-category": "Omnidirectional",
+            "features1": [
+                "Fully enclosed, robust, and durable, under any weather condition, with 100% stanelss-steel metal parts",
+                "Unparalleled worldwide cellular bands compatibility for countless applications, including cellular legacy, cellular data, 5G, 4G, LTE, xLTE, WiMAX, Wi-Fi, etc.",
+                "Pre-determined, optimized horixontal antenna separation for best SINR/CINR and maximum download and upload data speeds",
+                "Sealed and splash-proof (also suitable for marine environments)",
+                "100% stainless steel metal parts, and stanless steel back shields for better gain and mechanical strength",
+                "High input power (up to 2 x 250 Watts continuos power) with 24K gold-plated connectors on radomes"
+            ],
+            "features2": [
+                "Extended operating temperature range of -25° to +85° C",
+                "On-radome 24K gold plated N-type connector for maximum reliability, power tranfer, durability, and mechanical strength",
+                "Ultra-low VSWR throughout the whole 450 MHz to 6000 MHz frequency range",
+                "IP67 rating (protected against dust, strong water jets, and waves)",
+                "UL94 V-0 flammability rating",
+                "USA and international trademark current",
+                "USA and international patents pending"
+            ],
             "description": "To Increase Download and Upload Data Speeds for Quad-Connector MIMO/Aux/Diversity RF Devices (MIMO 4x4 Technology) in Stationary or Moving Locations",
+            "warranty": "2 Years",
             "image": "https://wirengimages.s3.amazonaws.com/images/serieomnirial-5g/omnirial4-5g-4x4/omnirial4-5g_02.png"
         },
         {
@@ -277,7 +889,25 @@
             "name": "Omnirial8-5G-8x2™",
             "category": "Antennas",
             "sub-category": "Omnidirectional",
+            "features1": [
+                "Fully enclosed, robust, and durable, under any weather condition, with 100% stanelss-steel metal parts",
+                "Unparalleled worldwide cellular bands compatibility for countless applications, including cellular legacy, cellular data, 5G, 4G, LTE, xLTE, WiMAX, Wi-Fi, etc.",
+                "Pre-determined, optimized horixontal antenna separation for best SINR/CINR and maximum download and upload data speeds",
+                "Sealed and splash-proof (also suitable for marine environments)",
+                "100% stainless steel metal parts, and stanless steel back shields for better gain and mechanical strength",
+                "High input power (up to 2 x 250 Watts continuos power) with 24K gold-plated connectors on radomes"
+            ],
+            "features2": [
+                "Extended operating temperature range of -25° to +85° C",
+                "On-radome 24K gold plated N-type connector for maximum reliability, power tranfer, durability, and mechanical strength",
+                "Ultra-low VSWR throughout the whole 450 MHz to 6000 MHz frequency range",
+                "IP67 rating (protected against dust, strong water jets, and waves)",
+                "UL94 V-0 flammability rating",
+                "USA and international trademark current",
+                "USA and international patents pending"
+            ],
             "description": "To Increase Download and Upload Data Speeds for Dual-Connector MIMO/Aux/Diversity RF Devices (MIMO 8x2, 4x2 and 2x2 Technology) in Stationary or Moving Locations",
+            "warranty": "2 Years",
             "image": "http://dummyimage.com/200x200.png/dddddd/000000"
         },
         {
@@ -285,7 +915,25 @@
             "name": "Omnirial8-5G-8x4™",
             "category": "Antennas",
             "sub-category": "Omnidirectional",
+            "features1": [
+                "Fully enclosed, robust, and durable, under any weather condition, with 100% stanelss-steel metal parts",
+                "Unparalleled worldwide cellular bands compatibility for countless applications, including cellular legacy, cellular data, 5G, 4G, LTE, xLTE, WiMAX, Wi-Fi, etc.",
+                "Pre-determined, optimized horixontal antenna separation for best SINR/CINR and maximum download and upload data speeds",
+                "Sealed and splash-proof (also suitable for marine environments)",
+                "100% stainless steel metal parts, and stanless steel back shields for better gain and mechanical strength",
+                "High input power (up to 2 x 250 Watts continuos power) with 24K gold-plated connectors on radomes"
+            ],
+            "features2": [
+                "Extended operating temperature range of -25° to +85° C",
+                "On-radome 24K gold plated N-type connector for maximum reliability, power tranfer, durability, and mechanical strength",
+                "Ultra-low VSWR throughout the whole 450 MHz to 6000 MHz frequency range",
+                "IP67 rating (protected against dust, strong water jets, and waves)",
+                "UL94 V-0 flammability rating",
+                "USA and international trademark current",
+                "USA and international patents pending"
+            ],
             "description": "To Increase Download and Upload Data Speeds for Quad-Connector MIMO/Aux/Diversity RF Devices (MIMO 8x4 and 4x4 Technologies) in Stationary or Moving Locations",
+            "warranty": "2 Years",
             "image": "http://dummyimage.com/200x200.png/dddddd/000000"
         },
         {
@@ -293,7 +941,25 @@
             "name": "Omnirial8-5G-8x8™",
             "category": "Antennas",
             "sub-category": "Omnidirectional",
+            "features1": [
+                "Fully enclosed, robust, and durable, under any weather condition, with 100% stanelss-steel metal parts",
+                "Unparalleled worldwide cellular bands compatibility for countless applications, including cellular legacy, cellular data, 5G, 4G, LTE, xLTE, WiMAX, Wi-Fi, etc.",
+                "Pre-determined, optimized horixontal antenna separation for best SINR/CINR and maximum download and upload data speeds",
+                "Sealed and splash-proof (also suitable for marine environments)",
+                "100% stainless steel metal parts, and stanless steel back shields for better gain and mechanical strength",
+                "High input power (up to 2 x 250 Watts continuos power) with 24K gold-plated connectors on radomes"
+            ],
+            "features2": [
+                "Extended operating temperature range of -25° to +85° C",
+                "On-radome 24K gold plated N-type connector for maximum reliability, power tranfer, durability, and mechanical strength",
+                "Ultra-low VSWR throughout the whole 450 MHz to 6000 MHz frequency range",
+                "IP67 rating (protected against dust, strong water jets, and waves)",
+                "UL94 V-0 flammability rating",
+                "USA and international trademark current",
+                "USA and international patents pending"
+            ],
             "description": "To Increase Download and Upload Data Speeds for Octa-Connector MIMO/Aux/Diversity RF Devices (MIMO 8x8 Technology) in Stationary or Moving Locations",
+            "warranty": "2 Years",
             "image": "http://dummyimage.com/200x200.png/dddddd/000000"
         },
         {
@@ -301,7 +967,25 @@
             "name": "Omnirial2-Plus-5G™",
             "category": "Antennas",
             "sub-category": "Omnidirectional",
+            "features1": [
+                "Fully enclosed, robust, and durable, under any weather condition, with 100% stanelss-steel metal parts",
+                "Unparalleled worldwide cellular bands compatibility for countless applications, including cellular legacy, cellular data, 5G, 4G, LTE, xLTE, WiMAX, Wi-Fi, etc.",
+                "Pre-determined, optimized horixontal antenna separation for best SINR/CINR and maximum download and upload data speeds",
+                "Sealed and splash-proof (also suitable for marine environments)",
+                "100% stainless steel metal parts, and stanless steel back shields for better gain and mechanical strength",
+                "High input power (up to 2 x 250 Watts continuos power) with 24K gold-plated connectors on radomes"
+            ],
+            "features2": [
+                "Extended operating temperature range of -25° to +85° C",
+                "On-radome 24K gold plated N-type connector for maximum reliability, power tranfer, durability, and mechanical strength",
+                "Ultra-low VSWR throughout the whole 450 MHz to 6000 MHz frequency range",
+                "IP67 rating (protected against dust, strong water jets, and waves)",
+                "UL94 V-0 flammability rating",
+                "USA and international trademark current",
+                "USA and international patents pending"
+            ],
             "description": "To Increase Download and Upload Data Speeds for Dual-Connector MIMO/Aux/Diversity RF Devices (MIMO 2x2 Technology) in Stationary or Moving Locations",
+            "warranty": "2 Years",
             "image": "http://dummyimage.com/200x200.png/dddddd/000000"
         },
         {
@@ -309,7 +993,25 @@
             "name": "Omnirial4-Plus-5G-4x2™",
             "category": "Antennas",
             "sub-category": "Omnidirectional",
+            "features1": [
+                "Fully enclosed, robust, and durable, under any weather condition, with 100% stanelss-steel metal parts",
+                "Unparalleled worldwide cellular bands compatibility for countless applications, including cellular legacy, cellular data, 5G, 4G, LTE, xLTE, WiMAX, Wi-Fi, etc.",
+                "Pre-determined, optimized horixontal antenna separation for best SINR/CINR and maximum download and upload data speeds",
+                "Sealed and splash-proof (also suitable for marine environments)",
+                "100% stainless steel metal parts, and stanless steel back shields for better gain and mechanical strength",
+                "High input power (up to 2 x 250 Watts continuos power) with 24K gold-plated connectors on radomes"
+            ],
+            "features2": [
+                "Extended operating temperature range of -25° to +85° C",
+                "On-radome 24K gold plated N-type connector for maximum reliability, power tranfer, durability, and mechanical strength",
+                "Ultra-low VSWR throughout the whole 450 MHz to 6000 MHz frequency range",
+                "IP67 rating (protected against dust, strong water jets, and waves)",
+                "UL94 V-0 flammability rating",
+                "USA and international trademark current",
+                "USA and international patents pending"
+            ],
             "description": "To Increase Download and Upload Data Speeds for Dual-Connector MIMO/Aux/Diversity RF Devices (MIMO 4x2 and 2x2 Technologies) in Stationary or Moving Locations",
+            "warranty": "2 Years",
             "image": "https://wirengimages.s3.amazonaws.com/images/serieomnirial-plus-5g/omnirial4-plus-5g-4x2/Omnirial4-plus-5g-4x2_07.png"
         },
         {
@@ -317,7 +1019,25 @@
             "name": "Omnirial4-Plus-5G-4x4™",
             "category": "Antennas",
             "sub-category": "Omnidirectional",
+            "features1": [
+                "Fully enclosed, robust, and durable, under any weather condition, with 100% stanelss-steel metal parts",
+                "Unparalleled worldwide cellular bands compatibility for countless applications, including cellular legacy, cellular data, 5G, 4G, LTE, xLTE, WiMAX, Wi-Fi, etc.",
+                "Pre-determined, optimized horixontal antenna separation for best SINR/CINR and maximum download and upload data speeds",
+                "Sealed and splash-proof (also suitable for marine environments)",
+                "100% stainless steel metal parts, and stanless steel back shields for better gain and mechanical strength",
+                "High input power (up to 2 x 250 Watts continuos power) with 24K gold-plated connectors on radomes"
+            ],
+            "features2": [
+                "Extended operating temperature range of -25° to +85° C",
+                "On-radome 24K gold plated N-type connector for maximum reliability, power tranfer, durability, and mechanical strength",
+                "Ultra-low VSWR throughout the whole 450 MHz to 6000 MHz frequency range",
+                "IP67 rating (protected against dust, strong water jets, and waves)",
+                "UL94 V-0 flammability rating",
+                "USA and international trademark current",
+                "USA and international patents pending"
+            ],
             "description": "To Increase Download and Upload Data Speeds for Quad-Connector MIMO/Aux/Diversity RF Devices (MIMO 4x4 Technology) in Stationary or Moving Locations",
+            "warranty": "2 Years",
             "image": "http://dummyimage.com/200x200.png/dddddd/000000"
         },
         {
@@ -325,7 +1045,25 @@
             "name": "Omnirial8-Plus-5G-8x2™",
             "category": "Antennas",
             "sub-category": "Omnidirectional",
+            "features1": [
+                "Fully enclosed, robust, and durable, under any weather condition, with 100% stanelss-steel metal parts",
+                "Unparalleled worldwide cellular bands compatibility for countless applications, including cellular legacy, cellular data, 5G, 4G, LTE, xLTE, WiMAX, Wi-Fi, etc.",
+                "Pre-determined, optimized horixontal antenna separation for best SINR/CINR and maximum download and upload data speeds",
+                "Sealed and splash-proof (also suitable for marine environments)",
+                "100% stainless steel metal parts, and stanless steel back shields for better gain and mechanical strength",
+                "High input power (up to 2 x 250 Watts continuos power) with 24K gold-plated connectors on radomes"
+            ],
+            "features2": [
+                "Extended operating temperature range of -25° to +85° C",
+                "On-radome 24K gold plated N-type connector for maximum reliability, power tranfer, durability, and mechanical strength",
+                "Ultra-low VSWR throughout the whole 450 MHz to 6000 MHz frequency range",
+                "IP67 rating (protected against dust, strong water jets, and waves)",
+                "UL94 V-0 flammability rating",
+                "USA and international trademark current",
+                "USA and international patents pending"
+            ],
             "description": "To Increase Download and Upload Data Speeds for Dual-Connector MIMO/Aux/Diversity RF Devices (MIMO 8x2, 4x2 and 2x2 Technology) in Stationary or Moving Locations",
+            "warranty": "2 Years",
             "image": "http://dummyimage.com/200x200.png/dddddd/000000"
         },
         {
@@ -333,7 +1071,25 @@
             "name": "Omnirial8-Plus-5G-8x4™",
             "category": "Antennas",
             "sub-category": "Omnidirectional",
+            "features1": [
+                "Fully enclosed, robust, and durable, under any weather condition, with 100% stanelss-steel metal parts",
+                "Unparalleled worldwide cellular bands compatibility for countless applications, including cellular legacy, cellular data, 5G, 4G, LTE, xLTE, WiMAX, Wi-Fi, etc.",
+                "Pre-determined, optimized horixontal antenna separation for best SINR/CINR and maximum download and upload data speeds",
+                "Sealed and splash-proof (also suitable for marine environments)",
+                "100% stainless steel metal parts, and stanless steel back shields for better gain and mechanical strength",
+                "High input power (up to 2 x 250 Watts continuos power) with 24K gold-plated connectors on radomes"
+            ],
+            "features2": [
+                "Extended operating temperature range of -25° to +85° C",
+                "On-radome 24K gold plated N-type connector for maximum reliability, power tranfer, durability, and mechanical strength",
+                "Ultra-low VSWR throughout the whole 450 MHz to 6000 MHz frequency range",
+                "IP67 rating (protected against dust, strong water jets, and waves)",
+                "UL94 V-0 flammability rating",
+                "USA and international trademark current",
+                "USA and international patents pending"
+            ],
             "description": "To Increase Download and Upload Data Speeds for Quad-Connector MIMO/Aux/Diversity RF Devices (MIMO 8x4 and 4x4 Technologies) in Stationary or Moving Locations",
+            "warranty": "2 Years",
             "image": "http://dummyimage.com/200x200.png/dddddd/000000"
         },
         {
@@ -341,7 +1097,25 @@
             "name": "Omnirial8-Plus-5G-8x8™",
             "category": "Antennas",
             "sub-category": "Omnidirectional",
+            "features1": [
+                "Fully enclosed, robust, and durable, under any weather condition, with 100% stanelss-steel metal parts",
+                "Unparalleled worldwide cellular bands compatibility for countless applications, including cellular legacy, cellular data, 5G, 4G, LTE, xLTE, WiMAX, Wi-Fi, etc.",
+                "Pre-determined, optimized horixontal antenna separation for best SINR/CINR and maximum download and upload data speeds",
+                "Sealed and splash-proof (also suitable for marine environments)",
+                "100% stainless steel metal parts, and stanless steel back shields for better gain and mechanical strength",
+                "High input power (up to 2 x 250 Watts continuos power) with 24K gold-plated connectors on radomes"
+            ],
+            "features2": [
+                "Extended operating temperature range of -25° to +85° C",
+                "On-radome 24K gold plated N-type connector for maximum reliability, power tranfer, durability, and mechanical strength",
+                "Ultra-low VSWR throughout the whole 450 MHz to 6000 MHz frequency range",
+                "IP67 rating (protected against dust, strong water jets, and waves)",
+                "UL94 V-0 flammability rating",
+                "USA and international trademark current",
+                "USA and international patents pending"
+            ],
             "description": "To Increase Download and Upload Data Speeds for Octa-Connector MIMO/Aux/Diversity RF Devices (MIMO 8x8 Technology) in Stationary or Moving Locations",
+            "warranty": "2 Years",
             "image": "http://dummyimage.com/200x200.png/dddddd/000000"
         },
         {
@@ -349,7 +1123,25 @@
             "name": "MIMOMount™",
             "category": "Antenna Accesories",
             "sub-category": "Mounts",
+            "features1": [
+                "Fully enclosed, robust, and durable, under any weather condition, with 100% stanelss-steel metal parts",
+                "Unparalleled worldwide cellular bands compatibility for countless applications, including cellular legacy, cellular data, 5G, 4G, LTE, xLTE, WiMAX, Wi-Fi, etc.",
+                "Pre-determined, optimized horixontal antenna separation for best SINR/CINR and maximum download and upload data speeds",
+                "Sealed and splash-proof (also suitable for marine environments)",
+                "100% stainless steel metal parts, and stanless steel back shields for better gain and mechanical strength",
+                "High input power (up to 2 x 250 Watts continuos power) with 24K gold-plated connectors on radomes"
+            ],
+            "features2": [
+                "Extended operating temperature range of -25° to +85° C",
+                "On-radome 24K gold plated N-type connector for maximum reliability, power tranfer, durability, and mechanical strength",
+                "Ultra-low VSWR throughout the whole 450 MHz to 6000 MHz frequency range",
+                "IP67 rating (protected against dust, strong water jets, and waves)",
+                "UL94 V-0 flammability rating",
+                "USA and international trademark current",
+                "USA and international patents pending"
+            ],
             "description": "Marine-Grade SUS304 Stainless Steel Mount to Install Antenna Pairs in Full MIMO 2x2 Compliance (Slanted Polarization, or Any Desired Polarization). Includes Stainless Steel Clamps, Tilts, and U-Bolts. This Is a 100% Stainless Steel Set",
+            "warranty": "2 Years",
             "image": "https://wirengimages.s3.amazonaws.com/images/seriemimomount/mimomount/5.jpg"
         },
         {
@@ -357,7 +1149,25 @@
             "name": "MIMOMount4™",
             "category": "Antenna Accesories",
             "sub-category": "Mounts",
+            "features1": [
+                "Fully enclosed, robust, and durable, under any weather condition, with 100% stanelss-steel metal parts",
+                "Unparalleled worldwide cellular bands compatibility for countless applications, including cellular legacy, cellular data, 5G, 4G, LTE, xLTE, WiMAX, Wi-Fi, etc.",
+                "Pre-determined, optimized horixontal antenna separation for best SINR/CINR and maximum download and upload data speeds",
+                "Sealed and splash-proof (also suitable for marine environments)",
+                "100% stainless steel metal parts, and stanless steel back shields for better gain and mechanical strength",
+                "High input power (up to 2 x 250 Watts continuos power) with 24K gold-plated connectors on radomes"
+            ],
+            "features2": [
+                "Extended operating temperature range of -25° to +85° C",
+                "On-radome 24K gold plated N-type connector for maximum reliability, power tranfer, durability, and mechanical strength",
+                "Ultra-low VSWR throughout the whole 450 MHz to 6000 MHz frequency range",
+                "IP67 rating (protected against dust, strong water jets, and waves)",
+                "UL94 V-0 flammability rating",
+                "USA and international trademark current",
+                "USA and international patents pending"
+            ],
             "description": "Marine-Grade SUS304 Stainless Steel Mount with Predetermined Horizontal and Vertical Distances, to Install Antenna Pairs in Full MIMO 4x4 and 4x2 Compliance (Slanted Polarization, or Any Desired Polarization). Includes Stainless Steel Clamps, Tilts, and U-Bolts. This Is a 100% Stainless Steel Set",
+            "warranty": "2 Years",
             "image": "https://wirengimages.s3.amazonaws.com/images/seriemimomount/mimomount4/MIMOMount-4x4_01.png"
         },
         {
@@ -365,7 +1175,25 @@
             "name": "MIMOMount8™",
             "category": "Antenna Accesories",
             "sub-category": "Mounts",
+            "features1": [
+                "Fully enclosed, robust, and durable, under any weather condition, with 100% stanelss-steel metal parts",
+                "Unparalleled worldwide cellular bands compatibility for countless applications, including cellular legacy, cellular data, 5G, 4G, LTE, xLTE, WiMAX, Wi-Fi, etc.",
+                "Pre-determined, optimized horixontal antenna separation for best SINR/CINR and maximum download and upload data speeds",
+                "Sealed and splash-proof (also suitable for marine environments)",
+                "100% stainless steel metal parts, and stanless steel back shields for better gain and mechanical strength",
+                "High input power (up to 2 x 250 Watts continuos power) with 24K gold-plated connectors on radomes"
+            ],
+            "features2": [
+                "Extended operating temperature range of -25° to +85° C",
+                "On-radome 24K gold plated N-type connector for maximum reliability, power tranfer, durability, and mechanical strength",
+                "Ultra-low VSWR throughout the whole 450 MHz to 6000 MHz frequency range",
+                "IP67 rating (protected against dust, strong water jets, and waves)",
+                "UL94 V-0 flammability rating",
+                "USA and international trademark current",
+                "USA and international patents pending"
+            ],
             "description": "Marine-Grade SUS304 Stainless Steel Mount with Predetermined Horizontal and Vertical Distances, to Install Antenna Pairs in Full MIMO 8x8, 8x4, and 8x2 Compliance (Slanted Polarization, or Any Desired Polarization). Includes Stainless Steel Clamps, Tilts, and U-Bolts. This Is a 100% Stainless Steel Set",
+            "warranty": "2 Years",
             "image": "https://wirengimages.s3.amazonaws.com/images/seriemimomount/mimomount8/MIMOMount-8x8_02.png"
         },
         {
@@ -373,7 +1201,25 @@
             "name": "MIMOMount-GNT™",
             "category": "Antenna Accesories",
             "sub-category": "Mounts",
+            "features1": [
+                "Fully enclosed, robust, and durable, under any weather condition, with 100% stanelss-steel metal parts",
+                "Unparalleled worldwide cellular bands compatibility for countless applications, including cellular legacy, cellular data, 5G, 4G, LTE, xLTE, WiMAX, Wi-Fi, etc.",
+                "Pre-determined, optimized horixontal antenna separation for best SINR/CINR and maximum download and upload data speeds",
+                "Sealed and splash-proof (also suitable for marine environments)",
+                "100% stainless steel metal parts, and stanless steel back shields for better gain and mechanical strength",
+                "High input power (up to 2 x 250 Watts continuos power) with 24K gold-plated connectors on radomes"
+            ],
+            "features2": [
+                "Extended operating temperature range of -25° to +85° C",
+                "On-radome 24K gold plated N-type connector for maximum reliability, power tranfer, durability, and mechanical strength",
+                "Ultra-low VSWR throughout the whole 450 MHz to 6000 MHz frequency range",
+                "IP67 rating (protected against dust, strong water jets, and waves)",
+                "UL94 V-0 flammability rating",
+                "USA and international trademark current",
+                "USA and international patents pending"
+            ],
             "description": "Ultra-Thick Marine-Grade SUS304 Stainless Steel Mount to Install Very Large Antenna Pairs in Full MIMO 2x2 Compliance (Slanted Polarization, or Any Desired Polarization). Includes Stainless Steel Clamps, Tilts, and U-Bolts. This Is a 100% Stainless Steel Set",
+            "warranty": "2 Years",
             "image": "http://dummyimage.com/200x200.png/dddddd/000000"
         },
         {
@@ -381,7 +1227,25 @@
             "name": "Comb2-5G™",
             "category": "Antenna Accesories",
             "sub-category": "Combiners",
+            "features1": [
+                "Fully enclosed, robust, and durable, under any weather condition, with 100% stanelss-steel metal parts",
+                "Unparalleled worldwide cellular bands compatibility for countless applications, including cellular legacy, cellular data, 5G, 4G, LTE, xLTE, WiMAX, Wi-Fi, etc.",
+                "Pre-determined, optimized horixontal antenna separation for best SINR/CINR and maximum download and upload data speeds",
+                "Sealed and splash-proof (also suitable for marine environments)",
+                "100% stainless steel metal parts, and stanless steel back shields for better gain and mechanical strength",
+                "High input power (up to 2 x 250 Watts continuos power) with 24K gold-plated connectors on radomes"
+            ],
+            "features2": [
+                "Extended operating temperature range of -25° to +85° C",
+                "On-radome 24K gold plated N-type connector for maximum reliability, power tranfer, durability, and mechanical strength",
+                "Ultra-low VSWR throughout the whole 450 MHz to 6000 MHz frequency range",
+                "IP67 rating (protected against dust, strong water jets, and waves)",
+                "UL94 V-0 flammability rating",
+                "USA and international trademark current",
+                "USA and international patents pending"
+            ],
             "description": "To Connect Two Identical Antennas Into a Single In/Out Transmiter/Receiver with Full Bidirectionality and Ultra-Low Loss Operation, and Ultra-Wide Bandwidth",
+            "warranty": "2 Years",
             "image": "http://dummyimage.com/200x200.png/dddddd/000000"
         },
         {
@@ -389,7 +1253,25 @@
             "name": "Comb3-5G™",
             "category": "Antenna Accesories",
             "sub-category": "Combiners",
+            "features1": [
+                "Fully enclosed, robust, and durable, under any weather condition, with 100% stanelss-steel metal parts",
+                "Unparalleled worldwide cellular bands compatibility for countless applications, including cellular legacy, cellular data, 5G, 4G, LTE, xLTE, WiMAX, Wi-Fi, etc.",
+                "Pre-determined, optimized horixontal antenna separation for best SINR/CINR and maximum download and upload data speeds",
+                "Sealed and splash-proof (also suitable for marine environments)",
+                "100% stainless steel metal parts, and stanless steel back shields for better gain and mechanical strength",
+                "High input power (up to 2 x 250 Watts continuos power) with 24K gold-plated connectors on radomes"
+            ],
+            "features2": [
+                "Extended operating temperature range of -25° to +85° C",
+                "On-radome 24K gold plated N-type connector for maximum reliability, power tranfer, durability, and mechanical strength",
+                "Ultra-low VSWR throughout the whole 450 MHz to 6000 MHz frequency range",
+                "IP67 rating (protected against dust, strong water jets, and waves)",
+                "UL94 V-0 flammability rating",
+                "USA and international trademark current",
+                "USA and international patents pending"
+            ],
             "description": "To Connect Three Identical Antennas Into a Single In/Out Transmiter/Receiver with Full Bidirectionality and Ultra-Low Loss Operation, and Ultra-Wide Bandwidth",
+            "warranty": "2 Years",
             "image": "http://dummyimage.com/200x200.png/dddddd/000000"
         },
         {
@@ -397,7 +1279,25 @@
             "name": "Comb4-5G™",
             "category": "Antenna Accesories",
             "sub-category": "Combiners",
+            "features1": [
+                "Fully enclosed, robust, and durable, under any weather condition, with 100% stanelss-steel metal parts",
+                "Unparalleled worldwide cellular bands compatibility for countless applications, including cellular legacy, cellular data, 5G, 4G, LTE, xLTE, WiMAX, Wi-Fi, etc.",
+                "Pre-determined, optimized horixontal antenna separation for best SINR/CINR and maximum download and upload data speeds",
+                "Sealed and splash-proof (also suitable for marine environments)",
+                "100% stainless steel metal parts, and stanless steel back shields for better gain and mechanical strength",
+                "High input power (up to 2 x 250 Watts continuos power) with 24K gold-plated connectors on radomes"
+            ],
+            "features2": [
+                "Extended operating temperature range of -25° to +85° C",
+                "On-radome 24K gold plated N-type connector for maximum reliability, power tranfer, durability, and mechanical strength",
+                "Ultra-low VSWR throughout the whole 450 MHz to 6000 MHz frequency range",
+                "IP67 rating (protected against dust, strong water jets, and waves)",
+                "UL94 V-0 flammability rating",
+                "USA and international trademark current",
+                "USA and international patents pending"
+            ],
             "description": "To Connect Four Identical Antennas Into a Single In/Out Transmiter/Receiver with Full Bidirectionality and Ultra-Low Loss Operation, and Ultra-Wide Bandwidth",
+            "warranty": "2 Years",
             "image": "http://dummyimage.com/200x200.png/dddddd/000000"
         },
         {
@@ -405,7 +1305,25 @@
             "name": "LightningPro-5G-SMA™",
             "category": "Antenna Accesories",
             "sub-category": "Lighting-Strike Protectors",
+            "features1": [
+                "Fully enclosed, robust, and durable, under any weather condition, with 100% stanelss-steel metal parts",
+                "Unparalleled worldwide cellular bands compatibility for countless applications, including cellular legacy, cellular data, 5G, 4G, LTE, xLTE, WiMAX, Wi-Fi, etc.",
+                "Pre-determined, optimized horixontal antenna separation for best SINR/CINR and maximum download and upload data speeds",
+                "Sealed and splash-proof (also suitable for marine environments)",
+                "100% stainless steel metal parts, and stanless steel back shields for better gain and mechanical strength",
+                "High input power (up to 2 x 250 Watts continuos power) with 24K gold-plated connectors on radomes"
+            ],
+            "features2": [
+                "Extended operating temperature range of -25° to +85° C",
+                "On-radome 24K gold plated N-type connector for maximum reliability, power tranfer, durability, and mechanical strength",
+                "Ultra-low VSWR throughout the whole 450 MHz to 6000 MHz frequency range",
+                "IP67 rating (protected against dust, strong water jets, and waves)",
+                "UL94 V-0 flammability rating",
+                "USA and international trademark current",
+                "USA and international patents pending"
+            ],
             "description": "To protect persons and equipments from lighting strikes hitting an antenna or antenna set",
+            "warranty": "2 Years",
             "image": "http://dummyimage.com/200x200.png/dddddd/000000"
         },
         {
@@ -413,7 +1331,25 @@
             "name": "EXTANT-SMAF-TNCM™",
             "category": "Antenna Accesories",
             "sub-category": "Patch Cables",
+            "features1": [
+                "Fully enclosed, robust, and durable, under any weather condition, with 100% stanelss-steel metal parts",
+                "Unparalleled worldwide cellular bands compatibility for countless applications, including cellular legacy, cellular data, 5G, 4G, LTE, xLTE, WiMAX, Wi-Fi, etc.",
+                "Pre-determined, optimized horixontal antenna separation for best SINR/CINR and maximum download and upload data speeds",
+                "Sealed and splash-proof (also suitable for marine environments)",
+                "100% stainless steel metal parts, and stanless steel back shields for better gain and mechanical strength",
+                "High input power (up to 2 x 250 Watts continuos power) with 24K gold-plated connectors on radomes"
+            ],
+            "features2": [
+                "Extended operating temperature range of -25° to +85° C",
+                "On-radome 24K gold plated N-type connector for maximum reliability, power tranfer, durability, and mechanical strength",
+                "Ultra-low VSWR throughout the whole 450 MHz to 6000 MHz frequency range",
+                "IP67 rating (protected against dust, strong water jets, and waves)",
+                "UL94 V-0 flammability rating",
+                "USA and international trademark current",
+                "USA and international patents pending"
+            ],
             "description": "To Connect Coaxial Cables with a SMA-Male Connector to TNC-Male Devices.",
+            "warranty": "2 Years",
             "image": "http://dummyimage.com/200x200.png/dddddd/000000"
         },
         {
@@ -421,7 +1357,25 @@
             "name": "EXTANT-SMAF-TS9M™",
             "category": "Antenna Accesories",
             "sub-category": "Patch Cables",
+            "features1": [
+                "Fully enclosed, robust, and durable, under any weather condition, with 100% stanelss-steel metal parts",
+                "Unparalleled worldwide cellular bands compatibility for countless applications, including cellular legacy, cellular data, 5G, 4G, LTE, xLTE, WiMAX, Wi-Fi, etc.",
+                "Pre-determined, optimized horixontal antenna separation for best SINR/CINR and maximum download and upload data speeds",
+                "Sealed and splash-proof (also suitable for marine environments)",
+                "100% stainless steel metal parts, and stanless steel back shields for better gain and mechanical strength",
+                "High input power (up to 2 x 250 Watts continuos power) with 24K gold-plated connectors on radomes"
+            ],
+            "features2": [
+                "Extended operating temperature range of -25° to +85° C",
+                "On-radome 24K gold plated N-type connector for maximum reliability, power tranfer, durability, and mechanical strength",
+                "Ultra-low VSWR throughout the whole 450 MHz to 6000 MHz frequency range",
+                "IP67 rating (protected against dust, strong water jets, and waves)",
+                "UL94 V-0 flammability rating",
+                "USA and international trademark current",
+                "USA and international patents pending"
+            ],
             "description": "To Connect Coaxial Cables with a SMA-Male Connector to TS9-Male Devices",
+            "warranty": "2 Years",
             "image": "http://dummyimage.com/200x200.png/dddddd/000000"
         },
         {
@@ -429,7 +1383,25 @@
             "name": "EXTANT-SMAF-SMAM™",
             "category": "Antenna Accesories",
             "sub-category": "Patch Cables",
+            "features1": [
+                "Fully enclosed, robust, and durable, under any weather condition, with 100% stanelss-steel metal parts",
+                "Unparalleled worldwide cellular bands compatibility for countless applications, including cellular legacy, cellular data, 5G, 4G, LTE, xLTE, WiMAX, Wi-Fi, etc.",
+                "Pre-determined, optimized horixontal antenna separation for best SINR/CINR and maximum download and upload data speeds",
+                "Sealed and splash-proof (also suitable for marine environments)",
+                "100% stainless steel metal parts, and stanless steel back shields for better gain and mechanical strength",
+                "High input power (up to 2 x 250 Watts continuos power) with 24K gold-plated connectors on radomes"
+            ],
+            "features2": [
+                "Extended operating temperature range of -25° to +85° C",
+                "On-radome 24K gold plated N-type connector for maximum reliability, power tranfer, durability, and mechanical strength",
+                "Ultra-low VSWR throughout the whole 450 MHz to 6000 MHz frequency range",
+                "IP67 rating (protected against dust, strong water jets, and waves)",
+                "UL94 V-0 flammability rating",
+                "USA and international trademark current",
+                "USA and international patents pending"
+            ],
             "description": "To Connect Coaxial Cables with a SMA-Male Connector to SMA-Female Devices (for Strain-Relief Purposes)",
+            "warranty": "2 Years",
             "image": "http://dummyimage.com/200x200.png/dddddd/000000"
         },
         {
@@ -437,7 +1409,25 @@
             "name": "MIMOCradle-5G™",
             "category": "Antenna Accesories",
             "sub-category": "MIMO Cradles",
+            "features1": [
+                "Fully enclosed, robust, and durable, under any weather condition, with 100% stanelss-steel metal parts",
+                "Unparalleled worldwide cellular bands compatibility for countless applications, including cellular legacy, cellular data, 5G, 4G, LTE, xLTE, WiMAX, Wi-Fi, etc.",
+                "Pre-determined, optimized horixontal antenna separation for best SINR/CINR and maximum download and upload data speeds",
+                "Sealed and splash-proof (also suitable for marine environments)",
+                "100% stainless steel metal parts, and stanless steel back shields for better gain and mechanical strength",
+                "High input power (up to 2 x 250 Watts continuos power) with 24K gold-plated connectors on radomes"
+            ],
+            "features2": [
+                "Extended operating temperature range of -25° to +85° C",
+                "On-radome 24K gold plated N-type connector for maximum reliability, power tranfer, durability, and mechanical strength",
+                "Ultra-low VSWR throughout the whole 450 MHz to 6000 MHz frequency range",
+                "IP67 rating (protected against dust, strong water jets, and waves)",
+                "UL94 V-0 flammability rating",
+                "USA and international trademark current",
+                "USA and international patents pending"
+            ],
             "description": "To interface a cellular device to a MIMO antenna set with nearly perfect coupling thanks to WirEng®'s RFT™ patented technology",
+            "warranty": "2 Years",
             "image": "http://dummyimage.com/200x200.png/dddddd/000000"
         },
         {
@@ -445,7 +1435,25 @@
             "name": "WRG240-SMAM-NM-10FT™",
             "category": "Antenna Accesories",
             "sub-category": "Main Cables",
+            "features1": [
+                "Fully enclosed, robust, and durable, under any weather condition, with 100% stanelss-steel metal parts",
+                "Unparalleled worldwide cellular bands compatibility for countless applications, including cellular legacy, cellular data, 5G, 4G, LTE, xLTE, WiMAX, Wi-Fi, etc.",
+                "Pre-determined, optimized horixontal antenna separation for best SINR/CINR and maximum download and upload data speeds",
+                "Sealed and splash-proof (also suitable for marine environments)",
+                "100% stainless steel metal parts, and stanless steel back shields for better gain and mechanical strength",
+                "High input power (up to 2 x 250 Watts continuos power) with 24K gold-plated connectors on radomes"
+            ],
+            "features2": [
+                "Extended operating temperature range of -25° to +85° C",
+                "On-radome 24K gold plated N-type connector for maximum reliability, power tranfer, durability, and mechanical strength",
+                "Ultra-low VSWR throughout the whole 450 MHz to 6000 MHz frequency range",
+                "IP67 rating (protected against dust, strong water jets, and waves)",
+                "UL94 V-0 flammability rating",
+                "USA and international trademark current",
+                "USA and international patents pending"
+            ],
             "description": "To connect the Omnirial2-5G-Win™ to a device",
+            "warranty": "2 Years",
             "image": "http://dummyimage.com/200x200.png/dddddd/000000"
         },
         {
@@ -453,7 +1461,25 @@
             "name": "WRG240-NF-NM-20FT™",
             "category": "Antenna Accesories",
             "sub-category": "Main Cables",
+            "features1": [
+                "Fully enclosed, robust, and durable, under any weather condition, with 100% stanelss-steel metal parts",
+                "Unparalleled worldwide cellular bands compatibility for countless applications, including cellular legacy, cellular data, 5G, 4G, LTE, xLTE, WiMAX, Wi-Fi, etc.",
+                "Pre-determined, optimized horixontal antenna separation for best SINR/CINR and maximum download and upload data speeds",
+                "Sealed and splash-proof (also suitable for marine environments)",
+                "100% stainless steel metal parts, and stanless steel back shields for better gain and mechanical strength",
+                "High input power (up to 2 x 250 Watts continuos power) with 24K gold-plated connectors on radomes"
+            ],
+            "features2": [
+                "Extended operating temperature range of -25° to +85° C",
+                "On-radome 24K gold plated N-type connector for maximum reliability, power tranfer, durability, and mechanical strength",
+                "Ultra-low VSWR throughout the whole 450 MHz to 6000 MHz frequency range",
+                "IP67 rating (protected against dust, strong water jets, and waves)",
+                "UL94 V-0 flammability rating",
+                "USA and international trademark current",
+                "USA and international patents pending"
+            ],
             "description": "To extend the Omnirial2-5G-Win™ main cables for optional external installation",
+            "warranty": "2 Years",
             "image": "http://dummyimage.com/200x200.png/dddddd/000000"
         },
         {
@@ -461,7 +1487,25 @@
             "name": "WRG400-NM-NM-1M™",
             "category": "Antenna Accesories",
             "sub-category": "Patch Cables",
+            "features1": [
+                "Fully enclosed, robust, and durable, under any weather condition, with 100% stanelss-steel metal parts",
+                "Unparalleled worldwide cellular bands compatibility for countless applications, including cellular legacy, cellular data, 5G, 4G, LTE, xLTE, WiMAX, Wi-Fi, etc.",
+                "Pre-determined, optimized horixontal antenna separation for best SINR/CINR and maximum download and upload data speeds",
+                "Sealed and splash-proof (also suitable for marine environments)",
+                "100% stainless steel metal parts, and stanless steel back shields for better gain and mechanical strength",
+                "High input power (up to 2 x 250 Watts continuos power) with 24K gold-plated connectors on radomes"
+            ],
+            "features2": [
+                "Extended operating temperature range of -25° to +85° C",
+                "On-radome 24K gold plated N-type connector for maximum reliability, power tranfer, durability, and mechanical strength",
+                "Ultra-low VSWR throughout the whole 450 MHz to 6000 MHz frequency range",
+                "IP67 rating (protected against dust, strong water jets, and waves)",
+                "UL94 V-0 flammability rating",
+                "USA and international trademark current",
+                "USA and international patents pending"
+            ],
             "description": "To Connect Antennas to Combiners",
+            "warranty": "2 Years",
             "image": "https://wirengimages.s3.amazonaws.com/images/serie+wrg400-au/wrg400-nm-nm-1m/WRG400-NM-NM-1M_01.png"
         },
         {
@@ -469,7 +1513,25 @@
             "name": "WRG400-NM-NM-1M5™",
             "category": "Antenna Accesories",
             "sub-category": "Patch Cables",
+            "features1": [
+                "Fully enclosed, robust, and durable, under any weather condition, with 100% stanelss-steel metal parts",
+                "Unparalleled worldwide cellular bands compatibility for countless applications, including cellular legacy, cellular data, 5G, 4G, LTE, xLTE, WiMAX, Wi-Fi, etc.",
+                "Pre-determined, optimized horixontal antenna separation for best SINR/CINR and maximum download and upload data speeds",
+                "Sealed and splash-proof (also suitable for marine environments)",
+                "100% stainless steel metal parts, and stanless steel back shields for better gain and mechanical strength",
+                "High input power (up to 2 x 250 Watts continuos power) with 24K gold-plated connectors on radomes"
+            ],
+            "features2": [
+                "Extended operating temperature range of -25° to +85° C",
+                "On-radome 24K gold plated N-type connector for maximum reliability, power tranfer, durability, and mechanical strength",
+                "Ultra-low VSWR throughout the whole 450 MHz to 6000 MHz frequency range",
+                "IP67 rating (protected against dust, strong water jets, and waves)",
+                "UL94 V-0 flammability rating",
+                "USA and international trademark current",
+                "USA and international patents pending"
+            ],
             "description": "To Connect Antennas to Combiners",
+            "warranty": "2 Years",
             "image": "https://wirengimages.s3.amazonaws.com/images/serie+wrg400-au/wrg400-nm-nm-1m5/WRG400-NM-NM-1M5%E2%84%A2_01.png"
         },
         {
@@ -477,7 +1539,25 @@
             "name": "WRG400-NM-NM-2M™",
             "category": "Antenna Accesories",
             "sub-category": "Patch Cables",
+            "features1": [
+                "Fully enclosed, robust, and durable, under any weather condition, with 100% stanelss-steel metal parts",
+                "Unparalleled worldwide cellular bands compatibility for countless applications, including cellular legacy, cellular data, 5G, 4G, LTE, xLTE, WiMAX, Wi-Fi, etc.",
+                "Pre-determined, optimized horixontal antenna separation for best SINR/CINR and maximum download and upload data speeds",
+                "Sealed and splash-proof (also suitable for marine environments)",
+                "100% stainless steel metal parts, and stanless steel back shields for better gain and mechanical strength",
+                "High input power (up to 2 x 250 Watts continuos power) with 24K gold-plated connectors on radomes"
+            ],
+            "features2": [
+                "Extended operating temperature range of -25° to +85° C",
+                "On-radome 24K gold plated N-type connector for maximum reliability, power tranfer, durability, and mechanical strength",
+                "Ultra-low VSWR throughout the whole 450 MHz to 6000 MHz frequency range",
+                "IP67 rating (protected against dust, strong water jets, and waves)",
+                "UL94 V-0 flammability rating",
+                "USA and international trademark current",
+                "USA and international patents pending"
+            ],
             "description": "To Connect Antennas to Combiners",
+            "warranty": "2 Years",
             "image": "https://wirengimages.s3.amazonaws.com/images/serie+wrg400-au/wrg400-nm-nm-2m/WRG400-NM-NM-2M_01.png"
         },
         {
@@ -485,7 +1565,25 @@
             "name": "WRG400-RANM-NM-1M™",
             "category": "Antenna Accesories",
             "sub-category": "Patch Cables",
+            "features1": [
+                "Fully enclosed, robust, and durable, under any weather condition, with 100% stanelss-steel metal parts",
+                "Unparalleled worldwide cellular bands compatibility for countless applications, including cellular legacy, cellular data, 5G, 4G, LTE, xLTE, WiMAX, Wi-Fi, etc.",
+                "Pre-determined, optimized horixontal antenna separation for best SINR/CINR and maximum download and upload data speeds",
+                "Sealed and splash-proof (also suitable for marine environments)",
+                "100% stainless steel metal parts, and stanless steel back shields for better gain and mechanical strength",
+                "High input power (up to 2 x 250 Watts continuos power) with 24K gold-plated connectors on radomes"
+            ],
+            "features2": [
+                "Extended operating temperature range of -25° to +85° C",
+                "On-radome 24K gold plated N-type connector for maximum reliability, power tranfer, durability, and mechanical strength",
+                "Ultra-low VSWR throughout the whole 450 MHz to 6000 MHz frequency range",
+                "IP67 rating (protected against dust, strong water jets, and waves)",
+                "UL94 V-0 flammability rating",
+                "USA and international trademark current",
+                "USA and international patents pending"
+            ],
             "description": "To Connect Antennas to Combiners",
+            "warranty": "2 Years",
             "image": "https://wirengimages.s3.amazonaws.com/images/serie+wrg400-au/wrg400-ranm-nm-1m/WRG400-RANM-NM-1M%E2%84%A2_01.png"
         },
         {
@@ -493,7 +1591,25 @@
             "name": "WRG400-RANM-NM-1M5™",
             "category": "Antenna Accesories",
             "sub-category": "Patch Cables",
+            "features1": [
+                "Fully enclosed, robust, and durable, under any weather condition, with 100% stanelss-steel metal parts",
+                "Unparalleled worldwide cellular bands compatibility for countless applications, including cellular legacy, cellular data, 5G, 4G, LTE, xLTE, WiMAX, Wi-Fi, etc.",
+                "Pre-determined, optimized horixontal antenna separation for best SINR/CINR and maximum download and upload data speeds",
+                "Sealed and splash-proof (also suitable for marine environments)",
+                "100% stainless steel metal parts, and stanless steel back shields for better gain and mechanical strength",
+                "High input power (up to 2 x 250 Watts continuos power) with 24K gold-plated connectors on radomes"
+            ],
+            "features2": [
+                "Extended operating temperature range of -25° to +85° C",
+                "On-radome 24K gold plated N-type connector for maximum reliability, power tranfer, durability, and mechanical strength",
+                "Ultra-low VSWR throughout the whole 450 MHz to 6000 MHz frequency range",
+                "IP67 rating (protected against dust, strong water jets, and waves)",
+                "UL94 V-0 flammability rating",
+                "USA and international trademark current",
+                "USA and international patents pending"
+            ],
             "description": "To Connect Antennas to Combiners",
+            "warranty": "2 Years",
             "image": "https://wirengimages.s3.amazonaws.com/images/serie+wrg400-au/wrg400-ranm-nm-1m5/WRG400-RANM-NM-1M5%E2%84%A2+_01.png"
         },
         {
@@ -501,7 +1617,25 @@
             "name": "WRG400-RANM-NM-2M™",
             "category": "Antenna Accesories",
             "sub-category": "Patch Cables",
+            "features1": [
+                "Fully enclosed, robust, and durable, under any weather condition, with 100% stanelss-steel metal parts",
+                "Unparalleled worldwide cellular bands compatibility for countless applications, including cellular legacy, cellular data, 5G, 4G, LTE, xLTE, WiMAX, Wi-Fi, etc.",
+                "Pre-determined, optimized horixontal antenna separation for best SINR/CINR and maximum download and upload data speeds",
+                "Sealed and splash-proof (also suitable for marine environments)",
+                "100% stainless steel metal parts, and stanless steel back shields for better gain and mechanical strength",
+                "High input power (up to 2 x 250 Watts continuos power) with 24K gold-plated connectors on radomes"
+            ],
+            "features2": [
+                "Extended operating temperature range of -25° to +85° C",
+                "On-radome 24K gold plated N-type connector for maximum reliability, power tranfer, durability, and mechanical strength",
+                "Ultra-low VSWR throughout the whole 450 MHz to 6000 MHz frequency range",
+                "IP67 rating (protected against dust, strong water jets, and waves)",
+                "UL94 V-0 flammability rating",
+                "USA and international trademark current",
+                "USA and international patents pending"
+            ],
             "description": "To Connect Antennas to Combiners",
+            "warranty": "2 Years",
             "image": "https://wirengimages.s3.amazonaws.com/images/serie+wrg400-au/wrg400-ranm-nm-2m/WRG400-RANM-NM-2M%E2%84%A2_01.png"
         },
         {
@@ -509,7 +1643,25 @@
             "name": "WRG400-RANM-RANM-1M™",
             "category": "Antenna Accesories",
             "sub-category": "Patch Cables",
+            "features1": [
+                "Fully enclosed, robust, and durable, under any weather condition, with 100% stanelss-steel metal parts",
+                "Unparalleled worldwide cellular bands compatibility for countless applications, including cellular legacy, cellular data, 5G, 4G, LTE, xLTE, WiMAX, Wi-Fi, etc.",
+                "Pre-determined, optimized horixontal antenna separation for best SINR/CINR and maximum download and upload data speeds",
+                "Sealed and splash-proof (also suitable for marine environments)",
+                "100% stainless steel metal parts, and stanless steel back shields for better gain and mechanical strength",
+                "High input power (up to 2 x 250 Watts continuos power) with 24K gold-plated connectors on radomes"
+            ],
+            "features2": [
+                "Extended operating temperature range of -25° to +85° C",
+                "On-radome 24K gold plated N-type connector for maximum reliability, power tranfer, durability, and mechanical strength",
+                "Ultra-low VSWR throughout the whole 450 MHz to 6000 MHz frequency range",
+                "IP67 rating (protected against dust, strong water jets, and waves)",
+                "UL94 V-0 flammability rating",
+                "USA and international trademark current",
+                "USA and international patents pending"
+            ],
             "description": "To Connect Antennas to Combiners",
+            "warranty": "2 Years",
             "image": "https://wirengimages.s3.amazonaws.com/images/serie+wrg400-au/wrg400-ranm-ranm-1m/WRG400-RANM-RANM-1m.png"
         },
         {
@@ -517,7 +1669,25 @@
             "name": "WRG400-RANM-RANM-1M5™",
             "category": "Antenna Accesories",
             "sub-category": "Patch Cables",
+            "features1": [
+                "Fully enclosed, robust, and durable, under any weather condition, with 100% stanelss-steel metal parts",
+                "Unparalleled worldwide cellular bands compatibility for countless applications, including cellular legacy, cellular data, 5G, 4G, LTE, xLTE, WiMAX, Wi-Fi, etc.",
+                "Pre-determined, optimized horixontal antenna separation for best SINR/CINR and maximum download and upload data speeds",
+                "Sealed and splash-proof (also suitable for marine environments)",
+                "100% stainless steel metal parts, and stanless steel back shields for better gain and mechanical strength",
+                "High input power (up to 2 x 250 Watts continuos power) with 24K gold-plated connectors on radomes"
+            ],
+            "features2": [
+                "Extended operating temperature range of -25° to +85° C",
+                "On-radome 24K gold plated N-type connector for maximum reliability, power tranfer, durability, and mechanical strength",
+                "Ultra-low VSWR throughout the whole 450 MHz to 6000 MHz frequency range",
+                "IP67 rating (protected against dust, strong water jets, and waves)",
+                "UL94 V-0 flammability rating",
+                "USA and international trademark current",
+                "USA and international patents pending"
+            ],
             "description": "To Connect Antennas to Combiners",
+            "warranty": "2 Years",
             "image": "https://wirengimages.s3.amazonaws.com/images/serie+wrg400-au/wrg400-ranm-ranm-1m5/WRG400-RANM-RANM-1M5_01.png"
         },
         {
@@ -525,7 +1695,25 @@
             "name": "WRG400-RANM-RANM-2M™",
             "category": "Antenna Accesories",
             "sub-category": "Patch Cables",
+            "features1": [
+                "Fully enclosed, robust, and durable, under any weather condition, with 100% stanelss-steel metal parts",
+                "Unparalleled worldwide cellular bands compatibility for countless applications, including cellular legacy, cellular data, 5G, 4G, LTE, xLTE, WiMAX, Wi-Fi, etc.",
+                "Pre-determined, optimized horixontal antenna separation for best SINR/CINR and maximum download and upload data speeds",
+                "Sealed and splash-proof (also suitable for marine environments)",
+                "100% stainless steel metal parts, and stanless steel back shields for better gain and mechanical strength",
+                "High input power (up to 2 x 250 Watts continuos power) with 24K gold-plated connectors on radomes"
+            ],
+            "features2": [
+                "Extended operating temperature range of -25° to +85° C",
+                "On-radome 24K gold plated N-type connector for maximum reliability, power tranfer, durability, and mechanical strength",
+                "Ultra-low VSWR throughout the whole 450 MHz to 6000 MHz frequency range",
+                "IP67 rating (protected against dust, strong water jets, and waves)",
+                "UL94 V-0 flammability rating",
+                "USA and international trademark current",
+                "USA and international patents pending"
+            ],
             "description": "To Connect Antennas to Combiners",
+            "warranty": "2 Years",
             "image": "https://wirengimages.s3.amazonaws.com/images/serie+wrg400-au/wrg400-ranm-ranm-2m/WRG400-RANM-RANM-2M%E2%84%A2.png"
         },
         {
@@ -533,7 +1721,25 @@
             "name": "WRG400-NM-NM-10M™",
             "category": "Antenna Accesories",
             "sub-category": "Main Cables",
+            "features1": [
+                "Fully enclosed, robust, and durable, under any weather condition, with 100% stanelss-steel metal parts",
+                "Unparalleled worldwide cellular bands compatibility for countless applications, including cellular legacy, cellular data, 5G, 4G, LTE, xLTE, WiMAX, Wi-Fi, etc.",
+                "Pre-determined, optimized horixontal antenna separation for best SINR/CINR and maximum download and upload data speeds",
+                "Sealed and splash-proof (also suitable for marine environments)",
+                "100% stainless steel metal parts, and stanless steel back shields for better gain and mechanical strength",
+                "High input power (up to 2 x 250 Watts continuos power) with 24K gold-plated connectors on radomes"
+            ],
+            "features2": [
+                "Extended operating temperature range of -25° to +85° C",
+                "On-radome 24K gold plated N-type connector for maximum reliability, power tranfer, durability, and mechanical strength",
+                "Ultra-low VSWR throughout the whole 450 MHz to 6000 MHz frequency range",
+                "IP67 rating (protected against dust, strong water jets, and waves)",
+                "UL94 V-0 flammability rating",
+                "USA and international trademark current",
+                "USA and international patents pending"
+            ],
             "description": "To Connect Antenna or Combiners to Devices",
+            "warranty": "2 Years",
             "image": "https://wirengimages.s3.amazonaws.com/images/serie+wrg400-au/wrg400-smam-nm-10m/WRG400-SMAM-NM-10M%E2%84%A2_02.png"
         },
         {
@@ -541,7 +1747,25 @@
             "name": "WRG400-NM-NM-20M™",
             "category": "Antenna Accesories",
             "sub-category": "Main Cables",
+            "features1": [
+                "Fully enclosed, robust, and durable, under any weather condition, with 100% stanelss-steel metal parts",
+                "Unparalleled worldwide cellular bands compatibility for countless applications, including cellular legacy, cellular data, 5G, 4G, LTE, xLTE, WiMAX, Wi-Fi, etc.",
+                "Pre-determined, optimized horixontal antenna separation for best SINR/CINR and maximum download and upload data speeds",
+                "Sealed and splash-proof (also suitable for marine environments)",
+                "100% stainless steel metal parts, and stanless steel back shields for better gain and mechanical strength",
+                "High input power (up to 2 x 250 Watts continuos power) with 24K gold-plated connectors on radomes"
+            ],
+            "features2": [
+                "Extended operating temperature range of -25° to +85° C",
+                "On-radome 24K gold plated N-type connector for maximum reliability, power tranfer, durability, and mechanical strength",
+                "Ultra-low VSWR throughout the whole 450 MHz to 6000 MHz frequency range",
+                "IP67 rating (protected against dust, strong water jets, and waves)",
+                "UL94 V-0 flammability rating",
+                "USA and international trademark current",
+                "USA and international patents pending"
+            ],
             "description": "To Connect Antenna or Combiners to Devices",
+            "warranty": "2 Years",
             "image": "https://wirengimages.s3.amazonaws.com/images/serie+wrg400-au/wrg400-smam-nm-20m/WRG400-SMAM-NM-20M%E2%84%A2+.png"
         },
         {
@@ -549,7 +1773,25 @@
             "name": "WRG400-RANM-NM-10M™",
             "category": "Antenna Accesories",
             "sub-category": "Main Cables",
+            "features1": [
+                "Fully enclosed, robust, and durable, under any weather condition, with 100% stanelss-steel metal parts",
+                "Unparalleled worldwide cellular bands compatibility for countless applications, including cellular legacy, cellular data, 5G, 4G, LTE, xLTE, WiMAX, Wi-Fi, etc.",
+                "Pre-determined, optimized horixontal antenna separation for best SINR/CINR and maximum download and upload data speeds",
+                "Sealed and splash-proof (also suitable for marine environments)",
+                "100% stainless steel metal parts, and stanless steel back shields for better gain and mechanical strength",
+                "High input power (up to 2 x 250 Watts continuos power) with 24K gold-plated connectors on radomes"
+            ],
+            "features2": [
+                "Extended operating temperature range of -25° to +85° C",
+                "On-radome 24K gold plated N-type connector for maximum reliability, power tranfer, durability, and mechanical strength",
+                "Ultra-low VSWR throughout the whole 450 MHz to 6000 MHz frequency range",
+                "IP67 rating (protected against dust, strong water jets, and waves)",
+                "UL94 V-0 flammability rating",
+                "USA and international trademark current",
+                "USA and international patents pending"
+            ],
             "description": "To Connect Antenna or Combiners to Devices",
+            "warranty": "2 Years",
             "image": "https://wirengimages.s3.amazonaws.com/images/serie+wrg400-au/wrg400-smam-ranm-10m/WRG400-SMAM-RANM-10M%E2%84%A2_01.png"
         },
         {
@@ -557,7 +1799,25 @@
             "name": "WRG400-RANM-NM-20M™",
             "category": "Antenna Accesories",
             "sub-category": "Main Cables",
+            "features1": [
+                "Fully enclosed, robust, and durable, under any weather condition, with 100% stanelss-steel metal parts",
+                "Unparalleled worldwide cellular bands compatibility for countless applications, including cellular legacy, cellular data, 5G, 4G, LTE, xLTE, WiMAX, Wi-Fi, etc.",
+                "Pre-determined, optimized horixontal antenna separation for best SINR/CINR and maximum download and upload data speeds",
+                "Sealed and splash-proof (also suitable for marine environments)",
+                "100% stainless steel metal parts, and stanless steel back shields for better gain and mechanical strength",
+                "High input power (up to 2 x 250 Watts continuos power) with 24K gold-plated connectors on radomes"
+            ],
+            "features2": [
+                "Extended operating temperature range of -25° to +85° C",
+                "On-radome 24K gold plated N-type connector for maximum reliability, power tranfer, durability, and mechanical strength",
+                "Ultra-low VSWR throughout the whole 450 MHz to 6000 MHz frequency range",
+                "IP67 rating (protected against dust, strong water jets, and waves)",
+                "UL94 V-0 flammability rating",
+                "USA and international trademark current",
+                "USA and international patents pending"
+            ],
             "description": "To Connect Antenna or Combiners to Devices",
+            "warranty": "2 Years",
             "image": "https://wirengimages.s3.amazonaws.com/images/serie+wrg400-au/wrg400-smam-ranm-20m/WRG400-SMAM-RANM-20M%E2%84%A2_01.png"
         },
         {
@@ -565,7 +1825,25 @@
             "name": "WRG400-SMAM-NM-10M™",
             "category": "Antenna Accesories",
             "sub-category": "Main Cables",
+            "features1": [
+                "Fully enclosed, robust, and durable, under any weather condition, with 100% stanelss-steel metal parts",
+                "Unparalleled worldwide cellular bands compatibility for countless applications, including cellular legacy, cellular data, 5G, 4G, LTE, xLTE, WiMAX, Wi-Fi, etc.",
+                "Pre-determined, optimized horixontal antenna separation for best SINR/CINR and maximum download and upload data speeds",
+                "Sealed and splash-proof (also suitable for marine environments)",
+                "100% stainless steel metal parts, and stanless steel back shields for better gain and mechanical strength",
+                "High input power (up to 2 x 250 Watts continuos power) with 24K gold-plated connectors on radomes"
+            ],
+            "features2": [
+                "Extended operating temperature range of -25° to +85° C",
+                "On-radome 24K gold plated N-type connector for maximum reliability, power tranfer, durability, and mechanical strength",
+                "Ultra-low VSWR throughout the whole 450 MHz to 6000 MHz frequency range",
+                "IP67 rating (protected against dust, strong water jets, and waves)",
+                "UL94 V-0 flammability rating",
+                "USA and international trademark current",
+                "USA and international patents pending"
+            ],
             "description": "To Connect Antenna or Combiners to Devices",
+            "warranty": "2 Years",
             "image": "http://dummyimage.com/200x200.png/dddddd/000000"
         },
         {
@@ -573,7 +1851,25 @@
             "name": "WRG400-SMAM-NM-20M™",
             "category": "Antenna Accesories",
             "sub-category": "Main Cables",
+            "features1": [
+                "Fully enclosed, robust, and durable, under any weather condition, with 100% stanelss-steel metal parts",
+                "Unparalleled worldwide cellular bands compatibility for countless applications, including cellular legacy, cellular data, 5G, 4G, LTE, xLTE, WiMAX, Wi-Fi, etc.",
+                "Pre-determined, optimized horixontal antenna separation for best SINR/CINR and maximum download and upload data speeds",
+                "Sealed and splash-proof (also suitable for marine environments)",
+                "100% stainless steel metal parts, and stanless steel back shields for better gain and mechanical strength",
+                "High input power (up to 2 x 250 Watts continuos power) with 24K gold-plated connectors on radomes"
+            ],
+            "features2": [
+                "Extended operating temperature range of -25° to +85° C",
+                "On-radome 24K gold plated N-type connector for maximum reliability, power tranfer, durability, and mechanical strength",
+                "Ultra-low VSWR throughout the whole 450 MHz to 6000 MHz frequency range",
+                "IP67 rating (protected against dust, strong water jets, and waves)",
+                "UL94 V-0 flammability rating",
+                "USA and international trademark current",
+                "USA and international patents pending"
+            ],
             "description": "To Connect Antenna or Combiners to Devices",
+            "warranty": "2 Years",
             "image": "http://dummyimage.com/200x200.png/dddddd/000000"
         },
         {
@@ -581,7 +1877,25 @@
             "name": "WRG400-SMAM-RANM-10M™",
             "category": "Antenna Accesories",
             "sub-category": "Main Cables",
+            "features1": [
+                "Fully enclosed, robust, and durable, under any weather condition, with 100% stanelss-steel metal parts",
+                "Unparalleled worldwide cellular bands compatibility for countless applications, including cellular legacy, cellular data, 5G, 4G, LTE, xLTE, WiMAX, Wi-Fi, etc.",
+                "Pre-determined, optimized horixontal antenna separation for best SINR/CINR and maximum download and upload data speeds",
+                "Sealed and splash-proof (also suitable for marine environments)",
+                "100% stainless steel metal parts, and stanless steel back shields for better gain and mechanical strength",
+                "High input power (up to 2 x 250 Watts continuos power) with 24K gold-plated connectors on radomes"
+            ],
+            "features2": [
+                "Extended operating temperature range of -25° to +85° C",
+                "On-radome 24K gold plated N-type connector for maximum reliability, power tranfer, durability, and mechanical strength",
+                "Ultra-low VSWR throughout the whole 450 MHz to 6000 MHz frequency range",
+                "IP67 rating (protected against dust, strong water jets, and waves)",
+                "UL94 V-0 flammability rating",
+                "USA and international trademark current",
+                "USA and international patents pending"
+            ],
             "description": "To Connect Antenna or Combiners to Devices",
+            "warranty": "2 Years",
             "image": "http://dummyimage.com/200x200.png/dddddd/000000"
         },
         {
@@ -589,7 +1903,25 @@
             "name": "WRG400-SMAM-RANM-20M™",
             "category": "Antenna Accesories",
             "sub-category": "Main Cables",
+            "features1": [
+                "Fully enclosed, robust, and durable, under any weather condition, with 100% stanelss-steel metal parts",
+                "Unparalleled worldwide cellular bands compatibility for countless applications, including cellular legacy, cellular data, 5G, 4G, LTE, xLTE, WiMAX, Wi-Fi, etc.",
+                "Pre-determined, optimized horixontal antenna separation for best SINR/CINR and maximum download and upload data speeds",
+                "Sealed and splash-proof (also suitable for marine environments)",
+                "100% stainless steel metal parts, and stanless steel back shields for better gain and mechanical strength",
+                "High input power (up to 2 x 250 Watts continuos power) with 24K gold-plated connectors on radomes"
+            ],
+            "features2": [
+                "Extended operating temperature range of -25° to +85° C",
+                "On-radome 24K gold plated N-type connector for maximum reliability, power tranfer, durability, and mechanical strength",
+                "Ultra-low VSWR throughout the whole 450 MHz to 6000 MHz frequency range",
+                "IP67 rating (protected against dust, strong water jets, and waves)",
+                "UL94 V-0 flammability rating",
+                "USA and international trademark current",
+                "USA and international patents pending"
+            ],
             "description": "To Connect Antenna or Combiners to Devices",
+            "warranty": "2 Years",
             "image": "http://dummyimage.com/200x200.png/dddddd/000000"
         },
         {
@@ -597,7 +1929,25 @@
             "name": "WRG400-SMAM-NM-35FT™",
             "category": "Antenna Accesories",
             "sub-category": "Main Cables",
+            "features1": [
+                "Fully enclosed, robust, and durable, under any weather condition, with 100% stanelss-steel metal parts",
+                "Unparalleled worldwide cellular bands compatibility for countless applications, including cellular legacy, cellular data, 5G, 4G, LTE, xLTE, WiMAX, Wi-Fi, etc.",
+                "Pre-determined, optimized horixontal antenna separation for best SINR/CINR and maximum download and upload data speeds",
+                "Sealed and splash-proof (also suitable for marine environments)",
+                "100% stainless steel metal parts, and stanless steel back shields for better gain and mechanical strength",
+                "High input power (up to 2 x 250 Watts continuos power) with 24K gold-plated connectors on radomes"
+            ],
+            "features2": [
+                "Extended operating temperature range of -25° to +85° C",
+                "On-radome 24K gold plated N-type connector for maximum reliability, power tranfer, durability, and mechanical strength",
+                "Ultra-low VSWR throughout the whole 450 MHz to 6000 MHz frequency range",
+                "IP67 rating (protected against dust, strong water jets, and waves)",
+                "UL94 V-0 flammability rating",
+                "USA and international trademark current",
+                "USA and international patents pending"
+            ],
             "description": "To Connect Antenna or Combiners to Devices",
+            "warranty": "2 Years",
             "image": "http://dummyimage.com/200x200.png/dddddd/000000"
         },
         {
@@ -605,7 +1955,25 @@
             "name": "WRG400-SMAM-NM-45FT™",
             "category": "Antenna Accesories",
             "sub-category": "Main Cables",
+            "features1": [
+                "Fully enclosed, robust, and durable, under any weather condition, with 100% stanelss-steel metal parts",
+                "Unparalleled worldwide cellular bands compatibility for countless applications, including cellular legacy, cellular data, 5G, 4G, LTE, xLTE, WiMAX, Wi-Fi, etc.",
+                "Pre-determined, optimized horixontal antenna separation for best SINR/CINR and maximum download and upload data speeds",
+                "Sealed and splash-proof (also suitable for marine environments)",
+                "100% stainless steel metal parts, and stanless steel back shields for better gain and mechanical strength",
+                "High input power (up to 2 x 250 Watts continuos power) with 24K gold-plated connectors on radomes"
+            ],
+            "features2": [
+                "Extended operating temperature range of -25° to +85° C",
+                "On-radome 24K gold plated N-type connector for maximum reliability, power tranfer, durability, and mechanical strength",
+                "Ultra-low VSWR throughout the whole 450 MHz to 6000 MHz frequency range",
+                "IP67 rating (protected against dust, strong water jets, and waves)",
+                "UL94 V-0 flammability rating",
+                "USA and international trademark current",
+                "USA and international patents pending"
+            ],
             "description": "To Connect Antenna or Combiners to Devices",
+            "warranty": "2 Years",
             "image": "http://dummyimage.com/200x200.png/dddddd/000000"
         },
         {
@@ -613,7 +1981,25 @@
             "name": "WRG400-RASMAM-NM-35FT™",
             "category": "Antenna Accesories",
             "sub-category": "Main Cables",
+            "features1": [
+                "Fully enclosed, robust, and durable, under any weather condition, with 100% stanelss-steel metal parts",
+                "Unparalleled worldwide cellular bands compatibility for countless applications, including cellular legacy, cellular data, 5G, 4G, LTE, xLTE, WiMAX, Wi-Fi, etc.",
+                "Pre-determined, optimized horixontal antenna separation for best SINR/CINR and maximum download and upload data speeds",
+                "Sealed and splash-proof (also suitable for marine environments)",
+                "100% stainless steel metal parts, and stanless steel back shields for better gain and mechanical strength",
+                "High input power (up to 2 x 250 Watts continuos power) with 24K gold-plated connectors on radomes"
+            ],
+            "features2": [
+                "Extended operating temperature range of -25° to +85° C",
+                "On-radome 24K gold plated N-type connector for maximum reliability, power tranfer, durability, and mechanical strength",
+                "Ultra-low VSWR throughout the whole 450 MHz to 6000 MHz frequency range",
+                "IP67 rating (protected against dust, strong water jets, and waves)",
+                "UL94 V-0 flammability rating",
+                "USA and international trademark current",
+                "USA and international patents pending"
+            ],
             "description": "To Connect Antenna or Combiners to Devices",
+            "warranty": "2 Years",
             "image": "http://dummyimage.com/200x200.png/dddddd/000000"
         },
         {
@@ -621,7 +2007,25 @@
             "name": "WRG400-RASMAM-NM-45FT™",
             "category": "Antenna Accesories",
             "sub-category": "Main Cables",
+            "features1": [
+                "Fully enclosed, robust, and durable, under any weather condition, with 100% stanelss-steel metal parts",
+                "Unparalleled worldwide cellular bands compatibility for countless applications, including cellular legacy, cellular data, 5G, 4G, LTE, xLTE, WiMAX, Wi-Fi, etc.",
+                "Pre-determined, optimized horixontal antenna separation for best SINR/CINR and maximum download and upload data speeds",
+                "Sealed and splash-proof (also suitable for marine environments)",
+                "100% stainless steel metal parts, and stanless steel back shields for better gain and mechanical strength",
+                "High input power (up to 2 x 250 Watts continuos power) with 24K gold-plated connectors on radomes"
+            ],
+            "features2": [
+                "Extended operating temperature range of -25° to +85° C",
+                "On-radome 24K gold plated N-type connector for maximum reliability, power tranfer, durability, and mechanical strength",
+                "Ultra-low VSWR throughout the whole 450 MHz to 6000 MHz frequency range",
+                "IP67 rating (protected against dust, strong water jets, and waves)",
+                "UL94 V-0 flammability rating",
+                "USA and international trademark current",
+                "USA and international patents pending"
+            ],
             "description": "To Connect Antenna or Combiners to Devices",
+            "warranty": "2 Years",
             "image": "http://dummyimage.com/200x200.png/dddddd/000000"
         },
         {
@@ -629,7 +2033,25 @@
             "name": "WRG400-SMAM-RANM-35FT™",
             "category": "Antenna Accesories",
             "sub-category": "Main Cables",
+            "features1": [
+                "Fully enclosed, robust, and durable, under any weather condition, with 100% stanelss-steel metal parts",
+                "Unparalleled worldwide cellular bands compatibility for countless applications, including cellular legacy, cellular data, 5G, 4G, LTE, xLTE, WiMAX, Wi-Fi, etc.",
+                "Pre-determined, optimized horixontal antenna separation for best SINR/CINR and maximum download and upload data speeds",
+                "Sealed and splash-proof (also suitable for marine environments)",
+                "100% stainless steel metal parts, and stanless steel back shields for better gain and mechanical strength",
+                "High input power (up to 2 x 250 Watts continuos power) with 24K gold-plated connectors on radomes"
+            ],
+            "features2": [
+                "Extended operating temperature range of -25° to +85° C",
+                "On-radome 24K gold plated N-type connector for maximum reliability, power tranfer, durability, and mechanical strength",
+                "Ultra-low VSWR throughout the whole 450 MHz to 6000 MHz frequency range",
+                "IP67 rating (protected against dust, strong water jets, and waves)",
+                "UL94 V-0 flammability rating",
+                "USA and international trademark current",
+                "USA and international patents pending"
+            ],
             "description": "To Connect Antenna or Combiners to Devices",
+            "warranty": "2 Years",
             "image": "http://dummyimage.com/200x200.png/dddddd/000000"
         },
         {
@@ -637,7 +2059,25 @@
             "name": "WRG400-SMAM-RANM-45FT™",
             "category": "Antenna Accesories",
             "sub-category": "Main Cables",
+            "features1": [
+                "Fully enclosed, robust, and durable, under any weather condition, with 100% stanelss-steel metal parts",
+                "Unparalleled worldwide cellular bands compatibility for countless applications, including cellular legacy, cellular data, 5G, 4G, LTE, xLTE, WiMAX, Wi-Fi, etc.",
+                "Pre-determined, optimized horixontal antenna separation for best SINR/CINR and maximum download and upload data speeds",
+                "Sealed and splash-proof (also suitable for marine environments)",
+                "100% stainless steel metal parts, and stanless steel back shields for better gain and mechanical strength",
+                "High input power (up to 2 x 250 Watts continuos power) with 24K gold-plated connectors on radomes"
+            ],
+            "features2": [
+                "Extended operating temperature range of -25° to +85° C",
+                "On-radome 24K gold plated N-type connector for maximum reliability, power tranfer, durability, and mechanical strength",
+                "Ultra-low VSWR throughout the whole 450 MHz to 6000 MHz frequency range",
+                "IP67 rating (protected against dust, strong water jets, and waves)",
+                "UL94 V-0 flammability rating",
+                "USA and international trademark current",
+                "USA and international patents pending"
+            ],
             "description": "To Connect Antenna or Combiners to Devices",
+            "warranty": "2 Years",
             "image": "http://dummyimage.com/200x200.png/dddddd/000000"
         },
         {
@@ -645,7 +2085,25 @@
             "name": "WRG400-RASMAM-RANM-35FT™",
             "category": "Antenna Accesories",
             "sub-category": "Main Cables",
+            "features1": [
+                "Fully enclosed, robust, and durable, under any weather condition, with 100% stanelss-steel metal parts",
+                "Unparalleled worldwide cellular bands compatibility for countless applications, including cellular legacy, cellular data, 5G, 4G, LTE, xLTE, WiMAX, Wi-Fi, etc.",
+                "Pre-determined, optimized horixontal antenna separation for best SINR/CINR and maximum download and upload data speeds",
+                "Sealed and splash-proof (also suitable for marine environments)",
+                "100% stainless steel metal parts, and stanless steel back shields for better gain and mechanical strength",
+                "High input power (up to 2 x 250 Watts continuos power) with 24K gold-plated connectors on radomes"
+            ],
+            "features2": [
+                "Extended operating temperature range of -25° to +85° C",
+                "On-radome 24K gold plated N-type connector for maximum reliability, power tranfer, durability, and mechanical strength",
+                "Ultra-low VSWR throughout the whole 450 MHz to 6000 MHz frequency range",
+                "IP67 rating (protected against dust, strong water jets, and waves)",
+                "UL94 V-0 flammability rating",
+                "USA and international trademark current",
+                "USA and international patents pending"
+            ],
             "description": "To Connect Antenna or Combiners to Devices",
+            "warranty": "2 Years",
             "image": "http://dummyimage.com/200x200.png/dddddd/000000"
         },
         {
@@ -653,7 +2111,25 @@
             "name": "WRG400-RASMAM-RANM-45FT™",
             "category": "Antenna Accesories",
             "sub-category": "Main Cables",
+            "features1": [
+                "Fully enclosed, robust, and durable, under any weather condition, with 100% stanelss-steel metal parts",
+                "Unparalleled worldwide cellular bands compatibility for countless applications, including cellular legacy, cellular data, 5G, 4G, LTE, xLTE, WiMAX, Wi-Fi, etc.",
+                "Pre-determined, optimized horixontal antenna separation for best SINR/CINR and maximum download and upload data speeds",
+                "Sealed and splash-proof (also suitable for marine environments)",
+                "100% stainless steel metal parts, and stanless steel back shields for better gain and mechanical strength",
+                "High input power (up to 2 x 250 Watts continuos power) with 24K gold-plated connectors on radomes"
+            ],
+            "features2": [
+                "Extended operating temperature range of -25° to +85° C",
+                "On-radome 24K gold plated N-type connector for maximum reliability, power tranfer, durability, and mechanical strength",
+                "Ultra-low VSWR throughout the whole 450 MHz to 6000 MHz frequency range",
+                "IP67 rating (protected against dust, strong water jets, and waves)",
+                "UL94 V-0 flammability rating",
+                "USA and international trademark current",
+                "USA and international patents pending"
+            ],
             "description": "To Connect Antenna or Combiners to Devices",
+            "warranty": "2 Years",
             "image": "http://dummyimage.com/200x200.png/dddddd/000000"
         }
     ],

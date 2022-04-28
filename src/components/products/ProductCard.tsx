@@ -26,19 +26,6 @@ export const ProductCard: FC<Props> = ({ id, name, description, image} ) => {
                     <Card.Title> {name}</Card.Title>
                     <Card.Text> {description} </Card.Text>
                 </Card.Body>
-                    {/* <Button variant="secondary" size="lg">
-                        <Link 
-                            to={`/product/${id}`} 
-                            style={{ 
-                                textDecoration: 'none', 
-                                color: 'white',
-                                fontWeight: 'bold',
-                                justifyContent: 'center'
-                            }}
-                        >
-                            {name}
-                        </Link>
-                    </Button> */}
             </Card>
 
         </Col>

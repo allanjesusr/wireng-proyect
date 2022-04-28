@@ -1,5 +1,6 @@
-
 import { Container } from "react-bootstrap";
+
+import { useSEO } from "../../hooks/useSEO";
 
 import img1 from '../../assets/images/about/wideant-5g-fba_by_wireng_06.jpg';
 import img2 from '../../assets/images/about/mimomount_by_wireng_06.jpg';
@@ -7,6 +8,10 @@ import img3 from '../../assets/images/about/WRG400-SMAM-NM-20M-AU-90Degrade.png'
 
 
 export const AboutScreen = () => {
+
+  const title = 'About WirEng®';
+  useSEO({ title });
+
     return (
       <Container>
         <div className="about__container">
