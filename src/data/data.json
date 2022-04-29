@@ -24,7 +24,13 @@
             ],
             "description": "To Increase Transmit and Receive RF Signal Strengths for Single-Connector RF Devices in Stationary/Fixed Locations",
             "warranty": "2 Years",
-            "image": "https://wirengimages.s3.amazonaws.com/images/test/1920x1920.jpg"
+            "image": "https://wirengimages.s3.amazonaws.com/images/product-images/wideant-5g.jpg",
+            "images": [
+                "https://wirengimages.s3.amazonaws.com/images/seriewideant-5g/wideant-5g/wideant-5g4.png",
+                "https://wirengimages.s3.amazonaws.com/images/seriewideant-5g/wideant-5g/wideant-5g3.png",
+                "https://wirengimages.s3.amazonaws.com/images/seriewideant-5g/wideant-5g/wideant-5g2.png",
+                "https://wirengimages.s3.amazonaws.com/images/seriewideant-5g/wideant-5g/wideant-5g.png"
+            ]
         },
         {
             "id": "wideant2-5g",
@@ -50,7 +56,13 @@
             ],
             "description": "To Increase Download and Upload Data Speeds for Dual-Connector MIMO/Aux/Diversity RF Devices (MIMO 2x2 Technology) in Stationary/Fixed Locations",
             "warranty": "2 Years",
-            "image": "https://wirengimages.s3.amazonaws.com/images/test/500x500.jpg"
+            "image": "https://wirengimages.s3.amazonaws.com/images/product-images/wideant2-5g.jpg",
+            "images": [
+                "https://wirengimages.s3.amazonaws.com/images/seriewideant-5g/wideant2-5g/Wideant2-5g4.png",
+                "https://wirengimages.s3.amazonaws.com/images/seriewideant-5g/wideant2-5g/Wideant2-5g3.png",
+                "https://wirengimages.s3.amazonaws.com/images/seriewideant-5g/wideant2-5g/Wideant2-5g2.png",
+                "https://wirengimages.s3.amazonaws.com/images/seriewideant-5g/wideant2-5g/Wideant2-5g.png"
+            ]
         },
         {
             "id": "wideant4-5g-4x2",
@@ -76,7 +88,12 @@
             ],
             "description": "To Increase Download and Upload Data Speeds for Dual-Connector MIMO/Aux/Diversity RF Devices (compatible with MIMO 4x2 and 2x2 Technologies) in Stationary/Fixed Locations",
             "warranty": "2 Years",
-            "image": "https://wirengimages.s3.amazonaws.com/images/test/250x250.jpg"
+            "image": "https://wirengimages.s3.amazonaws.com/images/product-images/wideant4-5g-4x2.jpg",
+            "images": [
+                "https://wirengimages.s3.amazonaws.com/images/seriewideant-5g/wideant4-5g-4x2/Widant4-5g-4x2-01.png",
+                "https://wirengimages.s3.amazonaws.com/images/seriewideant-5g/wideant4-5g-4x2/Widant4-5g-4x2-02.png",
+                "https://wirengimages.s3.amazonaws.com/images/seriewideant-5g/wideant4-5g-4x2/Widant4-5g-4x2.png"
+            ]
         },
         {
             "id": "wideant4-5g-4x4",
@@ -102,7 +119,13 @@
                 "USA and international patents pending"
             ],
             "warranty": "2 Years",
-            "image": "https://wirengimages.s3.amazonaws.com/images/seriewideant-5g/wideant4-5g-4x4/wideant4-5g-4x4_03.png"
+            "image": "https://wirengimages.s3.amazonaws.com/images/product-images/wideant4-5g-4x4.jpg",
+            "images": [
+                "https://wirengimages.s3.amazonaws.com/images/seriewideant-5g/wideant4-5g-4x4/wideant4-5g-4x4_01.png",
+                "https://wirengimages.s3.amazonaws.com/images/seriewideant-5g/wideant4-5g-4x4/wideant4-5g-4x4_02.png",
+                "https://wirengimages.s3.amazonaws.com/images/seriewideant-5g/wideant4-5g-4x4/wideant4-5g-4x4_03.png",
+                "https://wirengimages.s3.amazonaws.com/images/seriewideant-5g/wideant4-5g-4x4/wideant4-5g-4x4.png"
+            ]
         },
         {
             "id": "wideant8-5g-8x2",
@@ -128,7 +151,11 @@
             ],
             "description": "To Increase Download and Upload Data Speeds for Dual-Connector MIMO/Aux/Diversity RF Devices (compatible with MIMO 8x2, 4x2, and 2x2 Technologies) in Stationary/Fixed Locations",
             "warranty": "2 Years",
-            "image": "http://dummyimage.com/200x200.png/dddddd/000000"
+            "image": "https://wirengimages.s3.amazonaws.com/images/product-images/wideant8-5g-8x2.jpg",
+            "images": [
+                "https://wirengimages.s3.amazonaws.com/images/seriewideant-5g/wideant8-5g-8x2/WideAnt8-5G-8x2-01.png",
+                "https://wirengimages.s3.amazonaws.com/images/seriewideant-5g/wideant8-5g-8x2/WideAnt8-5G-8x2.png"
+            ]
         },
         {
             "id": "wideant8-5g-8x4™",
@@ -154,7 +181,12 @@
             ],
             "description": "To Increase Download and Upload Data Speeds for Quad-Connector MIMO/Aux/Diversity RF Devices (compatible with MIMO 8x4 and 4x4 Technologies) in Stationary/Fixed Locations",
             "warranty": "2 Years",
-            "image": "http://dummyimage.com/200x200.png/dddddd/000000"
+            "image": "https://wirengimages.s3.amazonaws.com/images/product-images/wideant8-5g-8x4.jpg",
+            "images": [
+                "https://wirengimages.s3.amazonaws.com/images/seriewideant-5g/wideant8-5g-8x4/Widant8-5g-8x4+6.png",
+                "https://wirengimages.s3.amazonaws.com/images/seriewideant-5g/wideant8-5g-8x4/Widant8-5g-8x4-01.png",
+                "https://wirengimages.s3.amazonaws.com/images/seriewideant-5g/wideant8-5g-8x4/Widant8-5g-8x4.png"
+            ]
         },
         {
             "id": "wideAnt8-gG-8x8",
@@ -180,7 +212,13 @@
             ],
             "description": "To Increase Download and Upload Data Speeds for Octa-Connector MIMO/Aux/Diversity RF Devices (MIMO 8x8 Technology) in Stationary/Fixed Locations",
             "warranty": "2 Years",
-            "image": "http://dummyimage.com/200x200.png/dddddd/000000"
+            "image": "https://wirengimages.s3.amazonaws.com/images/product-images/wideant8-5g-8x8.jpg",
+            "images": [
+                "https://wirengimages.s3.amazonaws.com/images/seriewideant-5g/wideant8-5g-8x8/wideant8-5g-8x8_01.png",
+                "https://wirengimages.s3.amazonaws.com/images/seriewideant-5g/wideant8-5g-8x8/wideant8-5g-8x8_02.png",
+                "https://wirengimages.s3.amazonaws.com/images/seriewideant-5g/wideant8-5g-8x8/wideant8-5g-8x8_03.png",
+                "https://wirengimages.s3.amazonaws.com/images/seriewideant-5g/wideant8-5g-8x8/wideant8-5g-8x8.png"
+            ]
         },
         {
             "id": "wideant-plus-5g",
@@ -206,7 +244,14 @@
             ],
             "description": "To Increase Transmit and Receive RF Signal Strengths for Single-Connector RF Devices in Stationary/Fixed Locations",
             "warranty": "2 Years",
-            "image": "https://wirengimages.s3.amazonaws.com/images/seriewideant-plus-5g/wideant-plus-5g/wideant-plus-5g_16.png"
+            "image": "https://wirengimages.s3.amazonaws.com/images/product-images/wideant-plus-5g.jpg",
+            "images": [
+                "https://wirengimages.s3.amazonaws.com/images/seriewideant-plus-5g/wideant-plus-5g/wideant-plus-5g.png",
+                "https://wirengimages.s3.amazonaws.com/images/seriewideant-plus-5g/wideant-plus-5g/wideant-plus-5g_10.png",
+                "https://wirengimages.s3.amazonaws.com/images/seriewideant-plus-5g/wideant-plus-5g/wideant-plus-5g_13.png",
+                "https://wirengimages.s3.amazonaws.com/images/seriewideant-plus-5g/wideant-plus-5g/wideant-plus-5g_08.png",
+                "https://wirengimages.s3.amazonaws.com/images/seriewideant-plus-5g/wideant-plus-5g/wideant-plus-5g_11.png"
+            ]
         },
         {
             "id": "wideant2-plus-5g",
@@ -232,7 +277,14 @@
             ],
             "description": "To Increase Download and Upload Data Speeds for Dual-Connector MIMO/Aux/Diversity RF Devices (MIMO 2x2 Technology) in Stationary/Fixed Locations",
             "warranty": "2 Years",
-            "image": "https://wirengimages.s3.amazonaws.com/images/seriewideant-plus-5g/wideant2-plus-5g/wideant2-plus-5g_02.png"
+            "image": "https://wirengimages.s3.amazonaws.com/images/product-images/wideant2-plus-5g.jpg",
+            "images": [
+                "https://wirengimages.s3.amazonaws.com/images/seriewideant-plus-5g/wideant2-plus-5g/wideant2-plus-5g.png",
+                "https://wirengimages.s3.amazonaws.com/images/seriewideant-plus-5g/wideant2-plus-5g/wideant2-plus-5g_02.png",
+                "https://wirengimages.s3.amazonaws.com/images/seriewideant-plus-5g/wideant2-plus-5g/wideant2-plus-5g_04.png",
+                "https://wirengimages.s3.amazonaws.com/images/seriewideant-plus-5g/wideant2-plus-5g/wideant2-plus-5g_05.png",
+                "https://wirengimages.s3.amazonaws.com/images/seriewideant-plus-5g/wideant2-plus-5g/wideant2-plus-5g_06.png"
+            ]
         },
         {
             "id": "wideAnt4-plus-5g-4x2",
@@ -258,7 +310,14 @@
             ],
             "description": "To Increase Download and Upload Data Speeds for Dual-Connector MIMO/Aux/Diversity RF Devices (compatible with MIMO 4x2 and 2x2 Technologies) in Stationary/Fixed Locations",
             "warranty": "2 Years",
-            "image": "https://wirengimages.s3.amazonaws.com/images/seriewideant-plus-5g/wideant4-plus-4x2/WideAnt4-Plus-5G-2x2_06.png"
+            "image": "https://wirengimages.s3.amazonaws.com/images/product-images/WideAnt4-Plus-5G-4x2.jpg",
+            "images": [
+                "https://wirengimages.s3.amazonaws.com/images/seriewideant-plus-5g/wideant4-plus-4x2/WideAnt4-Plus-5G-2x2.png",
+                "https://wirengimages.s3.amazonaws.com/images/seriewideant-plus-5g/wideant4-plus-4x2/WideAnt4-Plus-5G-2x2_06.png",
+                "https://wirengimages.s3.amazonaws.com/images/seriewideant-plus-5g/wideant4-plus-4x2/WideAnt4-Plus-5G-2x2_05.png",
+                "https://wirengimages.s3.amazonaws.com/images/seriewideant-plus-5g/wideant4-plus-4x2/WideAnt4-Plus-5G-2x2_04.png",
+                "https://wirengimages.s3.amazonaws.com/images/seriewideant-plus-5g/wideant4-plus-4x2/WideAnt4-Plus-5G-2x2_01.png"
+            ]
         },
         {
             "id": "wideant4-plus-5g-4x4",
@@ -284,7 +343,14 @@
             ],
             "description": "To Increase Download and Upload Data Speeds for Quad-Connector MIMO 4x4 RF Devices (MIMO 4x4 Technology) in Stationary/Fixed Locations",
             "warranty": "2 Years",
-            "image": "https://wirengimages.s3.amazonaws.com/images/seriewideant-plus-5g/wideant4-plus-4x2/WideAnt4-Plus-5G-2x2_06.png"
+            "image": "https://wirengimages.s3.amazonaws.com/images/product-images/wideant4-plus-5g-4x4.jpg",
+            "images": [
+                "https://wirengimages.s3.amazonaws.com/images/seriewideant-plus-5g/wideant4-plus-5g-4x4/wideant4-plus-5g-4x4_02.png",
+                "https://wirengimages.s3.amazonaws.com/images/seriewideant-plus-5g/wideant4-plus-5g-4x4/WideAnt4-Plus-5G-4x4_04.png",
+                "https://wirengimages.s3.amazonaws.com/images/seriewideant-plus-5g/wideant4-plus-5g-4x4/WideAnt4-Plus-5G-4x4_06.png",
+                "https://wirengimages.s3.amazonaws.com/images/seriewideant-plus-5g/wideant4-plus-5g-4x4/wideant4-plus-5g-4x4.png",
+                "https://wirengimages.s3.amazonaws.com/images/seriewideant-plus-5g/wideant4-plus-5g-4x4/wideant4-plus-5g-4x4_01.png"
+            ]
         },
         {
             "id": "wideant8-plus-5g-8x2",
@@ -310,7 +376,12 @@
             ],
             "description": "To Increase Download and Upload Data Speeds for Dual-Connector MIMO/Aux/Diversity RF Devices (compatible with MIMO 8x2, 4x2, and 2x2 Technologies) in Stationary/Fixed Locations",
             "warranty": "2 Years",
-            "image": "http://dummyimage.com/200x200.png/dddddd/000000"
+            "image": "https://wirengimages.s3.amazonaws.com/images/product-images/WideAnt8-plus-5G-8x2.jpg",
+            "images": [
+                "https://wirengimages.s3.amazonaws.com/images/seriewideant-plus-5g/wideant8-plus-5g-8x2/WideAnt8-plus-5G-8x2-01.png",
+                "https://wirengimages.s3.amazonaws.com/images/seriewideant-plus-5g/wideant8-plus-5g-8x2/WideAnt8-plus-5G-8x2-02.png",
+                "https://wirengimages.s3.amazonaws.com/images/seriewideant-plus-5g/wideant8-plus-5g-8x2/WideAnt8-plus-5G-8x2.png"
+            ]
         },
         {
             "id": "wideant8-plus-5g-8x4",
@@ -336,7 +407,11 @@
             ],
             "description": "To Increase Download and Upload Data Speeds for Quad-Connector MIMO/Aux/Diversity RF Devices (compatible with MIMO 8x4 and 4x4 Technologies) in Stationary/Fixed Locations",
             "warranty": "2 Years",
-            "image": "http://dummyimage.com/200x200.png/dddddd/000000"
+            "image": "https://wirengimages.s3.amazonaws.com/images/product-images/wideant8-plus-5g-8x4.jpg",
+            "images": [
+                "https://wirengimages.s3.amazonaws.com/images/seriewideant-plus-5g/wideant8-plus-5g-8x4/Wideant8-plus-5g-8x4-01.png",
+                "https://wirengimages.s3.amazonaws.com/images/seriewideant-plus-5g/wideant8-plus-5g-8x4/Wideant8-plus-5g-8x4.png"
+            ]
         },
         {
             "id": "wideant8-plus-5g-8x8",
@@ -362,7 +437,14 @@
             ],
             "description": "To Increase Download and Upload Data Speeds for Octa-Connector MIMO/Aux/Diversity RF Devices (MIMO 8x8 Technology) in Stationary/Fixed Locations",
             "warranty": "2 Years",
-            "image": "http://dummyimage.com/200x200.png/dddddd/000000"
+            "image": "https://wirengimages.s3.amazonaws.com/images/product-images/wideant8-plus-5g-8x8.jpg",
+            "images": [
+                "https://wirengimages.s3.amazonaws.com/images/seriewideant-plus-5g/wideant8-plus-5g-8x8/Wideant8-plus-5g-8x8_01.png",
+                "https://wirengimages.s3.amazonaws.com/images/seriewideant-plus-5g/wideant8-plus-5g-8x8/Wideant8-plus-5g-8x8_02.png",
+                "https://wirengimages.s3.amazonaws.com/images/seriewideant-plus-5g/wideant8-plus-5g-8x8/WideAnt8-Plus-5G-8x8_03.png",
+                "https://wirengimages.s3.amazonaws.com/images/seriewideant-plus-5g/wideant8-plus-5g-8x8/WideAnt8-Plus-5G-8x8_05.png",
+                "https://wirengimages.s3.amazonaws.com/images/seriewideant-plus-5g/wideant8-plus-5g-8x8/Wideant8-plus-5g-8x8.png"
+            ]
         },
         {
             "id": "droneant",
@@ -388,7 +470,18 @@
             ],
             "description": "To Increase Drone's Range in Stationary or Moving Locations",
             "warranty": "2 Years",
-            "image": "https://wirengimages.s3.amazonaws.com/images/serie-droneant/droneant/DroneAnt_by_WirEng_4.png"
+            "image": "https://wirengimages.s3.amazonaws.com/images/product-images/DroneAnt.jpg",
+            "images": [
+                "https://wirengimages.s3.amazonaws.com/images/serie-droneant/droneant/DroneAnt_by_WirEng_1.png",
+                "https://wirengimages.s3.amazonaws.com/images/serie-droneant/droneant/DroneAnt_by_WirEng_2.png",
+                "https://wirengimages.s3.amazonaws.com/images/serie-droneant/droneant/DroneAnt_by_WirEng_3.png",
+                "https://wirengimages.s3.amazonaws.com/images/serie-droneant/droneant/DroneAnt_by_WirEng_4.png",
+                "https://wirengimages.s3.amazonaws.com/images/serie-droneant/droneant/DroneAnt_by_WirEng_5.png",
+                "https://wirengimages.s3.amazonaws.com/images/serie-droneant/droneant/DroneAnt_by_WirEng_6.png",
+                "https://wirengimages.s3.amazonaws.com/images/serie-droneant/droneant/DroneAnt_by_WirEng_7.png",
+                "https://wirengimages.s3.amazonaws.com/images/serie-droneant/droneant/DroneAnt_by_WirEng_8.png",
+                "https://wirengimages.s3.amazonaws.com/images/serie-droneant/droneant/DroneAnt_by_WirEng_9.png"
+            ]
         },
         {
             "id": "droneant16",
@@ -414,7 +507,16 @@
             ],
             "description": "To Increase Drone's Range in Stationary or Moving Locations",
             "warranty": "2 Years",
-            "image": "https://wirengimages.s3.amazonaws.com/images/serie-droneant/droneant16/gigamimo16-drone_04.png"
+            "image": "https://wirengimages.s3.amazonaws.com/images/product-images/DroneAnt16.jpg",
+            "images": [
+                "https://wirengimages.s3.amazonaws.com/images/serie-droneant/droneant16/gigamimo16-drone_01.png",
+                "https://wirengimages.s3.amazonaws.com/images/serie-droneant/droneant16/gigamimo16-drone_02.png",
+                "https://wirengimages.s3.amazonaws.com/images/serie-droneant/droneant16/gigamimo16-drone_03.png",
+                "https://wirengimages.s3.amazonaws.com/images/serie-droneant/droneant16/gigamimo16-drone_04.png",
+                "https://wirengimages.s3.amazonaws.com/images/serie-droneant/droneant16/gigamimo16-drone_05.png",
+                "https://wirengimages.s3.amazonaws.com/images/serie-droneant/droneant16/gigamimo16-drone_06.png",
+                "https://wirengimages.s3.amazonaws.com/images/serie-droneant/droneant16/gigamimo16-drone.png"
+            ]
         },
         {
             "id": "droneant-plus",
@@ -440,7 +542,16 @@
             ],
             "description": "To Increase Drone's Range in Stationary or Moving Locations",
             "warranty": "2 Years",
-            "image": "http://dummyimage.com/200x200.png/dddddd/000000"
+            "image": "http://dummyimage.com/200x200.png/dddddd/000000",
+            "images": [
+                "https://wirengimages.s3.amazonaws.com/images/serie-droneant/droneant16/gigamimo16-drone_01.png",
+                "https://wirengimages.s3.amazonaws.com/images/serie-droneant/droneant16/gigamimo16-drone_02.png",
+                "https://wirengimages.s3.amazonaws.com/images/serie-droneant/droneant16/gigamimo16-drone_03.png",
+                "https://wirengimages.s3.amazonaws.com/images/serie-droneant/droneant16/gigamimo16-drone_04.png",
+                "https://wirengimages.s3.amazonaws.com/images/serie-droneant/droneant16/gigamimo16-drone_05.png",
+                "https://wirengimages.s3.amazonaws.com/images/serie-droneant/droneant16/gigamimo16-drone_06.png",
+                "https://wirengimages.s3.amazonaws.com/images/serie-droneant/droneant16/gigamimo16-drone.png"
+            ]
         },
         {
             "id": "droneant16-plus",
@@ -466,7 +577,17 @@
             ],
             "description": "To Increase Drone's Range in Stationary or Moving Locations",
             "warranty": "2 Years",
-            "image": "https://wirengimages.s3.amazonaws.com/images/serie-droneant/droneant16-plus/DroneAnt16-plus_03.png"
+            "image": "https://wirengimages.s3.amazonaws.com/images/product-images/droneant16-plus.jpg",
+            "images": [
+                "https://wirengimages.s3.amazonaws.com/images/serie-droneant/droneant16-plus/DroneAnt16-plus_01.png",
+                "https://wirengimages.s3.amazonaws.com/images/serie-droneant/droneant16-plus/DroneAnt16-plus_02.png",
+                "https://wirengimages.s3.amazonaws.com/images/serie-droneant/droneant16-plus/DroneAnt16-plus_03.png",
+                "https://wirengimages.s3.amazonaws.com/images/serie-droneant/droneant16-plus/DroneAnt16-plus_04.png",
+                "https://wirengimages.s3.amazonaws.com/images/serie-droneant/droneant16-plus/DroneAnt16-plus_05.png",
+                "https://wirengimages.s3.amazonaws.com/images/serie-droneant/droneant16-plus/DroneAnt16-plus_06.png",
+                "https://wirengimages.s3.amazonaws.com/images/serie-droneant/droneant16-plus/DroneAnt16-plus_07.png",
+                "https://wirengimages.s3.amazonaws.com/images/serie-droneant/droneant16-plus/DroneAnt16-plus.png"
+            ]
         },
         {
             "id": "giant-5g",
@@ -492,7 +613,11 @@
             ],
             "description": "To Increase Transmit and Receive RF Signal Strengths for Single-Connector RF Devices in Stationary/Fixed Locations",
             "warranty": "2 Years",
-            "image": "http://dummyimage.com/200x200.png/dddddd/000000"
+            "image": "http://dummyimage.com/200x200.png/dddddd/000000",
+            "images": [
+                "http://dummyimage.com/200x200.png/dddddd/000000",
+                "http://dummyimage.com/200x200.png/dddddd/000000"
+            ]
         },
         {
             "id": "giant2-5g",
@@ -518,7 +643,11 @@
             ],
             "description": "To Increase Download and Upload Data Speeds for Dual-Connector MIMO/Aux/Diversity RF Devices (MIMO 2x2 Technology) in Stationary/Fixed Locations",
             "warranty": "2 Years",
-            "image": "http://dummyimage.com/200x200.png/dddddd/000000"
+            "image": "http://dummyimage.com/200x200.png/dddddd/000000",
+            "images": [
+                "http://dummyimage.com/200x200.png/dddddd/000000",
+                "http://dummyimage.com/200x200.png/dddddd/000000"
+            ]
         },
         {
             "id": "gigamimo-5g",
@@ -544,7 +673,11 @@
             ],
             "description": "To Increase Download and Upload Data Speeds for Dual-Connector MIMO/Aux/Diversity RF Devices (MIMO 2x2 Technology) in Stationary or Moving Locations",
             "warranty": "2 Years",
-            "image": "http://dummyimage.com/200x200.png/dddddd/000000"
+            "image": "https://wirengimages.s3.amazonaws.com/images/product-images/gigamimo-5g.jpg",
+            "images": [
+                "https://wirengimages.s3.amazonaws.com/images/seriegigamimo-5g/gigamimo-5g/GigaMIMO-5G+2.png",
+                "https://wirengimages.s3.amazonaws.com/images/seriegigamimo-5g/gigamimo-5g/GigaMIMO-5G.png"
+            ]
         },
         {
             "id": "gigamimo16-5g-2x2",
@@ -570,7 +703,11 @@
             ],
             "description": "To Increase Download and Upload Data Speeds for Dual-Connector MIMO/Aux/Diversity RF Devices (compatible with MIMO 2x2 Technology) in Stationary or Moving Locations",
             "warranty": "2 Years",
-            "image": "http://dummyimage.com/200x200.png/dddddd/000000"
+            "image": "https://wirengimages.s3.amazonaws.com/images/product-images/Gigamimo16-5g-2x2.jpg",
+            "images": [
+                "https://wirengimages.s3.amazonaws.com/images/seriegigamimo-5g/gigamimo-5g/GigaMIMO-5G+2.png",
+                "https://wirengimages.s3.amazonaws.com/images/seriegigamimo-5g/gigamimo-5g/GigaMIMO-5G.png"
+            ]
         },
         {
             "id": "gigamimo16-5g-4x2",
@@ -596,7 +733,11 @@
             ],
             "description": "To Increase Download and Upload Data Speeds for Dual-Connector MIMO/Aux/Diversity RF Devices (compatible with MIMO 4x2 Technology) in Stationary or Moving Locations",
             "warranty": "2 Years",
-            "image": "http://dummyimage.com/200x200.png/dddddd/000000"
+            "image": "https://wirengimages.s3.amazonaws.com/images/product-images/GigaMIMO-16-5G-4X2.jpg",
+            "images": [
+                "https://wirengimages.s3.amazonaws.com/images/seriegigamimo-5g/gigamimo-5g/GigaMIMO-5G+2.png",
+                "https://wirengimages.s3.amazonaws.com/images/seriegigamimo-5g/gigamimo-5g/GigaMIMO-5G.png"
+            ]
         },
         {
             "id": "gigamimo16-5g-4x4",
@@ -622,7 +763,11 @@
             ],
             "description": "To Increase Download and Upload Data Speeds for Dual-Connector MIMO/Aux/Diversity RF Devices (compatible with MIMO 4x4 Technology) in Stationary or Moving Locations",
             "warranty": "2 Years",
-            "image": "http://dummyimage.com/200x200.png/dddddd/000000"
+            "image": "https://wirengimages.s3.amazonaws.com/images/product-images/gigamimo-16-5g-4x4.jpg",
+            "images": [
+                "https://wirengimages.s3.amazonaws.com/images/seriegigamimo-5g/gigamimo16-5g-4x4/GigaMIMO-16-5G-4X4-01.png",
+                "https://wirengimages.s3.amazonaws.com/images/seriegigamimo-5g/gigamimo16-5g-4x4/GigaMIMO-16-5G-4X4.png"
+            ]
         },
         {
             "id": "gigamimo-plus-5g",
@@ -648,7 +793,14 @@
             ],
             "description": "To Increase Download and Upload Data Speeds for Dual-Connector MIMO/Aux/Diversity RF Devices (compatible with MIMO 4x4 Technology) in Stationary or Moving Locations",
             "warranty": "2 Years",
-            "image": "https://wirengimages.s3.amazonaws.com/images/seriegigamimo-plus-5g/gigamimo-plus-5g/gigamimo-plus-5g+8.png"
+            "image": "https://wirengimages.s3.amazonaws.com/images/product-images/gigamimo-plus-5g.jpg",
+            "images": [
+                "https://wirengimages.s3.amazonaws.com/images/seriegigamimo-plus-5g/gigamimo-plus-5g/gigamimo-plus-5g+8.png",
+                "https://wirengimages.s3.amazonaws.com/images/seriegigamimo-plus-5g/gigamimo-plus-5g/gigamimo-plus-5g+6.png",
+                "https://wirengimages.s3.amazonaws.com/images/seriegigamimo-plus-5g/gigamimo-plus-5g/gigamimo-plus-5g+4.png",
+                "https://wirengimages.s3.amazonaws.com/images/seriegigamimo-plus-5g/gigamimo-plus-5g/gigamimo-plus-5g+2.png",
+                "https://wirengimages.s3.amazonaws.com/images/seriegigamimo-plus-5g/gigamimo-plus-5g/gigamimo-plus-5g.png"
+            ]
         },
         {
             "id": "gigamimo16-plus-5g-2x2",
@@ -674,7 +826,12 @@
             ],
             "description": "To Increase Download and Upload Data Speeds for Dual-Connector MIMO/Aux/Diversity RF Devices (compatible with MIMO 4x4 Technology) in Stationary or Moving Locations",
             "warranty": "2 Years",
-            "image": "http://dummyimage.com/200x200.png/dddddd/000000"
+            "image": "https://wirengimages.s3.amazonaws.com/images/product-images/GigaMIMO16-plus-5G-2x2%E2%84%A2.jpg",
+            "images": [
+                "https://wirengimages.s3.amazonaws.com/images/seriegigamimo-plus-5g/gigamimo16-plus-5g-2x2/GigaMIMO16-plus-5G-2x2%E2%84%A2-01.png",
+                "https://wirengimages.s3.amazonaws.com/images/seriegigamimo-plus-5g/gigamimo16-plus-5g-2x2/GigaMIMO16-plus-5G-2x2%E2%84%A2-02.png",
+                "https://wirengimages.s3.amazonaws.com/images/seriegigamimo-plus-5g/gigamimo16-plus-5g-2x2/GigaMIMO16-plus-5G-2x2%E2%84%A2.png"
+            ]
         },
         {
             "id": "gigamimo16-plus-5g-4x2",
@@ -700,7 +857,11 @@
             ],
             "description": "To Increase Download and Upload Data Speeds for Dual-Connector MIMO/Aux/Diversity RF Devices (compatible with MIMO 4x4 Technology) in Stationary or Moving Locations",
             "warranty": "2 Years",
-            "image": "http://dummyimage.com/200x200.png/dddddd/000000"
+            "image": "https://wirengimages.s3.amazonaws.com/images/product-images/GigaMIMO-16-Plus-5G-4X2.jpg",
+            "images": [
+                "https://wirengimages.s3.amazonaws.com/images/seriegigamimo-plus-5g/gigamimo16-plus-5g-4x2/GigaMIMO-16-Plus-5G-4X2-01.png",
+                "https://wirengimages.s3.amazonaws.com/images/seriegigamimo-plus-5g/gigamimo16-plus-5g-4x2/GigaMIMO-16-Plus-5G-4X2.png"
+            ]
         },
         {
             "id": "gigamimo16-plus-5g-4x4",
@@ -726,7 +887,13 @@
             ],
             "description": "To Increase Download and Upload Data Speeds for Dual-Connector MIMO/Aux/Diversity RF Devices (compatible with MIMO 4x4 Technology) in Stationary or Moving Locations",
             "warranty": "2 Years",
-            "image": "http://dummyimage.com/200x200.png/dddddd/000000"
+            "image": "https://wirengimages.s3.amazonaws.com/images/product-images/GigaMIMO-16-Plus-5G-4X4.jpg",
+            "images": [
+                "https://wirengimages.s3.amazonaws.com/images/seriegigamimo-plus-5g/gigamimo16-plus-5g-4x4/GigaMIMO-16-Plus-5G-4X4-01.png",
+                "https://wirengimages.s3.amazonaws.com/images/seriegigamimo-plus-5g/gigamimo16-plus-5g-4x4/GigaMIMO-16-Plus-5G-4X4-02.png",
+                "https://wirengimages.s3.amazonaws.com/images/seriegigamimo-plus-5g/gigamimo16-plus-5g-4x4/GigaMIMO-16-Plus-5G-4X4-03.png",
+                "https://wirengimages.s3.amazonaws.com/images/seriegigamimo-plus-5g/gigamimo16-plus-5g-4x4/GigaMIMO-16-Plus-5G-4X4.png"
+            ]
         },
         {
             "id": "octant-5g",
@@ -752,7 +919,14 @@
             ],
             "description": "To Increase Download and Upload Data Speeds for Octa-Connector MIMO/Aux/Diversity RF Devices (compatible with MIMO 8X8 Technologies) in Stationary or Moving Locations",
             "warranty": "2 Years",
-            "image": "https://wirengimages.s3.amazonaws.com/images/serieoctant-5g/octant-5g/OctAnt-5g_02.png"
+            "image": "https://wirengimages.s3.amazonaws.com/images/product-images/octant-5g.jpg",
+            "images": [
+                "https://wirengimages.s3.amazonaws.com/images/serieoctant-5g/octant-5g/OctAnt-5g_05.png",
+                "https://wirengimages.s3.amazonaws.com/images/serieoctant-5g/octant-5g/OctAnt-5g_04.png",
+                "https://wirengimages.s3.amazonaws.com/images/serieoctant-5g/octant-5g/OctAnt-5g_03.png",
+                "https://wirengimages.s3.amazonaws.com/images/serieoctant-5g/octant-5g/OctAnt-5g_02.png",
+                "https://wirengimages.s3.amazonaws.com/images/serieoctant-5g/octant-5g/OctAnt-5g_01.png"
+            ]
         },
         {
             "id": "transant-5g",
@@ -778,7 +952,11 @@
             ],
             "description": "To Increase Download and Upload Data Speeds for Quad-Connector MIMO 4x4 RF Devices (MIMO 4x4 Technology) in Stationary/Fixed Locations",
             "warranty": "2 Years",
-            "image": "http://dummyimage.com/200x200.png/dddddd/000000"
+            "image": "http://dummyimage.com/200x200.png/dddddd/000000",
+            "images": [
+                "http://dummyimage.com/200x200.png/dddddd/000000",
+                "http://dummyimage.com/200x200.png/dddddd/000000"
+            ]
         },
         {
             "id": "omnirial2-5g-win",
@@ -804,7 +982,14 @@
             ],
             "description": "Fully Portable Solution To Increase Download and Upload Data Speeds Inside Vehicles, Hotels, Camping Spots, RV's, for Dual-Connector MIMO/Aux/Diversity RF Devices (MIMO 2x2 Technology) in Stationary or Moving Locations.",
             "warranty": "2 Years",
-            "image": "http://dummyimage.com/200x200.png/dddddd/000000"
+            "image": "https://wirengimages.s3.amazonaws.com/images/product-images/Omnirial2-Win-5G.jpg",
+            "images": [
+                "https://wirengimages.s3.amazonaws.com/images/serieomnirial-5g/omnirial2-5g-win/Omnirial2-Win-5G.png",
+                "https://wirengimages.s3.amazonaws.com/images/serieomnirial-5g/omnirial2-5g-win/Omnirial2-Win-5G_01.png",
+                "https://wirengimages.s3.amazonaws.com/images/serieomnirial-5g/omnirial2-5g-win/Omnirial2-Win-5G_02.png",
+                "https://wirengimages.s3.amazonaws.com/images/serieomnirial-5g/omnirial2-5g-win/Omnirial2-Win-5G_03.png",
+                "https://wirengimages.s3.amazonaws.com/images/serieomnirial-5g/omnirial2-5g-win/Omnirial2-Win-5G_07.png"
+            ]
         },
         {
             "id": "omnirial2-5g",
@@ -830,7 +1015,14 @@
             ],
             "description": "To Increase Download and Upload Data Speeds for Dual-Connector MIMO/Aux/Diversity RF Devices (MIMO 2x2 Technology) in Stationary or Moving Locations",
             "warranty": "2 Years",
-            "image": "https://wirengimages.s3.amazonaws.com/images/serieomnirial-5g/omnirial2-5g/omnirial2-5g_03.png"
+            "image": "https://wirengimages.s3.amazonaws.com/images/product-images/omnirial2-5g.jpg",
+            "images": [
+                "https://wirengimages.s3.amazonaws.com/images/serieomnirial-5g/omnirial2-5g/omnirial2-5g_10.png",
+                "https://wirengimages.s3.amazonaws.com/images/serieomnirial-5g/omnirial2-5g/omnirial2-5g_08.png",
+                "https://wirengimages.s3.amazonaws.com/images/serieomnirial-5g/omnirial2-5g/omnirial2-5g_02.png",
+                "https://wirengimages.s3.amazonaws.com/images/serieomnirial-5g/omnirial2-5g/omnirial2-5g_01.png",
+                "https://wirengimages.s3.amazonaws.com/images/serieomnirial-5g/omnirial2-5g/omnirial2-5g.png"
+            ]
         },
         {
             "id": "omnirial4-5g-4x2",
@@ -856,7 +1048,15 @@
             ],
             "description": "To Increase Download and Upload Data Speeds for Dual-Connector MIMO/Aux/Diversity RF Devices (MIMO 4x2 and 2x2 Technologies) in Stationary or Moving Locations",
             "warranty": "2 Years",
-            "image": "https://wirengimages.s3.amazonaws.com/images/serieomnirial-5g/omnirial4-5g-4x2/Omnirial4-5G-4X2_06.png"
+            "image": "https://wirengimages.s3.amazonaws.com/images/product-images/omnirial4-5g-4x2.jpg",
+            "images": [
+                "https://wirengimages.s3.amazonaws.com/images/serieomnirial-5g/omnirial4-5g-4x2/Omnirial4-5G-4X2_03.png",
+                "https://wirengimages.s3.amazonaws.com/images/serieomnirial-5g/omnirial4-5g-4x2/Omnirial4-5G-4X2_05.png",
+                "https://wirengimages.s3.amazonaws.com/images/serieomnirial-5g/omnirial4-5g-4x2/Omnirial4-5G-4X2_02.png",
+                "https://wirengimages.s3.amazonaws.com/images/serieomnirial-5g/omnirial2-5g/omnirial2-5g_01.png",
+                "https://wirengimages.s3.amazonaws.com/images/serieomnirial-5g/omnirial4-5g-4x2/Omnirial4-5G-4X2_07.png",
+                "https://wirengimages.s3.amazonaws.com/images/serieomnirial-5g/omnirial4-5g-4x2/Omnirial4-5G-4X2.png"
+            ]
         },
         {
             "id": "omnirial4-5g-4x4",
@@ -882,7 +1082,14 @@
             ],
             "description": "To Increase Download and Upload Data Speeds for Quad-Connector MIMO/Aux/Diversity RF Devices (MIMO 4x4 Technology) in Stationary or Moving Locations",
             "warranty": "2 Years",
-            "image": "https://wirengimages.s3.amazonaws.com/images/serieomnirial-5g/omnirial4-5g-4x4/omnirial4-5g_02.png"
+            "image": "https://wirengimages.s3.amazonaws.com/images/product-images/omnirial4-5g-4x4.jpg",
+            "images": [
+                "https://wirengimages.s3.amazonaws.com/images/serieomnirial-5g/omnirial4-5g-4x4/omnirial4-5g_07.png",
+                "https://wirengimages.s3.amazonaws.com/images/serieomnirial-5g/omnirial4-5g-4x4/omnirial4-5g_01.png",
+                "https://wirengimages.s3.amazonaws.com/images/serieomnirial-5g/omnirial4-5g-4x4/omnirial4-5g_11.png",
+                "https://wirengimages.s3.amazonaws.com/images/serieomnirial-5g/omnirial4-5g-4x4/omnirial4-5g_13.png",
+                "https://wirengimages.s3.amazonaws.com/images/serieomnirial-5g/omnirial4-5g-4x4/omnirial4-5g_14.png"
+            ]
         },
         {
             "id": "omnirial8-5g-8x2",
@@ -908,7 +1115,11 @@
             ],
             "description": "To Increase Download and Upload Data Speeds for Dual-Connector MIMO/Aux/Diversity RF Devices (MIMO 8x2, 4x2 and 2x2 Technology) in Stationary or Moving Locations",
             "warranty": "2 Years",
-            "image": "http://dummyimage.com/200x200.png/dddddd/000000"
+            "image": "https://wirengimages.s3.amazonaws.com/images/product-images/omnirial8-5g-8x2.jpg",
+            "images": [
+                "https://wirengimages.s3.amazonaws.com/images/serieomnirial-5g/omnirial8-5g-8x2/Omnirial8-5G-8x2%E2%84%A2.png",
+                "https://wirengimages.s3.amazonaws.com/images/serieomnirial-5g/omnirial8-5g-8x2/Omnirial8-5G-8x2%E2%84%A2-01.png"
+            ]
         },
         {
             "id": "omnirial8-5g-8x4",
@@ -934,7 +1145,11 @@
             ],
             "description": "To Increase Download and Upload Data Speeds for Quad-Connector MIMO/Aux/Diversity RF Devices (MIMO 8x4 and 4x4 Technologies) in Stationary or Moving Locations",
             "warranty": "2 Years",
-            "image": "http://dummyimage.com/200x200.png/dddddd/000000"
+            "image": "https://wirengimages.s3.amazonaws.com/images/product-images/omnirial8-5g-8x4.jpg",
+            "images": [
+                "https://wirengimages.s3.amazonaws.com/images/serieomnirial-5g/omnirial8-5g-8x4/Omnirial8-5G-8X4.png",
+                "https://wirengimages.s3.amazonaws.com/images/serieomnirial-5g/omnirial8-5g-8x4/Omnirial8-5G-8X4-01.png"
+            ]
         },
         {
             "id": "omnirial8-5g-8x8",
@@ -960,7 +1175,14 @@
             ],
             "description": "To Increase Download and Upload Data Speeds for Octa-Connector MIMO/Aux/Diversity RF Devices (MIMO 8x8 Technology) in Stationary or Moving Locations",
             "warranty": "2 Years",
-            "image": "http://dummyimage.com/200x200.png/dddddd/000000"
+            "image": "https://wirengimages.s3.amazonaws.com/images/product-images/omnirial8-5g-8x8.jpg",
+            "images": [
+                "https://wirengimages.s3.amazonaws.com/images/serieomnirial-5g/omnirial8-5g-8x8/Omnirial8-5g-8x8-01.png",
+                "https://wirengimages.s3.amazonaws.com/images/serieomnirial-5g/omnirial8-5g-8x8/Omnirial8-5g-8x8-02.png",
+                "https://wirengimages.s3.amazonaws.com/images/serieomnirial-5g/omnirial8-5g-8x8/Omnirial8-5g-8x8-03.png",
+                "https://wirengimages.s3.amazonaws.com/images/serieomnirial-5g/omnirial8-5g-8x8/Omnirial8-5g-8x8-04.png",
+                "https://wirengimages.s3.amazonaws.com/images/serieomnirial-5g/omnirial8-5g-8x8/Omnirial8-5g-8x8.png"
+            ]
         },
         {
             "id": "omnirial2-plus-5g",
@@ -986,7 +1208,14 @@
             ],
             "description": "To Increase Download and Upload Data Speeds for Dual-Connector MIMO/Aux/Diversity RF Devices (MIMO 2x2 Technology) in Stationary or Moving Locations",
             "warranty": "2 Years",
-            "image": "http://dummyimage.com/200x200.png/dddddd/000000"
+            "image": "https://wirengimages.s3.amazonaws.com/images/product-images/omnirial2-plus-5g.jpg",
+            "images": [
+                "https://wirengimages.s3.amazonaws.com/images/serieomnirial-plus-5g/omnirial2-plus-5g/omnirial2-plus-5g_01.png",
+                "https://wirengimages.s3.amazonaws.com/images/serieomnirial-plus-5g/omnirial2-plus-5g/omnirial2-plus-5g_02.png",
+                "https://wirengimages.s3.amazonaws.com/images/serieomnirial-plus-5g/omnirial2-plus-5g/omnirial2-plus-5g_03.png",
+                "https://wirengimages.s3.amazonaws.com/images/serieomnirial-plus-5g/omnirial2-plus-5g/omnirial2-plus-5g_08.png",
+                "https://wirengimages.s3.amazonaws.com/images/serieomnirial-plus-5g/omnirial2-plus-5g/omnirial2-plus-5g_13.png"
+            ]
         },
         {
             "id": "omnirial4-plus-5g-4x2",
@@ -1012,7 +1241,14 @@
             ],
             "description": "To Increase Download and Upload Data Speeds for Dual-Connector MIMO/Aux/Diversity RF Devices (MIMO 4x2 and 2x2 Technologies) in Stationary or Moving Locations",
             "warranty": "2 Years",
-            "image": "https://wirengimages.s3.amazonaws.com/images/serieomnirial-plus-5g/omnirial4-plus-5g-4x2/Omnirial4-plus-5g-4x2_07.png"
+            "image": "https://wirengimages.s3.amazonaws.com/images/product-images/omnirial4-plus-5g-4x2.jpg",
+            "images": [
+                "https://wirengimages.s3.amazonaws.com/images/serieomnirial-plus-5g/omnirial4-plus-5g-4x2/Omnirial4-plus-5g-4x2_01.png",
+                "https://wirengimages.s3.amazonaws.com/images/serieomnirial-plus-5g/omnirial4-plus-5g-4x2/Omnirial4-plus-5g-4x2_03.png",
+                "https://wirengimages.s3.amazonaws.com/images/serieomnirial-plus-5g/omnirial4-plus-5g-4x2/Omnirial4-plus-5g-4x2_04.png",
+                "https://wirengimages.s3.amazonaws.com/images/serieomnirial-plus-5g/omnirial4-plus-5g-4x2/Omnirial4-plus-5g-4x2_06.png",
+                "https://wirengimages.s3.amazonaws.com/images/serieomnirial-plus-5g/omnirial4-plus-5g-4x2/Omnirial4-plus-5g-4x2.png"
+            ]
         },
         {
             "id": "omnirial4-plus-5g-4x4",
@@ -1038,7 +1274,14 @@
             ],
             "description": "To Increase Download and Upload Data Speeds for Quad-Connector MIMO/Aux/Diversity RF Devices (MIMO 4x4 Technology) in Stationary or Moving Locations",
             "warranty": "2 Years",
-            "image": "http://dummyimage.com/200x200.png/dddddd/000000"
+            "image": "https://wirengimages.s3.amazonaws.com/images/product-images/omnirial4-plus-5g-4x4.jpg",
+            "images": [
+                "https://wirengimages.s3.amazonaws.com/images/serieomnirial-plus-5g/omnirial4-plus-5g-4x4/omnirial4-plus-5G-4x4_07.png",
+                "https://wirengimages.s3.amazonaws.com/images/serieomnirial-plus-5g/omnirial4-plus-5g-4x4/Omnirial4-plus-5g-4x4_10.png",
+                "https://wirengimages.s3.amazonaws.com/images/serieomnirial-plus-5g/omnirial4-plus-5g-4x4/Omnirial4-plus-5g-4x4_12.png",
+                "https://wirengimages.s3.amazonaws.com/images/serieomnirial-plus-5g/omnirial4-plus-5g-4x4/Omnirial4-plus-5g-4x4_13.png",
+                "https://wirengimages.s3.amazonaws.com/images/serieomnirial-plus-5g/omnirial4-plus-5g-4x4/Omnirial4-plus-5g-4x4_15.png"
+            ]
         },
         {
             "id": "omnirial8-plus-5g-8x2",
@@ -1064,7 +1307,11 @@
             ],
             "description": "To Increase Download and Upload Data Speeds for Dual-Connector MIMO/Aux/Diversity RF Devices (MIMO 8x2, 4x2 and 2x2 Technology) in Stationary or Moving Locations",
             "warranty": "2 Years",
-            "image": "http://dummyimage.com/200x200.png/dddddd/000000"
+            "image": "https://wirengimages.s3.amazonaws.com/images/product-images/omnirial8-plus-5g-8x2.jpg",
+            "images": [
+                "https://wirengimages.s3.amazonaws.com/images/serieomnirial-plus-5g/omnirial4-plus-5g-4x4/omnirial4-plus-5G-4x4_07.png",
+                "https://wirengimages.s3.amazonaws.com/images/serieomnirial-plus-5g/omnirial4-plus-5g-4x4/Omnirial4-plus-5g-4x4_10.png"
+            ]
         },
         {
             "id": "omnirial8-plus-5g-8x4",
@@ -1090,7 +1337,12 @@
             ],
             "description": "To Increase Download and Upload Data Speeds for Quad-Connector MIMO/Aux/Diversity RF Devices (MIMO 8x4 and 4x4 Technologies) in Stationary or Moving Locations",
             "warranty": "2 Years",
-            "image": "http://dummyimage.com/200x200.png/dddddd/000000"
+            "image": "https://wirengimages.s3.amazonaws.com/images/product-images/omnirial8-plus-5g-8x4.jpg",
+            "images": [
+                "https://wirengimages.s3.amazonaws.com/images/serieomnirial-plus-5g/omnirial8-plus-5g-8x4/omnirial8-plus-5g-8x4-01.png",
+                "https://wirengimages.s3.amazonaws.com/images/serieomnirial-plus-5g/omnirial8-plus-5g-8x4/omnirial8-plus-5g-8x4-02.png",
+                "https://wirengimages.s3.amazonaws.com/images/serieomnirial-plus-5g/omnirial8-plus-5g-8x4/omnirial8-plus-5g-8x4.png"
+            ]
         },
         {
             "id": "omnirial8-plus-5g-8x8",
@@ -1116,7 +1368,11 @@
             ],
             "description": "To Increase Download and Upload Data Speeds for Octa-Connector MIMO/Aux/Diversity RF Devices (MIMO 8x8 Technology) in Stationary or Moving Locations",
             "warranty": "2 Years",
-            "image": "http://dummyimage.com/200x200.png/dddddd/000000"
+            "image": "https://wirengimages.s3.amazonaws.com/images/product-images/omnirial8-plus-5g-8x8.jpg",
+            "images": [
+                "https://wirengimages.s3.amazonaws.com/images/serieomnirial-plus-5g/omnirial8-plus-5g-8x8/omnirial8-Plus-5g-8x8-01.png",
+                "https://wirengimages.s3.amazonaws.com/images/serieomnirial-plus-5g/omnirial8-plus-5g-8x8/Omnirial8-Plus-5G-8X8.png"
+            ]
         },
         {
             "id": "mimomount",
@@ -1142,7 +1398,12 @@
             ],
             "description": "Marine-Grade SUS304 Stainless Steel Mount to Install Antenna Pairs in Full MIMO 2x2 Compliance (Slanted Polarization, or Any Desired Polarization). Includes Stainless Steel Clamps, Tilts, and U-Bolts. This Is a 100% Stainless Steel Set",
             "warranty": "2 Years",
-            "image": "https://wirengimages.s3.amazonaws.com/images/seriemimomount/mimomount/5.jpg"
+            "image": "https://wirengimages.s3.amazonaws.com/images/product-images/mimomount.jpg",
+            "images": [
+                "https://wirengimages.s3.amazonaws.com/images/seriemimomount/mimomount/mimomount.png",
+                "https://wirengimages.s3.amazonaws.com/images/seriemimomount/mimomount/mimomount2.png",
+                "https://wirengimages.s3.amazonaws.com/images/seriemimomount/mimomount/mimomount3.png"
+            ]
         },
         {
             "id": "mimomount4",
@@ -1168,7 +1429,12 @@
             ],
             "description": "Marine-Grade SUS304 Stainless Steel Mount with Predetermined Horizontal and Vertical Distances, to Install Antenna Pairs in Full MIMO 4x4 and 4x2 Compliance (Slanted Polarization, or Any Desired Polarization). Includes Stainless Steel Clamps, Tilts, and U-Bolts. This Is a 100% Stainless Steel Set",
             "warranty": "2 Years",
-            "image": "https://wirengimages.s3.amazonaws.com/images/seriemimomount/mimomount4/MIMOMount-4x4_01.png"
+            "image": "https://wirengimages.s3.amazonaws.com/images/product-images/mimomount-4x4.jpg",
+            "images": [
+                "https://wirengimages.s3.amazonaws.com/images/seriemimomount/mimomount4/MIMOMount-4x4_01.png",
+                "https://wirengimages.s3.amazonaws.com/images/seriemimomount/mimomount4/MIMOMount-4x4_02.png",
+                "https://wirengimages.s3.amazonaws.com/images/seriemimomount/mimomount4/MIMOMount-4x4.png"
+            ]
         },
         {
             "id": "mimomount8",
@@ -1194,7 +1460,12 @@
             ],
             "description": "Marine-Grade SUS304 Stainless Steel Mount with Predetermined Horizontal and Vertical Distances, to Install Antenna Pairs in Full MIMO 8x8, 8x4, and 8x2 Compliance (Slanted Polarization, or Any Desired Polarization). Includes Stainless Steel Clamps, Tilts, and U-Bolts. This Is a 100% Stainless Steel Set",
             "warranty": "2 Years",
-            "image": "https://wirengimages.s3.amazonaws.com/images/seriemimomount/mimomount8/MIMOMount-8x8_02.png"
+            "image": "https://wirengimages.s3.amazonaws.com/images/product-images/mimomount-8x8.jpg",
+            "images": [
+                "https://wirengimages.s3.amazonaws.com/images/seriemimomount/mimomount8/MIMOMount-8x8_01.png",
+                "https://wirengimages.s3.amazonaws.com/images/seriemimomount/mimomount8/MIMOMount-8x8_02.png",
+                "https://wirengimages.s3.amazonaws.com/images/seriemimomount/mimomount8/MIMOMount-8x8.png"
+            ]
         },
         {
             "id": "mimomount-gnt",
@@ -1220,7 +1491,14 @@
             ],
             "description": "Ultra-Thick Marine-Grade SUS304 Stainless Steel Mount to Install Very Large Antenna Pairs in Full MIMO 2x2 Compliance (Slanted Polarization, or Any Desired Polarization). Includes Stainless Steel Clamps, Tilts, and U-Bolts. This Is a 100% Stainless Steel Set",
             "warranty": "2 Years",
-            "image": "http://dummyimage.com/200x200.png/dddddd/000000"
+            "image": "https://wirengimages.s3.amazonaws.com/images/product-images/mimomount-gnt.jpg",
+            "images": [
+                "https://wirengimages.s3.amazonaws.com/images/seriemimomount/mimomount-gnt/MIMOMount-GNT_01.png",
+                "https://wirengimages.s3.amazonaws.com/images/seriemimomount/mimomount-gnt/MIMOMount-GNT_02.png",
+                "https://wirengimages.s3.amazonaws.com/images/seriemimomount/mimomount-gnt/MIMOMount-GNT_03.png",
+                "https://wirengimages.s3.amazonaws.com/images/seriemimomount/mimomount-gnt/MIMOMount-GNT_04.png",
+                "https://wirengimages.s3.amazonaws.com/images/seriemimomount/mimomount-gnt/MIMOMount-GNT.png"
+            ]
         },
         {
             "id": "comb2-5g",
@@ -1246,7 +1524,11 @@
             ],
             "description": "To Connect Two Identical Antennas Into a Single In/Out Transmiter/Receiver with Full Bidirectionality and Ultra-Low Loss Operation, and Ultra-Wide Bandwidth",
             "warranty": "2 Years",
-            "image": "http://dummyimage.com/200x200.png/dddddd/000000"
+            "image": "http://dummyimage.com/200x200.png/dddddd/000000",
+            "images": [
+                "http://dummyimage.com/200x200.png/dddddd/000000",
+                "http://dummyimage.com/200x200.png/dddddd/000000"
+            ]
         },
         {
             "id": "comb3-5g",
@@ -1272,7 +1554,11 @@
             ],
             "description": "To Connect Three Identical Antennas Into a Single In/Out Transmiter/Receiver with Full Bidirectionality and Ultra-Low Loss Operation, and Ultra-Wide Bandwidth",
             "warranty": "2 Years",
-            "image": "http://dummyimage.com/200x200.png/dddddd/000000"
+            "image": "http://dummyimage.com/200x200.png/dddddd/000000",
+            "images": [
+                "http://dummyimage.com/200x200.png/dddddd/000000",
+                "http://dummyimage.com/200x200.png/dddddd/000000"
+            ]
         },
         {
             "id": "comb4-5g",
@@ -1298,7 +1584,11 @@
             ],
             "description": "To Connect Four Identical Antennas Into a Single In/Out Transmiter/Receiver with Full Bidirectionality and Ultra-Low Loss Operation, and Ultra-Wide Bandwidth",
             "warranty": "2 Years",
-            "image": "http://dummyimage.com/200x200.png/dddddd/000000"
+            "image": "http://dummyimage.com/200x200.png/dddddd/000000",
+            "images": [
+                "http://dummyimage.com/200x200.png/dddddd/000000",
+                "http://dummyimage.com/200x200.png/dddddd/000000"
+            ]
         },
         {
             "id": "lightningpro-5g-sma",
@@ -1324,7 +1614,14 @@
             ],
             "description": "To protect persons and equipments from lighting strikes hitting an antenna or antenna set",
             "warranty": "2 Years",
-            "image": "http://dummyimage.com/200x200.png/dddddd/000000"
+            "image": "https://wirengimages.s3.amazonaws.com/images/product-images/lightningpro-5g.jpg",
+            "images": [
+                "https://wirengimages.s3.amazonaws.com/images/serielightningpro/lightningpro-5g.png",
+                "https://wirengimages.s3.amazonaws.com/images/serielightningpro/lightningpro-5g_01.png",
+                "https://wirengimages.s3.amazonaws.com/images/serielightningpro/lightningpro-5g_03.png",
+                "https://wirengimages.s3.amazonaws.com/images/serielightningpro/lightningpro-5g_05.png",
+                "https://wirengimages.s3.amazonaws.com/images/serielightningpro/lightningpro-5g_07.png"
+            ]
         },
         {
             "id": "extant-smaf-tncm",
@@ -1350,7 +1647,14 @@
             ],
             "description": "To Connect Coaxial Cables with a SMA-Male Connector to TNC-Male Devices.",
             "warranty": "2 Years",
-            "image": "http://dummyimage.com/200x200.png/dddddd/000000"
+            "image": "https://wirengimages.s3.amazonaws.com/images/product-images/extant-smaf-tncm.png",
+            "images": [
+                "https://wirengimages.s3.amazonaws.com/images/serieextant-5g/extant-smaf-tncm/extant-smaf-tncm_by_wireng_01.png",
+                "https://wirengimages.s3.amazonaws.com/images/serieextant-5g/extant-smaf-tncm/extant-smaf-tncm_by_wireng_02.png",
+                "https://wirengimages.s3.amazonaws.com/images/serieextant-5g/extant-smaf-tncm/extant-smaf-tncm_by_wireng_03.png",
+                "https://wirengimages.s3.amazonaws.com/images/serieextant-5g/extant-smaf-tncm/extant-smaf-tncm_by_wireng_04.png",
+                "https://wirengimages.s3.amazonaws.com/images/serieextant-5g/extant-smaf-tncm/extant-smaf-tncm_by_wireng_05.png"
+            ]
         },
         {
             "id": "extant-smaf-ts9m",
@@ -1376,7 +1680,14 @@
             ],
             "description": "To Connect Coaxial Cables with a SMA-Male Connector to TS9-Male Devices",
             "warranty": "2 Years",
-            "image": "http://dummyimage.com/200x200.png/dddddd/000000"
+            "image": "https://wirengimages.s3.amazonaws.com/images/product-images/extant-smaf-ts9smk.png",
+            "images": [
+                "https://wirengimages.s3.amazonaws.com/images/serieextant-5g/extant-smaf-ts9/extant-smaf-ts9smk_by_wireng_01.png",
+                "https://wirengimages.s3.amazonaws.com/images/serieextant-5g/extant-smaf-ts9/extant-smaf-ts9smk_by_wireng_02.png",
+                "https://wirengimages.s3.amazonaws.com/images/serieextant-5g/extant-smaf-ts9/extant-smaf-ts9smk_by_wireng_03.png",
+                "https://wirengimages.s3.amazonaws.com/images/serieextant-5g/extant-smaf-ts9/extant-smaf-ts9smk_by_wireng_04.png",
+                "https://wirengimages.s3.amazonaws.com/images/serieextant-5g/extant-smaf-ts9/extant-smaf-ts9smk_by_wireng_05.png"
+            ]
         },
         {
             "id": "extant-smaf-smam",
@@ -1402,7 +1713,14 @@
             ],
             "description": "To Connect Coaxial Cables with a SMA-Male Connector to SMA-Female Devices (for Strain-Relief Purposes)",
             "warranty": "2 Years",
-            "image": "http://dummyimage.com/200x200.png/dddddd/000000"
+            "image": "https://wirengimages.s3.amazonaws.com/images/product-images/extant-smaf-smam.png",
+            "images": [
+                "https://wirengimages.s3.amazonaws.com/images/serieextant-5g/extant-smaf-smam/extant-smaf-smam_by_wireng_01.png",
+                "https://wirengimages.s3.amazonaws.com/images/serieextant-5g/extant-smaf-smam/extant-smaf-smam_by_wireng_02.png",
+                "https://wirengimages.s3.amazonaws.com/images/serieextant-5g/extant-smaf-smam/extant-smaf-smam_by_wireng_03.png",
+                "https://wirengimages.s3.amazonaws.com/images/serieextant-5g/extant-smaf-smam/extant-smaf-smam_by_wireng_05.png",
+                "https://wirengimages.s3.amazonaws.com/images/serieextant-5g/extant-smaf-smam/extant-smaf-smam_by_wireng_06.png"
+            ]
         },
         {
             "id": "mimocradle-5g",
@@ -1428,7 +1746,11 @@
             ],
             "description": "To interface a cellular device to a MIMO antenna set with nearly perfect coupling thanks to WirEng®'s RFT™ patented technology",
             "warranty": "2 Years",
-            "image": "http://dummyimage.com/200x200.png/dddddd/000000"
+            "image": "http://dummyimage.com/200x200.png/dddddd/000000",
+            "images": [
+                "http://dummyimage.com/200x200.png/dddddd/000000",
+                "http://dummyimage.com/200x200.png/dddddd/000000"
+            ]
         },
         {
             "id": "wrg240-smam-nm-10ft",
@@ -1454,7 +1776,11 @@
             ],
             "description": "To connect the Omnirial2-5G-Win™ to a device",
             "warranty": "2 Years",
-            "image": "http://dummyimage.com/200x200.png/dddddd/000000"
+            "image": "https://wirengimages.s3.amazonaws.com/images/product-images/wrg240-smam-nm-10ft.jpg",
+            "images": [
+                "https://wirengimages.s3.amazonaws.com/images/seriewrg240-au/wrg240-smam-nm-10ft/WRG240-SMAM-NM-10FT%E2%84%A2_01.png",
+                "https://wirengimages.s3.amazonaws.com/images/seriewrg240-au/wrg240-smam-nm-10ft/WRG240-SMAM-NM-10FT%E2%84%A2.png"
+            ]
         },
         {
             "id": "wrg240-nf-nm-20ft",
@@ -1480,7 +1806,11 @@
             ],
             "description": "To extend the Omnirial2-5G-Win™ main cables for optional external installation",
             "warranty": "2 Years",
-            "image": "http://dummyimage.com/200x200.png/dddddd/000000"
+            "image": "https://wirengimages.s3.amazonaws.com/images/product-images/wrg240-nf-nm-20ft.jpg",
+            "images": [
+                "https://wirengimages.s3.amazonaws.com/images/seriewrg240-au/wrg240-nf-nm-20ft/WRG240-NF-NM-20FT%E2%84%A2_01.png",
+                "https://wirengimages.s3.amazonaws.com/images/seriewrg240-au/wrg240-nf-nm-20ft/WRG240-NF-NM-20FT%E2%84%A2.png"
+            ]
         },
         {
             "id": "wrg400-nm-nm-1m",
@@ -1506,7 +1836,12 @@
             ],
             "description": "To Connect Antennas to Combiners",
             "warranty": "2 Years",
-            "image": "https://wirengimages.s3.amazonaws.com/images/serie+wrg400-au/wrg400-nm-nm-1m/WRG400-NM-NM-1M_01.png"
+            "image": "https://wirengimages.s3.amazonaws.com/images/product-images/wrg400-nm-nm-1m.jpg",
+            "images": [
+                "https://wirengimages.s3.amazonaws.com/images/serie+wrg400-au/wrg400-nm-nm-1m/WRG400-NM-NM-1M_01.png",
+                "https://wirengimages.s3.amazonaws.com/images/serie+wrg400-au/wrg400-nm-nm-1m/WRG400-NM-NM-1M_02.png",
+                "https://wirengimages.s3.amazonaws.com/images/serie+wrg400-au/wrg400-nm-nm-1m/WRG400-NM-NM-1M.png"
+            ]
         },
         {
             "id": "wrg400-nm-nm-1m5",
@@ -1532,7 +1867,11 @@
             ],
             "description": "To Connect Antennas to Combiners",
             "warranty": "2 Years",
-            "image": "https://wirengimages.s3.amazonaws.com/images/serie+wrg400-au/wrg400-nm-nm-1m5/WRG400-NM-NM-1M5%E2%84%A2_01.png"
+            "image": "https://wirengimages.s3.amazonaws.com/images/product-images/wrg400-nm-nm-1m5.jpg",
+            "images": [
+                "https://wirengimages.s3.amazonaws.com/images/serie+wrg400-au/wrg400-nm-nm-1m5/WRG400-NM-NM-1M5%E2%84%A2_01.png",
+                "https://wirengimages.s3.amazonaws.com/images/serie+wrg400-au/wrg400-nm-nm-1m5/WRG400-NM-NM-1M5%E2%84%A2.png"
+            ]
         },
         {
             "id": "wrg400-nm-nm-2m",
@@ -1558,7 +1897,12 @@
             ],
             "description": "To Connect Antennas to Combiners",
             "warranty": "2 Years",
-            "image": "https://wirengimages.s3.amazonaws.com/images/serie+wrg400-au/wrg400-nm-nm-2m/WRG400-NM-NM-2M_01.png"
+            "image": "https://wirengimages.s3.amazonaws.com/images/product-images/wrg400-nm-nm-2m.jpg",
+            "images": [
+                "https://wirengimages.s3.amazonaws.com/images/serie+wrg400-au/wrg400-nm-nm-2m/WRG400-NM-NM-2M+_02.png",
+                "https://wirengimages.s3.amazonaws.com/images/serie+wrg400-au/wrg400-nm-nm-2m/WRG400-NM-NM-2M_01.png",
+                "https://wirengimages.s3.amazonaws.com/images/serie+wrg400-au/wrg400-nm-nm-2m/WRG400-NM-NM-2M.png"
+            ]
         },
         {
             "id": "wrg400-ranm-nm-1m",
@@ -1584,7 +1928,11 @@
             ],
             "description": "To Connect Antennas to Combiners",
             "warranty": "2 Years",
-            "image": "https://wirengimages.s3.amazonaws.com/images/serie+wrg400-au/wrg400-ranm-nm-1m/WRG400-RANM-NM-1M%E2%84%A2_01.png"
+            "image": "https://wirengimages.s3.amazonaws.com/images/product-images/wrg400-ranm-nm-1m.jpg",
+            "images": [
+                "https://wirengimages.s3.amazonaws.com/images/serie+wrg400-au/wrg400-ranm-nm-1m/WRG400-RANM-NM-1M%E2%84%A2_01.png",
+                "https://wirengimages.s3.amazonaws.com/images/serie+wrg400-au/wrg400-ranm-nm-1m/WRG400-RANM-NM-1M%E2%84%A2.png"
+            ]
         },
         {
             "id": "wrg400-ranm-nm-1m5™",
@@ -1610,7 +1958,11 @@
             ],
             "description": "To Connect Antennas to Combiners",
             "warranty": "2 Years",
-            "image": "https://wirengimages.s3.amazonaws.com/images/serie+wrg400-au/wrg400-ranm-nm-1m5/WRG400-RANM-NM-1M5%E2%84%A2+_01.png"
+            "image": "https://wirengimages.s3.amazonaws.com/images/product-images/wrg400-ranm-nm-1m5.jpg",
+            "images": [
+                "https://wirengimages.s3.amazonaws.com/images/serie+wrg400-au/wrg400-ranm-nm-1m5/WRG400-RANM-NM-1M5%E2%84%A2+_01.png",
+                "https://wirengimages.s3.amazonaws.com/images/serie+wrg400-au/wrg400-ranm-nm-1m5/WRG400-RANM-NM-1M5%E2%84%A2+.png"
+            ]
         },
         {
             "id": "wrg400-ranm-nm-2m",
@@ -1636,7 +1988,11 @@
             ],
             "description": "To Connect Antennas to Combiners",
             "warranty": "2 Years",
-            "image": "https://wirengimages.s3.amazonaws.com/images/serie+wrg400-au/wrg400-ranm-nm-2m/WRG400-RANM-NM-2M%E2%84%A2_01.png"
+            "image": "https://wirengimages.s3.amazonaws.com/images/product-images/wrg400-ranm-nm-2m.jpg",
+            "images": [
+                "https://wirengimages.s3.amazonaws.com/images/serie+wrg400-au/wrg400-ranm-nm-2m/WRG400-RANM-NM-2M%E2%84%A2_01.png",
+                "https://wirengimages.s3.amazonaws.com/images/serie+wrg400-au/wrg400-ranm-nm-2m/WRG400-RANM-NM-2M%E2%84%A2.png"
+            ]
         },
         {
             "id": "wrg400-ranm-ranm-1m",
@@ -1662,7 +2018,11 @@
             ],
             "description": "To Connect Antennas to Combiners",
             "warranty": "2 Years",
-            "image": "https://wirengimages.s3.amazonaws.com/images/serie+wrg400-au/wrg400-ranm-ranm-1m/WRG400-RANM-RANM-1m.png"
+            "image": "https://wirengimages.s3.amazonaws.com/images/product-images/wrg400-ranm-ranm-1m.jpg",
+            "images": [
+                "https://wirengimages.s3.amazonaws.com/images/serie+wrg400-au/wrg400-ranm-ranm-1m/WRG400-RANM-RANM-1m_01.png",
+                "https://wirengimages.s3.amazonaws.com/images/serie+wrg400-au/wrg400-ranm-ranm-1m/WRG400-RANM-RANM-1m.png"
+            ]
         },
         {
             "id": "wrg400-ranm-ranm-1m5",
@@ -1688,7 +2048,11 @@
             ],
             "description": "To Connect Antennas to Combiners",
             "warranty": "2 Years",
-            "image": "https://wirengimages.s3.amazonaws.com/images/serie+wrg400-au/wrg400-ranm-ranm-1m5/WRG400-RANM-RANM-1M5_01.png"
+            "image": "https://wirengimages.s3.amazonaws.com/images/product-images/wrg400-ranm-ranm-1m5.jpg",
+            "images": [
+                "https://wirengimages.s3.amazonaws.com/images/serie+wrg400-au/wrg400-ranm-ranm-1m5/WRG400-RANM-RANM-1M5_01.png",
+                "https://wirengimages.s3.amazonaws.com/images/serie+wrg400-au/wrg400-ranm-ranm-1m5/WRG400-RANM-RANM-1M5.png"
+            ]
         },
         {
             "id": "wrg400-ranm-ranm-2m",
@@ -1714,114 +2078,14 @@
             ],
             "description": "To Connect Antennas to Combiners",
             "warranty": "2 Years",
-            "image": "https://wirengimages.s3.amazonaws.com/images/serie+wrg400-au/wrg400-ranm-ranm-2m/WRG400-RANM-RANM-2M%E2%84%A2.png"
+            "image": "https://wirengimages.s3.amazonaws.com/images/product-images/wrg400-ranm-ranm-2m.jpg",
+            "images": [
+                "https://wirengimages.s3.amazonaws.com/images/serie+wrg400-au/wrg400-ranm-ranm-2m/Untitled+Project.png",
+                "https://wirengimages.s3.amazonaws.com/images/serie+wrg400-au/wrg400-ranm-ranm-2m/WRG400-RANM-RANM-2M%E2%84%A2.png"
+            ]
         },
         {
-            "id": "wrg400-nm-nm-10m",
-            "name": "WRG400-NM-NM-10M™",
-            "category": "Antenna Accesories",
-            "sub-category": "Main Cables",
-            "features1": [
-                "Fully enclosed, robust, and durable, under any weather condition, with 100% stanelss-steel metal parts",
-                "Unparalleled worldwide cellular bands compatibility for countless applications, including cellular legacy, cellular data, 5G, 4G, LTE, xLTE, WiMAX, Wi-Fi, etc.",
-                "Pre-determined, optimized horixontal antenna separation for best SINR/CINR and maximum download and upload data speeds",
-                "Sealed and splash-proof (also suitable for marine environments)",
-                "100% stainless steel metal parts, and stanless steel back shields for better gain and mechanical strength",
-                "High input power (up to 2 x 250 Watts continuos power) with 24K gold-plated connectors on radomes"
-            ],
-            "features2": [
-                "Extended operating temperature range of -25° to +85° C",
-                "On-radome 24K gold plated N-type connector for maximum reliability, power tranfer, durability, and mechanical strength",
-                "Ultra-low VSWR throughout the whole 450 MHz to 6000 MHz frequency range",
-                "IP67 rating (protected against dust, strong water jets, and waves)",
-                "UL94 V-0 flammability rating",
-                "USA and international trademark current",
-                "USA and international patents pending"
-            ],
-            "description": "To Connect Antenna or Combiners to Devices",
-            "warranty": "2 Years",
-            "image": "https://wirengimages.s3.amazonaws.com/images/serie+wrg400-au/wrg400-smam-nm-10m/WRG400-SMAM-NM-10M%E2%84%A2_02.png"
-        },
-        {
-            "id": "wrg400-nm-nm-20m",
-            "name": "WRG400-NM-NM-20M™",
-            "category": "Antenna Accesories",
-            "sub-category": "Main Cables",
-            "features1": [
-                "Fully enclosed, robust, and durable, under any weather condition, with 100% stanelss-steel metal parts",
-                "Unparalleled worldwide cellular bands compatibility for countless applications, including cellular legacy, cellular data, 5G, 4G, LTE, xLTE, WiMAX, Wi-Fi, etc.",
-                "Pre-determined, optimized horixontal antenna separation for best SINR/CINR and maximum download and upload data speeds",
-                "Sealed and splash-proof (also suitable for marine environments)",
-                "100% stainless steel metal parts, and stanless steel back shields for better gain and mechanical strength",
-                "High input power (up to 2 x 250 Watts continuos power) with 24K gold-plated connectors on radomes"
-            ],
-            "features2": [
-                "Extended operating temperature range of -25° to +85° C",
-                "On-radome 24K gold plated N-type connector for maximum reliability, power tranfer, durability, and mechanical strength",
-                "Ultra-low VSWR throughout the whole 450 MHz to 6000 MHz frequency range",
-                "IP67 rating (protected against dust, strong water jets, and waves)",
-                "UL94 V-0 flammability rating",
-                "USA and international trademark current",
-                "USA and international patents pending"
-            ],
-            "description": "To Connect Antenna or Combiners to Devices",
-            "warranty": "2 Years",
-            "image": "https://wirengimages.s3.amazonaws.com/images/serie+wrg400-au/wrg400-smam-nm-20m/WRG400-SMAM-NM-20M%E2%84%A2+.png"
-        },
-        {
-            "id": "wrg400-ranm-nm-10m",
-            "name": "WRG400-RANM-NM-10M™",
-            "category": "Antenna Accesories",
-            "sub-category": "Main Cables",
-            "features1": [
-                "Fully enclosed, robust, and durable, under any weather condition, with 100% stanelss-steel metal parts",
-                "Unparalleled worldwide cellular bands compatibility for countless applications, including cellular legacy, cellular data, 5G, 4G, LTE, xLTE, WiMAX, Wi-Fi, etc.",
-                "Pre-determined, optimized horixontal antenna separation for best SINR/CINR and maximum download and upload data speeds",
-                "Sealed and splash-proof (also suitable for marine environments)",
-                "100% stainless steel metal parts, and stanless steel back shields for better gain and mechanical strength",
-                "High input power (up to 2 x 250 Watts continuos power) with 24K gold-plated connectors on radomes"
-            ],
-            "features2": [
-                "Extended operating temperature range of -25° to +85° C",
-                "On-radome 24K gold plated N-type connector for maximum reliability, power tranfer, durability, and mechanical strength",
-                "Ultra-low VSWR throughout the whole 450 MHz to 6000 MHz frequency range",
-                "IP67 rating (protected against dust, strong water jets, and waves)",
-                "UL94 V-0 flammability rating",
-                "USA and international trademark current",
-                "USA and international patents pending"
-            ],
-            "description": "To Connect Antenna or Combiners to Devices",
-            "warranty": "2 Years",
-            "image": "https://wirengimages.s3.amazonaws.com/images/serie+wrg400-au/wrg400-smam-ranm-10m/WRG400-SMAM-RANM-10M%E2%84%A2_01.png"
-        },
-        {
-            "id": "wrg400-ranm-nm-20m",
-            "name": "WRG400-RANM-NM-20M™",
-            "category": "Antenna Accesories",
-            "sub-category": "Main Cables",
-            "features1": [
-                "Fully enclosed, robust, and durable, under any weather condition, with 100% stanelss-steel metal parts",
-                "Unparalleled worldwide cellular bands compatibility for countless applications, including cellular legacy, cellular data, 5G, 4G, LTE, xLTE, WiMAX, Wi-Fi, etc.",
-                "Pre-determined, optimized horixontal antenna separation for best SINR/CINR and maximum download and upload data speeds",
-                "Sealed and splash-proof (also suitable for marine environments)",
-                "100% stainless steel metal parts, and stanless steel back shields for better gain and mechanical strength",
-                "High input power (up to 2 x 250 Watts continuos power) with 24K gold-plated connectors on radomes"
-            ],
-            "features2": [
-                "Extended operating temperature range of -25° to +85° C",
-                "On-radome 24K gold plated N-type connector for maximum reliability, power tranfer, durability, and mechanical strength",
-                "Ultra-low VSWR throughout the whole 450 MHz to 6000 MHz frequency range",
-                "IP67 rating (protected against dust, strong water jets, and waves)",
-                "UL94 V-0 flammability rating",
-                "USA and international trademark current",
-                "USA and international patents pending"
-            ],
-            "description": "To Connect Antenna or Combiners to Devices",
-            "warranty": "2 Years",
-            "image": "https://wirengimages.s3.amazonaws.com/images/serie+wrg400-au/wrg400-smam-ranm-20m/WRG400-SMAM-RANM-20M%E2%84%A2_01.png"
-        },
-        {
-            "id": "wrg400-smam-nm-10m",
+            "id": "wrg400-snam-nm-10m",
             "name": "WRG400-SMAM-NM-10M™",
             "category": "Antenna Accesories",
             "sub-category": "Main Cables",
@@ -1844,10 +2108,15 @@
             ],
             "description": "To Connect Antenna or Combiners to Devices",
             "warranty": "2 Years",
-            "image": "http://dummyimage.com/200x200.png/dddddd/000000"
+            "image": "https://wirengimages.s3.amazonaws.com/images/product-images/wrg400-smam-nm-10m.jpg",
+            "images": [
+                "https://wirengimages.s3.amazonaws.com/images/serie+wrg400-au/wrg400-smam-nm-10m/WRG400-SMAM-NM-10M%E2%84%A2_01.png",
+                "https://wirengimages.s3.amazonaws.com/images/serie+wrg400-au/wrg400-smam-nm-10m/WRG400-SMAM-NM-10M%E2%84%A2_02.png",
+                "https://wirengimages.s3.amazonaws.com/images/serie+wrg400-au/wrg400-smam-nm-10m/WRG400-SMAM-NM-10M%E2%84%A2.png"
+            ]
         },
         {
-            "id": "wrg400-smam-nm-20m",
+            "id": "wrg400-snam-nm-20m",
             "name": "WRG400-SMAM-NM-20M™",
             "category": "Antenna Accesories",
             "sub-category": "Main Cables",
@@ -1870,7 +2139,72 @@
             ],
             "description": "To Connect Antenna or Combiners to Devices",
             "warranty": "2 Years",
-            "image": "http://dummyimage.com/200x200.png/dddddd/000000"
+            "image": "https://wirengimages.s3.amazonaws.com/images/product-images/wrg400-smam-nm-20m.jpg",
+            "images": [
+                "https://wirengimages.s3.amazonaws.com/images/serie+wrg400-au/wrg400-smam-nm-20m/WRG400-SMAM-NM-20M%E2%84%A2+.png",
+                "https://wirengimages.s3.amazonaws.com/images/serie+wrg400-au/wrg400-smam-nm-20m/WRG400-SMAM-NM-20M%E2%84%A2_01.png",
+                "https://wirengimages.s3.amazonaws.com/images/serie+wrg400-au/wrg400-smam-nm-20m/WRG400-SMAM-NM-20M%E2%84%A2_02.png"
+            ]
+        },
+        {
+            "id": "wrg400-rasmam-nm-10m",
+            "name": "WRG400-RASMAM-NM-10M™",
+            "category": "Antenna Accesories",
+            "sub-category": "Main Cables",
+            "features1": [
+                "Fully enclosed, robust, and durable, under any weather condition, with 100% stanelss-steel metal parts",
+                "Unparalleled worldwide cellular bands compatibility for countless applications, including cellular legacy, cellular data, 5G, 4G, LTE, xLTE, WiMAX, Wi-Fi, etc.",
+                "Pre-determined, optimized horixontal antenna separation for best SINR/CINR and maximum download and upload data speeds",
+                "Sealed and splash-proof (also suitable for marine environments)",
+                "100% stainless steel metal parts, and stanless steel back shields for better gain and mechanical strength",
+                "High input power (up to 2 x 250 Watts continuos power) with 24K gold-plated connectors on radomes"
+            ],
+            "features2": [
+                "Extended operating temperature range of -25° to +85° C",
+                "On-radome 24K gold plated N-type connector for maximum reliability, power tranfer, durability, and mechanical strength",
+                "Ultra-low VSWR throughout the whole 450 MHz to 6000 MHz frequency range",
+                "IP67 rating (protected against dust, strong water jets, and waves)",
+                "UL94 V-0 flammability rating",
+                "USA and international trademark current",
+                "USA and international patents pending"
+            ],
+            "description": "To Connect Antenna or Combiners to Devices",
+            "warranty": "2 Years",
+            "image": "https://wirengimages.s3.amazonaws.com/images/product-images/wrg400-rasmam-nm-10m.jpg",
+            "images": [
+                "https://wirengimages.s3.amazonaws.com/images/serie+wrg400-au/wrg400-rasmam-nm-10m/WRG400-RASMAM-NM-10M%E2%84%A2_01.png",
+                "https://wirengimages.s3.amazonaws.com/images/serie+wrg400-au/wrg400-rasmam-nm-10m/WRG400-RASMAM-NM-10M%E2%84%A2.png"
+            ]
+        },
+        {
+            "id": "wrg400-rasmam-nm-20m",
+            "name": "WRG400-RASMAM-NM-20M™",
+            "category": "Antenna Accesories",
+            "sub-category": "Main Cables",
+            "features1": [
+                "Fully enclosed, robust, and durable, under any weather condition, with 100% stanelss-steel metal parts",
+                "Unparalleled worldwide cellular bands compatibility for countless applications, including cellular legacy, cellular data, 5G, 4G, LTE, xLTE, WiMAX, Wi-Fi, etc.",
+                "Pre-determined, optimized horixontal antenna separation for best SINR/CINR and maximum download and upload data speeds",
+                "Sealed and splash-proof (also suitable for marine environments)",
+                "100% stainless steel metal parts, and stanless steel back shields for better gain and mechanical strength",
+                "High input power (up to 2 x 250 Watts continuos power) with 24K gold-plated connectors on radomes"
+            ],
+            "features2": [
+                "Extended operating temperature range of -25° to +85° C",
+                "On-radome 24K gold plated N-type connector for maximum reliability, power tranfer, durability, and mechanical strength",
+                "Ultra-low VSWR throughout the whole 450 MHz to 6000 MHz frequency range",
+                "IP67 rating (protected against dust, strong water jets, and waves)",
+                "UL94 V-0 flammability rating",
+                "USA and international trademark current",
+                "USA and international patents pending"
+            ],
+            "description": "To Connect Antenna or Combiners to Devices",
+            "warranty": "2 Years",
+            "image": "https://wirengimages.s3.amazonaws.com/images/product-images/wrg400-rasmam-nm-20m.jpg",
+            "images": [
+                "https://wirengimages.s3.amazonaws.com/images/serie+wrg400-au/wrg400-rasmam-nm-20m/WRG400-RASMAM-NM-20M%E2%84%A2_01.png",
+                "https://wirengimages.s3.amazonaws.com/images/serie+wrg400-au/wrg400-rasmam-nm-20m/WRG400-RASMAM-NM-20M%E2%84%A2.png"
+            ]
         },
         {
             "id": "wrg400-smam-ranm-10m",
@@ -1896,7 +2230,12 @@
             ],
             "description": "To Connect Antenna or Combiners to Devices",
             "warranty": "2 Years",
-            "image": "http://dummyimage.com/200x200.png/dddddd/000000"
+            "image": "https://wirengimages.s3.amazonaws.com/images/product-images/wrg400-smam-ranm-10m.jpg",
+            "images": [
+                "https://wirengimages.s3.amazonaws.com/images/serie+wrg400-au/wrg400-smam-ranm-10m/WRG400-SMAM-RANM-10M%E2%84%A2+3.png",
+                "https://wirengimages.s3.amazonaws.com/images/serie+wrg400-au/wrg400-smam-ranm-10m/WRG400-SMAM-RANM-10M%E2%84%A2_01.png",
+                "https://wirengimages.s3.amazonaws.com/images/serie+wrg400-au/wrg400-smam-ranm-10m/WRG400-SMAM-RANM-10M%E2%84%A2_02.png"
+            ]
         },
         {
             "id": "wrg400-smam-ranm-20m",
@@ -1922,7 +2261,72 @@
             ],
             "description": "To Connect Antenna or Combiners to Devices",
             "warranty": "2 Years",
-            "image": "http://dummyimage.com/200x200.png/dddddd/000000"
+            "image": "https://wirengimages.s3.amazonaws.com/images/product-images/wrg400-smam-ranm-20m.jpg",
+            "images": [
+                "https://wirengimages.s3.amazonaws.com/images/serie+wrg400-au/wrg400-smam-ranm-20m/WRG400-SMAM-RANM-20M%E2%84%A2_01.png",
+                "https://wirengimages.s3.amazonaws.com/images/serie+wrg400-au/wrg400-smam-ranm-20m/WRG400-SMAM-RANM-20M%E2%84%A2_02.png",
+                "https://wirengimages.s3.amazonaws.com/images/serie+wrg400-au/wrg400-smam-ranm-20m/WRG400-SMAM-RANM-20M%E2%84%A2.png"
+            ]
+        },
+        {
+            "id": "wrg400-rasmam-ranm-10m",
+            "name": "WRG400-RASMAM-RANM-10M™",
+            "category": "Antenna Accesories",
+            "sub-category": "Main Cables",
+            "features1": [
+                "Fully enclosed, robust, and durable, under any weather condition, with 100% stanelss-steel metal parts",
+                "Unparalleled worldwide cellular bands compatibility for countless applications, including cellular legacy, cellular data, 5G, 4G, LTE, xLTE, WiMAX, Wi-Fi, etc.",
+                "Pre-determined, optimized horixontal antenna separation for best SINR/CINR and maximum download and upload data speeds",
+                "Sealed and splash-proof (also suitable for marine environments)",
+                "100% stainless steel metal parts, and stanless steel back shields for better gain and mechanical strength",
+                "High input power (up to 2 x 250 Watts continuos power) with 24K gold-plated connectors on radomes"
+            ],
+            "features2": [
+                "Extended operating temperature range of -25° to +85° C",
+                "On-radome 24K gold plated N-type connector for maximum reliability, power tranfer, durability, and mechanical strength",
+                "Ultra-low VSWR throughout the whole 450 MHz to 6000 MHz frequency range",
+                "IP67 rating (protected against dust, strong water jets, and waves)",
+                "UL94 V-0 flammability rating",
+                "USA and international trademark current",
+                "USA and international patents pending"
+            ],
+            "description": "To Connect Antenna or Combiners to Devices",
+            "warranty": "2 Years",
+            "image": "https://wirengimages.s3.amazonaws.com/images/product-images/wrg400-rasmam-ranm-10m.jpg",
+            "images": [
+                "https://wirengimages.s3.amazonaws.com/images/serie+wrg400-au/wrg400-rasmam-ranm-10m/Untitled+Project.png",
+                "https://wirengimages.s3.amazonaws.com/images/serie+wrg400-au/wrg400-rasmam-ranm-10m/WRG400-RASMAM-RANM-10M%E2%84%A2.png"
+            ]
+        },
+        {
+            "id": "wrg400-rasmam-ranm-20m",
+            "name": "WRG400-RASMAM-RANM-20M™",
+            "category": "Antenna Accesories",
+            "sub-category": "Main Cables",
+            "features1": [
+                "Fully enclosed, robust, and durable, under any weather condition, with 100% stanelss-steel metal parts",
+                "Unparalleled worldwide cellular bands compatibility for countless applications, including cellular legacy, cellular data, 5G, 4G, LTE, xLTE, WiMAX, Wi-Fi, etc.",
+                "Pre-determined, optimized horixontal antenna separation for best SINR/CINR and maximum download and upload data speeds",
+                "Sealed and splash-proof (also suitable for marine environments)",
+                "100% stainless steel metal parts, and stanless steel back shields for better gain and mechanical strength",
+                "High input power (up to 2 x 250 Watts continuos power) with 24K gold-plated connectors on radomes"
+            ],
+            "features2": [
+                "Extended operating temperature range of -25° to +85° C",
+                "On-radome 24K gold plated N-type connector for maximum reliability, power tranfer, durability, and mechanical strength",
+                "Ultra-low VSWR throughout the whole 450 MHz to 6000 MHz frequency range",
+                "IP67 rating (protected against dust, strong water jets, and waves)",
+                "UL94 V-0 flammability rating",
+                "USA and international trademark current",
+                "USA and international patents pending"
+            ],
+            "description": "To Connect Antenna or Combiners to Devices",
+            "warranty": "2 Years",
+            "image": "https://wirengimages.s3.amazonaws.com/images/product-images/wrg400-rasmam-ranm-20m.jpg",
+            "images": [
+                "https://wirengimages.s3.amazonaws.com/images/serie+wrg400-au/wrg400-rasmam-ranm-20m/WRG400-RASMAM-RANM-20M%E2%84%A2_01.png",
+                "https://wirengimages.s3.amazonaws.com/images/serie+wrg400-au/wrg400-rasmam-ranm-20m/WRG400-RASMAM-RANM-20M%E2%84%A2.png"
+            ]
         },
         {
             "id": "wrg400-smam-nm-35ft",
@@ -1948,7 +2352,11 @@
             ],
             "description": "To Connect Antenna or Combiners to Devices",
             "warranty": "2 Years",
-            "image": "http://dummyimage.com/200x200.png/dddddd/000000"
+            "image": "https://wirengimages.s3.amazonaws.com/images/product-images/wrg400-smam-nm-35ft.jpg",
+            "images": [
+                "https://wirengimages.s3.amazonaws.com/images/serie+wrg400-au/wrg400-smam-nm-35ft/WRG400-SMAM-NM-35FT%E2%84%A2+1.png",
+                "https://wirengimages.s3.amazonaws.com/images/serie+wrg400-au/wrg400-smam-nm-35ft/WRG400-SMAM-NM-35FT%E2%84%A2+2.png"
+            ]
         },
         {
             "id": "wrg400-smam-nm-45ft",
@@ -1974,7 +2382,11 @@
             ],
             "description": "To Connect Antenna or Combiners to Devices",
             "warranty": "2 Years",
-            "image": "http://dummyimage.com/200x200.png/dddddd/000000"
+            "image": "https://wirengimages.s3.amazonaws.com/images/product-images/wrg-400-smam-nm-45ft.jpg",
+            "images": [
+                "https://wirengimages.s3.amazonaws.com/images/serie+wrg400-au/wrg400-smam-nm-45ft/WRG-400-NM-NM-45FT_01.png",
+                "https://wirengimages.s3.amazonaws.com/images/serie+wrg400-au/wrg400-smam-nm-45ft/WRG-400-NM-NM-45FT.png"
+            ]
         },
         {
             "id": "wrg400-rasmam-nm-35ft",
@@ -2000,7 +2412,11 @@
             ],
             "description": "To Connect Antenna or Combiners to Devices",
             "warranty": "2 Years",
-            "image": "http://dummyimage.com/200x200.png/dddddd/000000"
+            "image": "https://wirengimages.s3.amazonaws.com/images/product-images/wrg400-rasmam-nm-35ft.jpg",
+            "images": [
+                "https://wirengimages.s3.amazonaws.com/images/serie+wrg400-au/wrg400-rasmam-nm-35ft/WRG400-RASMAM-NM-35FT%E2%84%A2_01.png",
+                "https://wirengimages.s3.amazonaws.com/images/serie+wrg400-au/wrg400-rasmam-nm-35ft/WRG400-RASMAM-NM-35FT%E2%84%A2.png"
+            ]
         },
         {
             "id": "wrg400-rasmam-nm-45ft",
@@ -2026,7 +2442,11 @@
             ],
             "description": "To Connect Antenna or Combiners to Devices",
             "warranty": "2 Years",
-            "image": "http://dummyimage.com/200x200.png/dddddd/000000"
+            "image": "https://wirengimages.s3.amazonaws.com/images/product-images/wrg400-rasmam-nm-45ft.jpg",
+            "images": [
+                "https://wirengimages.s3.amazonaws.com/images/serie+wrg400-au/wrg400-rasmam-nm-45ft/WRG400-RASMAM-NM-45FT%E2%84%A2_01.png",
+                "https://wirengimages.s3.amazonaws.com/images/serie+wrg400-au/wrg400-rasmam-nm-45ft/WRG400-RASMAM-NM-45FT%E2%84%A2.png"
+            ]
         },
         {
             "id": "wrg400-smam-ranm-35ft",
@@ -2052,7 +2472,11 @@
             ],
             "description": "To Connect Antenna or Combiners to Devices",
             "warranty": "2 Years",
-            "image": "http://dummyimage.com/200x200.png/dddddd/000000"
+            "image": "https://wirengimages.s3.amazonaws.com/images/product-images/wrg-400-smam-ranm-35ft.jpg",
+            "images": [
+                "https://wirengimages.s3.amazonaws.com/images/serie+wrg400-au/wrg400-smam-ranm-35m/WRG-400-SMAM-RANM-35FT.png",
+                "https://wirengimages.s3.amazonaws.com/images/serie+wrg400-au/wrg400-smam-ranm-35m/WRG400-SMAM-RANM-35FT%E2%84%A2_01.png"
+            ]
         },
         {
             "id": "wrg400-smam-ranm-45ft",
@@ -2078,7 +2502,11 @@
             ],
             "description": "To Connect Antenna or Combiners to Devices",
             "warranty": "2 Years",
-            "image": "http://dummyimage.com/200x200.png/dddddd/000000"
+            "image": "https://wirengimages.s3.amazonaws.com/images/product-images/wrg400-smam-ranm-45ft.jpg",
+            "images": [
+                "https://wirengimages.s3.amazonaws.com/images/serie+wrg400-au/wrg400-smam-ranm-45ft/WRG400-SMAM-RANM-45FT%E2%84%A2_01.png",
+                "https://wirengimages.s3.amazonaws.com/images/serie+wrg400-au/wrg400-smam-ranm-45ft/WRG400-SMAM-RANM-45FT%E2%84%A2.png"
+            ]
         },
         {
             "id": "wrg400-rasmam-ranm-35ft",
@@ -2104,7 +2532,11 @@
             ],
             "description": "To Connect Antenna or Combiners to Devices",
             "warranty": "2 Years",
-            "image": "http://dummyimage.com/200x200.png/dddddd/000000"
+            "image": "https://wirengimages.s3.amazonaws.com/images/product-images/wrg400-rasmam-ranm-35ft.jpg",
+            "images": [
+                "https://wirengimages.s3.amazonaws.com/images/serie+wrg400-au/wrg400-rasmam-ranm-35ft/WRG400-RASMAM-NM-35FT%E2%84%A2_01.png",
+                "https://wirengimages.s3.amazonaws.com/images/serie+wrg400-au/wrg400-rasmam-ranm-35ft/WRG400-RASMAM-NM-35FT%E2%84%A2.png"
+            ]
         },
         {
             "id": "wrg400-rasmam-ranm-45ft",
@@ -2130,7 +2562,11 @@
             ],
             "description": "To Connect Antenna or Combiners to Devices",
             "warranty": "2 Years",
-            "image": "http://dummyimage.com/200x200.png/dddddd/000000"
+            "image": "https://wirengimages.s3.amazonaws.com/images/product-images/wrg400-rasmam-ranm-45ft%E2%84%A2.jpg",
+            "images": [
+                "https://wirengimages.s3.amazonaws.com/images/serie+wrg400-au/wrg400-rasmam-ranm-45ft/WRG400-WRG400-SMAM-RANM-45FT%E2%84%A2_01.png",
+                "https://wirengimages.s3.amazonaws.com/images/serie+wrg400-au/wrg400-rasmam-ranm-45ft/WRG400-WRG400-SMAM-RANM-45FT%E2%84%A2.png"
+            ]
         }
     ],
     "oldproducts" : [

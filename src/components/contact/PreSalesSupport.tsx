@@ -7,7 +7,7 @@ import Swal from 'sweetalert2';
 
 import { Footer } from '../ui/Footer';
 
-export const ContactScreen = () => {
+export const PreSalesSupport = () => {
 
   const form = useRef<any>();
 
@@ -64,7 +64,7 @@ export const ContactScreen = () => {
             <div className="contact__flexContent">
               <div className="contact__getIn-container">
                 <div className="contact__contactHeader">
-                  <h1> Get In Touch </h1>
+                  <h1>Pre-Sales technical support</h1>
                   <p>To get in touch with a WirEng team member, please complete the form below </p>
                 </div>
 
@@ -90,6 +90,16 @@ export const ContactScreen = () => {
                     />
                     
                     { touched.email && errors.email && <p className="contact__error"> { errors.email } </p> }
+
+                    <input
+                      type="text"
+                      { ...getFieldProps('subject') } 
+                      placeholder="Pre-Sales technical support"
+                      autoComplete="off"
+                      className='contact__input mt-5'
+                    />
+                    
+                    { touched.subject && errors.subject && <p className="contact__error"> { errors.subject } </p> }
 
                     <input
                       type="text"
@@ -125,7 +135,7 @@ export const ContactScreen = () => {
                   <div className="contact__infoList-elements">
                     <ul className="infoList">
                       <li className="infoList-items"><i className="fa-solid fa-location-dot"></i> To get in touch with a WirEng team member, please complete the form below </li>
-                      <li className="infoList-items"><i className="fa-solid fa-envelope"></i> wirengdirect@gmail.com</li>
+                      <li className="infoList-items"><i className="fa-solid fa-envelope"></i> wireng@gmail.com</li>
                       <li className="infoList-items"><i className="fa-solid fa-phone"></i> 0230-1212-2132</li>
                     </ul>
                   </div>

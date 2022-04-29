@@ -1,8 +1,7 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
-import { Landing } from '../components/ui/Landing';
-
 import { DashboardRoutes } from './DashboardRoutes';
+import { HomeScreen } from '../components/HomeScreen';
 
 
 export const AppRouter = () => {
@@ -10,7 +9,7 @@ export const AppRouter = () => {
         <BrowserRouter>
 
           <Routes>
-            <Route path="/" element={ <Landing /> }/>
+            
             <Route path="/*" element={ <DashboardRoutes /> }/>
 
           </Routes>

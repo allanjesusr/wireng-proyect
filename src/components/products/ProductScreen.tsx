@@ -1,8 +1,11 @@
 import { useMemo } from 'react';
 import { useParams, Navigate } from 'react-router-dom';
+
+import { Helmet } from "react-helmet";
 import { Carousel, Container } from 'react-bootstrap';
 
 import { getProductsById } from '../../selectors/getProductsById';
+import { NotFound } from '../not-found/NotFound';
 
 import img1 from '../../assets/images/products-img/wideant4x4/1.png';
 import img2 from '../../assets/images/products-img/wideant4x4/2.png';
@@ -14,8 +17,6 @@ import mech1 from '../../assets/images/products-img/wideant4x4/mech-images/WideA
 import mech2 from '../../assets/images/products-img/wideant4x4/mech-images/WideAnt4-Plus-5G-4x4-02.png';
 import mech3 from '../../assets/images/products-img/wideant4x4/mech-images/WideAnt4-Plus-5G-4x4-03.png';
 import mech4 from '../../assets/images/products-img/wideant4x4/mech-images/WideAnt4-Plus-5G-4x4-04.png';
-import { useSEO } from '../../hooks/useSEO';
-import { Helmet } from "react-helmet";
 
 export const ProductScreen = () => {
 
@@ -25,7 +26,7 @@ export const ProductScreen = () => {
     const product = useMemo(() => getProductsById(productId), [productId]);
 
     if (!product) {
-        return <Navigate to="/home" />
+        return <NotFound />
     }
 
     return (
@@ -42,13 +43,13 @@ export const ProductScreen = () => {
                 <div className="product__container">
                     <div className="product__mainFtbg">
                         <div className="product__header">
-                            <div className="product__headerTitle">
-                                <h1> {product.name} </h1>
-                                <p>Ultra-Wide Extended Band, High Gain, Directional</p>
-                                <Container className='d-flex justify-content-center'>
+                            <Container>
+                                <div className="product__headerTitle">
+                                    <h1> {product.name} </h1>
+                                    <p>Ultra-Wide Extended Band, High Gain, Directional</p>
                                     <p> {product.description} </p>
-                                </Container>
-                            </div>
+                                </div>
+                            </Container>
                         </div>
 
                         <div className="product__content">
@@ -65,7 +66,7 @@ export const ProductScreen = () => {
                                         {
                                             product.features1.map(feature => (
                                                 <li
-                                                    key={product.id}
+                                                    key={feature}
                                                     className="product__firstItem-left"
                                                     style={{
                                                         fontSize: '1.2rem',
@@ -81,7 +82,21 @@ export const ProductScreen = () => {
                                 <div className="product__containerCrsl">
                                     <div className="product__imageCrsl">
                                         <Carousel>
-                                            <Carousel.Item>
+                                            {
+                                                product.images?.map(images => (
+                                                    <Carousel.Item
+                                                        key={images}
+                                                    >
+                                                        <img
+                                                            className="d-block w-100"
+                                                            src={images}
+                                                            alt="First slide"
+                                                        />
+                                                    </Carousel.Item>
+
+                                                ))
+                                            }
+                                            {/* <Carousel.Item>
                                                 <img
                                                     className="d-block w-100"
                                                     src={img1}
@@ -119,7 +134,7 @@ export const ProductScreen = () => {
                                                     src={img5}
                                                     alt="Third slide"
                                                 />
-                                            </Carousel.Item>
+                                            </Carousel.Item> */}
                                         </Carousel>
                                     </div>
                                 </div>
@@ -128,7 +143,7 @@ export const ProductScreen = () => {
                                         {
                                             product.features2.map(feature => (
                                                 <li
-                                                    key={product.id}
+                                                    key={feature}
                                                     className="product__firstItem-right"
                                                     style={{
                                                         fontSize: '1.2rem',
@@ -247,11 +262,6 @@ export const ProductScreen = () => {
                     </div>
 
                 </div>
-                {/* <h1>Antennas Screen</h1>
-                <p>
-                    {product?.name}
-                </p> */}
-                {/* <ProductsList category="Antennas"/> */}
             </div>
         </>
     )

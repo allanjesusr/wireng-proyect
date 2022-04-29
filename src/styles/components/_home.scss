@@ -4,8 +4,9 @@
     width: 100%;
 
     .home__home-bg {
-        background-image: url('../../assets/images/backgrounds/WIRENG-WEB-12-12.png');
+        background-image: url('../../assets/images/backgrounds/Home3.jpg');
         background-size: 100% 100%;
+        height: calc( 100vh - 80px );
     }
 
     .home__headerContainer {
@@ -49,7 +50,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding: 5rem;
+    padding: 0 5rem 5rem 5rem;
 
     p {
         width: 50%;
@@ -102,7 +103,7 @@
         display: flex;
         align-items: center;
         flex-direction: column;
-        padding: 5rem; 
+        padding: 0 5rem 5rem 5rem; 
         
         p {
             width: 50%;

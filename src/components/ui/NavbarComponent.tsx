@@ -9,7 +9,7 @@ export const NavbarComponent = () => {
     const navigate = useNavigate();
 
     const handleHome = () => {
-        navigate('/home');
+        navigate('/');
     }
 
     return (

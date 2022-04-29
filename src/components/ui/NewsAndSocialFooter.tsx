@@ -35,7 +35,7 @@ export const NewsAndSocialFooter = () => {
 
                         <div className="footer__infoList-elements">
                             <ul className="infoList">
-                                <li className="infoList-items"><i className="fa-solid fa-envelope"></i> wireng@gmail.com</li>
+                                <li className="infoList-items"><i className="fa-solid fa-envelope"></i> wirengdirect@gmail.com</li>
                             </ul>
                         </div>
 

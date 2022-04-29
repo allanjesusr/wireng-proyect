@@ -1,6 +1,7 @@
 
+import { Container } from 'react-bootstrap';
 import { Helmet } from 'react-helmet';
-import { useSEO } from '../../hooks/useSEO';
+
 import { ProductsList } from './ProductsList';
 
 export const AccesoriesScreen = () => {
@@ -15,10 +16,10 @@ export const AccesoriesScreen = () => {
                 <meta name="description" content="WirEng® is the worldwide leader in ultra wide band, ultra high gain antennas" />
                 <meta name="keywords" content="WirEng®, antennas, atennas accesories" />
 
-                <meta property="og:title" content="Antennas Accesories by WirEng® | WirEng®"/>
+                <meta property="og:title" content="Antennas Accesories by WirEng® | WirEng®" />
                 <meta property="og:description" content="WirEng® is the worldwide leader in ultra wide band, ultra high gain antennas" />
             </Helmet>
-            <div className="layout__container">
+            <Container>
 
                 <div className="d-flex justify-content-center mt-5 mb-5">
 
@@ -27,7 +28,7 @@ export const AccesoriesScreen = () => {
                 </div>
 
                 <ProductsList category="Antenna Accesories" />
-            </div>
+            </Container>
         </>
     )
 }
