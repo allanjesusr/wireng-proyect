@@ -24,7 +24,7 @@ export const SearchScreen = () => {
 
     const { searchText } = formValues;
 
-    const filteredProducts = useMemo(() => getProductsByName(q as any), [q]);
+    const filteredProducts = useMemo(() => getProductsByName(q as string), [q]);
 
     const handleSearch = (e: FormEvent<HTMLFormElement>) => {
         e.preventDefault();
@@ -61,7 +61,7 @@ export const SearchScreen = () => {
                                         autoComplete="off"
                                         placeholder="Search a Product..."
                                         className="mb-3 d-flex justify-content-center"
-                                        value={searchText as any}
+                                        value={searchText as string}
                                         onChange={onChange}
                                     />
                                     <Button

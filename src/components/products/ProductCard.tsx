@@ -6,11 +6,11 @@ import { Col, Card } from 'react-bootstrap';
 interface Props {
     id: string;
     name: string;
-    description: string;
+    purpose: string;
     image: string;
 }
 
-export const ProductCard: FC<Props> = ({ id, name, description, image} ) => {
+export const ProductCard: FC<Props> = ({ id, name, purpose, image} ) => {
 
     const navigate = useNavigate();
 
@@ -24,8 +24,8 @@ export const ProductCard: FC<Props> = ({ id, name, description, image} ) => {
                 <Card.Img variant="top" src={image} alt={name}/>
                 <Card.Body>
                     <Card.Title> {name}</Card.Title>
-                    <Card.Text> {description} </Card.Text>
-                </Card.Body>
+                    <Card.Text>{`Purpose: ${purpose} `}</Card.Text>
+                </Card.Body> 
             </Card>
 
         </Col>

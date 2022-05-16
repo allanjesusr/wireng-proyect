@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import reportWebVitals from './reportWebVitals';
 
 import { WirengApp } from './WelcApp';
+
 import './styles/styles.scss';
 
 ReactDOM.render(

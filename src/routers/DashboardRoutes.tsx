@@ -1,6 +1,7 @@
 import { Route, Routes } from 'react-router-dom';
 
 import { ProductRoutes } from './ProductRoutes';
+
 import { CubeAnt } from '../components/old-products/CubeAnt';
 import { DomeAerial } from '../components/old-products/DomeAerial';
 import { DomeAntAlpha } from '../components/old-products/DomeAntAlpha';
@@ -43,12 +44,12 @@ import { SearchScreen } from '../components/search/SearchScreen';
 import { Footer } from '../components/ui/Footer';
 import { NavbarComponent } from '../components/ui/NavbarComponent';
 import { AboutScreen } from '../components/about/AboutScreen';
-import { ContactScreen } from '../components/contact/ContactScreen';
 
-import { AffiliateProposal, B2bOemInquiery, CustomProductInquiry, DistributorshipInquiry, GovermmentInquiry, ResellershipInquiry } from '../components/services';
-import { PostSalesSupport, PreSalesSupport } from '../components/contact';
-import { NotFound } from '../components/not-found/NotFound';
 import { HomeScreen } from '../components/HomeScreen';
+import { DealerLocator } from '../components/locator/DealerLocator';
+import { NotFound } from '../components/not-found/NotFound';
+import { AffiliateProposal, B2bOemInquiery, CustomProductInquiry, DistributorshipInquiry, GovermmentInquiry, ResellershipInquiry } from '../components/services';
+import { PostSalesSupport, PreSalesSupport, ContactScreen } from '../components/contact';
 
 export const DashboardRoutes = () => {
     return (
@@ -73,11 +74,15 @@ export const DashboardRoutes = () => {
 
                 {/* SERVICES */}
                 <Route path="custom-product-inquiry/" element={ <CustomProductInquiry />}/>
-                <Route path="govermment-military-inquiry/" element={ <GovermmentInquiry />}/>
+                <Route path="government-military-inquiry/" element={ <GovermmentInquiry />}/>
                 <Route path="b2b-oem-inquiry/" element={ <B2bOemInquiery />}/>
                 <Route path="resellership-inquiry/" element={ <ResellershipInquiry />}/>
                 <Route path="distributorship-inquiry/" element={ <DistributorshipInquiry />}/>
                 <Route path="affiliate-partnership-proposal/" element={ <AffiliateProposal />}/>
+
+                {/* LOCATOR */}
+
+                <Route path="dealer-locator/" element={ <DealerLocator />}/>
 
                 {/* OLD PRODUCTS */}
                 <Route path="aeriadesk/" element={ <AeriaDesk /> }/>

@@ -13,6 +13,8 @@ import { Button, Card, Col, Container, Row } from 'react-bootstrap';
 import { Helmet } from 'react-helmet';
 import { Link, useNavigate } from 'react-router-dom';
 
+import image from '../assets/images/backgrounds/Home3.jpg';
+
 
 
 
@@ -20,8 +22,12 @@ export const HomeScreen = () => {
 
   const navigate = useNavigate();
 
-  const handleProduct = () =>  {
+  const handleProduct = () => {
     navigate('/product/wideant4-plus-5g-4x4');
+  }
+
+  const handleAccesories = () => {
+    navigate('/products/antennas-accesories');
   }
 
   return (
@@ -36,21 +42,41 @@ export const HomeScreen = () => {
       </Helmet>
 
       <div className="home__container">
-        <div className="home__home-bg">
-          <div className="home__headerContainer d-flex justify-content-center align-items-center p-5">
-            <p style={{
-              fontSize: '1.5rem',
-              fontWeight: 'bold',
-              color: 'black',
-              marginTop: '20px',
-              
-            }} className="d-flex">WirEng® products enable you to manage modern life, helping you enjoy and easily connect to everything that matters.</p>
+        <div className="container-position">
+          <div className="header-overlay d-flex ">
+            <Container fluid className="p-5">
+              <p className="d-flex mb-5" style={{ color: 'white'}}>WirEng® products are extremely versatile and are available in a number of commercial and industrial applications</p>
+
+              <button className="home__products-btn">
+                <Link
+                  to="/products/antennas"
+                  className="link"
+                >
+                  See the WirEng® Products
+                </Link>
+              </button>
+
+            </Container>
+          </div>
+          <div style={{
+            height: '100%',
+          }}>
+            <img src={image} alt="image" style={{
+              width: '100%',
+              height: '100%',
+            }} />
+          </div>
+        </div>
+
+        {/* <div className="home__home-bg">
+          <div className="home__headerContainer d-flex justify-content-start align-items-center p-5" style={{
+            height: 'calc(100vh - 80px)',
+          }}>
 
             <p style={{
               fontSize: '1.5rem',
               fontWeight: 'bold',
               color: 'black',
-              marginTop: '20px',
               
             }} className="d-flex mb-5">WirEng® products are extremely versatile and are available in a number of commercial and industrial applications</p>
             <button className="home__products-btn">
@@ -64,7 +90,7 @@ export const HomeScreen = () => {
           </div>
 
 
-        </div>
+        </div> */}
 
 
         <div className="home__products-container">
@@ -98,22 +124,22 @@ export const HomeScreen = () => {
               </div>
 
               <div className="home__Flex-image">
-                <img 
-                  src={imgproduct1} 
-                  alt="image" 
+                <img
+                  src={imgproduct1}
+                  alt="image"
                   style={{
-                  cursor: 'pointer',
+                    cursor: 'pointer',
                   }}
                   onClick={handleProduct}
                 />
                 <img src={imgproduct2} alt="image" style={{
                   cursor: 'pointer',
-                  }}
-                  onClick={handleProduct}/>
+                }}
+                  onClick={handleProduct} />
                 <img src={imgproduct3} alt="image" style={{
                   cursor: 'pointer',
-                  }}
-                  onClick={handleProduct}/>
+                }}
+                  onClick={handleProduct} />
               </div>
             </Container>
           </div>
@@ -139,9 +165,24 @@ export const HomeScreen = () => {
               </div>
 
               <div className="home__Flex-image">
-                <img src={imgMimo} alt="image" />
-                <img src={imgDroneStar} alt="image" />
-                <img src={imgCable} alt="image" />
+                <img 
+                  src={imgMimo} 
+                  alt="image" 
+                  className='pointer' 
+                  onClick={handleAccesories}
+                />
+                <img 
+                  src={imgDroneStar} 
+                  alt="image" 
+                  className='pointer' 
+                  onClick={handleAccesories}
+                />
+                <img 
+                  src={imgCable} 
+                  alt="image" 
+                  className='pointer' 
+                  onClick={handleAccesories}
+                />
               </div>
             </Container>
           </div>
@@ -230,7 +271,7 @@ export const HomeScreen = () => {
           {/* </Container>
         </div> */}
 
-          <div className="about__lastContainer">
+          {/* <div className="about__lastContainer">
             <Container>
               <div className="d-flex justify-content-center">
                 <h1 className="mt-5  mb-5">Latest New</h1>
@@ -257,9 +298,9 @@ export const HomeScreen = () => {
                   </Card>
                 </Col>
 
-              </Row>
+              </Row> */}
 
-              {/* <div className="about__lastFlexContainer">
+          {/* <div className="about__lastFlexContainer">
                 <div className="about__last-imageContainer"></div>
                 <div className="about__last-textContainer">
                   <h3>Upcoming Models</h3>
@@ -271,9 +312,9 @@ export const HomeScreen = () => {
                   <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus ipsa quasi nostrum quibusdam, eos consequuntur, sapiente neque tempora beatae sit molestiae!</p>
                 </div>
               </div> */}
-            </Container>
+          {/* </Container>
 
-          </div>
+          </div> */}
 
 
 

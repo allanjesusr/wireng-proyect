@@ -109,92 +109,92 @@ export const Footer = () => {
                                 <div className="footer__nav-footer-colhead">DroneAnt™ Series</div>
                                 <ul className="list-unstyled">
                                     <li><Link to='/product/droneant' className="footer__link">DroneAnt™</Link></li>
-                                    <li><Link to='/droneant-plus/' className="footer__link">DroneAnt-Plus™</Link></li>
-                                    <li><Link to='/droneant16/' className="footer__link">DroneAnt16™</Link></li>
-                                    <li><Link to='/droneant16-plus/' className="footer__link">DroneAnt16-Plus™</Link></li>
+                                    <li><Link to='/product/droneant-plus' className="footer__link">DroneAnt-Plus™</Link></li>
+                                    <li><Link to='/product/droneant16' className="footer__link">DroneAnt16™</Link></li>
+                                    <li><Link to='/product/droneant16-plus' className="footer__link">DroneAnt16-Plus™</Link></li>
                                 </ul>
                             </Col>
                             <Col>
                                 <div className="footer__nav-footer-colhead">GiAnt-5G™ Series</div>
                                 <ul className="list-unstyled">
-                                    <li><Link to='/giant-5g/' className="footer__link">GiAnt-5G™</Link></li>
-                                    <li><Link to='/giant-5g/' className="footer__link">GiAnt2-5G™</Link></li>
+                                    <li><Link to='/product/giant-5g' className="footer__link">GiAnt-5G™</Link></li>
+                                    <li><Link to='/product/giant2-5g' className="footer__link">GiAnt2-5G™</Link></li>
                                 </ul>
                             </Col>
                             <Col>
                                 <div className="footer__nav-footer-colhead">GigaMIMO-Plus-5G™ Series</div>
                                 <ul className="list-unstyled">
-                                    <li><Link to='/gigamimo-plus-5g/' className="footer__link">GigaMIMO-Plus-5G™</Link></li>
-                                    <li><Link to='/gigamimo16-plus-5g-2x2/' className="footer__link">GigaMIMO16-Plus-5G-2x2™</Link></li>
-                                    <li><Link to='/gigamimo16-plus-5g-4x2/' className="footer__link">GigaMIMO16-Plus-5G-4x2™</Link></li>
-                                    <li><Link to='/gigamimo16-plus-5g-4x4/' className="footer__link">GigaMIMO16-Plus-5G-4x4™</Link></li>
+                                    <li><Link to='/product/gigamimo-plus-5g' className="footer__link">GigaMIMO-Plus-5G™</Link></li>
+                                    <li><Link to='/product/gigamimo16-plus-5g-2x2' className="footer__link">GigaMIMO16-Plus-5G-2x2™</Link></li>
+                                    <li><Link to='/product/gigamimo16-plus-5g-4x2' className="footer__link">GigaMIMO16-Plus-5G-4x2™</Link></li>
+                                    <li><Link to='/product/gigamimo16-plus-5g-4x4' className="footer__link">GigaMIMO16-Plus-5G-4x4™</Link></li>
                                 </ul>
                             </Col>
                             <Col>
                                 <div className="footer__nav-footer-colhead">MIMOMount™ Series</div>
                                 <ul className="list-unstyled">
-                                    <li><Link to='/mimomount2x2/' className="footer__link">MIMOMount-2x2™</Link></li>
-                                    <li><Link to='/mimomount4x4/' className="footer__link">MIMOMount-4x4™</Link></li>
-                                    <li><Link to='/mimomount8x8/' className="footer__link">MIMOMount-8x8™</Link></li>
+                                    <li><Link to='/product/mimomount' className="footer__link">MIMOMount-2x2™</Link></li>
+                                    <li><Link to='/product/mimomount4' className="footer__link">MIMOMount-4x4™</Link></li>
+                                    <li><Link to='/product/mimomount8' className="footer__link">MIMOMount-8x8™</Link></li>
                                 </ul>
                             </Col>
                             <Col>
                                 <div className="footer__nav-footer-colhead">OctAnt-5G™ Series</div>
                                 <ul className="list-unstyled">
-                                    <li><Link to='/octant-5g/' className="footer__link">OctAnt-5G-8x8™</Link></li>
+                                    <li><Link to='/product/octant-5g' className="footer__link">OctAnt-5G-8x8™</Link></li>
                                 </ul>
                             </Col>
                             <Col>
                                 <div className="footer__nav-footer-colhead">Omnirial-Plus-5G™ Series</div>
                                 <ul className="list-unstyled">
-                                    <li><Link to='/omnirial2-plus-5g/' className="footer__link">Omnirial2-Plus-5G™</Link></li>
-                                    <li><Link to='/omnirial4-plus-5g-4x2/' className="footer__link">Omnirial4-Plus-5G-4x2™</Link></li>
-                                    <li><Link to='/omnirial4-plus-5g-4x4/' className="footer__link">Omnirial4-Plus-5G-4x4™</Link></li>
-                                    <li><Link to='/omnirial8-plus-5g-8x2/' className="footer__link">Omnirial8-Plus-5G-8x2™</Link></li>
-                                    <li><Link to='/omnirial8-5g-plus-8x4/' className="footer__link">Omnirial8-Plus-5G-8x4™</Link></li>
-                                    <li><Link to='/omnirial8-plus-5g-8x8/' className="footer__link">Omnirial8-Plus-5G-8x8™</Link></li>
+                                    <li><Link to='/product/omnirial2-plus-5g' className="footer__link">Omnirial2-Plus-5G™</Link></li>
+                                    <li><Link to='/product/omnirial4-plus-5g-4x2' className="footer__link">Omnirial4-Plus-5G-4x2™</Link></li>
+                                    <li><Link to='/product/omnirial4-plus-5g-4x4' className="footer__link">Omnirial4-Plus-5G-4x4™</Link></li>
+                                    <li><Link to='/product/omnirial8-plus-5g-8x2' className="footer__link">Omnirial8-Plus-5G-8x2™</Link></li>
+                                    <li><Link to='/product/omnirial8-5g-plus-8x4' className="footer__link">Omnirial8-Plus-5G-8x4™</Link></li>
+                                    <li><Link to='/product/omnirial8-plus-5g-8x8' className="footer__link">Omnirial8-Plus-5G-8x8™</Link></li>
                                 </ul>
                             </Col>
                             <Col>
                                 <div className="footer__nav-footer-colhead">WideAnt-5G™ Series</div>
                                 <ul className="list-unstyled">
-                                    <li><Link to='/wideant-5g/' className="footer__link">WideAnt-5G™</Link></li>
-                                    <li><Link to='/wideant2-5g/' className="footer__link">WideAnt2-5G™</Link></li>
-                                    <li><Link to='/wideant4-5g-4x2/' className="footer__link">WideAnt4-5G-4x2™</Link></li>
-                                    <li><Link to='/wideant4-5g-4x4/' className="footer__link">WideAnt4-5G-4x4™</Link></li>
-                                    <li><Link to='/wideant8-5g-8x2/' className="footer__link">WideAnt8-5G-8x2™</Link></li>
-                                    <li><Link to='/wideant8-5g-8x4/' className="footer__link">WideAnt8-5G-8x4™</Link></li>
-                                    <li><Link to='/wideant8-5g-8x8/' className="footer__link">WideAnt8-5G-8x8™</Link></li>
+                                    <li><Link to='/product/wideant-5g' className="footer__link">WideAnt-5G™</Link></li>
+                                    <li><Link to='/product/wideant2-5g' className="footer__link">WideAnt2-5G™</Link></li>
+                                    <li><Link to='/product/wideant4-5g-4x2' className="footer__link">WideAnt4-5G-4x2™</Link></li>
+                                    <li><Link to='/product/wideant4-5g-4x4' className="footer__link">WideAnt4-5G-4x4™</Link></li>
+                                    <li><Link to='/product/wideant8-5g-8x2' className="footer__link">WideAnt8-5G-8x2™</Link></li>
+                                    <li><Link to='/product/wideant8-5g-8x4' className="footer__link">WideAnt8-5G-8x4™</Link></li>
+                                    <li><Link to='/product/wideant8-5g-8x8' className="footer__link">WideAnt8-5G-8x8™</Link></li>
                                 </ul>
                             </Col>
                             <Col>
                                 <div className="footer__nav-footer-colhead">WideAnt-Plus-5G™ Series</div>
                                 <ul className="list-unstyled">
-                                    <li><Link to='/wideant-plus-5g/' className="footer__link">WideAnt-Plus-5G™</Link></li>
-                                    <li><Link to='/wideant2-plus-5g/' className="footer__link">WideAnt2-Plus-5G™</Link></li>
-                                    <li><Link to='/wideant2-plus-5g-ref/' className="footer__link">WideAnt2-Plus-5G-Ref™</Link></li>
-                                    <li><Link to='/wideant4-plus-5g-4x2/' className="footer__link">WideAnt4-Plus-5G-4x2™</Link></li>
-                                    <li><Link to='/wideant4-plus-5g-4x4/' className="footer__link">WideAnt4-Plus-5G-4x4™</Link></li>
-                                    <li><Link to='/wideant8-plus-5g-8x2/' className="footer__link">WideAnt8-Plus-5G-8x2™</Link></li>
-                                    <li><Link to='/wideant8-plus-5g-8x4/' className="footer__link">WideAnt8-Plus-5G-8x4™</Link></li>
-                                    <li><Link to='/wideant8-plus-5g-8x8/' className="footer__link">WideAnt8-Plus-5G-8x8™</Link></li>
+                                    <li><Link to='/product/wideant-plus-5g' className="footer__link">WideAnt-Plus-5G™</Link></li>
+                                    <li><Link to='/product/wideant2-plus-5g' className="footer__link">WideAnt2-Plus-5G™</Link></li>
+                                    <li><Link to='/product/wideant2-plus-5g-ref' className="footer__link">WideAnt2-Plus-5G-Ref™</Link></li>
+                                    <li><Link to='/product/wideant4-plus-5g-4x2' className="footer__link">WideAnt4-Plus-5G-4x2™</Link></li>
+                                    <li><Link to='/product/wideant4-plus-5g-4x4' className="footer__link">WideAnt4-Plus-5G-4x4™</Link></li>
+                                    <li><Link to='/product/wideant8-plus-5g-8x2' className="footer__link">WideAnt8-Plus-5G-8x2™</Link></li>
+                                    <li><Link to='/product/wideant8-plus-5g-8x4' className="footer__link">WideAnt8-Plus-5G-8x4™</Link></li>
+                                    <li><Link to='/product/wideant8-plus-5g-8x8' className="footer__link">WideAnt8-Plus-5G-8x8™</Link></li>
                                 </ul>
                             </Col>
                             <Col>
                                 <div className="footer__nav-footer-colhead">ExtAnt-5G™ Series</div>
                                 <ul className="list-unstyled">
-                                    <li><Link to='/extant-smaf-smam/' className="footer__link">EXTANT-SMAF-SMAM™</Link></li>
-                                    <li><Link to='/extant-smaf-tncm/' className="footer__link">EXTANT-SMAF-TNCM™</Link></li>
-                                    <li><Link to='/extant-smaf-ts9/' className="footer__link">EXTANT-SMAF-TS9™</Link></li>
+                                    <li><Link to='/product/extant-smaf-smam' className="footer__link">EXTANT-SMAF-SMAM™</Link></li>
+                                    <li><Link to='/product/extant-smaf-tncm' className="footer__link">EXTANT-SMAF-TNCM™</Link></li>
+                                    <li><Link to='/product/extant-smaf-ts9' className="footer__link">EXTANT-SMAF-TS9™</Link></li>
                                 </ul>
                             </Col>
                             <Col>
                                 <div className="footer__nav-footer-colhead">WRG400-AU™ Series</div>
                                 <ul className="list-unstyled">
-                                    <li><Link to='/wrg400-smam-nm-10m-au/' className="footer__link">WRG400-SMAM-NM-10M-AU™</Link></li>
-                                    <li><Link to='/wrg400-smam-nm-20m-au/' className="footer__link">WRG400-SMAM-NM-20M-AU™</Link></li>
-                                    <li><Link to='/wrg400-smam-ra-nm-10m-au/' className="footer__link">WRG400-SMAM-RA-NM-10M-AU™</Link></li>
-                                    <li><Link to='/wrg400-smam-ra-nm-20m-au/' className="footer__link">WRG400-SMAM-RA-NM-20M-AU™</Link></li>
+                                    <li><Link to='/product/wrg400-smam-nm-10m' className="footer__link">WRG400-SMAM-NM-10M™</Link></li>
+                                    <li><Link to='/product/wrg400-smam-nm-20m' className="footer__link">WRG400-SMAM-NM-20M™</Link></li>
+                                    <li><Link to='/product/wrg400-smam-ranm-10m' className="footer__link">WRG400-SMAM-RANM-10M™</Link></li>
+                                    <li><Link to='/product/wrg400-smam-ranm-20m' className="footer__link">WRG400-SMAM-RANM-20M™</Link></li>
                                 </ul>
                             </Col>
 
@@ -301,94 +301,94 @@ export const Footer = () => {
                                 <ul className="footer__mobileList">
                                     <li className="footer__mobilelist-title">WideAnt-5G™ Series</li>
 
-                                    <li>WideAnt-5G™</li>
-                                    <li>WideAnt2-5G™</li>
-                                    <li>WideAnt4-5G-4x2™</li>
-                                    <li>WideAnt4-5G-4x4™</li>
-                                    <li>WideAnt8-5G-8x2™</li>
-                                    <li>WideAnt8-5G-8x4™</li>
-                                    <li>WideAnt8-5G-8x8™</li>
+                                    <li><Link to='/product/wideant-5g' className="footer__link">WideAnt-5G™</Link></li>
+                                    <li><Link to='/product/wideant2-5g' className="footer__link">WideAnt2-5G™</Link></li>
+                                    <li><Link to='/product/wideant4-5g-4x2' className="footer__link">WideAnt4-5G-4x2™</Link></li>
+                                    <li><Link to='/product/wideant4-5g-4x4' className="footer__link">WideAnt4-5G-4x4™</Link></li>
+                                    <li><Link to='/product/wideant8-5g-8x2' className="footer__link">WideAnt8-5G-8x2™</Link></li>
+                                    <li><Link to='/product/wideant8-5g-8x4' className="footer__link">WideAnt8-5G-8x4™</Link></li>
+                                    <li><Link to='/product/wideant8-5g-8x8' className="footer__link">WideAnt8-5G-8x8™</Link></li>
                                 </ul>
                                 <ul className="footer__mobileList">
                                     <li className="footer__mobilelist-title">Omnirial-Plus-5G™ Series</li>
 
-                                    <li>Omnirial2-Plus-5G™</li>
-                                    <li>Omnirial4-Plus-5G-4x2™</li>
-                                    <li>Omnirial4-Plus-5G-4x4™</li>
-                                    <li>Omnirial8-Plus-5G-8x2™</li>
-                                    <li>Omnirial8-Plus-5G-8x4™</li>
-                                    <li>Omnirial8-Plus-5G-8x8™</li>
+                                    <li><Link to='/product/omnirial2-plus-5g' className="footer__link">Omnirial2-Plus-5G™</Link></li>
+                                    <li><Link to='/product/omnirial4-plus-5g-4x2' className="footer__link">Omnirial4-Plus-5G-4x2™</Link></li>
+                                    <li><Link to='/product/omnirial4-plus-5g-4x4' className="footer__link">Omnirial4-Plus-5G-4x4™</Link></li>
+                                    <li><Link to='/product/omnirial8-plus-5g-8x2' className="footer__link">Omnirial8-Plus-5G-8x2™</Link></li>
+                                    <li><Link to='/product/omnirial8-5g-plus-8x4' className="footer__link">Omnirial8-Plus-5G-8x4™</Link></li>
+                                    <li><Link to='/product/omnirial8-plus-5g-8x8' className="footer__link">Omnirial8-Plus-5G-8x8™</Link></li>
                                 </ul>
                             </div>
                             <div>
                                 <ul className="footer__mobileList">
                                     <li className="footer__mobilelist-title">WideAnt-Plus-5G™ Series</li>
 
-                                    <li>WideAnt-Plus-5G™</li>
-                                    <li>WideAnt2-Plus-5G™</li>
-                                    <li>WideAnt2-Plus-5G-Ref™</li>
-                                    <li>WideAnt4-Plus-5G-4x2™</li>
-                                    <li>WideAnt4-Plus-5G-4x4™</li>
-                                    <li>WideAnt8-Plus-5G-8x2™</li>
-                                    <li>WideAnt8-Plus-5G-8x4™</li>
-                                    <li>WideAnt8-Plus-5G-8x8™</li>
+                                    <li><Link to='/product/wideant-plus-5g' className="footer__link">WideAnt-Plus-5G™</Link></li>
+                                    <li><Link to='/product/wideant2-plus-5g' className="footer__link">WideAnt2-Plus-5G™</Link></li>
+                                    <li><Link to='/product/wideant2-plus-5g-ref' className="footer__link">WideAnt2-Plus-5G-Ref™</Link></li>
+                                    <li><Link to='/product/wideant4-plus-5g-4x2' className="footer__link">WideAnt4-Plus-5G-4x2™</Link></li>
+                                    <li><Link to='/product/wideant4-plus-5g-4x4' className="footer__link">WideAnt4-Plus-5G-4x4™</Link></li>
+                                    <li><Link to='/product/wideant8-plus-5g-8x2' className="footer__link">WideAnt8-Plus-5G-8x2™</Link></li>
+                                    <li><Link to='/product/wideant8-plus-5g-8x4' className="footer__link">WideAnt8-Plus-5G-8x4™</Link></li>
+                                    <li><Link to='/product/wideant8-plus-5g-8x8' className="footer__link">WideAnt8-Plus-5G-8x8™</Link></li>
                                 </ul>
                                 <ul className="footer__mobileList">
                                     <li className="footer__mobilelist-title">DroneAnt™ Series</li>
 
-                                    <li>DroneAnt™</li>
-                                    <li>DroneAnt-Plus™</li>
-                                    <li>DroneAnt16™</li>
-                                    <li>DroneAnt16-Plus™</li>
+                                    <li><Link to='/product/droneant' className="footer__link">DroneAnt™</Link></li>
+                                    <li><Link to='/product/droneant-plus' className="footer__link">DroneAnt-Plus™</Link></li>
+                                    <li><Link to='/product/droneant16' className="footer__link">DroneAnt16™</Link></li>
+                                    <li><Link to='/product/droneant16-plus' className="footer__link">DroneAnt16-Plus™</Link></li>
                                 </ul>
                             </div>
                             <div className="footer_columntest">
                                 <ul className="footer__mobileList">
                                     <li className="footer__mobilelist-title">WRG400-AU™ Series</li>
 
-                                    <li>WRG400-SMAM-NM-10M-AU™</li>
-                                    <li>WRG400-SMAM-NM-20M-AU™</li>
-                                    <li>WRG400-SMAM-RA-NM-10M-AU™</li>
-                                    <li>WRG400-SMAM-RA-NM-20M-AU™</li>
+                                    <li><Link to='/product/wrg400-snam-nm-10m' className="footer__link">WRG400-SNAM-NM-10M™</Link></li>
+                                    <li><Link to='/product/wrg400-snam-nm-20m' className="footer__link">WRG400-SNAM-NM-20M™</Link></li>
+                                    <li><Link to='/product/wrg400-smam-ranm-10m' className="footer__link">WRG400-SMAM-RA-NM-10M™</Link></li>
+                                    <li><Link to='/product/wrg400-smam-ranm-20m' className="footer__link">WRG400-SMAM-RA-NM-20M™</Link></li>
                                 </ul>
                             </div>
                             <div>
                                 <ul className="footer__mobileList">
                                     <li className="footer__mobilelist-title">GigaMIMO-Plus-5G™ Series</li>
 
-                                    <li>GigaMIMO-Plus-5G™</li>
-                                    <li>GigaMIMO16-Plus-5G-2x2™</li>
-                                    <li>GigaMIMO16-Plus-5G-4x2™</li>
-                                    <li>GigaMIMO16-Plus-5G-4x4™</li>
+                                    <li><Link to='/product/gigamimo-plus-5g' className="footer__link">GigaMIMO-Plus-5G™</Link></li>
+                                    <li><Link to='/product/gigamimo16-plus-5g-2x2' className="footer__link">GigaMIMO16-Plus-5G-2x2™</Link></li>
+                                    <li><Link to='/product/gigamimo16-plus-5g-4x2' className="footer__link">GigaMIMO16-Plus-5G-4x2™</Link></li>
+                                    <li><Link to='/product/gigamimo16-plus-5g-4x4' className="footer__link">GigaMIMO16-Plus-5G-4x4™</Link></li>
                                 </ul>
                                 <ul className="footer__mobileList">
                                     <li className="footer__mobilelist-title">MIMOMount™ Series</li>
 
-                                    <li>MIMOMount-2x2™</li>
-                                    <li>MIMOMount-4x4™</li>
-                                    <li>MIMOMount-8x8™</li>
+                                    <li><Link to='/product/mimomount' className="footer__link">MIMOMount-2x2™</Link></li>
+                                    <li><Link to='/product/mimomount4' className="footer__link">MIMOMount-4x4™</Link></li>
+                                    <li><Link to='/product/mimomount8' className="footer__link">MIMOMount-8x8™</Link></li>
                                 </ul>
                             </div>
                             <div>
                                 <ul className="footer__mobileList">
                                     <li className="footer__mobilelist-title">ExtAnt-5G™ Series</li>
 
-                                    <li>EXTANT-SMAF-SMAM™</li>
-                                    <li>EXTANT-SMAF-TNCM™</li>
-                                    <li>EXTANT-SMAF-TS9™</li>
+                                    <li><Link to='/product/extant-smaf-smam' className="footer__link">EXTANT-SMAF-SMAM™</Link></li>
+                                    <li><Link to='/product/extant-smaf-tncm' className="footer__link">EXTANT-SMAF-TNCM™</Link></li>
+                                    <li><Link to='/product/extant-smaf-ts9' className="footer__link">EXTANT-SMAF-TS9™</Link></li>
                                 </ul>
                             </div>
                             <div>
                                 <ul className="footer__mobileList">
                                     <li className="footer__mobilelist-title">OctAnt-5G™ Series</li>
 
-                                    <li>OctAnt-5G-8x8™</li>
+                                    <li><Link to='/product/octant-5g' className="footer__link">OctAnt-5G-8x8™</Link></li>
                                 </ul>
                                 <ul className="footer__mobileList">
                                     <li className="footer__mobilelist-title">GiAnt-5G™ Series</li>
 
-                                    <li>GiAnt-5G™</li>
-                                    <li>GiAnt2-5G™</li>
+                                    <li><Link to='/product/giant-5g' className="footer__link">GiAnt-5G™</Link></li>
+                                    <li><Link to='/product/giant2-5g' className="footer__link">GiAnt2-5G™</Link></li>
                                 </ul>
                             </div>
                         </div>

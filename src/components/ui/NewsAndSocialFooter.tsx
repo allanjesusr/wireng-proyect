@@ -7,8 +7,8 @@ export const NewsAndSocialFooter = () => {
                 <div className="footer__flexcontainer">
                     <div className="contact__news-container">
                         <div className="contact__contactHeader">
-                            <h1>Subscribe to WirEng Newsletter</h1>
-                            <span>To get in touch with a WirEng team member, please complete the form below (* indicates a required filed)</span>
+                            <h1>Subscribe to WirEng® Newsletter</h1>
+                            {/* <span>Subscribe to the WirEng® New</span> */}
                         </div>
 
                         <div className="footer__news-form">

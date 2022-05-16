@@ -1,13 +1,9 @@
-
-import { Container } from 'react-bootstrap';
 import { Helmet } from 'react-helmet';
+import { Container } from 'react-bootstrap';
 
 import { ProductsList } from './ProductsList';
 
 export const AccesoriesScreen = () => {
-
-    // const title = 'Antennas Accesories by WirEng®';
-    // useSEO({ title });
 
     return (
         <>
@@ -26,6 +22,85 @@ export const AccesoriesScreen = () => {
                     <h1>Antenna Accesories by WirEng®</h1>
 
                 </div>
+{/* 
+                <h3>Refine Your Search</h3>
+                <hr />
+
+                <div className='d-flex justify-content-evenly mb-5'>
+
+                    <Dropdown>
+                        <Dropdown.Toggle variant="secondary" id="dropdown-basic">
+                            Filter
+                        </Dropdown.Toggle>
+
+                        <Dropdown.Menu>
+                            <Form.Check
+                                inline
+                                label="coaxial ultra-low loss cables"
+                                style={{
+                                    color: 'white',
+                                }}
+                            />
+                            <Form.Check
+                                inline
+                                label="coaxial low loss cables"
+                                style={{
+                                    color: 'white',
+                                }}
+                            />
+                            <Form.Check
+                                inline
+                                label="coaxial patch cables"
+                                style={{
+                                    color: 'white',
+                                }}
+                            />
+                            <Form.Check
+                                inline
+                                label="coaxial adapter and strain-relief cables"
+                                style={{
+                                    color: 'white',
+                                }}
+                            />
+                            <Form.Check
+                                inline
+                                label="antenna-side combiners"
+                                style={{
+                                    color: 'white',
+                                }}
+                            />
+                            <Form.Check
+                                inline
+                                label="antenna mounts"
+                                style={{
+                                    color: 'white',
+                                }}
+                            />
+                            <Form.Check
+                                inline
+                                label="antenna hardware"
+                                style={{
+                                    color: 'white',
+                                }}
+                            />
+                            <Form.Check
+                                inline
+                                label="Lightning-Strike protectors"
+                                style={{
+                                    color: 'white',
+                                }}
+                            />
+                            <Form.Check
+                                inline
+                                label="Any"
+                                style={{
+                                    color: 'white',
+                                }}
+                            />
+                        </Dropdown.Menu>
+                    </Dropdown>
+
+                </div> */}
 
                 <ProductsList category="Antenna Accesories" />
             </Container>

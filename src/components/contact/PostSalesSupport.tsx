@@ -73,7 +73,7 @@ export const PostSalesSupport = () => {
 
                     <input
                       type="text"
-                      placeholder="Your Name"
+                      placeholder="Full Name"
                       { ...getFieldProps('Name') } 
                       autoComplete="off"
                       className='contact__input mt-5' 

@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "WirEng®",
+  "name": "WirEng® | WirEng® is the worldwide leader in ultra wide band, ultra high gain antennas",
   "icons": [
     {
       "src": "favicon.ico",
@@ -20,6 +20,7 @@
   ],
   "start_url": ".",
   "display": "standalone",
+  "description": "WirEng® is the worldwide leader in ultra wide band, ultra high gain antennas",
   "theme_color": "#000000",
   "background_color": "#ffffff"
 }

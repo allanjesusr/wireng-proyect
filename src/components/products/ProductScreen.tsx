@@ -1,5 +1,5 @@
 import { useMemo } from 'react';
-import { useParams, Navigate } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 
 import { Helmet } from "react-helmet";
 import { Carousel, Container } from 'react-bootstrap';
@@ -7,16 +7,10 @@ import { Carousel, Container } from 'react-bootstrap';
 import { getProductsById } from '../../selectors/getProductsById';
 import { NotFound } from '../not-found/NotFound';
 
-import img1 from '../../assets/images/products-img/wideant4x4/1.png';
-import img2 from '../../assets/images/products-img/wideant4x4/2.png';
-import img3 from '../../assets/images/products-img/wideant4x4/3.png';
-import img4 from '../../assets/images/products-img/wideant4x4/4.png';
-import img5 from '../../assets/images/products-img/wideant4x4/5.png';
-
-import mech1 from '../../assets/images/products-img/wideant4x4/mech-images/WideAnt4-Plus-5G-4x4-01.png';
-import mech2 from '../../assets/images/products-img/wideant4x4/mech-images/WideAnt4-Plus-5G-4x4-02.png';
-import mech3 from '../../assets/images/products-img/wideant4x4/mech-images/WideAnt4-Plus-5G-4x4-03.png';
-import mech4 from '../../assets/images/products-img/wideant4x4/mech-images/WideAnt4-Plus-5G-4x4-04.png';
+// import mech1 from '../../assets/images/products-img/wideant4x4/mech-images/WideAnt4-Plus-5G-4x4-01.png';
+// import mech2 from '../../assets/images/products-img/wideant4x4/mech-images/WideAnt4-Plus-5G-4x4-02.png';
+// import mech3 from '../../assets/images/products-img/wideant4x4/mech-images/WideAnt4-Plus-5G-4x4-03.png';
+// import mech4 from '../../assets/images/products-img/wideant4x4/mech-images/WideAnt4-Plus-5G-4x4-04.png';
 
 export const ProductScreen = () => {
 
@@ -96,45 +90,6 @@ export const ProductScreen = () => {
 
                                                 ))
                                             }
-                                            {/* <Carousel.Item>
-                                                <img
-                                                    className="d-block w-100"
-                                                    src={img1}
-                                                    alt="First slide"
-                                                />
-                                            </Carousel.Item>
-
-                                            <Carousel.Item>
-                                                <img
-                                                    className="d-block w-100"
-                                                    src={img2}
-                                                    alt="Second slide"
-                                                />
-                                            </Carousel.Item>
-
-                                            <Carousel.Item>
-                                                <img
-                                                    className="d-block w-100"
-                                                    src={img3}
-                                                    alt="Third slide"
-                                                />
-                                            </Carousel.Item>
-
-                                            <Carousel.Item>
-                                                <img
-                                                    className="d-block w-100"
-                                                    src={img4}
-                                                    alt="Third slide"
-                                                />
-                                            </Carousel.Item>
-
-                                            <Carousel.Item>
-                                                <img
-                                                    className="d-block w-100"
-                                                    src={img5}
-                                                    alt="Third slide"
-                                                />
-                                            </Carousel.Item> */}
                                         </Carousel>
                                     </div>
                                 </div>
@@ -157,11 +112,10 @@ export const ProductScreen = () => {
                                 </div>
                             </div>
                         </div>
-
                     </div>
 
 
-                    <div className="product__techSp-container">
+                    {/* <div className="product__techSp-container">
                         <div className="product__techHeader">
                             <div className="product__techTitle">
                                 <h1>Technical Specifications</h1>
@@ -259,7 +213,7 @@ export const ProductScreen = () => {
 
                         </div>
 
-                    </div>
+                    </div> */}
 
                 </div>
             </div>

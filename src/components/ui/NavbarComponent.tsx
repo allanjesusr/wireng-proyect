@@ -46,33 +46,29 @@ export const NavbarComponent = () => {
                             </NavDropdown>
 
                             <NavDropdown title="Services" id="nav-dropdown">
-                                <Link to="/subscribe-to-newsletter/" className="link p-2">
-                                    Dealer/Distributor Locator
-                                </Link>
 
-                                <NavDropdown.Divider />
-                                <Link to="/subscribe-to-newsletter/" className="link p-2">
+                                <Link to="/custom-product-inquiry/" className="link p-2">
                                     Custom Product Inquiry
                                 </Link>
                                 <NavDropdown.Divider />
 
-                                <Link to="/subscribe-to-newsletter/" className="link p-2">
+                                <Link to="/government-military-inquiry/" className="link p-2">
                                     Government/Military Inquiry
                                 </Link>
                                 <NavDropdown.Divider />
-                                <Link to="/subscribe-to-newsletter/" className="link p-2">
+                                <Link to="/b2b-oem-inquiry/" className="link p-2">
                                     B2B/OEM Inquiry
                                 </Link>
                                 <NavDropdown.Divider />
-                                <Link to="/subscribe-to-newsletter/" className="link p-2">
+                                <Link to="/resellership-inquiry/" className="link p-2">
                                     Resellership Inquiry
                                 </Link>
                                 <NavDropdown.Divider />
-                                <Link to="/subscribe-to-newsletter/" className="link p-2">
+                                <Link to="/distributorship-inquiry/" className="link p-2">
                                     Distributorship Inquiry
                                 </Link>
                                 <NavDropdown.Divider />
-                                <Link to="/subscribe-to-newsletter/" className="link p-2">
+                                <Link to="/affiliate-proposal/" className="link p-2">
                                     Affiliate/Partnership Proposal
                                 </Link>
 
@@ -86,19 +82,19 @@ export const NavbarComponent = () => {
 
                                 <NavDropdown.Divider />
 
-                                <Link to="/get-in-touch/" className="link p-2">
+                                <Link to="/pre-sales-support/" className="link p-2">
                                     Pre-Sales Technical Support
                                 </Link>
 
                                 <NavDropdown.Divider />
 
-                                <Link to="/get-in-touch/" className="link p-2">
+                                <Link to="/post-sales-support/" className="link p-2">
                                     Post-Sales Technical Support
                                 </Link>
 
                                 <NavDropdown.Divider />
 
-                                <Link to="/get-in-touch/" className="link p-2">
+                                <Link to="/affiliate-proposal/" className="link p-2">
                                     Affiliate Proposal
                                 </Link>
 
@@ -111,10 +107,10 @@ export const NavbarComponent = () => {
                             </NavDropdown>
 
                             <NavDropdown title="WirEng® Dealer Locator" id="nav-dropdown">
-                                <Link to="/subscribe-to-newsletter/" className="link p-2">
-                                    WirEng® Asia
+                                <Link to="/dealer-locator/" className="link p-2">
+                                    WirEng® in the World
                                 </Link>
-
+{/* 
                                 <NavDropdown.Divider />
 
                                 <Link to="/subscribe-to-newsletter/" className="link p-2">
@@ -131,7 +127,7 @@ export const NavbarComponent = () => {
 
                                 <Link to="/subscribe-to-newsletter/" className="link p-2">
                                     WirEng® Latin America
-                                </Link>
+                                </Link> */}
                             </NavDropdown>
 
                         </Nav>
