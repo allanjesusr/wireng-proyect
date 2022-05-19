@@ -5,8 +5,6 @@ import * as Yup from 'yup';
 import emailjs from '@emailjs/browser';
 import Swal from 'sweetalert2';
 
-import { Footer } from '../ui/Footer';
-
 export const PostSalesSupport = () => {
 
   const form = useRef<any>();
@@ -20,16 +18,16 @@ export const PostSalesSupport = () => {
     onSubmit: values => {
       console.log(values);
       emailjs.sendForm('service_85jhcih', 'template_ac26942', form.current, 'juEPiuXfYAhu5N7V4')
-            .then( (res) => {
-              console.log(res.text);
-              Toast.fire({
-                icon: 'success',
-                title: 'Form sent successfully'
-              })
-            })
-            .catch( (err) => {
-              console.log(err)
-            })
+        .then((res) => {
+          console.log(res.text);
+          Toast.fire({
+            icon: 'success',
+            title: 'Form sent successfully'
+          })
+        })
+        .catch((err) => {
+          console.log(err)
+        })
     },
     validationSchema: Yup.object({
       Name: Yup.string()
@@ -43,7 +41,7 @@ export const PostSalesSupport = () => {
         .required('Required')
     })
   });
-          
+
   const Toast = Swal.mixin({
     toast: true,
     position: 'top-end',
@@ -54,112 +52,101 @@ export const PostSalesSupport = () => {
       toast.addEventListener('mouseleave', Swal.resumeTimer)
     }
   });
-  
+
   return (
 
     <>
-        <div className="contact__web-container">
-          <div className="contact__container">
+      <div className="contact__web-container">
+        <div className="contact__container">
 
-            <div className="contact__flexContent">
-              <div className="contact__getIn-container">
-                <div className="contact__contactHeader">
-                  <h1>Post-Sales technical support</h1>
-                  <p>To get in touch with a WirEng team member, please complete the form below </p>
-                </div>
-
-                <form ref={ form } onSubmit={ handleSubmit }>
-                  <div className="contact__form-container">
-
-                    <input
-                      type="text"
-                      placeholder="Full Name"
-                      { ...getFieldProps('Name') } 
-                      autoComplete="off"
-                      className='contact__input mt-5' 
-                    />
-
-                    { touched.Name && errors.Name && <p className="contact__error"> { errors.Name } </p>}
-
-                    <input
-                      type="email"
-                      { ...getFieldProps('email') } 
-                      placeholder="Email"
-                      autoComplete="off"
-                      className='contact__input mt-5'
-                    />
-                    
-                    { touched.email && errors.email && <p className="contact__error"> { errors.email } </p> }
-
-                    <input
-                      type="text"
-                      { ...getFieldProps('subject') } 
-                      placeholder="Pre-Sales technical support"
-                      autoComplete="off"
-                      className='contact__input mt-5'
-                    />
-                    
-                    { touched.subject && errors.subject && <p className="contact__error"> { errors.subject } </p> }
-
-                    <input
-                      type="text"
-                      { ...getFieldProps('subject') } 
-                      placeholder="Subject"
-                      autoComplete="off"
-                      className='contact__input mt-5'
-                    />
-                    
-                    { touched.subject && errors.subject && <p className="contact__error"> { errors.subject } </p> }
-
-                    <textarea 
-                      name='message'
-                      className="contact__textarea mt-5"
-                      placeholder="Your Message"
-                    ></textarea>
-                    
-                  </div>
-                  <button
-                    type='submit'
-                    className="button button-block mt-5"
-                  >
-                    Send
-                  </button>
-                </form>
+          <div className="contact__flexContent">
+            <div className="contact__getIn-container">
+              <div className="contact__contactHeader">
+                <h1>Post-Sales technical support</h1>
+                <p>To get in touch with a WirEng team member, please complete the form below </p>
               </div>
 
-              <div className="contact__infoContainer">
-                <div className="contact__infoContent">
-                  <div className="contact__infoHeader">
-                    <h1>Contact Info</h1>
-                  </div>
-                  <div className="contact__infoList-elements">
-                    <ul className="infoList">
-                      <li className="infoList-items"><i className="fa-solid fa-location-dot"></i> To get in touch with a WirEng team member, please complete the form below </li>
-                      <li className="infoList-items"><i className="fa-solid fa-envelope"></i> wireng@gmail.com</li>
-                      <li className="infoList-items"><i className="fa-solid fa-phone"></i> 0230-1212-2132</li>
-                    </ul>
-                  </div>
+              <form ref={form} onSubmit={handleSubmit}>
+                <div className="contact__form-container">
 
-                  <div className="contact__info-socialMedias">
-                    <ul className="contact__socialMedias-container">
-                      <div>
-                        <li className="contact__socialMedias-items"><i className="fa-brands fa-whatsapp"></i></li>
-                        <li className="contact__socialMedias-items"><i className="fa-solid fa-envelope"></i></li>
-                      </div>
-                      
-                      <div>
-                        <li className="contact__socialMedias-items"><i className="fa-brands fa-instagram"></i></li>
-                        <li className="contact__socialMedias-items"><i className="fa-brands fa-facebook"></i></li>
-                      </div>
-                    </ul>
-                  </div>
+                  <input
+                    type="text"
+                    placeholder="Full Name"
+                    {...getFieldProps('Name')}
+                    autoComplete="off"
+                    className='contact__input mt-5'
+                  />
+
+                  {touched.Name && errors.Name && <p className="contact__error"> {errors.Name} </p>}
+
+                  <input
+                    type="email"
+                    {...getFieldProps('email')}
+                    placeholder="Email"
+                    autoComplete="off"
+                    className='contact__input mt-5'
+                  />
+
+                  {touched.email && errors.email && <p className="contact__error"> {errors.email} </p>}
+
+                  <input
+                    type="text"
+                    {...getFieldProps('subject')}
+                    placeholder="Pre-Sales technical support"
+                    autoComplete="off"
+                    className='contact__input mt-5'
+                  />
+
+                  {touched.subject && errors.subject && <p className="contact__error"> {errors.subject} </p>}
+
+                  <textarea
+                    name='message'
+                    className="contact__textarea mt-5"
+                    placeholder="Your Message"
+                  ></textarea>
+
+                </div>
+                <button
+                  type='submit'
+                  className="button button-block mt-5"
+                >
+                  Send
+                </button>
+              </form>
+            </div>
+
+            <div className="contact__infoContainer">
+              <div className="contact__infoContent">
+                <div className="contact__infoHeader">
+                  <h1>Contact Info</h1>
+                </div>
+                <div className="contact__infoList-elements">
+                  <ul className="infoList">
+                    <li className="infoList-items"><i className="fa-solid fa-location-dot"></i> To get in touch with a WirEng team member, please complete the form below </li>
+                    <li className="infoList-items"><i className="fa-solid fa-envelope"></i> info@wireng.com </li>
+                    <li className="infoList-items"><i className="fa-solid fa-phone"></i> +1-512-588-3638</li>
+                  </ul>
+                </div>
+
+                <div className="contact__info-socialMedias">
+                  <ul className="contact__socialMedias-container">
+                    <div>
+                      <li className="contact__socialMedias-items"><i className="fa-brands fa-whatsapp"></i></li>
+                      <li className="contact__socialMedias-items"><i className="fa-solid fa-envelope"></i></li>
+                    </div>
+
+                    <div>
+                      <li className="contact__socialMedias-items"><i className="fa-brands fa-instagram"></i></li>
+                      <li className="contact__socialMedias-items"><i className="fa-brands fa-facebook"></i></li>
+                    </div>
+                  </ul>
                 </div>
               </div>
             </div>
-            
           </div>
+
         </div>
-      <Footer />
+      </div>
     </>
   )
 }

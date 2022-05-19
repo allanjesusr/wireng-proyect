@@ -1,8 +1,6 @@
-import { Link, useNavigate } from "react-router-dom";
+import { Link, useNavigate } from 'react-router-dom';
 
-import { Navbar, Container, Nav, NavDropdown } from "react-bootstrap";
-
-import logo from "../../assets/images/logo/LOGO-VERSION.png";
+import { Navbar, Container, Nav, NavDropdown } from 'react-bootstrap';
 
 export const NavbarComponent = () => {
 
@@ -20,7 +18,7 @@ export const NavbarComponent = () => {
                     <Navbar.Brand>
                         <div className="navbar__logo-container">
                             <img
-                                src={logo}
+                                src="https://wirengimages.s3.amazonaws.com/images/logoswireng/LOGO-VERSION.png"
                                 alt="Logo"
                                 className="navbar__logo pointer"
                                 onClick={handleHome}

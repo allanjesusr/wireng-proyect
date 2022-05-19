@@ -1,9 +1,6 @@
 import { Container } from 'react-bootstrap';
 import { Helmet } from 'react-helmet';
 
-import locator from '../../assets/images/locator/LOCATOR-08.jpg';
-
-
 export const DealerLocator = () => {
     return (
         <>
@@ -22,11 +19,11 @@ export const DealerLocator = () => {
 
                 <div >
                     <img 
-                        src={locator}
+                        src="https://wirengimages.s3.amazonaws.com/images/locator/LOCATOR-08.jpg"
                         alt="image"
                         style={{
                             width: '100%',
-                            height: '800px',
+                            height: '100vh',
                         }}
                     />
                 </div>

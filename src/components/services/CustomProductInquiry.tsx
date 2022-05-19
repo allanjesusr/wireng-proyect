@@ -5,8 +5,6 @@ import * as Yup from 'yup';
 import Swal from 'sweetalert2';
 import emailjs from '@emailjs/browser';
 
-import { Footer } from '../ui/Footer';
-
 export const CustomProductInquiry = () => {
     const form = useRef<any>();
 
@@ -158,7 +156,6 @@ export const CustomProductInquiry = () => {
 
                 </div>
             </div>
-            <Footer />
         </>
     )
 }

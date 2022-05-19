@@ -5,8 +5,6 @@ import * as Yup from 'yup';
 import Swal from 'sweetalert2';
 import emailjs from '@emailjs/browser';
 
-import { Footer } from '../ui/Footer';
-
 export const AffiliateProposal = () => {
 
   const form = useRef<any>();
@@ -159,7 +157,6 @@ export const AffiliateProposal = () => {
 
         </div>
       </div>
-      <Footer />
     </>
   )
 }

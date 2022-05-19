@@ -2,7 +2,7 @@ import { useMemo } from 'react';
 import { useParams } from 'react-router-dom';
 
 import { Helmet } from "react-helmet";
-import { Carousel, Container } from 'react-bootstrap';
+import { Carousel, Container, Table } from 'react-bootstrap';
 
 import { getProductsById } from '../../selectors/getProductsById';
 import { NotFound } from '../not-found/NotFound';
@@ -27,11 +27,11 @@ export const ProductScreen = () => {
         <>
             <Helmet>
                 <title>{product.name} | WirEng® </title>
-                <meta name="description" content={product.description} />
+                <meta name="description" content={product.short_description} />
                 <meta name="keywords" content={`${product.name}, antennas, atennas accesories | WirEng® `} />
 
                 <meta property="og:title" content={`Information about: ${product.name} | WirEng® `} />
-                <meta property="og:description" content={`Product: ${product.name} | WirEng® `} />
+                <meta property="og:description" content={`Product: ${product.name} - ${product.short_description} | WirEng® `} />
             </Helmet>
             <div className="layout__container">
                 <div className="product__container">
@@ -113,6 +113,68 @@ export const ProductScreen = () => {
                             </div>
                         </div>
                     </div>
+
+
+                    <div className='mt-5 d-flex justify-content-center'>
+                        <h3>Technical Specifications</h3>
+                    </div>
+
+                    <Table responsive bordered hover className='mt-5'>
+                        <thead>
+                            <tr>
+                                <th>Operating frequency range, MHz</th>
+                                <th>Radiation type</th>
+                                <th>Polarization</th>
+                                <th>Nominal impedance, Ohm</th>
+                                <th>Acceptable impedance range, Ohm</th>
+                                <th>Signal gain, dBi</th>
+                                <th>VSWR</th>
+                                <th>IM3 intermodulation, dBc</th>
+                                <th>Radome material</th>
+                                <th>Shield material</th>
+                                <th>Internal elements main material</th>
+                                <th>Bolt/nuts/washers/lockers material</th>
+                                <th>Color</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                {
+                                    product.technical_specification1.map((technicals1) => (
+                                        <td key={product.id}>{technicals1} </td>
+                                    ))
+                                }
+                            </tr>
+                        </tbody>
+                    </Table>
+
+                    <Table responsive bordered hover className='mt-2'>
+                        <thead>
+                            <tr>
+                                <th>Wind resistance, kmh</th>
+                                <th>Operating temperature, °C</th>
+                                <th>Storage temperature, °C</th>
+                                <th>Environmental rating</th>
+                                <th>Connector type</th>
+                                <th>Mount type</th>
+                                <th>Flammability Rating</th>
+                                <th>International Protection Marking</th>
+                                <th>Weight, kg (pounds)</th>
+                                <th>Dimensions, cm (inches)</th>
+                                <th>Suitable markets</th>
+                                <th>Warranty</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                {
+                                    product.technical_specification2.map((technicals2) => (
+                                        <td key={product.id}>{technicals2} </td>
+                                    ))
+                                }
+                            </tr>
+                        </tbody>
+                    </Table>
 
 
                     {/* <div className="product__techSp-container">

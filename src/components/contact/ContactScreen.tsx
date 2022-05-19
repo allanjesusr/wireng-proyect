@@ -5,8 +5,6 @@ import * as Yup from 'yup';
 import emailjs from '@emailjs/browser';
 import Swal from 'sweetalert2';
 
-import { Footer } from '../ui/Footer';
-
 export const ContactScreen = () => {
 
   const form = useRef<any>();
@@ -125,8 +123,8 @@ export const ContactScreen = () => {
                 <div className="contact__infoList-elements">
                   <ul className="infoList">
                     <li className="infoList-items"><i className="fa-solid fa-location-dot"></i> To get in touch with a WirEng team member, please complete the form below </li>
-                    <li className="infoList-items"><i className="fa-solid fa-envelope"></i> wirengdirect@gmail.com</li>
-                    <li className="infoList-items"><i className="fa-solid fa-phone"></i> 0230-1212-2132</li>
+                    <li className="infoList-items"><i className="fa-solid fa-envelope"></i> info@wireng.com </li>
+                    <li className="infoList-items"><i className="fa-solid fa-phone"></i> +1-512-588-3638</li>
                   </ul>
                 </div>
 
@@ -149,7 +147,6 @@ export const ContactScreen = () => {
 
         </div>
       </div>
-      <Footer />
     </>
   )
 }
