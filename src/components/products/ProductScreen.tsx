@@ -14,7 +14,6 @@ import { NotFound } from '../not-found/NotFound';
 
 export const ProductScreen = () => {
 
-
     const { productId } = useParams();
 
     const product = useMemo(() => getProductsById(productId), [productId]);
@@ -23,93 +22,122 @@ export const ProductScreen = () => {
         return <NotFound />
     }
 
+    const tableNames1 = [
+        "Operating frequency range, MHz",
+        "Radiation type",
+        "Polarization",
+        "Nominal impedance, Ohm",
+        "Acceptable impedance range, Ohm",
+        "Signal gain, dBi",
+        "VSWR",
+        "IM3 intermodulation, dBc",
+        "Radome material",
+        "Shield material",
+        "Internal elements main material",
+        "Bolt/nuts/washers/lockers material",
+        "Color",
+    ]
+
+    const tableNames2 = [
+        "Wind resistance, km",
+        "Operating temperature, °C",
+        "Storage temperature, °C",
+        "Environmental rating",
+        "Connector type",
+        "Mount type",
+        "Flammability Rating",
+        "International Protection Marking",
+        "Weight, kg (pounds)",
+        "Dimensions, cm (inches)",
+        "Suitable markets",
+        "Warranty",
+    ]
+
     return (
         <>
             <Helmet>
                 <title>{product.name} | WirEng® </title>
                 <meta name="description" content={product.short_description} />
-                <meta name="keywords" content={`${product.name}, antennas, atennas accesories | WirEng® `} />
+                <meta name="keywords" content={`${product.keywords.join()}, antennas, atennas accesories | WirEng® `} />
 
                 <meta property="og:title" content={`Information about: ${product.name} | WirEng® `} />
                 <meta property="og:description" content={`Product: ${product.name} - ${product.short_description} | WirEng® `} />
             </Helmet>
+
             <div className="layout__container">
                 <div className="product__container">
-                    <div className="product__mainFtbg">
-                        <div className="product__header">
-                            <Container>
-                                <div className="product__headerTitle">
-                                    <h1> {product.name} </h1>
-                                    <p>Ultra-Wide Extended Band, High Gain, Directional</p>
-                                    <p> {product.description} </p>
-                                </div>
-                            </Container>
+                    <div className="product__header">
+                        <Container>
+                            <div className="product__headerTitle">
+                                <h1> {product.name} </h1>
+                                <p style={{ fontSize: '1.2rem' }}>Ultra-Wide Extended Band, High Gain, Directional</p>
+                                <p style={{ fontSize: '1.2rem', textAlign: 'justify' }}> {product.description} </p>
+                            </div>
+                        </Container>
+                    </div>
+
+                    <div className="product__content">
+                        <div className="product__contentHeader">
+                            <div className="product__mainFtTitle">
+                                <h1>Main Features</h1>
+                            </div>
                         </div>
 
-                        <div className="product__content">
-                            <div className="product__contentHeader">
-                                <div className="product__mainFtTitle">
-                                    <h1>Main Features</h1>
-                                </div>
+                        <div className="product__mainFt-content">
+                            <div className="product__listFt-left">
+                                <ul className="product__listLeft">
+                                    {
+                                        product.features1.map(feature => (
+                                            <li
+                                                key={feature}
+                                                className="product__firstItem-left"
+                                                style={{
+                                                    fontSize: '1.2rem',
+                                                }}
+                                            >
+                                                <p> {feature} </p>
+                                            </li>
+                                        ))
+                                    }
+                                </ul>
                             </div>
 
-                            <div className="product__mainFt-content">
-
-                                <div className="product__listFt-left">
-                                    <ul className="product__listLeft">
+                            <div className="product__containerCrsl">
+                                <div className="product__imageCrsl">
+                                    <Carousel>
                                         {
-                                            product.features1.map(feature => (
-                                                <li
-                                                    key={feature}
-                                                    className="product__firstItem-left"
-                                                    style={{
-                                                        fontSize: '1.2rem',
-                                                    }}
+                                            product.images?.map(images => (
+                                                <Carousel.Item
+                                                    key={images}
                                                 >
-                                                    <p> {feature} </p>
-                                                </li>
+                                                    <img
+                                                        className="d-block w-100"
+                                                        src={images}
+                                                        alt={product.short_description}
+                                                    />
+                                                </Carousel.Item>
+
                                             ))
                                         }
-                                    </ul>
+                                    </Carousel>
                                 </div>
-
-                                <div className="product__containerCrsl">
-                                    <div className="product__imageCrsl">
-                                        <Carousel>
-                                            {
-                                                product.images?.map(images => (
-                                                    <Carousel.Item
-                                                        key={images}
-                                                    >
-                                                        <img
-                                                            className="d-block w-100"
-                                                            src={images}
-                                                            alt="First slide"
-                                                        />
-                                                    </Carousel.Item>
-
-                                                ))
-                                            }
-                                        </Carousel>
-                                    </div>
-                                </div>
-                                <div className="product__listFt-right">
-                                    <ul>
-                                        {
-                                            product.features2.map(feature => (
-                                                <li
-                                                    key={feature}
-                                                    className="product__firstItem-right"
-                                                    style={{
-                                                        fontSize: '1.2rem',
-                                                    }}
-                                                >
-                                                    <p> {feature} </p>
-                                                </li>
-                                            ))
-                                        }
-                                    </ul>
-                                </div>
+                            </div>
+                            <div className="product__listFt-right">
+                                <ul>
+                                    {
+                                        product.features2.map(feature => (
+                                            <li
+                                                key={feature}
+                                                className="product__firstItem-right"
+                                                style={{
+                                                    fontSize: '1.2rem',
+                                                }}
+                                            >
+                                                <p> {feature} </p>
+                                            </li>
+                                        ))
+                                    }
+                                </ul>
                             </div>
                         </div>
                     </div>
@@ -122,26 +150,25 @@ export const ProductScreen = () => {
                     <Table responsive bordered hover className='mt-5'>
                         <thead>
                             <tr>
-                                <th>Operating frequency range, MHz</th>
-                                <th>Radiation type</th>
-                                <th>Polarization</th>
-                                <th>Nominal impedance, Ohm</th>
-                                <th>Acceptable impedance range, Ohm</th>
-                                <th>Signal gain, dBi</th>
-                                <th>VSWR</th>
-                                <th>IM3 intermodulation, dBc</th>
-                                <th>Radome material</th>
-                                <th>Shield material</th>
-                                <th>Internal elements main material</th>
-                                <th>Bolt/nuts/washers/lockers material</th>
-                                <th>Color</th>
+                                {
+                                    tableNames1.map(tableTitles => (
+                                        <th
+                                            key={tableTitles}
+                                            className="text-align-center"
+                                            style={{ fontSize: '1.2rem' }}
+                                        > {tableTitles} </th>
+                                    ))
+                                }
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
                                 {
-                                    product.technical_specification1.map((technicals1) => (
-                                        <td key={product.id}>{technicals1} </td>
+                                    product.technical_specification1.map((technicals1, i) => (
+                                        <td
+                                            key={i}
+                                            style={{ fontSize: '1.2rem' }}
+                                        >{technicals1} </td>
                                     ))
                                 }
                             </tr>
@@ -151,25 +178,25 @@ export const ProductScreen = () => {
                     <Table responsive bordered hover className='mt-2'>
                         <thead>
                             <tr>
-                                <th>Wind resistance, kmh</th>
-                                <th>Operating temperature, °C</th>
-                                <th>Storage temperature, °C</th>
-                                <th>Environmental rating</th>
-                                <th>Connector type</th>
-                                <th>Mount type</th>
-                                <th>Flammability Rating</th>
-                                <th>International Protection Marking</th>
-                                <th>Weight, kg (pounds)</th>
-                                <th>Dimensions, cm (inches)</th>
-                                <th>Suitable markets</th>
-                                <th>Warranty</th>
+                                {
+                                    tableNames2.map(tableTitles2 => (
+                                        <th
+                                            key={tableTitles2}
+                                            className="align-items-start"
+                                            style={{ fontSize: '1.2rem' }}
+                                        > {tableTitles2}</th>
+                                    ))
+                                }
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
                                 {
                                     product.technical_specification2.map((technicals2) => (
-                                        <td key={product.id}>{technicals2} </td>
+                                        <td
+                                            key={technicals2}
+                                            style={{ fontSize: '1.2rem' }}
+                                        >{technicals2} </td>
                                     ))
                                 }
                             </tr>

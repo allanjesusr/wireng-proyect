@@ -9,11 +9,25 @@ export const ContactScreen = () => {
 
   const form = useRef<any>();
 
+  const Toast = Swal.mixin({
+    toast: true,
+    position: 'top-end',
+    showConfirmButton: false,
+    timer: 3000,
+    didOpen: (toast) => {
+      toast.addEventListener('mouseenter', Swal.stopTimer)
+      toast.addEventListener('mouseleave', Swal.resumeTimer)
+    }
+  });
+
   const { handleSubmit, errors, touched, getFieldProps } = useFormik({
     initialValues: {
       Name: '',
       email: '',
-      subject: ''
+      email2: '',
+      subject: '',
+      message: '',
+      image: '',
     },
     onSubmit: values => {
       console.log(values);
@@ -31,27 +45,25 @@ export const ContactScreen = () => {
     },
     validationSchema: Yup.object({
       Name: Yup.string()
-        .max(15, 'Must be 15 characters or less')
+        .max(40, 'Must be 40 characters or less')
         .required('Required'),
       email: Yup.string()
         .email('Invalid email address')
         .required('Required'),
+      email2: Yup.string()
+        .email('Invalid email address')
+        .oneOf([Yup.ref("email"), null], "Emails must match")
+        .required('Required'),
       subject: Yup.string()
-        .max(15, 'Must be 15 characters or less')
+        .max(40, 'Must be 40 characters or less')
+        .required('Required'),
+      message: Yup.string()
+        .max(1000, 'Must be 1000 characters or less')
         .required('Required')
     })
   });
 
-  const Toast = Swal.mixin({
-    toast: true,
-    position: 'top-end',
-    showConfirmButton: false,
-    timer: 3000,
-    didOpen: (toast) => {
-      toast.addEventListener('mouseenter', Swal.stopTimer)
-      toast.addEventListener('mouseleave', Swal.resumeTimer)
-    }
-  });
+
 
   return (
 
@@ -62,8 +74,8 @@ export const ContactScreen = () => {
           <div className="contact__flexContent">
             <div className="contact__getIn-container">
               <div className="contact__contactHeader">
-                <h1> Get In Touch </h1>
-                <p>To get in touch with a WirEng team member, please complete the form below </p>
+                <h1> Get In Touch</h1>
+                <p>To get in touch with a WirEng® team member, please complete the form below</p>
               </div>
 
               <form ref={form} onSubmit={handleSubmit}>
@@ -90,6 +102,16 @@ export const ContactScreen = () => {
                   {touched.email && errors.email && <p className="contact__error"> {errors.email} </p>}
 
                   <input
+                    type="email"
+                    {...getFieldProps('email2')}
+                    placeholder="Email again"
+                    autoComplete="off"
+                    className='contact__input mt-5'
+                  />
+
+                  {touched.email2 && errors.email2 && <p className="contact__error"> {errors.email2} </p>}
+
+                  <input
                     type="text"
                     {...getFieldProps('subject')}
                     placeholder="Subject"
@@ -100,10 +122,23 @@ export const ContactScreen = () => {
                   {touched.subject && errors.subject && <p className="contact__error"> {errors.subject} </p>}
 
                   <textarea
-                    name='message'
+                    {...getFieldProps('message')}
                     className="contact__textarea mt-5"
                     placeholder="Your Message"
                   ></textarea>
+
+                  {touched.message && errors.message && <p className="contact__error"> {errors.message} </p>}
+
+                  {/* <label
+                    className='mt-2 mb-2'
+                    style={{ fontSize: '1.2rem' }}
+                  >Choose file to upload (Optional).</label>
+                  <input
+                    type="file"
+                    {...getFieldProps('image')}
+                    accept=".jpg, .jpeg, .png"
+                    multiple
+                  /> */}
 
                 </div>
                 <button
@@ -122,7 +157,7 @@ export const ContactScreen = () => {
                 </div>
                 <div className="contact__infoList-elements">
                   <ul className="infoList">
-                    <li className="infoList-items"><i className="fa-solid fa-location-dot"></i> To get in touch with a WirEng team member, please complete the form below </li>
+                    <li className="infoList-items"><i className="fa-solid fa-location-dot"></i> To get in touch with a WirEng® team member, please complete the form below </li>
                     <li className="infoList-items"><i className="fa-solid fa-envelope"></i> info@wireng.com </li>
                     <li className="infoList-items"><i className="fa-solid fa-phone"></i> +1-512-588-3638</li>
                   </ul>

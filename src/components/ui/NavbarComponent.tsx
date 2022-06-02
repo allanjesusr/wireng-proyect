@@ -12,13 +12,13 @@ export const NavbarComponent = () => {
 
     return (
         <>
-            <Navbar expand="lg" bg="dark" className="navbar__container">
+            <Navbar expand="lg" className="navbar__container">
 
                 <Container fluid>
                     <Navbar.Brand>
                         <div className="navbar__logo-container">
                             <img
-                                src="https://wirengimages.s3.amazonaws.com/images/logoswireng/LOGO-VERSION.png"
+                                src="https://wirengimages.s3.amazonaws.com/images/logoswireng/wireng_homepage_logo.jpg"
                                 alt="Logo"
                                 className="navbar__logo pointer"
                                 onClick={handleHome}

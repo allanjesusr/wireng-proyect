@@ -21,7 +21,7 @@ export const NotFound = () => {
                     <div>
                         <h1>404</h1>
                         <p>Page not found</p>
-                        <Link to='/'>Go Home</Link>
+                        <Link to='/'>Go to Home</Link>
                     </div>
 
                 </div>

@@ -4,17 +4,7 @@
     height: 100%;
 }
 
-.product__mainFtbg {
-    background-image: url('../../../assets/images/backgrounds/WIRENG WEB-07.png');
-    background-size: 100% 100%;
-    @media (min-width: 880px) {
-        background-image: url('../../../assets/images/backgrounds/bg-product1.png');
-        background-size: 100% 100%;
-    }
-}
-
 .product__header{
-
     width: 100%;
     padding: 2rem;
 
@@ -27,13 +17,6 @@
     @media (min-width: 880px) {
         padding: 2rem;
         width: 100%;
-        
-        .product__headerDescription {
-            margin: 0 20rem;
-            font-size: 22px;
-            padding: 2rem 0 1rem 0;
-        }
-    
     }
 }
 
@@ -72,15 +55,12 @@
         flex-direction: row-reverse;
     
         ul {
-            list-style: none;
             padding-left: 5rem;
         }
 
         li {
             margin-bottom: 2rem;
         }
-    
-        
     }
 }
 
@@ -91,10 +71,6 @@
     @media (min-width: 880px) {
         order: unset;
         height: 100%;
-
-        ul {
-            list-style: none;
-        }
 
         li {
             margin-bottom: 2rem;
@@ -281,4 +257,9 @@
 
 .carousel-indicators [data-bs-target] {
     background-color: black !important;
+    width: 20px !important;
+    height: 12px !important;
+    border-radius: 50% !important;
+    border-top: none !important;
+    border-bottom: none !important;
 }

@@ -3,14 +3,9 @@ import { useNavigate } from 'react-router-dom';
 
 import { Col, Card } from 'react-bootstrap';
 
-interface Props {
-    id: string;
-    name: string;
-    purpose: string;
-    image: string;
-}
+import { cardProps } from '../../interfaces/interfaces';
 
-export const ProductCard: FC<Props> = ({ id, name, purpose, image} ) => {
+export const ProductCard: FC<cardProps> = ({ id, name, short_description, image }) => {
 
     const navigate = useNavigate();
 
@@ -21,11 +16,20 @@ export const ProductCard: FC<Props> = ({ id, name, purpose, image} ) => {
     return (
         <Col sm key={id} className="pe-5 pb-5">
             <Card onClick={onClickCard} className="pointer">
-                <Card.Img variant="top" src={image} alt={name}/>
+                <Card.Title
+                    style={{
+                        fontSize: '1.5rem',
+                        textAlign: 'center',
+                    }}
+                    className="p-2 d-flex justify-content-center"> {name}</Card.Title>
+                <Card.Img variant="top" src={image} alt={short_description} />
                 <Card.Body>
-                    <Card.Title> {name}</Card.Title>
-                    <Card.Text>{`Purpose: ${purpose} `}</Card.Text>
-                </Card.Body> 
+
+                    <Card.Text style={{
+                        fontSize: '1.2rem',
+                        textAlign: 'center',
+                    }}>{short_description}</Card.Text>
+                </Card.Body>
             </Card>
 
         </Col>

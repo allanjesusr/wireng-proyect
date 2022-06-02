@@ -4,12 +4,10 @@ import { Row } from 'react-bootstrap';
 
 import { getProductsByCategory } from '../../selectors/getProductsByCategory';
 import { ProductCard } from './ProductCard';
+import { categoryProps } from '../../interfaces/interfaces';
 
-interface Props {
-    category: string;
-}
 
-export const ProductsList: FC<Props> = ({ category = 'Antennas'}) => {
+export const ProductsList: FC<categoryProps> = ({ category = 'Antennas'}) => {
 
     const products = useMemo(() => getProductsByCategory(category), [category]);
 
@@ -17,12 +15,12 @@ export const ProductsList: FC<Props> = ({ category = 'Antennas'}) => {
         <Row xs={1} md={2} xl={3} xxl={4} className="g-4">
 
             {
-                products.map(({ id, name, purpose, image }) => (
+                products.map(({ id, name, short_description, image }) => (
                     <ProductCard
                         key={id}
                         id={id}
                         name={name}
-                        purpose={purpose}
+                        short_description={short_description}
                         image={image}
                     />
                 ))

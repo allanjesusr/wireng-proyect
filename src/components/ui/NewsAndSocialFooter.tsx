@@ -1,6 +1,39 @@
+import { useFormik } from 'formik';
+import Swal from 'sweetalert2';
+import * as Yup from 'yup';
 
 
 export const NewsAndSocialFooter = () => {
+
+    const Toast = Swal.mixin({
+        toast: true,
+        position: 'top-end',
+        showConfirmButton: false,
+        timer: 3000,
+        didOpen: (toast) => {
+            toast.addEventListener('mouseenter', Swal.stopTimer)
+            toast.addEventListener('mouseleave', Swal.resumeTimer)
+        }
+    });
+
+    const { handleSubmit, errors, touched, getFieldProps } = useFormik({
+        initialValues: {
+            email: '',
+        },
+        onSubmit: values => {
+            console.log(values);
+            Toast.fire({
+                icon: 'success',
+                title: 'Form sent successfully'
+            })
+        },
+        validationSchema: Yup.object({
+            email: Yup.string()
+                .email('Invalid email address')
+                .required('Required'),
+        })
+    })
+
     return (
         <div className="footer__newsAndSocial-container">
             <div className="footer__box-container">
@@ -12,12 +45,15 @@ export const NewsAndSocialFooter = () => {
                         </div>
 
                         <div className="footer__news-form">
-                            <form>
-                                <input 
+                            <form onSubmit={handleSubmit}>
+                                <input
+                                    type="email"
+                                    {...getFieldProps('email')}
                                     placeholder="Email"
                                     autoComplete="off"
                                     className='contact__input mt-5'
                                 />
+                                {touched.email && errors.email && <p className="contact__error"> {errors.email} </p>}
                                 <button
                                     type='submit'
                                     className="button button-block mt-5"
@@ -52,7 +88,7 @@ export const NewsAndSocialFooter = () => {
                 </div>
 
             </div>
-            
+
         </div>
     )
 }

@@ -1,18 +1,21 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { ScrollToTop } from '../components/ui/ScrollToTop';
 
 import { DashboardRoutes } from './DashboardRoutes';
 
 
 export const AppRouter = () => {
-    return (
-        <BrowserRouter>
+  return (
+    <BrowserRouter>
+      <ScrollToTop>
+        <Routes>
 
-          <Routes>
-            
-            <Route path="/*" element={ <DashboardRoutes /> }/>
+          <Route path="/*" element={<DashboardRoutes />} />
 
-          </Routes>
-          
-        </BrowserRouter>
-    )
+        </Routes>
+
+
+      </ScrollToTop>
+    </BrowserRouter>
+  )
 }

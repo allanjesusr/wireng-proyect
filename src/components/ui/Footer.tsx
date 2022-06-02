@@ -39,7 +39,7 @@ export const Footer = () => {
                             </Col>
                             <Col>
                                 <ul className="list-unstyled">
-                                    <li>WirEng® in the World</li>
+                                    <li><Link to='/dealer-locator/' className="footer__link">WirEng® in the World</Link></li>
                                     <li><Link to='/about-wireng/' className="footer__link">About WirEng®</Link></li>
                                     <li><Link to='/get-in-touch/' className="footer__link">Contact Us</Link></li>
                                 </ul>
@@ -69,7 +69,6 @@ export const Footer = () => {
                                     <li>Terms and Conditions</li>
                                     <li>Site Map</li>
                                     <li>Website Terms of Service</li>
-                                    <li>Shipping Policy</li>
                                     <li>Product Request</li>
                                     <li>Email Newsletter</li>
                                     <li>Technical Papers</li>
@@ -90,7 +89,7 @@ export const Footer = () => {
                                     <li>WirEng® Headquarters</li>
                                     <li>Austin, Texas 78729</li>
                                     <li>United States of America</li>
-                                    <li>Tel. +1-443-353-9268</li>
+                                    <li>Tel. +1-512-588-3638</li>
                                 </ul>
                             </Col>
                         </Row>
@@ -191,8 +190,8 @@ export const Footer = () => {
                             <Col>
                                 <div className="footer__nav-footer-colhead">WRG400-AU™ Series</div>
                                 <ul className="list-unstyled">
-                                    <li><Link to='/product/wrg400-smam-nm-10m' className="footer__link">WRG400-SMAM-NM-10M™</Link></li>
-                                    <li><Link to='/product/wrg400-smam-nm-20m' className="footer__link">WRG400-SMAM-NM-20M™</Link></li>
+                                    <li><Link to='/product/wrg400-snam-nm-10m' className="footer__link">WRG400-SMAM-NM-10M™</Link></li>
+                                    <li><Link to='/product/wrg400-snam-nm-20m' className="footer__link">WRG400-SMAM-NM-20M™</Link></li>
                                     <li><Link to='/product/wrg400-smam-ranm-10m' className="footer__link">WRG400-SMAM-RANM-10M™</Link></li>
                                     <li><Link to='/product/wrg400-smam-ranm-20m' className="footer__link">WRG400-SMAM-RANM-20M™</Link></li>
                                 </ul>
@@ -236,7 +235,6 @@ export const Footer = () => {
                                     <li>Terms and Conditions</li>
                                     <li>Site Map</li>
                                     <li>Website Terms of Service</li>
-                                    <li>Shipping Policy</li>
                                     <li>Product Request</li>
                                     <li>Email Newsletter</li>
                                     <li>Technical Papers</li>
@@ -284,7 +282,7 @@ export const Footer = () => {
                                     <li>WirEng® Headquarters</li>
                                     <li>Austin, Texas 78729</li>
                                     <li>United States of America</li>
-                                    <li>Tel. +1-443-353-9268</li>
+                                    <li>Tel. +1-512-588-3638</li>
                                 </ul>
                             </div>
                         </div>
@@ -346,7 +344,7 @@ export const Footer = () => {
                                 <ul className="footer__mobileList">
                                     <li className="footer__mobilelist-title">WRG400-AU™ Series</li>
 
-                                    <li><Link to='/product/wrg400-snam-nm-10m' className="footer__link">WRG400-SNAM-NM-10M™</Link></li>
+                                    <li><Link to='/product/wrg400-ranm-ranm-1m' className="footer__link">WRG400-SNAM-NM-10M™</Link></li>
                                     <li><Link to='/product/wrg400-snam-nm-20m' className="footer__link">WRG400-SNAM-NM-20M™</Link></li>
                                     <li><Link to='/product/wrg400-smam-ranm-10m' className="footer__link">WRG400-SMAM-RA-NM-10M™</Link></li>
                                     <li><Link to='/product/wrg400-smam-ranm-20m' className="footer__link">WRG400-SMAM-RA-NM-20M™</Link></li>

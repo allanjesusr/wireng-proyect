@@ -13,6 +13,7 @@ export const GovermmentInquiry = () => {
     initialValues: {
       Name: '',
       email: '',
+      email2: '',
       subject: ''
     },
     onSubmit: values => {
@@ -35,6 +36,10 @@ export const GovermmentInquiry = () => {
         .required('Required'),
       email: Yup.string()
         .email('Invalid email address')
+        .required('Required'),
+      email2: Yup.string()
+        .email('Invalid email address')
+        .oneOf([Yup.ref("email"), null], "Emails must match")
         .required('Required'),
       subject: Yup.string()
         .max(15, 'Must be 15 characters or less')
@@ -63,7 +68,7 @@ export const GovermmentInquiry = () => {
             <div className="contact__getIn-container">
               <div className="contact__contactHeader">
                 <h1>Government/Military Inquiry</h1>
-                <p>To get in touch with a WirEng team member, please complete the form below </p>
+                <p>To get in touch with a WirEng® team member, please complete the form below </p>
               </div>
 
               <form ref={form} onSubmit={handleSubmit}>
@@ -90,14 +95,14 @@ export const GovermmentInquiry = () => {
                   {touched.email && errors.email && <p className="contact__error"> {errors.email} </p>}
 
                   <input
-                    type="text"
-                    {...getFieldProps('subject')}
-                    placeholder="Pre-Sales technical support"
+                    type="email"
+                    {...getFieldProps('email2')}
+                    placeholder="Email again"
                     autoComplete="off"
                     className='contact__input mt-5'
                   />
 
-                  {touched.subject && errors.subject && <p className="contact__error"> {errors.subject} </p>}
+                  {touched.email2 && errors.email2 && <p className="contact__error"> {errors.email2} </p>}
 
                   <input
                     type="text"
@@ -132,9 +137,9 @@ export const GovermmentInquiry = () => {
                 </div>
                 <div className="contact__infoList-elements">
                   <ul className="infoList">
-                    <li className="infoList-items"><i className="fa-solid fa-location-dot"></i> To get in touch with a WirEng team member, please complete the form below </li>
-                    <li className="infoList-items"><i className="fa-solid fa-envelope"></i> wireng@gmail.com</li>
-                    <li className="infoList-items"><i className="fa-solid fa-phone"></i> 0230-1212-2132</li>
+                    <li className="infoList-items"><i className="fa-solid fa-location-dot"></i> To get in touch with a WirEng® team member, please complete the form below </li>
+                    <li className="infoList-items"><i className="fa-solid fa-envelope"></i> gov@wireng.com </li>
+                    <li className="infoList-items"><i className="fa-solid fa-phone"></i> +1-512-588-3638</li>
                   </ul>
                 </div>
 
