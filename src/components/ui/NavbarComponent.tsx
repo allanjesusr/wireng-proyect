@@ -31,13 +31,13 @@ export const NavbarComponent = () => {
 
                         <Nav className="text-uppercase me-auto">
                             <NavDropdown title="Products" id="nav-dropdown">
-                                <Link to="/products/antennas" className="link p-2">
+                                <Link to="/all-products/antennas" className="link p-2">
                                     Antennas by WirEng®
                                 </Link>
 
                                 <NavDropdown.Divider />
 
-                                <Link to="/products/antennas-accesories" className="link p-2">
+                                <Link to="/all-products/antenna-accesories" className="link p-2">
                                     Antenna Accesories by WirEng®
                                 </Link>
 

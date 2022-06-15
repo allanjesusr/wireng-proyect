@@ -13,11 +13,13 @@ export const B2bOemInquiery = () => {
       Name: '',
       email: '',
       email2: '',
-      subject: ''
+      phone: '',
+      subject: '',
+      message: ''
     },
     onSubmit: values => {
       console.log(values);
-      emailjs.sendForm('service_85jhcih', 'template_ac26942', form.current, 'juEPiuXfYAhu5N7V4')
+      emailjs.sendForm('service_elxo8mr', 'template_hcmk3w9', form.current, '8_6TH-IxPPzxN9XPY')
         .then((res) => {
           console.log(res.text);
           Toast.fire({
@@ -31,7 +33,7 @@ export const B2bOemInquiery = () => {
     },
     validationSchema: Yup.object({
       Name: Yup.string()
-        .max(15, 'Must be 15 characters or less')
+        .max(40, 'Must be 40 characters or less')
         .required('Required'),
       email: Yup.string()
         .email('Invalid email address')
@@ -40,8 +42,14 @@ export const B2bOemInquiery = () => {
         .email('Invalid email address')
         .oneOf([Yup.ref("email"), null], "Emails must match")
         .required('Required'),
+      phone: Yup.string()
+        .matches(/^((\\+[1-9]{1,4}[ \\-]*)|(\\([0-9]{2,3}\\)[ \\-]*)|([0-9]{2,4})[ \\-]*)*?[0-9]{3,4}?[ \\-]*[0-9]{3,4}?$/, 'Invalid phone number')
+        .required('Required'),
       subject: Yup.string()
-        .max(15, 'Must be 15 characters or less')
+        .max(40, 'Must be 40 characters or less')
+        .required('Required'),
+      message: Yup.string()
+        .max(1000, 'Must be 1000 characters or less')
         .required('Required')
     })
   });
@@ -75,7 +83,7 @@ export const B2bOemInquiery = () => {
 
                   <input
                     type="text"
-                    placeholder="Full Name"
+                    placeholder="Name"
                     {...getFieldProps('Name')}
                     autoComplete="off"
                     className='contact__input mt-5'
@@ -104,6 +112,16 @@ export const B2bOemInquiery = () => {
                   {touched.email2 && errors.email2 && <p className="contact__error"> {errors.email2} </p>}
 
                   <input
+                    type="tel"
+                    {...getFieldProps('phone')}
+                    placeholder="Phone Number"
+                    autoComplete="off"
+                    className='contact__input mt-5'
+                  />
+
+                  {touched.phone && errors.phone && <p className="contact__error"> {errors.phone} </p>}
+
+                  <input
                     type="text"
                     {...getFieldProps('subject')}
                     placeholder="Subject"
@@ -114,10 +132,12 @@ export const B2bOemInquiery = () => {
                   {touched.subject && errors.subject && <p className="contact__error"> {errors.subject} </p>}
 
                   <textarea
-                    name='message'
+                    {...getFieldProps('message')}
                     className="contact__textarea mt-5"
                     placeholder="Your Message"
                   ></textarea>
+
+                  {touched.message && errors.message && <p className="contact__error"> {errors.message} </p>}
 
                 </div>
                 <button
@@ -137,7 +157,7 @@ export const B2bOemInquiery = () => {
                 <div className="contact__infoList-elements">
                   <ul className="infoList">
                     <li className="infoList-items"><i className="fa-solid fa-location-dot"></i> To get in touch with a WirEng® team member, please complete the form below </li>
-                    <li className="infoList-items"><i className="fa-solid fa-envelope"></i> b2b@wireng.com </li>
+                    <li className="infoList-items"><i className="fa-solid fa-envelope"></i> info@wireng.com  </li>
                     <li className="infoList-items"><i className="fa-solid fa-phone"></i> +1-512-588-3638</li>
                   </ul>
                 </div>

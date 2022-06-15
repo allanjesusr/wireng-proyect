@@ -10,7 +10,7 @@ export const ProductCard: FC<cardProps> = ({ id, name, short_description, image 
     const navigate = useNavigate();
 
     const onClickCard = () => {
-        navigate(`/product/${id}`);
+        navigate(`/products/${id}`);
     }
 
     return (

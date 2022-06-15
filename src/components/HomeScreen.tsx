@@ -8,11 +8,11 @@ export const HomeScreen = () => {
   const navigate = useNavigate();
 
   const handleProduct = () => {
-    navigate('/product/wideant4-plus-5g-4x4');
+    navigate('/products/wideant4-plus-5g-4x4');
   }
 
   const handleAccesories = () => {
-    navigate('/products/antennas-accesories');
+    navigate('/all-products/antenna-accesories');
   }
 
   return (
@@ -57,10 +57,8 @@ export const HomeScreen = () => {
         </div>
 
         <Container>
-          <div className="mt-2 d-flex justify-content-center flex-column" style={{
-            height: "400px"
-          }}>
-            <h1 className='mb-5 d-flex justify-content-center'>Welcome to WirEng®</h1>
+          <div className="mt-2 d-flex justify-content-center flex-column" >
+            <h1 className='mt-2 mb-5 d-flex justify-content-center'>Welcome to WirEng®</h1>
 
             <p style={{
               fontSize: '1.5rem',
@@ -74,20 +72,16 @@ export const HomeScreen = () => {
         <Container>
           <div className="home__productsHeader">
             <h1 style={{
-              // fontSize: '1.5rem',
               marginTop: '20px',
-            }} className="mb-1">WirEng® Best seller Antenna</h1>
-          </div>
-
-          <div className="home__description-content">
-            <h3 className='mb-5'>WideAnt4-Plus-5G-4x4</h3>
+            }} className="mb-3">WirEng® Best seller Antenna</h1>
+            <h3 className='mb-4'>WideAnt4-Plus-5G-4x4</h3>
             <p style={{
               fontSize: '1.5rem',
               textAlign: 'center',
             }} className="mb-5">The WideAnt4-Plus-5G™ by WirEng® is a 5G and 4G true ±45° MIMO(45° clockwise and 45° counter-clockwise wave polarizations), fully enclosed, all-weather, ultra-linear, larger.</p>
             <button className="home__products-btn">
               <Link
-                to="/products/antennas"
+                to="/all-products/antennas"
                 className="link"
               >
                 More
@@ -130,7 +124,7 @@ export const HomeScreen = () => {
             }} className="mb-5">The WideAnt4-Plus-5G™ by WirEng® is a 5G and 4G true ±45° MIMO(45° clockwise and 45° counter-clockwise wave polarizations), fully enclosed, all-weather, ultra-linear, larger.</p>
             <button className="home__products-btn">
               <Link
-                to="/products/antennas-accesories"
+                to="/all-products/antenna-accesories"
                 className="link"
               >
                 More

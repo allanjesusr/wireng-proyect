@@ -59,8 +59,8 @@ export const DashboardRoutes = () => {
             <Routes>
                 <Route path="" element={ <HomeScreen /> }/>
                 <Route path="search" element={ <SearchScreen /> }/>
-                <Route path="product/:productId" element={ <ProductScreen /> }/>
-                <Route path="products/*" element={ <ProductRoutes /> }/>
+                <Route path="products/:productId" element={ <ProductScreen /> }/>
+                <Route path="all-products/*" element={ <ProductRoutes /> }/>
                 <Route path="about-wireng/" element={ <AboutScreen /> }/>
                 <Route path="404" element={ <NotFound /> }/>
 

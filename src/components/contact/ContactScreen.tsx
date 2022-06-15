@@ -25,13 +25,14 @@ export const ContactScreen = () => {
       Name: '',
       email: '',
       email2: '',
+      phone: '',
       subject: '',
       message: '',
       image: '',
     },
     onSubmit: values => {
       console.log(values);
-      emailjs.sendForm('service_85jhcih', 'template_ac26942', form.current, 'juEPiuXfYAhu5N7V4')
+      emailjs.sendForm('service_elxo8mr', 'template_c9j5jsn', form.current, '8_6TH-IxPPzxN9XPY')
         .then((res) => {
           console.log(res.text);
           Toast.fire({
@@ -49,6 +50,9 @@ export const ContactScreen = () => {
         .required('Required'),
       email: Yup.string()
         .email('Invalid email address')
+        .required('Required'),
+      phone: Yup.string()
+        .matches(/^((\\+[1-9]{1,4}[ \\-]*)|(\\([0-9]{2,3}\\)[ \\-]*)|([0-9]{2,4})[ \\-]*)*?[0-9]{3,4}?[ \\-]*[0-9]{3,4}?$/, 'Invalid phone number')
         .required('Required'),
       email2: Yup.string()
         .email('Invalid email address')
@@ -83,7 +87,7 @@ export const ContactScreen = () => {
 
                   <input
                     type="text"
-                    placeholder="Your Name"
+                    placeholder="Name"
                     {...getFieldProps('Name')}
                     autoComplete="off"
                     className='contact__input mt-5'
@@ -110,6 +114,16 @@ export const ContactScreen = () => {
                   />
 
                   {touched.email2 && errors.email2 && <p className="contact__error"> {errors.email2} </p>}
+
+                  <input
+                    type="tel"
+                    {...getFieldProps('phone')}
+                    placeholder="Phone Number"
+                    autoComplete="off"
+                    className='contact__input mt-5'
+                  />
+
+                  {touched.phone && errors.phone && <p className="contact__error"> {errors.phone} </p>}
 
                   <input
                     type="text"

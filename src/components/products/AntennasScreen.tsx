@@ -1,8 +1,7 @@
 import { Helmet } from 'react-helmet';
-import { Button, Container, Dropdown, Form } from 'react-bootstrap';
+import { Container } from 'react-bootstrap';
 
 import { ProductsList } from './ProductsList';
-import { useState } from 'react';
 
 
 export const AntennasScreen = () => {
