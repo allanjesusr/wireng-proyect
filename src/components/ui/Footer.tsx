@@ -150,7 +150,7 @@ export const Footer = () => {
                                     <li><Link to='/products/omnirial4-plus-5g-4x2' className="footer__link">Omnirial4-Plus-5G-4x2™</Link></li>
                                     <li><Link to='/products/omnirial4-plus-5g-4x4' className="footer__link">Omnirial4-Plus-5G-4x4™</Link></li>
                                     <li><Link to='/products/omnirial8-plus-5g-8x2' className="footer__link">Omnirial8-Plus-5G-8x2™</Link></li>
-                                    <li><Link to='/products/omnirial8-5g-plus-8x4' className="footer__link">Omnirial8-Plus-5G-8x4™</Link></li>
+                                    <li><Link to='/products/omnirial8-plus-5g-8x4' className="footer__link">Omnirial8-Plus-5G-8x4™</Link></li>
                                     <li><Link to='/products/omnirial8-plus-5g-8x8' className="footer__link">Omnirial8-Plus-5G-8x8™</Link></li>
                                 </ul>
                             </Col>
@@ -184,7 +184,7 @@ export const Footer = () => {
                                 <ul className="list-unstyled">
                                     <li><Link to='/products/extant-smaf-smam' className="footer__link">EXTANT-SMAF-SMAM™</Link></li>
                                     <li><Link to='/products/extant-smaf-tncm' className="footer__link">EXTANT-SMAF-TNCM™</Link></li>
-                                    <li><Link to='/products/extant-smaf-ts9' className="footer__link">EXTANT-SMAF-TS9™</Link></li>
+                                    <li><Link to='/products/extant-smaf-ts9m' className="footer__link">EXTANT-SMAF-TS9™</Link></li>
                                 </ul>
                             </Col>
                             <Col>
@@ -204,7 +204,7 @@ export const Footer = () => {
                 <NewsAndSocialFooter />
 
                 <div className="footer__rights-container">
-                    <p>Copyright © WirEng®. All rights reserved.</p>
+                    <p>Copyright© 2010-2022 WirEng®. All rights reserved.</p>
                 </div>
             </div>
 
@@ -314,7 +314,7 @@ export const Footer = () => {
                                     <li><Link to='/products/omnirial4-plus-5g-4x2' className="footer__link">Omnirial4-Plus-5G-4x2™</Link></li>
                                     <li><Link to='/products/omnirial4-plus-5g-4x4' className="footer__link">Omnirial4-Plus-5G-4x4™</Link></li>
                                     <li><Link to='/products/omnirial8-plus-5g-8x2' className="footer__link">Omnirial8-Plus-5G-8x2™</Link></li>
-                                    <li><Link to='/products/omnirial8-5g-plus-8x4' className="footer__link">Omnirial8-Plus-5G-8x4™</Link></li>
+                                    <li><Link to='/products/omnirial8-plus-5g-8x4' className="footer__link">Omnirial8-Plus-5G-8x4™</Link></li>
                                     <li><Link to='/products/omnirial8-plus-5g-8x8' className="footer__link">Omnirial8-Plus-5G-8x8™</Link></li>
                                 </ul>
                             </div>
@@ -329,7 +329,7 @@ export const Footer = () => {
                                     <li><Link to='/products/wideant4-plus-5g-4x4' className="footer__link">WideAnt4-Plus-5G-4x4™</Link></li>
                                     <li><Link to='/products/wideant8-plus-5g-8x2' className="footer__link">WideAnt8-Plus-5G-8x2™</Link></li>
                                     <li><Link to='/products/wideant8-plus-5g-8x4' className="footer__link">WideAnt8-Plus-5G-8x4™</Link></li>
-                                    <li><Link to='/products/wideant8-plus-5g-8x8' className="footer__link">WideAnt8-Plus-5G-8x8™</Link></li>
+                                    <li><Link to='/products/wideant8-5g-8x8' className="footer__link">WideAnt8-Plus-5G-8x8™</Link></li>
                                 </ul>
                                 <ul className="footer__mobileList">
                                     <li className="footer__mobilelist-title">DroneAnt™ Series</li>
@@ -392,7 +392,7 @@ export const Footer = () => {
                         </div>
                     </Container>
 
-                    <div className="footer__newsAndSocial-container">
+                    {/* <div className="footer__newsAndSocial-container">
                         <div className="footer__box-container">
                             <div className="contact__news-container">
                                 <div className="contact__contactHeader">
@@ -440,10 +440,11 @@ export const Footer = () => {
                             </div>
                         </div>
 
-                    </div>
+                    </div> */}
+                    <NewsAndSocialFooter />
 
                     <div className="footer__mobilerights-container">
-                        <p>Copyright © WirEng®. All rights reserved.</p>
+                        <p>Copyright© 2010-2022 WirEng®. All rights reserved.</p>
                     </div>
                 </div>
             </footer>

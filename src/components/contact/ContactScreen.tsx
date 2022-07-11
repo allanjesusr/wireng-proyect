@@ -143,17 +143,6 @@ export const ContactScreen = () => {
 
                   {touched.message && errors.message && <p className="contact__error"> {errors.message} </p>}
 
-                  {/* <label
-                    className='mt-2 mb-2'
-                    style={{ fontSize: '1.2rem' }}
-                  >Choose file to upload (Optional).</label>
-                  <input
-                    type="file"
-                    {...getFieldProps('image')}
-                    accept=".jpg, .jpeg, .png"
-                    multiple
-                  /> */}
-
                 </div>
                 <button
                   type='submit'
@@ -171,22 +160,22 @@ export const ContactScreen = () => {
                 </div>
                 <div className="contact__infoList-elements">
                   <ul className="infoList">
-                    <li className="infoList-items"><i className="fa-solid fa-location-dot"></i> To get in touch with a WirEng® team member, please complete the form below </li>
-                    <li className="infoList-items"><i className="fa-solid fa-envelope"></i> info@wireng.com </li>
-                    <li className="infoList-items"><i className="fa-solid fa-phone"></i> +1-512-588-3638</li>
+                    <li className="infoList-items"><i className="fa-solid fa-location-dot" style={{ color: '#10069F'}}></i> To get in touch with a WirEng® team member, please complete the form below </li>
+                    <li className="infoList-items"><i className="fa-solid fa-envelope" style={{ color: '#10069F'}}></i> info@wireng.com </li>
+                    <li className="infoList-items"><i className="fa-solid fa-phone" style={{ color: '#10069F'}}></i> +1-512-588-3638</li>
                   </ul>
                 </div>
 
                 <div className="contact__info-socialMedias">
                   <ul className="contact__socialMedias-container">
                     <div>
-                      <li className="contact__socialMedias-items"><i className="fa-brands fa-whatsapp"></i></li>
-                      <li className="contact__socialMedias-items"><i className="fa-solid fa-envelope"></i></li>
+                      <li className="contact__socialMedias-items"><img src="https://wirengimages.s3.amazonaws.com/images/instagram-icon.png" alt="instagram-icon" /></li>
+                      <li className="contact__socialMedias-items"><img src="https://wirengimages.s3.amazonaws.com/images/whatsapp-icon.png" alt="whatsapp-icon" /></li>
+                      
                     </div>
-
                     <div>
-                      <li className="contact__socialMedias-items"><i className="fa-brands fa-instagram"></i></li>
-                      <li className="contact__socialMedias-items"><i className="fa-brands fa-facebook"></i></li>
+                      <li className="contact__socialMedias-items"><img src="https://wirengimages.s3.amazonaws.com/images/facebook-icon.png" alt="facebook-icon" /></li>
+                      <li className="contact__socialMedias-items"><img src="https://wirengimages.s3.amazonaws.com/images/email-icon.png" alt="email-icon" /></li>
                     </div>
                   </ul>
                 </div>

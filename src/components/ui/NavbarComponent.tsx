@@ -18,7 +18,7 @@ export const NavbarComponent = () => {
                     <Navbar.Brand>
                         <div className="navbar__logo-container">
                             <img
-                                src="https://wirengimages.s3.amazonaws.com/images/logoswireng/wireng_homepage_logo.jpg"
+                                src="https://wirengimages.s3.amazonaws.com/images/logoswireng/wireng_homepage_logo2.jpg"
                                 alt="Logo"
                                 className="navbar__logo pointer"
                                 onClick={handleHome}
@@ -86,7 +86,7 @@ export const NavbarComponent = () => {
 
                                 <NavDropdown.Divider />
 
-                                <Link to="/post-sales-support/" className="link p-2">
+                                <Link to="/support/" className="link p-2">
                                     Post-Sales Technical Support
                                 </Link>
 

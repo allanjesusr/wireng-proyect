@@ -64,13 +64,13 @@ export const SearchScreen = () => {
                                         value={searchText as string}
                                         onChange={onChange}
                                     />
-                                    <Button
-                                        variant="secondary"
+                                    <button
                                         type="submit"
-                                        className="mb-3 "
+                                        className="mb-3 home__products-btn"
+                                        
                                     >
                                         Submit
-                                    </Button>
+                                    </button>
                                 </Col>
                                 <Col></Col>
                             </Row>
@@ -84,7 +84,13 @@ export const SearchScreen = () => {
 
                     {
                         (q === '')
-                            ? <div className="alert alert-info"> Search a Product </div>
+                            ? <div 
+                                className="alert alert-info"
+                                style={{
+                                    fontWeight: 'bold',
+                                    fontSize: '1.2rem',
+                                }}
+                                > Search a Product </div>
                             : (filteredProducts.length === 0)
                             && <div className="alert alert-danger"> No results for: {q} </div>
                     }

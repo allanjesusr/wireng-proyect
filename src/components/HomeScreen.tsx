@@ -30,11 +30,11 @@ export const HomeScreen = () => {
         <div className="container-position">
           <div className="header-overlay d-flex ">
             <Container fluid className="p-5">
-              <p className="d-flex mb-5" style={{ color: 'white' }}>WirEng® products are extremely versatile and are available in a number of commercial and industrial applications.</p>
+              <p className="d-flex mb-5" style={{ color: 'black' }}>WirEng® products are extremely versatile and are available in a number of commercial and industrial applications.</p>
 
               <button className="home__products-btn">
                 <Link
-                  to="/products/antennas"
+                  to="/all-products/antennas"
                   className="link"
                 >
                   See all WirEng® Products
@@ -73,12 +73,12 @@ export const HomeScreen = () => {
           <div className="home__productsHeader">
             <h1 style={{
               marginTop: '20px',
-            }} className="mb-3">WirEng® Best seller Antenna</h1>
-            <h3 className='mb-4'>WideAnt4-Plus-5G-4x4</h3>
+            }} className="mb-3">WirEng® Best Seller</h1>
+            <h3 className='mb-4'>WideAnt2-5G™</h3>
             <p style={{
               fontSize: '1.5rem',
               textAlign: 'center',
-            }} className="mb-5">The WideAnt4-Plus-5G™ by WirEng® is a 5G and 4G true ±45° MIMO(45° clockwise and 45° counter-clockwise wave polarizations), fully enclosed, all-weather, ultra-linear, larger.</p>
+            }} className="mb-5">WideAnt2-5G™ True MIMO Dual Antenna for Routers Hotspots Modems Ultra-Wide Band Directional High-Gain Antenna Set 5G/4G/3G/2G 450 to 6000 MHz</p>
             <button className="home__products-btn">
               <Link
                 to="/all-products/antennas"
@@ -91,23 +91,23 @@ export const HomeScreen = () => {
 
           <div className="home__Flex-image">
             <img
-              src="https://wirengimages.s3.amazonaws.com/images/homeimages/wideant4-5g-4x2_by_wireng_02.jpg"
-              alt="image"
+              src="https://wirengimages.s3.amazonaws.com/images/wideant2-5g_by_wireng_01.jpg"
+              alt="wideant2-5g_by_wireng_01"
               style={{
                 cursor: 'pointer',
               }}
               onClick={handleProduct}
             />
             <img
-              src="https://wirengimages.s3.amazonaws.com/images/homeimages/wideant4-5g-4x2_by_wireng_03.jpg"
-              alt="image"
+              src="https://wirengimages.s3.amazonaws.com/images/wideant2-5g_by_wireng_06.jpg"
+              alt="wideant2-5g_by_wireng_06"
               style={{
                 cursor: 'pointer',
               }}
               onClick={handleProduct} />
             <img
-              src="https://wirengimages.s3.amazonaws.com/images/homeimages/wideant4-5g-4x2_by_wireng_07.jpg"
-              alt="image"
+              src="https://wirengimages.s3.amazonaws.com/images/wideant2-5g_by_wireng_07.jpg"
+              alt="wideant2-5g_by_wireng_07"
               style={{
                 cursor: 'pointer',
               }}
@@ -134,13 +134,13 @@ export const HomeScreen = () => {
 
           <div className="home__Flex-image">
             <img
-              src="https://wirengimages.s3.amazonaws.com/images/homeimages/mimomount8_by_wireng_04.jpg"
+              src="https://wirengimages.s3.amazonaws.com/images/lightningpro-5g-sma_by_wireng_04.jpg"
               alt="image"
               className='pointer'
               onClick={handleAccesories}
             />
             <img
-              src="https://wirengimages.s3.amazonaws.com/images/homeimages/gigamimo16-5g-2x2.jpg"
+              src="https://wirengimages.s3.amazonaws.com/images/comb2-5g_by_wireng_01.jpg"
               alt="image"
               className='pointer'
               onClick={handleAccesories}

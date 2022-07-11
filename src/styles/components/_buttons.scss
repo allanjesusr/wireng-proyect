@@ -1,7 +1,7 @@
 
 .button-block {
     width: 100%;
-    background-color: $silver;
+    background-color: $primary;
 
     @media (min-width: 768px) {
         width: 10rem;
@@ -10,10 +10,10 @@
 }
 
 .button {
-    color: $dark-grey;
+    color: white;
     cursor: pointer;
     border-radius: 4px;
-    background-color: $silver;
+    background-color: $primary;
     border: none;
     font-size: 20px;
     font-weight: bold;
@@ -28,8 +28,8 @@
     }
 
     &:hover {
-        background-color: darken($color: $dark-grey, $amount: 10);
-        color: lighten($color: $dark-grey, $amount: 10);
+        background-color: darken($color: $primary, $amount: 10);
+        color: darken($color: white, $amount: 10);
     }
 
     

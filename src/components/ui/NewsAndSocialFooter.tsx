@@ -1,9 +1,14 @@
+import { useRef } from 'react';
 import { useFormik } from 'formik';
-import Swal from 'sweetalert2';
 import * as Yup from 'yup';
+
+import emailjs from '@emailjs/browser';
+import Swal from 'sweetalert2';
 
 
 export const NewsAndSocialFooter = () => {
+
+    const form = useRef<any>();
 
     const Toast = Swal.mixin({
         toast: true,
@@ -22,10 +27,17 @@ export const NewsAndSocialFooter = () => {
         },
         onSubmit: values => {
             console.log(values);
-            Toast.fire({
-                icon: 'success',
-                title: 'Form sent successfully'
-            })
+            emailjs.sendForm('service_elxo8mr', 'template_zlglupg', form.current, '8_6TH-IxPPzxN9XPY')
+                .then((res) => {
+                    console.log(res.text);
+                    Toast.fire({
+                        icon: 'success',
+                        title: 'Form sent successfully'
+                    })
+                })
+                .catch((err) => {
+                    console.log(err)
+                })
         },
         validationSchema: Yup.object({
             email: Yup.string()
@@ -45,7 +57,7 @@ export const NewsAndSocialFooter = () => {
                         </div>
 
                         <div className="footer__news-form">
-                            <form onSubmit={handleSubmit}>
+                            <form ref={form} onSubmit={handleSubmit}>
                                 <input
                                     type="email"
                                     {...getFieldProps('email')}
@@ -76,11 +88,11 @@ export const NewsAndSocialFooter = () => {
                         </div>
 
                         <div className="footer__info-socialMedias">
-                            <ul >
+                            <ul className="footer__socialMedias-container">
                                 <div className="footer__socialMedias-container">
-                                    <li className="footer__socialMedias-items"><i className="fa-brands fa-whatsapp"></i></li>
-                                    <li className="footer__socialMedias-items"><i className="fa-brands fa-instagram"></i></li>
-                                    <li className="footer__socialMedias-items"><i className="fa-brands fa-facebook"></i></li>
+                                    <li className="footer__socialMedias-items"><img src="https://wirengimages.s3.amazonaws.com/images/instagram-icon.png" alt="instagram-icon" /></li>
+                                    <li className="footer__socialMedias-items"><img src="https://wirengimages.s3.amazonaws.com/images/whatsapp-icon.png" alt="whatsapp-icon" /></li>
+                                    <li className="footer__socialMedias-items"><img src="https://wirengimages.s3.amazonaws.com/images/facebook-icon.png" alt="facebook-icon" /></li>
                                 </div>
                             </ul>
                         </div>

@@ -67,10 +67,8 @@ export const DashboardRoutes = () => {
                 {/* CONTACT US */}
                 <Route path="get-in-touch/" element={ <ContactScreen /> }/>
                 <Route path="pre-sales-support/" element={ <PreSalesSupport /> }/>
-                <Route path="post-sales-support/" element={ <PostSalesSupport /> }/>
+                <Route path="support/" element={ <PostSalesSupport /> }/>
                 <Route path="affiliate-proposal/" element={ <AffiliateProposal /> }/>
-
-                {/* <Route path="subscribe-to-newsletter/" element={ <Newsletter /> }/> */}
 
                 {/* SERVICES */}
                 <Route path="custom-product-inquiry/" element={ <CustomProductInquiry />}/>
