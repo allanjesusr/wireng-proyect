@@ -30,7 +30,7 @@ export const HomeScreen = () => {
         <div className="container-position">
           <div className="header-overlay d-flex ">
             <Container fluid className="p-5">
-              <p className="d-flex mb-5" style={{ color: 'black' }}>WirEng® products are extremely versatile and are available in a number of commercial and industrial applications.</p>
+              <p className="d-flex mb-5" style={{ color: 'black' }}>WirEng® is the only company in the world that designs and manufactures truly ultra-wide band antennas that cover every possible cellular band worldwide.</p>
 
               <button className="home__products-btn">
                 <Link
@@ -134,7 +134,7 @@ export const HomeScreen = () => {
 
           <div className="home__Flex-image">
             <img
-              src="https://wirengimages.s3.amazonaws.com/images/lightningpro-5g-sma_by_wireng_04.jpg"
+              src="https://wirengimages.s3.amazonaws.com/images/homeimages/lightningpro-5g.jpg"
               alt="image"
               className='pointer'
               onClick={handleAccesories}

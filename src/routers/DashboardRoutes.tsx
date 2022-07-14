@@ -64,6 +64,8 @@ export const DashboardRoutes = () => {
                 <Route path="about-wireng/" element={ <AboutScreen /> }/>
                 <Route path="404" element={ <NotFound /> }/>
 
+                <Route path="*" element={ <NotFound /> }/>
+
                 {/* CONTACT US */}
                 <Route path="get-in-touch/" element={ <ContactScreen /> }/>
                 <Route path="pre-sales-support/" element={ <PreSalesSupport /> }/>

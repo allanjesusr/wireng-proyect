@@ -15,7 +15,7 @@ export const ProductCard: FC<cardProps> = ({ id, name, short_description, image 
 
     return (
         <Col sm key={id} className="pe-5 pb-5">
-            <Card onClick={onClickCard} className="pointer">
+            <Card onClick={onClickCard} className="pointer animate__animated animate__fadeIn">
                 <Card.Title
                     style={{
                         fontSize: '1.5rem',

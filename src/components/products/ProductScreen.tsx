@@ -70,8 +70,7 @@ export const ProductScreen = () => {
                         <Container>
                             <div className="product__headerTitle">
                                 <h1> {product.name} </h1>
-                                <p style={{ fontSize: '1.2rem' }}>Ultra-Wide Extended Band, High Gain, Directional</p>
-                                <p style={{ fontSize: '1.2rem', textAlign: 'justify' }}> {product.description} </p>
+                                <p>Ultra-Wide Extended Band, High Gain, Directional</p>
                             </div>
                         </Container>
                     </div>
@@ -87,15 +86,15 @@ export const ProductScreen = () => {
                             <div className="product__listFt-left">
                                 <ul className="product__listLeft">
                                     {
-                                        product.features1.map(feature => (
+                                        product.features1.map(features => (
                                             <li
-                                                key={feature}
+                                                key={features}
                                                 className="product__firstItem-left"
                                                 style={{
                                                     fontSize: '1.2rem',
                                                 }}
                                             >
-                                                <p> {feature} </p>
+                                                <p> {features} </p>
                                             </li>
                                         ))
                                     }
@@ -140,6 +139,11 @@ export const ProductScreen = () => {
                                 </ul>
                             </div>
                         </div>
+                    </div>
+
+                    <div className='product__description-container mt-4'>
+                        {/* <h3 className='mb-4'>{product.name} by WirEng®</h3> */}
+                        <p > {product.description} </p>
                     </div>
 
 
@@ -192,9 +196,9 @@ export const ProductScreen = () => {
                         <tbody>
                             <tr>
                                 {
-                                    product.technical_specification2.map((technicals2) => (
+                                    product.technical_specification2.map((technicals2, i) => (
                                         <td
-                                            key={technicals2}
+                                            key={i}
                                             style={{ fontSize: '1.2rem' }}
                                         >{technicals2} </td>
                                     ))
@@ -203,72 +207,7 @@ export const ProductScreen = () => {
                         </tbody>
                     </Table>
 
-
-                    {/* <div className="product__techSp-container">
-                        <div className="product__techHeader">
-                            <div className="product__techTitle">
-                                <h1>Technical Specifications</h1>
-                            </div>
-                        </div>
-
-                        <div className="product__techSpcf-table">
-                            <div className="product__tableRow">
-                                <div className="product__techSpcf-cell">
-                                    <div className="product__titleCell">Parameter</div>
-                                    <ul className="techCol-bg">
-                                        <li>Lorem ipsum dolor sit amet.</li>
-                                        <li>Lorem ipsum dolor sit amet.</li>
-                                        <li>Lorem ipsum dolor sit amet.</li>
-                                        <li>Lorem ipsum dolor sit amet.</li>
-                                        <li>Lorem ipsum dolor sit amet.</li>
-                                        <li>Lorem ipsum dolor sit amet.</li>
-                                    </ul>
-                                </div>
-
-                                <div className="product__spaceColInner"></div>
-
-                                <div className="product__techSpcf-cell">
-                                    <div className="product__titleCell">Unit</div>
-                                    <ul className="techCol-bg">
-                                        <li>Lorem ipsum dolor sit amet.</li>
-                                        <li>Lorem ipsum dolor sit amet.</li>
-                                        <li>Lorem ipsum dolor sit amet.</li>
-                                        <li>Lorem ipsum dolor sit amet.</li>
-                                        <li>Lorem ipsum dolor sit amet.</li>
-                                        <li>Lorem ipsum dolor sit amet.</li>
-                                    </ul>
-                                </div>
-                                <div className="product__spaceColInner"></div>
-
-                                <div className="product__techSpcf-cell">
-                                    <div className="product__titleCell">Value</div>
-                                    <ul className="techCol-bg">
-                                        <li>Lorem ipsum dolor sit amet.</li>
-                                        <li>Lorem ipsum dolor sit amet.</li>
-                                        <li>Lorem ipsum dolor sit amet.</li>
-                                        <li>Lorem ipsum dolor sit amet.</li>
-                                        <li>Lorem ipsum dolor sit amet.</li>
-                                        <li>Lorem ipsum dolor sit amet.</li>
-                                    </ul>
-                                </div>
-                                <div className="product__spaceColInner"></div>
-
-                                <div className="product__techSpcf-cell">
-                                    <div className="product__titleCell">Description</div>
-                                    <ul className="techCol-bg">
-                                        <li>Lorem ipsum dolor sit amet.</li>
-                                        <li>Lorem ipsum dolor sit amet.</li>
-                                        <li>Lorem ipsum dolor sit amet.</li>
-                                        <li>Lorem ipsum dolor sit amet.</li>
-                                        <li>Lorem ipsum dolor sit amet.</li>
-                                        <li>Lorem ipsum dolor sit amet.</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className="product__mechaSpcf-container">
+                     {/* <div className="product__mechaSpcf-container">
                         <div className="product__mechaHeader">
                             <div className="product__mechaTitle">
                                 <h1>Mechanical Specifications</h1>
@@ -299,11 +238,8 @@ export const ProductScreen = () => {
                                     <img src={mech4} />
                                 </div>
                             </div>
-
                         </div>
-
                     </div> */}
-
                 </div>
             </div>
         </>

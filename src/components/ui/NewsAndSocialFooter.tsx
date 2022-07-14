@@ -50,7 +50,7 @@ export const NewsAndSocialFooter = () => {
         <div className="footer__newsAndSocial-container">
             <div className="footer__box-container">
                 <div className="footer__flexcontainer">
-                    <div className="contact__news-container">
+                    <div className="contact__news-container" id='newsletter'>
                         <div className="contact__contactHeader">
                             <h1>Subscribe to WirEng® Newsletter</h1>
                             {/* <span>Subscribe to the WirEng® New</span> */}
