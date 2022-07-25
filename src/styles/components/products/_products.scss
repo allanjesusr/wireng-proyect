@@ -90,7 +90,6 @@
             margin-bottom: 2rem;
         }
     }
-        
 }
 
 .product__description-container {
@@ -292,3 +291,14 @@
     border-top: none !important;
     border-bottom: none !important;
 }
+
+.card__button-group {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 100%;
+}
+
+// .card__button-size {
+//     width: 50%;
+// }

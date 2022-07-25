@@ -31,7 +31,10 @@
         background-color: darken($color: $primary, $amount: 10);
         color: darken($color: white, $amount: 10);
     }
+}
 
-    
-    
+.btn-secondary {
+    color: #fff;
+    background-color: #004987 !important;
+    border-color: #004987 !important;
 }

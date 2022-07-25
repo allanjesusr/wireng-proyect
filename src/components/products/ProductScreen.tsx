@@ -7,6 +7,10 @@ import { Carousel, Container, Table } from 'react-bootstrap';
 import { getProductsById } from '../../selectors/getProductsById';
 import { NotFound } from '../not-found/NotFound';
 
+// import { Swiper, SwiperSlide } from 'swiper/react';
+
+// import { Pagination } from "swiper";
+
 // import mech1 from '../../assets/images/products-img/wideant4x4/mech-images/WideAnt4-Plus-5G-4x4-01.png';
 // import mech2 from '../../assets/images/products-img/wideant4x4/mech-images/WideAnt4-Plus-5G-4x4-02.png';
 // import mech3 from '../../assets/images/products-img/wideant4x4/mech-images/WideAnt4-Plus-5G-4x4-03.png';
@@ -119,6 +123,30 @@ export const ProductScreen = () => {
                                             ))
                                         }
                                     </Carousel>
+                                    {/* <Swiper
+                                        pagination={{
+                                            clickable: true,
+                                            dynamicBullets: true,
+                                        }}
+                                        spaceBetween={30}
+                                        modules={[Pagination]}
+                                        className="mySwiper"
+                                    >
+                                        {
+                                            product.images?.map(images => (
+                                                <SwiperSlide
+                                                    key={images}
+                                                >
+                                                    <img
+                                                        className="d-block w-100"
+                                                        src={images}
+                                                        alt={product.short_description}
+                                                    />
+                                                </SwiperSlide>
+
+                                            ))
+                                        }
+                                    </Swiper> */}
                                 </div>
                             </div>
                             <div className="product__listFt-right">

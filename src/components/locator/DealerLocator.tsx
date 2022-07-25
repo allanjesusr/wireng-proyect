@@ -13,8 +13,18 @@ export const DealerLocator = () => {
                 <meta property="og:description" content=' WirEng® Dealer Locator | WirEng® ' />
             </Helmet>
             <Container>
-                <div className='mt-5 d-flex justify-content-center'>
-                    <h1>WirEng® Dealer Locator</h1>
+                <div className='mt-5 d-flex flex-column justify-content-center align-items-center'>
+                    <h1 
+                        className='mb-4'
+                        style={{
+                            color: '#004987',
+                            fontSize: '2.5rem',
+                        }}   
+                    >WirEng® Dealer Locator</h1>
+                    <p style={{
+                        fontSize: '1.6rem',
+                        textAlign: 'center'
+                    }}>All WirEng® Producs Are Designed In The United States of America and Manufactured In Many Continents, Including North America, South America, Asia, and Europe.</p>
                 </div>
 
                 <div >

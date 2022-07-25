@@ -31,108 +31,54 @@ export const NavbarComponent = () => {
 
                         <Nav className="text-uppercase me-auto">
                             <NavDropdown title="Products" id="nav-dropdown">
-                                <Link to="/all-products/antennas" className="link p-2">
-                                    Antennas by WirEng®
-                                </Link>
-
+                                <NavDropdown.Item as={Link} to="/all-products/antennas" className="link p-2">Antennas by WirEng®</NavDropdown.Item>
                                 <NavDropdown.Divider />
-
-                                <Link to="/all-products/antenna-accesories" className="link p-2">
-                                    Antenna Accesories by WirEng®
-                                </Link>
-
+                                <NavDropdown.Item as={Link} to="/all-products/antenna-accesories" className="link p-2">Antenna Accesories by WirEng®</NavDropdown.Item>
                             </NavDropdown>
 
                             <NavDropdown title="Services" id="nav-dropdown">
-
-                                <Link to="/custom-product-inquiry/" className="link p-2">
-                                    Custom Product Inquiry
-                                </Link>
+                                <NavDropdown.Item as={Link} to="/custom-product-inquiry/" className="link p-2">Custom Product Inquiry</NavDropdown.Item>
                                 <NavDropdown.Divider />
-
-                                <Link to="/government-military-inquiry/" className="link p-2">
-                                    Government/Military Inquiry
-                                </Link>
+                                <NavDropdown.Item as={Link} to="/government-military-inquiry/" className="link p-2">Government/Military Inquiry</NavDropdown.Item>
                                 <NavDropdown.Divider />
-                                <Link to="/b2b-oem-inquiry/" className="link p-2">
-                                    B2B/OEM Inquiry
-                                </Link>
+                                <NavDropdown.Item as={Link} to="/b2b-oem-inquiry/" className="link p-2">B2B/OEM Inquiry</NavDropdown.Item>
                                 <NavDropdown.Divider />
-                                <Link to="/resellership-inquiry/" className="link p-2">
-                                    Resellership Inquiry
-                                </Link>
+                                <NavDropdown.Item as={Link} to="/resellership-inquiry/" className="link p-2">Resellership Inquiry</NavDropdown.Item>
                                 <NavDropdown.Divider />
-                                <Link to="/distributorship-inquiry/" className="link p-2">
-                                    Distributorship Inquiry
-                                </Link>
+                                <NavDropdown.Item as={Link} to="/distributorship-inquiry/" className="link p-2">Distributorship Inquiry</NavDropdown.Item>
                                 <NavDropdown.Divider />
-                                <Link to="/affiliate-proposal/" className="link p-2">
-                                    Affiliate/Partnership Proposal
-                                </Link>
-
+                                <NavDropdown.Item as={Link} to="/affiliate-proposal/" className="link p-2">Affiliate/Partnership Proposal</NavDropdown.Item>
                             </NavDropdown>
 
                             <NavDropdown title="Contact Us" id="nav-dropdown">
-
-                                <Link to="/get-in-touch/" className="link p-2">
-                                    Get in Touch
-                                </Link>
+                                <NavDropdown.Item as={Link} to="/get-in-touch/" className="link p-2">Get in Touch</NavDropdown.Item>
 
                                 <NavDropdown.Divider />
 
-                                <Link to="/pre-sales-support/" className="link p-2">
-                                    Pre-Sales Technical Support
-                                </Link>
+                                <NavDropdown.Item as={Link} to="/pre-sales-support/" className="link p-2">Pre-Sales Technical Support</NavDropdown.Item>
 
                                 <NavDropdown.Divider />
 
-                                <Link to="/support/" className="link p-2">
-                                    Post-Sales Technical Support
-                                </Link>
+                                <NavDropdown.Item as={Link} to="/support/" className="link p-2">Post-Sales Technical Support</NavDropdown.Item>
 
                                 <NavDropdown.Divider />
 
-                                <Link to="/affiliate-proposal/" className="link p-2">
-                                    Affiliate Proposal
-                                </Link>
+                                <NavDropdown.Item as={Link} to="/affiliate-proposal/" className="link p-2">Affiliate Proposal</NavDropdown.Item>
 
                             </NavDropdown>
 
                             <NavDropdown title="About Us" id="nav-dropdown">
-                                <Link to="/about-wireng/" className="link p-2">
-                                    About WirEng®
-                                </Link>
+                                <NavDropdown.Item as={Link} to="/about-wireng/" className="link p-2">About WirEng®</NavDropdown.Item>
                             </NavDropdown>
 
                             <NavDropdown title="WirEng® Dealer Locator" id="nav-dropdown">
-                                <Link to="/dealer-locator/" className="link p-2">
-                                    WirEng® in the World
-                                </Link>
-{/* 
-                                <NavDropdown.Divider />
+                                <NavDropdown.Item as={Link} to="/dealer-locator/" className="link p-2">WirEng® in the World</NavDropdown.Item>
 
-                                <Link to="/subscribe-to-newsletter/" className="link p-2">
-                                    WirEng® Europe
-                                </Link>
-
-                                <NavDropdown.Divider />
-
-                                <Link to="/subscribe-to-newsletter/" className="link p-2">
-                                    WirEng® North America
-                                </Link>
-
-                                <NavDropdown.Divider />
-
-                                <Link to="/subscribe-to-newsletter/" className="link p-2">
-                                    WirEng® Latin America
-                                </Link> */}
                             </NavDropdown>
 
                         </Nav>
                         <Nav className="d-flex justify-content-end">
-                            <Link to="/search" className="text-uppercase link">
-                                Search for a WirEng® Product
-                            </Link>
+                            <Nav.Link as={Link} to="/search" className="text-uppercase link">Search for a WirEng® Product</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
 

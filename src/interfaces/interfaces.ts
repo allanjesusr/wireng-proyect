@@ -4,6 +4,7 @@ export interface cardProps {
     name: string;
     short_description: string;
     image: string;
+    shopify: string;
 }
 
 export interface categoryProps {

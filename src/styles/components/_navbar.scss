@@ -62,7 +62,12 @@
 .dropdown-menu, .dropdown-item{
     background-color: $secondary !important;
     min-width: 20rem !important;
-    border: $silver 1px solid !important;
+    // border: $silver 1px solid !important;
+}
+
+.dropdown-item {
+    color: white !important;
+    font-weight: bold !important;
 }
 
 .dropdown-divider {

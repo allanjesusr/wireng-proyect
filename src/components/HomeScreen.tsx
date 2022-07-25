@@ -1,14 +1,19 @@
 import { Link, useNavigate } from 'react-router-dom';
 
-import { Container } from 'react-bootstrap';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Pagination } from "swiper";
+
+import { Button, Card, Container } from 'react-bootstrap';
 import { Helmet } from 'react-helmet';
+
+import { testimonials, accesoriesHomeCardContent, antennasHomeCardContent } from '../data';
 
 export const HomeScreen = () => {
 
   const navigate = useNavigate();
 
   const handleProduct = () => {
-    navigate('/products/wideant4-plus-5g-4x4');
+    navigate('/all-products/antennas');
   }
 
   const handleAccesories = () => {
@@ -58,10 +63,10 @@ export const HomeScreen = () => {
 
         <Container>
           <div className="mt-2 d-flex justify-content-center flex-column" >
-            <h1 className='mt-2 mb-5 d-flex justify-content-center'>Welcome to WirEng®</h1>
+            <h1 className='mt-4 mb-5 d-flex justify-content-center' style={{ color: '#004987' }}>Welcome to WirEng®</h1>
 
             <p style={{
-              fontSize: '1.5rem',
+              fontSize: '1.6rem',
               textAlign: 'center',
             }}
             >WirEng® is the world’s leader in ultra-wide band cellular-band antennas that are truly compatible with every possible cellular band in the world today. All WirEng®’s antennas are backward-compatible with past technologies as well, making WirEng® the obvious choice for every possible antenna need application. Since the year 2008, WirEng®’s antennas have been deployed by Fortune 500 companies, government and military entities, large and small telecommunication companies throughout the world, and tens of thousands of consumers around the world.</p>
@@ -73,11 +78,11 @@ export const HomeScreen = () => {
           <div className="home__productsHeader">
             <h1 style={{
               marginTop: '20px',
-            }} className="mb-3">WirEng® Best Seller</h1>
-            <h3 className='mb-4'>WideAnt2-5G™</h3>
-            <p style={{
+              color: '#004987',
+              fontSize: '3rem',
+            }} className="mb-3">WirEng® Best Sellers</h1>
+            {/* <p style={{
               fontSize: '1.5rem',
-              textAlign: 'center',
             }} className="mb-5">WideAnt2-5G™ True MIMO Dual Antenna for Routers Hotspots Modems Ultra-Wide Band Directional High-Gain Antenna Set 5G/4G/3G/2G 450 to 6000 MHz</p>
             <button className="home__products-btn">
               <Link
@@ -86,72 +91,226 @@ export const HomeScreen = () => {
               >
                 More
               </Link>
-            </button>
+            </button> */}
           </div>
 
-          <div className="home__Flex-image">
-            <img
-              src="https://wirengimages.s3.amazonaws.com/images/wideant2-5g_by_wireng_01.jpg"
-              alt="wideant2-5g_by_wireng_01"
-              style={{
-                cursor: 'pointer',
+          <div 
+            className="mb-5"
+            style={{
+              backgroundColor: '#004987',
+              height: '100%',
+              width: '100%',
+              padding: '2rem',
+              borderRadius: '10px',
+            }}  
+          >
+            <Swiper
+              slidesPerView={1}
+              spaceBetween={10}
+              pagination={true}
+              breakpoints={{
+                640: {
+                  slidesPerView: 1,
+                  spaceBetween: 20,
+                },
+                768: {
+                  slidesPerView: 1,
+                  spaceBetween: 40,
+                },
+                1024: {
+                  slidesPerView: 3,
+                  spaceBetween: 50,
+                },
               }}
-              onClick={handleProduct}
-            />
-            <img
-              src="https://wirengimages.s3.amazonaws.com/images/wideant2-5g_by_wireng_06.jpg"
-              alt="wideant2-5g_by_wireng_06"
-              style={{
-                cursor: 'pointer',
-              }}
-              onClick={handleProduct} />
-            <img
-              src="https://wirengimages.s3.amazonaws.com/images/wideant2-5g_by_wireng_07.jpg"
-              alt="wideant2-5g_by_wireng_07"
-              style={{
-                cursor: 'pointer',
-              }}
-              onClick={handleProduct} />
+              modules={[Pagination]}
+            >
+              {
+                antennasHomeCardContent.map(({ id, name, description, image }) => (
+                  <SwiperSlide key={id}>
+                    <Card>
+                      <Card.Img
+                        variant="top"
+                        src={image}
+                      />
+                    </Card>
+                    <Card.Body>
+                      <Card.Title style={{
+                        fontSize: '1.6rem',
+                        textAlign: 'center',
+                        color: 'white',
+                        marginTop: '2rem',
+                      }}>{name}</Card.Title>
+                      <Card.Text style={{
+                        fontSize: '1.3rem',
+                        textAlign: 'center',
+                        color: 'white',
+                        marginTop: '1rem',
+                      }}>{description}</Card.Text>
+                    </Card.Body>
+                    <Card.Body
+                      className="mt-3"
+                      style={{
+                        display: 'flex',
+                        justifyContent: 'center',
+                        alignItems: 'center',
+                      }}>
+                      <Button
+                        onClick={handleProduct} className="card__button-size mt-3"
+                        style={{
+                          display: 'flex',
+                          justifyContent: 'center',
+                          alignItems: 'center',
+                          padding: '1rem',
+                          fontSize: '1.3rem',
+                        }}><i className="fa-solid fa-arrow-right-long me-2"></i>More Antennas by WirEng®</Button>
+                    </Card.Body>
+                  </SwiperSlide>
+                ))
+              }
+            </Swiper>
           </div>
         </Container>
 
         <Container>
           <div className="home__productsHeader">
-            <h1 className='mb-5'>Other WirEng® Products</h1>
-            <p style={{
+            <h1 className='mb-5' style={{
+              color: '#004987',
+              fontSize: '3rem',
+            }}>Other WirEng® Products</h1>
+            {/* <p style={{
               fontSize: '1.5rem',
-              textAlign: 'center',
-            }} className="mb-5">The WideAnt4-Plus-5G™ by WirEng® is a 5G and 4G true ±45° MIMO(45° clockwise and 45° counter-clockwise wave polarizations), fully enclosed, all-weather, ultra-linear, larger.</p>
-            <button className="home__products-btn">
+              textAlign: 'justify',
+            }} className="mb-5">The WideAnt4-Plus-5G™ by WirEng® is a 5G and 4G true ±45° MIMO(45° clockwise and 45° counter-clockwise wave polarizations), fully enclosed, all-weather, ultra-linear, larger.</p> */}
+            {/* <button className="home__products-btn">
               <Link
                 to="/all-products/antenna-accesories"
                 className="link"
               >
                 More
               </Link>
-            </button>
+            </button> */}
           </div>
 
-          <div className="home__Flex-image">
-            <img
-              src="https://wirengimages.s3.amazonaws.com/images/homeimages/lightningpro-5g.jpg"
-              alt="image"
-              className='pointer'
-              onClick={handleAccesories}
-            />
-            <img
-              src="https://wirengimages.s3.amazonaws.com/images/comb2-5g_by_wireng_01.jpg"
-              alt="image"
-              className='pointer'
-              onClick={handleAccesories}
-            />
-            <img
-              src="https://wirengimages.s3.amazonaws.com/images/homeimages/wrg400-smam-ranm-20m_by_wireng_03.jpg"
-              alt="image"
-              className='pointer'
-              onClick={handleAccesories}
-            />
+          <div
+            style={{
+              backgroundColor: '#004987',
+              height: '100%',
+              width: '100%',
+              padding: '2rem',
+              borderRadius: '10px',
+            }}
+            className="mb-5"
+          >
+            <Swiper
+              slidesPerView={1}
+              spaceBetween={10}
+              pagination={true}
+              breakpoints={{
+                640: {
+                  slidesPerView: 1,
+                  spaceBetween: 20,
+                },
+                768: {
+                  slidesPerView: 1,
+                  spaceBetween: 40,
+                },
+                1024: {
+                  slidesPerView: 3,
+                  spaceBetween: 50,
+                },
+              }}
+              modules={[Pagination]}
+            >
+              {
+                accesoriesHomeCardContent.map(({ id, name, description, image }) => (
+                  <SwiperSlide key={id}>
+                    <Card>
+                      <Card.Img
+                        variant="top"
+                        src={image}
+                      />
+                    </Card>
+                    <Card.Body>
+                      <Card.Title style={{
+                        fontSize: '1.6rem',
+                        textAlign: 'center',
+                        color: 'white',
+                        marginTop: '2rem',
+                      }}>{name}</Card.Title>
+                      <Card.Text style={{
+                        fontSize: '1.3rem',
+                        textAlign: 'center',
+                        color: 'white',
+                        marginTop: '1rem',
+                      }}>{description}</Card.Text>
+                    </Card.Body>
+                    <Card.Body
+                      className="mt-3"
+                      style={{
+                        display: 'flex',
+                        justifyContent: 'center',
+                        alignItems: 'center',
+                      }}>
+                      <Button
+                        onClick={handleAccesories} className="card__button-size mt-3"
+                        style={{
+                          display: 'flex',
+                          justifyContent: 'center',
+                          alignItems: 'center',
+                          padding: '1rem',
+                          fontSize: '1.3rem',
+                        }}><i className="fa-solid fa-arrow-right-long me-2"></i>More Antennas Accesories</Button>
+                    </Card.Body>
+                  </SwiperSlide>
+                ))
+              }
+            </Swiper>
           </div>
+        </Container>
+
+        <Container>
+
+
+          <Swiper
+            slidesPerView={1}
+            spaceBetween={10}
+            pagination={{
+              dynamicBullets: true,
+            }}
+            breakpoints={{
+              640: {
+                slidesPerView: 1,
+                spaceBetween: 20,
+              },
+              768: {
+                slidesPerView: 3,
+                spaceBetween: 40,
+              },
+              1024: {
+                slidesPerView: 4,
+                spaceBetween: 50,
+              },
+            }}
+            modules={[Pagination]}
+          >
+
+            {
+              testimonials.map(({ id, name, date, quote }) => (
+                <SwiperSlide key={id}>
+                  <figure className="snip1533">
+                    <figcaption>
+                      <blockquote>
+                        <p>{quote}</p>
+                      </blockquote>
+                      <h3>{name}</h3>
+                      <h4>{date}</h4>
+                    </figcaption>
+                  </figure>
+
+                </SwiperSlide>
+              ))
+            }
+          </Swiper>
         </Container>
       </div>
     </>
