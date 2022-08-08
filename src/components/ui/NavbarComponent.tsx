@@ -1,6 +1,9 @@
-import { Link, useNavigate } from 'react-router-dom';
+import { Link, useNavigate, NavLink } from 'react-router-dom';
+import { LinkContainer } from 'react-router-bootstrap';
 
 import { Navbar, Container, Nav, NavDropdown } from 'react-bootstrap';
+
+
 
 export const NavbarComponent = () => {
 
@@ -12,8 +15,7 @@ export const NavbarComponent = () => {
 
     return (
         <>
-            <Navbar expand="lg" className="navbar__container">
-
+            <Navbar expand="lg" className="navbar__container" collapseOnSelect>
                 <Container fluid>
                     <Navbar.Brand>
                         <div className="navbar__logo-container">
@@ -28,57 +30,79 @@ export const NavbarComponent = () => {
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
-
                         <Nav className="text-uppercase me-auto">
-                            <NavDropdown title="Products" id="nav-dropdown">
-                                <NavDropdown.Item as={Link} to="/all-products/antennas" className="link p-2">Antennas by WirEng®</NavDropdown.Item>
+                            {/* Products Section Navbar */}
+                            <NavDropdown title="Products" id="collasible-nav-dropdown">
+                                <LinkContainer to='/all-products/antennas'>
+                                    <NavDropdown.Item>Antennas by WirEng®</NavDropdown.Item>
+                                </LinkContainer>
                                 <NavDropdown.Divider />
-                                <NavDropdown.Item as={Link} to="/all-products/antenna-accesories" className="link p-2">Antenna Accesories by WirEng®</NavDropdown.Item>
+                                <LinkContainer to="/all-products/antenna-accesories">
+                                    <NavDropdown.Item>Antenna Accesories by WirEng®</NavDropdown.Item>
+                                </LinkContainer>
                             </NavDropdown>
-
+                            {/* Services Section NavBar */}
                             <NavDropdown title="Services" id="nav-dropdown">
-                                <NavDropdown.Item as={Link} to="/custom-product-inquiry/" className="link p-2">Custom Product Inquiry</NavDropdown.Item>
+                                <LinkContainer to='/custom-product-inquiry/'>
+                                    <NavDropdown.Item>Custom Product Inquiry</NavDropdown.Item>
+                                </LinkContainer>
                                 <NavDropdown.Divider />
-                                <NavDropdown.Item as={Link} to="/government-military-inquiry/" className="link p-2">Government/Military Inquiry</NavDropdown.Item>
+                                <LinkContainer to="/government-military-inquiry/">
+                                    <NavDropdown.Item>Government/Military Inquiry</NavDropdown.Item>
+                                </LinkContainer>
                                 <NavDropdown.Divider />
-                                <NavDropdown.Item as={Link} to="/b2b-oem-inquiry/" className="link p-2">B2B/OEM Inquiry</NavDropdown.Item>
+                                <LinkContainer to="/b2b-oem-inquiry/">
+                                    <NavDropdown.Item>B2B/OEM Inquiry</NavDropdown.Item>
+                                </LinkContainer>
                                 <NavDropdown.Divider />
-                                <NavDropdown.Item as={Link} to="/resellership-inquiry/" className="link p-2">Resellership Inquiry</NavDropdown.Item>
+                                <LinkContainer to="/resellership-inquiry/">
+                                    <NavDropdown.Item>Resellership Inquiry</NavDropdown.Item>
+                                </LinkContainer>
                                 <NavDropdown.Divider />
-                                <NavDropdown.Item as={Link} to="/distributorship-inquiry/" className="link p-2">Distributorship Inquiry</NavDropdown.Item>
+                                <LinkContainer to="/distributorship-inquiry/">
+                                    <NavDropdown.Item>Distributorship Inquiry</NavDropdown.Item>
+                                </LinkContainer>
                                 <NavDropdown.Divider />
-                                <NavDropdown.Item as={Link} to="/affiliate-proposal/" className="link p-2">Affiliate/Partnership Proposal</NavDropdown.Item>
+                                <LinkContainer to="/affiliate-proposal/">
+                                    <NavDropdown.Item>Affiliate/Partnership Proposal</NavDropdown.Item>
+                                </LinkContainer>
                             </NavDropdown>
-
+                            {/* Contact Section Navbar */}
                             <NavDropdown title="Contact Us" id="nav-dropdown">
-                                <NavDropdown.Item as={Link} to="/get-in-touch/" className="link p-2">Get in Touch</NavDropdown.Item>
-
+                                <LinkContainer to="/get-in-touch/">
+                                    <NavDropdown.Item>Get in Touch</NavDropdown.Item>
+                                </LinkContainer>
                                 <NavDropdown.Divider />
-
-                                <NavDropdown.Item as={Link} to="/pre-sales-support/" className="link p-2">Pre-Sales Technical Support</NavDropdown.Item>
-
+                                <LinkContainer to="/pre-sales-support/">
+                                    <NavDropdown.Item>Pre-Sales Technical Support</NavDropdown.Item>
+                                </LinkContainer>
                                 <NavDropdown.Divider />
-
-                                <NavDropdown.Item as={Link} to="/support/" className="link p-2">Post-Sales Technical Support</NavDropdown.Item>
-
+                                <LinkContainer to="/support/">
+                                    <NavDropdown.Item>Post-Sales Technical Support</NavDropdown.Item>
+                                </LinkContainer>
                                 <NavDropdown.Divider />
-
-                                <NavDropdown.Item as={Link} to="/affiliate-proposal/" className="link p-2">Affiliate Proposal</NavDropdown.Item>
-
+                                <LinkContainer to="/affiliate-proposal/">
+                                    <NavDropdown.Item>Affiliate Proposal</NavDropdown.Item>
+                                </LinkContainer>
                             </NavDropdown>
-
+                            {/* About Section Navbar */}
                             <NavDropdown title="About Us" id="nav-dropdown">
-                                <NavDropdown.Item as={Link} to="/about-wireng/" className="link p-2">About WirEng®</NavDropdown.Item>
+                                <LinkContainer to="/about-wireng/">
+                                    <NavDropdown.Item>About WirEng®</NavDropdown.Item>
+                                </LinkContainer>
                             </NavDropdown>
 
                             <NavDropdown title="WirEng® Dealer Locator" id="nav-dropdown">
-                                <NavDropdown.Item as={Link} to="/dealer-locator/" className="link p-2">WirEng® in the World</NavDropdown.Item>
-
+                                <LinkContainer to="/dealer-locator/">
+                                    <NavDropdown.Item>WirEng® in the World</NavDropdown.Item>
+                                </LinkContainer>
                             </NavDropdown>
 
                         </Nav>
                         <Nav className="d-flex justify-content-end">
-                            <Nav.Link as={Link} to="/search" className="text-uppercase link">Search for a WirEng® Product</Nav.Link>
+                            <LinkContainer to="/search">
+                                <Nav.Link className="text-uppercase">Search for a WirEng® Product</Nav.Link>
+                            </LinkContainer>
                         </Nav>
                     </Navbar.Collapse>
 

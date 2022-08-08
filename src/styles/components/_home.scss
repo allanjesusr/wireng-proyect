@@ -10,7 +10,7 @@
 }
 
 .header-overlay {
-    background: rgba(82, 80, 80, 0.5);
+    background: rgba(160, 159, 159, 0.5);
     width: 100%;
 
     @media (min-width: 880px) {
@@ -150,12 +150,14 @@
 
 .snip1533 h4 {
     font-weight: 400;
+    color: #3c3c3c;
     margin: 0;
     opacity: 0.5;
 }
 
 .snip1533 blockquote {
     font-style: italic;
+    color: #3c3c3c;
     font-weight: 300;
     margin: 0 0 20px;
 }

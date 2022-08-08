@@ -1,10 +1,10 @@
 import { Link, useNavigate } from 'react-router-dom';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Pagination } from "swiper";
+import { Autoplay, Pagination } from "swiper";
 
-import { Button, Card, Container } from 'react-bootstrap';
 import { Helmet } from 'react-helmet';
+import { Button, Card, Container } from 'react-bootstrap';
 
 import { testimonials, accesoriesHomeCardContent, antennasHomeCardContent } from '../data';
 
@@ -94,7 +94,7 @@ export const HomeScreen = () => {
             </button> */}
           </div>
 
-          <div 
+          <div
             className="mb-5"
             style={{
               backgroundColor: '#004987',
@@ -102,12 +102,12 @@ export const HomeScreen = () => {
               width: '100%',
               padding: '2rem',
               borderRadius: '10px',
-            }}  
+            }}
           >
             <Swiper
               slidesPerView={1}
               spaceBetween={10}
-              pagination={true}
+              // pagination={true}
               breakpoints={{
                 640: {
                   slidesPerView: 1,
@@ -203,8 +203,9 @@ export const HomeScreen = () => {
           >
             <Swiper
               slidesPerView={1}
+              // centeredSlides={true}
               spaceBetween={10}
-              pagination={true}
+              // pagination={true}
               breakpoints={{
                 640: {
                   slidesPerView: 1,
@@ -272,10 +273,13 @@ export const HomeScreen = () => {
 
 
           <Swiper
-            slidesPerView={1}
-            spaceBetween={10}
+            spaceBetween={30}
+            autoplay={{
+              delay: 2500,
+              disableOnInteraction: false,
+            }}
             pagination={{
-              dynamicBullets: true,
+              clickable: true,
             }}
             breakpoints={{
               640: {
@@ -291,7 +295,7 @@ export const HomeScreen = () => {
                 spaceBetween: 50,
               },
             }}
-            modules={[Pagination]}
+            modules={[Autoplay, Pagination]}
           >
 
             {
@@ -303,7 +307,7 @@ export const HomeScreen = () => {
                         <p>{quote}</p>
                       </blockquote>
                       <h3>{name}</h3>
-                      <h4>{date}</h4>
+                      <p>{date}</p>
                     </figcaption>
                   </figure>
 

@@ -359,7 +359,6 @@ export const Footer = () => {
                             </Col>
                             <Col>
                                 <ul className="list-unstyled">
-                                    <li>WirEng® Store</li>
                                     <li>Register Your WirEng® Product</li>
                                     <li>WirEng® Two-Year Warranty</li>
                                 </ul>
@@ -376,7 +375,7 @@ export const Footer = () => {
                             </Col>
                             <Col>
                                 <ul className="list-unstyled">
-                                    <li>Company Profile</li>
+                                    <li><Link to='/about-wireng/' className="footer__link">Company Profile</Link></li>
                                     <li>Testimonials</li>
                                     <li
                                         onClick={handleShow2}
@@ -552,7 +551,7 @@ export const Footer = () => {
                                     <li>Custom Solutions</li>
                                 </ul>
                                 <ul className="footer__mobileList">
-                                    <li>Company Profile</li>
+                                    <li><Link to='/about-wireng/' className="footer__link">Company Profile</Link></li>
                                     <li>Testimonials</li>
                                     <li
                                         onClick={handleShow2}
@@ -594,7 +593,6 @@ export const Footer = () => {
                                     <li><Link to='/get-in-touch/' className="footer__link">Contact Us</Link></li>
                                 </ul>
                                 <ul className="footer__mobileList">
-                                    <li>WirEng® Store</li>
                                     <li>Register Your WirEng® Product</li>
                                     <li>WirEng® Two-Year Warranty</li>
                                 </ul>

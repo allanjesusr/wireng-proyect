@@ -2,7 +2,7 @@ import { useMemo } from 'react';
 import { useParams } from 'react-router-dom';
 
 import { Helmet } from "react-helmet";
-import { Carousel, Container, Table } from 'react-bootstrap';
+import { Button, Carousel, Container, Table } from 'react-bootstrap';
 
 import { getProductsById } from '../../selectors/getProductsById';
 import { NotFound } from '../not-found/NotFound';
@@ -235,7 +235,17 @@ export const ProductScreen = () => {
                         </tbody>
                     </Table>
 
-                     {/* <div className="product__mechaSpcf-container">
+                    <Button
+                        variant="secondary"
+                        href={product.shopify}
+                        className="mt-3"
+                        style={{
+                            display: 'flex',
+                            justifyContent: 'center ',
+                            alignItems: 'center',
+                        }}><i className="fa-solid fa-arrow-right-long me-2"></i>Buy Now</Button>
+
+                    {/* <div className="product__mechaSpcf-container">
                         <div className="product__mechaHeader">
                             <div className="product__mechaTitle">
                                 <h1>Mechanical Specifications</h1>
