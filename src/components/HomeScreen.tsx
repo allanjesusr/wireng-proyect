@@ -70,7 +70,6 @@ export const HomeScreen = () => {
               textAlign: 'center',
             }}
             >WirEng® is the world’s leader in ultra-wide band cellular-band antennas that are truly compatible with every possible cellular band in the world today. All WirEng®’s antennas are backward-compatible with past technologies as well, making WirEng® the obvious choice for every possible antenna need application. Since the year 2008, WirEng®’s antennas have been deployed by Fortune 500 companies, government and military entities, large and small telecommunication companies throughout the world, and tens of thousands of consumers around the world.</p>
-
           </div>
         </Container>
 
@@ -107,7 +106,6 @@ export const HomeScreen = () => {
             <Swiper
               slidesPerView={1}
               spaceBetween={10}
-              // pagination={true}
               breakpoints={{
                 640: {
                   slidesPerView: 1,
