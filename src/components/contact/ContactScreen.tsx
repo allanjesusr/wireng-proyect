@@ -20,7 +20,7 @@ export const ContactScreen = () => {
     }
   });
 
-  const { handleSubmit, errors, touched, getFieldProps } = useFormik({
+  const { handleSubmit, errors, touched, getFieldProps, resetForm } = useFormik({
     initialValues: {
       Name: '',
       email: '',
@@ -35,6 +35,7 @@ export const ContactScreen = () => {
       emailjs.sendForm('service_elxo8mr', 'template_c9j5jsn', form.current, '8_6TH-IxPPzxN9XPY')
         .then((res) => {
           console.log(res.text);
+          resetForm();
           Toast.fire({
             icon: 'success',
             title: 'Form sent successfully'
@@ -42,6 +43,11 @@ export const ContactScreen = () => {
         })
         .catch((err) => {
           console.log(err)
+          resetForm();
+          Toast.fire({
+            icon: 'error',
+            title: 'Something went wrong!'
+          })
         })
     },
     validationSchema: Yup.object({

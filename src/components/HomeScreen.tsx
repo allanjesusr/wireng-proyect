@@ -7,6 +7,7 @@ import { Helmet } from 'react-helmet';
 import { Button, Card, Container } from 'react-bootstrap';
 
 import { testimonials, accesoriesHomeCardContent, antennasHomeCardContent } from '../data';
+import { PopupButton, InlineWidget } from 'react-calendly';
 
 export const HomeScreen = () => {
 
@@ -45,6 +46,11 @@ export const HomeScreen = () => {
                   See all WirEng® Products
                 </Link>
               </button>
+              {/* <PopupButton
+                rootElement={document.getElementById('root')}
+                url="calendly.com/allan-at-welc-group-co"
+                text="Click here to schedule!"
+              /> */}
 
             </Container>
           </div>
@@ -78,7 +84,7 @@ export const HomeScreen = () => {
             <h1 style={{
               marginTop: '20px',
               color: '#004987',
-              fontSize: '3rem',
+              fontSize: '2.5rem',
             }} className="mb-3">WirEng® Best Sellers</h1>
             {/* <p style={{
               fontSize: '1.5rem',
@@ -173,7 +179,7 @@ export const HomeScreen = () => {
           <div className="home__productsHeader">
             <h1 className='mb-5' style={{
               color: '#004987',
-              fontSize: '3rem',
+              fontSize: '2.5rem',
             }}>Other WirEng® Products</h1>
             {/* <p style={{
               fontSize: '1.5rem',
@@ -267,9 +273,18 @@ export const HomeScreen = () => {
           </div>
         </Container>
 
+        <Container style={{ marginTop: '2rem', marginBottom: '2rem' }}>
+          <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
+            <h4 style={{
+              color: '#004987',
+              fontSize: '2.5rem',
+              margin: '0px'
+            }}>Schedule a meeting with us now!</h4>
+          </div>
+          <InlineWidget url="https://calendly.com/wireng" />
+        </Container>
+
         <Container>
-
-
           <Swiper
             spaceBetween={30}
             autoplay={{

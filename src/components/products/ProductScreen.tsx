@@ -43,7 +43,7 @@ export const ProductScreen = () => {
     ]
 
     const tableNames2 = [
-        "Wind resistance, km",
+        "Wind resistance, km/h",
         "Operating temperature, °C",
         "Storage temperature, °C",
         "Environmental rating",
