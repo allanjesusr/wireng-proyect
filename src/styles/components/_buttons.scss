@@ -38,3 +38,19 @@
     background-color: #014886 !important;
     border-color: #014886 !important;
 }
+
+.container-btn-shopify {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    @media (min-width: 880px) {
+        justify-content: center;
+    }
+}
+
+.btn-shopify {
+    width: 100%;
+    @media (min-width: 880px) {
+        width: 30%
+    }
+}

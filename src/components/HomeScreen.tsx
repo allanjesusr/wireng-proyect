@@ -4,14 +4,17 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Pagination } from "swiper";
 
 import { Helmet } from 'react-helmet';
-import { Button, Card, Container } from 'react-bootstrap';
+import { Button, Card, Container, Modal, ModalHeader } from 'react-bootstrap';
 
 import { testimonials, accesoriesHomeCardContent, antennasHomeCardContent } from '../data';
 import { PopupButton, InlineWidget } from 'react-calendly';
+import { useState } from 'react';
 
 export const HomeScreen = () => {
 
   const navigate = useNavigate();
+
+  const [openModalCookies, setOpenModalCookies] = useState(true);
 
   const handleProduct = () => {
     navigate('/all-products/antennas');
@@ -46,12 +49,6 @@ export const HomeScreen = () => {
                   See all WirEng® Products
                 </Link>
               </button>
-              {/* <PopupButton
-                rootElement={document.getElementById('root')}
-                url="calendly.com/allan-at-welc-group-co"
-                text="Click here to schedule!"
-              /> */}
-
             </Container>
           </div>
           <div style={{
@@ -86,19 +83,7 @@ export const HomeScreen = () => {
               color: '#004987',
               fontSize: '2.5rem',
             }} className="mb-3">WirEng® Best Sellers</h1>
-            {/* <p style={{
-              fontSize: '1.5rem',
-            }} className="mb-5">WideAnt2-5G™ True MIMO Dual Antenna for Routers Hotspots Modems Ultra-Wide Band Directional High-Gain Antenna Set 5G/4G/3G/2G 450 to 6000 MHz</p>
-            <button className="home__products-btn">
-              <Link
-                to="/all-products/antennas"
-                className="link"
-              >
-                More
-              </Link>
-            </button> */}
           </div>
-
           <div
             className="mb-5"
             style={{
@@ -181,20 +166,7 @@ export const HomeScreen = () => {
               color: '#004987',
               fontSize: '2.5rem',
             }}>Other WirEng® Products</h1>
-            {/* <p style={{
-              fontSize: '1.5rem',
-              textAlign: 'justify',
-            }} className="mb-5">The WideAnt4-Plus-5G™ by WirEng® is a 5G and 4G true ±45° MIMO(45° clockwise and 45° counter-clockwise wave polarizations), fully enclosed, all-weather, ultra-linear, larger.</p> */}
-            {/* <button className="home__products-btn">
-              <Link
-                to="/all-products/antenna-accesories"
-                className="link"
-              >
-                More
-              </Link>
-            </button> */}
           </div>
-
           <div
             style={{
               backgroundColor: '#004987',
@@ -207,9 +179,7 @@ export const HomeScreen = () => {
           >
             <Swiper
               slidesPerView={1}
-              // centeredSlides={true}
               spaceBetween={10}
-              // pagination={true}
               breakpoints={{
                 640: {
                   slidesPerView: 1,
@@ -329,6 +299,36 @@ export const HomeScreen = () => {
             }
           </Swiper>
         </Container>
+        {/* {
+          (openModalCookies) ?
+            <Modal
+              show={openModalCookies}
+              onHide={() => setOpenModalCookies(false)}
+              dialogClassName="modal-90w"
+            >
+              <Modal.Header closeButton>
+                <Modal.Title>
+                  WirEng Cookies Advertiser
+                </Modal.Title>
+              </Modal.Header>
+              <Modal.Body>
+                <p></p>
+              </Modal.Body>
+              <Modal.Footer>
+                <Button
+                  variant="secondary"
+                  onClick={() => setOpenModalCookies(false)}
+                >
+                  Accept</Button>
+                <Button
+                  variant="primary"
+                  onClick={() => setOpenModalCookies(false)}
+                >
+                  Decline</Button>
+              </Modal.Footer>
+            </Modal>
+            : null
+        } */}
       </div>
     </>
 

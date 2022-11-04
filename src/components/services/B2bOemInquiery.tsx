@@ -8,7 +8,7 @@ import emailjs from '@emailjs/browser';
 export const B2bOemInquiery = () => {
   const form = useRef<any>();
 
-  const { handleSubmit, errors, touched, getFieldProps } = useFormik({
+  const { handleSubmit, errors, touched, getFieldProps, resetForm } = useFormik({
     initialValues: {
       Name: '',
       email: '',
@@ -19,6 +19,7 @@ export const B2bOemInquiery = () => {
     },
     onSubmit: values => {
       console.log(values);
+      resetForm();
       emailjs.sendForm('service_elxo8mr', 'template_hcmk3w9', form.current, '8_6TH-IxPPzxN9XPY')
         .then((res) => {
           console.log(res.text);

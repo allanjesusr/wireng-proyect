@@ -8,7 +8,7 @@ import emailjs from '@emailjs/browser';
 export const DistributorshipInquiry = () => {
   const form = useRef<any>();
 
-  const { handleSubmit, errors, touched, getFieldProps } = useFormik({
+  const { handleSubmit, errors, touched, getFieldProps, resetForm } = useFormik({
     initialValues: {
       Name: '',
       email: '',
@@ -22,6 +22,7 @@ export const DistributorshipInquiry = () => {
       emailjs.sendForm('service_elxo8mr', 'template_htd5qw5', form.current, '8_6TH-IxPPzxN9XPY')
         .then((res) => {
           console.log(res.text);
+          resetForm();
           Toast.fire({
             icon: 'success',
             title: 'Form sent successfully'

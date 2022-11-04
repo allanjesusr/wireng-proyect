@@ -9,4 +9,8 @@ export interface cardProps {
 
 export interface categoryProps {
     category: string;
+    type?: string;
+    usage?: string[];
+    gain?: string;
+    mimo?: string;
 }

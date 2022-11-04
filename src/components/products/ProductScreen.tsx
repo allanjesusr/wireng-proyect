@@ -235,15 +235,14 @@ export const ProductScreen = () => {
                         </tbody>
                     </Table>
 
-                    <Button
-                        variant="secondary"
-                        href={product.shopify}
-                        className="mt-3"
-                        style={{
-                            display: 'flex',
-                            justifyContent: 'center ',
-                            alignItems: 'center',
-                        }}><i className="fa-solid fa-arrow-right-long me-2"></i>Buy Now</Button>
+                    <div className="container-btn-shopify">
+                        <Button
+                            variant="secondary"
+                            href={product.shopify}
+                            className="mt-3 btn-shopify"
+                            style={{ padding: '0.8rem', marginTop: '0.5rem'}}
+                            ><i className="fa-solid fa-arrow-right-long me-2"></i>Buy Now</Button>
+                    </div>
 
                     {/* <div className="product__mechaSpcf-container">
                         <div className="product__mechaHeader">

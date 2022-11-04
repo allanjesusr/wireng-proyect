@@ -9,7 +9,7 @@ export const AffiliateProposal = () => {
 
   const form = useRef<any>();
 
-  const { handleSubmit, errors, touched, getFieldProps } = useFormik({
+  const { handleSubmit, errors, touched, getFieldProps, resetForm } = useFormik({
     initialValues: {
       Name: '',
       email: '',
@@ -23,6 +23,7 @@ export const AffiliateProposal = () => {
       emailjs.sendForm('service_elxo8mr', 'template_3o5hpau', form.current, '8_6TH-IxPPzxN9XPY')
         .then((res) => {
           console.log(res.text);
+          resetForm();
           Toast.fire({
             icon: 'success',
             title: 'Form sent successfully'

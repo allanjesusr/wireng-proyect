@@ -17,7 +17,7 @@
             ],
             "type": "Directional",
             "mimo": "No",
-            "usage": "Stationary",
+            "usage": ["Stationary"],
             "gain": "> 9dB",
             "features1": [
                 "Directional (needs precise aiming)",
@@ -103,7 +103,7 @@
             ],
             "type": "Directional",
             "mimo": "2x2",
-            "usage": "Stationary",
+            "usage": ["Stationary"],
             "gain": "> 12dB",
             "features1": [
                 "True MIMO and Directional (needs precise aiming)",
@@ -189,7 +189,7 @@
             ],
             "type": "Directional",
             "mimo": "4x2",
-            "usage": "Stationary",
+            "usage": ["Stationary"],
             "gain": "> 12dB",
             "features1": [
                 "True MIMO 4x2 and Directional (needs precise aiming)",
@@ -275,7 +275,7 @@
             ],
             "type": "Directional",
             "mimo": "4x4",
-            "usage": "Stationary",
+            "usage": ["Stationary"],
             "gain": "> 12dB",
             "purpose": "To Increase Download and Upload Data Speeds for Quad-Connector MIMO 4x4 RF Devices (MIMO 4x4 Technology) in Stationary/Fixed Locations",
             "description": "The WideAnt4-5G-4x4™ by WirEng® was the first ever consumer-oriented, fully 5G MIMO 4x4 antenna in the worldwide market when it first launched in January 2019. The WideAnt4-5G-4x4™ by WirEng® is a truly ultra-wide band, MIMO 4x4 (operator tower is MIMO 4x4 and your modem/router has four distinct cellular antennas or cellular antenna connectors), directional, high-gain antenna fully supporting all 5G/4G/3G/2G bands worldwide. The WideAnt4-5G-4x4™ by WirEng® is also fully enclosed into anti-UV, thick acrylonitrile-butadiene-styrene plastic for flawless operation under all weather conditions, and it also possesses an ultra-low reflection coefficient, with a VSWR of only 1:1.0 to 1:1.5 over it's full range of 450 MHz to 6000 MHz. The WideAnt4-5G-4x4™ by WirEng® uses 24k gold, stainless steel, and copper, and has on-radome N-type, fully gold-plated connectors for maximum reliability, durability, and RF power transfer. The WideAnt4-5G-4x4™ by WirEng® is a semi-industrial grade antenna (since fully industrial-grade antennas must user glass fiber) and is recommended for any 4x4 MIMO (four connectors for the cellular antennas) modem, router, and hotspot to drastically increase download and upload data speeds even in very fringe, low-signal areas. The WideAnt4-5G-4x4™ by WirEng® includes four WirEng®'s marine-grade, fully stainless-steel MIMOMount™ for strict MIMO compliance and ease of installation. The recommended MIMO configuration is slanted (45 degrees) but all combinations are possible (vertical-vertical, horizontal-vertical, etc.). Extended 2-year warranty included. Patent pending.",
@@ -361,7 +361,7 @@
             ],
             "type": "Directional",
             "mimo": "8x2",
-            "usage": "Stationary",
+            "usage": ["Stationary"],
             "gain": "> 12dB",
             "features1": [
                 "True MIMO 8x2 and Directional (needs precise aiming)",
@@ -447,7 +447,7 @@
             ],
             "type": "Directional",
             "mimo": "8x4",
-            "usage": "Stationary",
+            "usage": ["Stationary"],
             "gain": "> 12dB",
             "features1": [
                 "True MIMO 8x4 and Directional (needs precise aiming)",
@@ -533,7 +533,7 @@
             ],
             "type": "Directional",
             "mimo": "8x8",
-            "usage": "Stationary",
+            "usage": ["Stationary"],
             "gain": "> 12dB",
             "features1": [
                 "True MIMO 8x8 and Directional (needs precise aiming)",
@@ -619,7 +619,7 @@
             ],
             "type": "Directional",
             "mimo": "No",
-            "usage": "Stationary",
+            "usage": ["Stationary"],
             "gain": "> 9dB",
             "features1": [
                 "High Gain and Directional (needs precise aiming)",
@@ -705,7 +705,7 @@
             ],
             "type": "Directional",
             "mimo": "2x2",
-            "usage": "Stationary",
+            "usage": ["Stationary"],
             "gain": "> 12dB",
             "features1": [
                 "High Gain, True MIMO, and Directional (needs precise aiming)",
@@ -791,7 +791,7 @@
             ],
             "type": "Directional",
             "mimo": "4x2",
-            "usage": "Stationary",
+            "usage": ["Stationary"],
             "gain": "> 12dB",
             "features1": [
                 "High Gain, True MIMO, and Directional (needs precise aiming)",
@@ -877,7 +877,7 @@
             ],
             "type": "Directional",
             "mimo": "4x4",
-            "usage": "Stationary",
+            "usage": ["Stationary"],
             "gain": "> 12dB",
             "features1": [
                 "High Gain, True MIMO, and Directional (needs precise aiming)",
@@ -963,7 +963,7 @@
             ],
             "type": "Directional",
             "mimo": "8x2",
-            "usage": "Stationary",
+            "usage": ["Stationary"],
             "gain": "> 12dB",
             "features1": [
                 "High Gain, True MIMO, and Directional (needs precise aiming)",
@@ -1049,7 +1049,7 @@
             ],
             "type": "Directional",
             "mimo": "8x4",
-            "usage": "Stationary",
+            "usage": ["Stationary"],
             "gain": "> 12dB",
             "features1": [
                 "High Gain, True MIMO, and Directional (needs precise aiming)",
@@ -1135,7 +1135,7 @@
             ],
             "type": "Directional",
             "mimo": "8x8",
-            "usage": "Stationary",
+            "usage": ["Stationary"],
             "gain": "> 12dB",
             "features1": [
                 "High Gain, True MIMO, and Directional (needs precise aiming)",
@@ -1221,7 +1221,7 @@
             ],
             "type": "Directional",
             "mimo": "2x2",
-            "usage": "Stationary",
+            "usage": ["Stationary"],
             "gain": "> 12dB",
             "features1": [
                 "Very High Gain, True MIMO, and Directional (needs precise aiming)",
@@ -1664,7 +1664,7 @@
             ],
             "type": "Directional",
             "mimo": "No",
-            "usage": "Stationary",
+            "usage": ["Stationary"],
             "gain": "> 12dB",
             "features1": [
                 "Biggest Cellular Bands Antennas In The World",
@@ -1750,7 +1750,7 @@
             ],
             "type": "Directional",
             "mimo": "2x2",
-            "usage": "Stationary",
+            "usage": ["Stationary"],
             "gain": "> 12dB",
             "features1": [
                 "Biggest Cellular Bands Antennas In The World",
